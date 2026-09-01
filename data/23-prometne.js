@@ -228,6 +228,193 @@ window.APP_DATA.push({
       correct: 1,
       explanation: "Habajući sloj u izravnom je kontaktu s prometom: mora biti ravan, hvatljiv i otporan na kolotraženje i habanje, te štititi donje slojeve od vode.",
       source: "Tehnički propis za asfaltne kolnike, NN 48/21"
+    },
+    {
+      q: "Koji su osnovni elementi poprečnog presjeka ceste?",
+      options: [
+        "Samo kolnik i bankine",
+        "Vozne trake, rubne trake, bankine, elementi odvodnje (rigoli, jarci), a po potrebi berme i razdjelni pojas",
+        "Kolnik i zaštitni pojas",
+        "Vozne trake i pješački nogostupi na svim cestama"
+      ],
+      correct: 1,
+      explanation: "Poprečni presjek čine kolnik (vozne i rubne trake, po potrebi dodatne trake), bankine, odvodnja (rigol, jarak), berme, pokosi usjeka/nasipa; elementi ovise o kategoriji ceste i projektnoj brzini.",
+      source: "propisi o osnovnim uvjetima za javne ceste; pravila struke"
+    },
+    {
+      q: "Što je projektna brzina ceste?",
+      options: [
+        "Najveća brzina koju vozila smiju voziti prometnim znakom",
+        "Brzina mjerodavna za određivanje graničnih elemenata trase (polumjeri, nagibi, preglednost)",
+        "Prosječna brzina prometnog toka",
+        "Brzina projektanta pri obilasku trase"
+      ],
+      correct: 1,
+      explanation: "Projektna brzina je računska veličina iz koje proizlaze najmanji polumjeri horizontalnih i vertikalnih zavoja, najveći nagibi i potrebne preglednosti — bira se prema kategoriji ceste i terenu.",
+      source: "pravila projektiranja cesta; Pravilnik NN 110/01+"
+    },
+    {
+      q: "Što mora biti osigurano na cijeloj duljini ceste s obzirom na preglednost?",
+      options: [
+        "Preglednost do sljedećeg naselja",
+        "Zaustavna preglednost — duljina na kojoj vozač može uočiti zapreku i zaustaviti vozilo",
+        "Preglednost od najmanje 1 km",
+        "Preglednost nije propisana"
+      ],
+      correct: 1,
+      explanation: "Zaustavna preglednost (ovisna o brzini, nagibu i stanju kolnika) minimalni je uvjet na cijeloj trasi; za pretjecanje i priključke traže se i veće preglednosti.",
+      source: "pravila projektiranja cesta; Pravilnik NN 110/01+"
+    },
+    {
+      q: "Kakav se poprečni nagib kolnika izvodi u horizontalnom zavoju?",
+      options: [
+        "Dvostrešni nagib kao u pravcu",
+        "Jednostrešni nagib prema unutrašnjoj strani zavoja, s vitoperenjem na prijelazu",
+        "Nagib prema vanjskoj strani zavoja",
+        "Kolnik u zavoju mora biti horizontalan"
+      ],
+      correct: 1,
+      explanation: "U zavoju se izvodi jednostrešni nagib prema središtu zavoja (preuzima dio bočne sile); prijelaz iz dvostrešnog u jednostrešni nagib naziva se vitoperenje i izvodi se uz prijelaznu krivinu.",
+      source: "pravila projektiranja cesta"
+    },
+    {
+      q: "Zašto je odvodnja ključna za trajnost kolničke konstrukcije?",
+      options: [
+        "Zbog izgleda ceste nakon kiše",
+        "Jer voda u konstrukciji i posteljici smanjuje nosivost te uz smrzavanje razara kolnik",
+        "Odvodnja je važna samo u tunelima",
+        "Zbog uštede na asfaltu"
+      ],
+      correct: 1,
+      explanation: "Voda razmekšava posteljicu i nevezane slojeve, uzrokuje mrazne dizanja i udarne jame; zato se izvode poprečni/uzdužni nagibi, rigoli, jarci, propusti i drenaže.",
+      source: "pravila struke; TP za asfaltne kolnike"
+    },
+    {
+      q: "Što je propust, a što most?",
+      options: [
+        "Isti su pojam",
+        "Propust je građevina za provođenje vode ispod ceste svijetlog otvora do 5 m; most premošćuje veće otvore",
+        "Most je isključivo čelična konstrukcija",
+        "Propust služi samo za prolaz životinja"
+      ],
+      correct: 1,
+      explanation: "Konvencionalno se građevine svijetlog otvora do 5 m nazivaju propustima, a veće mostovima; oboje su cestovni objekti koji se projektiraju prema TPGK.",
+      source: "pravila struke; Zakon o cestama"
+    },
+    {
+      q: "Kada se uz cestu postavlja zaštitna (odbojna) ograda?",
+      options: [
+        "Uz sve ceste bez iznimke",
+        "Gdje bi slijetanje s ceste imalo teške posljedice: visoki nasipi, objekti, prepreke, vode uz cestu",
+        "Samo u zavojima",
+        "Samo ispred škola"
+      ],
+      correct: 1,
+      explanation: "Ograde se postavljaju prema kriterijima opasnosti (visina nasipa, blizina prepreka i voda, objekti); ograda sama je prepreka pa se ugrađuje tek kad je opasnost veća od udara u ogradu.",
+      source: "pravilnici o opremi ceste; pravila struke"
+    },
+    {
+      q: "Kako se dijele prometni znakovi?",
+      options: [
+        "Na velike i male",
+        "Na znakove opasnosti, znakove izričitih naredbi i znakove obavijesti (uz dopunske ploče, oznake na kolniku, signalizaciju)",
+        "Na stalne i pokretne",
+        "Na državne i županijske"
+      ],
+      correct: 1,
+      explanation: "Osnovna podjela: opasnost (trokut), izričite naredbe — zabrane/obveze (krug), obavijesti (kvadrat/pravokutnik); uz njih dopunske ploče, oznake na kolniku i svjetlosna signalizacija.",
+      source: "Zakon o sigurnosti prometa na cestama; pravilnik o prometnim znakovima"
+    },
+    {
+      q: "Što je potrebno za izvanredni prijevoz (prekoračenje dopuštenih masa/dimenzija) javnom cestom?",
+      options: [
+        "Ništa posebno ako se vozi noću",
+        "Dozvola za izvanredni prijevoz s utvrđenim uvjetima (ruta, pratnja, naknada)",
+        "Samo obavijest policiji",
+        "Izvanredni prijevoz je zabranjen"
+      ],
+      correct: 1,
+      explanation: "Vozila koja prekoračuju propisane mase, osovinska opterećenja ili dimenzije smiju prometovati samo uz dozvolu za izvanredni prijevoz, kojom se određuju ruta, uvjeti i naknada za izvanrednu uporabu ceste.",
+      source: "Zakon o cestama"
+    },
+    {
+      q: "Kolika je širina normalnog kolosijeka?",
+      options: ["1000 mm", "1435 mm", "1520 mm", "1600 mm"],
+      correct: 1,
+      explanation: "Normalni (standardni) kolosijek ima širinu 1435 mm, mjerenu između unutarnjih rubova glava tračnica; pruge u RH su normalnog kolosijeka.",
+      source: "propisi o željezničkoj infrastrukturi"
+    },
+    {
+      q: "Što čini gornji, a što donji ustroj željezničke pruge?",
+      options: [
+        "Gornji: kontaktna mreža; donji: tračnice",
+        "Gornji: tračnice, pragovi, kolosiječni pribor i zastor; donji: trup pruge (nasipi, usjeci) s objektima i odvodnjom",
+        "Gornji: mostovi; donji: tuneli",
+        "Podjela ne postoji"
+      ],
+      correct: 1,
+      explanation: "Gornji ustroj prenosi opterećenja vozila (tračnice, pragovi, zastorna prizma odnosno čvrsta vozna ploča); donji ustroj je zemljani trup s objektima (mostovi, propusti, potporni zidovi) i odvodnjom.",
+      source: "pravilnik o željezničkoj infrastrukturi"
+    },
+    {
+      q: "Kako se osiguravaju željezničko-cestovni prijelazi u razini?",
+      options: [
+        "Ne osiguravaju se",
+        "Aktivno (branici/polubranici, svjetlosni i zvučni signali) ili pasivno (prometni znakovi uz osiguranu preglednost)",
+        "Samo ogledalima",
+        "Isključivo čuvarima prijelaza"
+      ],
+      correct: 1,
+      explanation: "Način osiguranja ovisi o prometu i preglednosti: aktivna zaštita uređajima (branici, svjetla, zvona) ili pasivna prometnim znakovima s propisanim preglednim trokutom.",
+      source: "propisi o željezničko-cestovnim prijelazima"
+    },
+    {
+      q: "Kojim se oznakama označavaju kategorije javnih cesta?",
+      options: [
+        "AC, BC, CC i DC",
+        "A (autoceste), DC (državne), ŽC (županijske) i LC (lokalne ceste)",
+        "I., II., III. i IV. razred",
+        "M, R i L ceste"
+      ],
+      correct: 1,
+      explanation: "Autoceste se označavaju A + broj, državne ceste DC (D) + broj, županijske ŽC + broj, lokalne LC + broj — prema odluci o razvrstavanju javnih cesta.",
+      source: "Zakon o cestama; odluke o razvrstavanju"
+    },
+    {
+      q: "Što uređuje prometni elaborat prema Pravilniku NN 140/13?",
+      options: [
+        "Vlasništvo nad cestom",
+        "Prometna rješenja (signalizaciju, opremu, regulaciju prometa) za ceste — sadržaj, namjenu i razinu razrade",
+        "Cijenu građenja ceste",
+        "Registraciju vozila"
+      ],
+      correct: 1,
+      explanation: "Prometni elaborat definira prometnu regulaciju i signalizaciju (stalnu ili privremenu, npr. za radove na cesti); pravilnik propisuje njegov sadržaj, namjenu i razinu razrade.",
+      source: "Pravilnik o sadržaju, namjeni i razini razrade prometnog elaborata za ceste, NN 140/13"
+    },
+    {
+      q: "Tko izdaje suglasnost za radove ili zahvate u zaštitnom pružnom pojasu?",
+      options: [
+        "Ministarstvo turizma",
+        "Upravitelj željezničke infrastrukture (HŽ Infrastruktura), prema propisanim uvjetima",
+        "Županijska uprava za ceste",
+        "Suglasnost nije potrebna"
+      ],
+      correct: 1,
+      explanation: "Za gradnju i izvođenje radova u zaštitnom pružnom i infrastrukturnom pojasu potrebni su uvjeti i suglasnost upravitelja infrastrukture, radi sigurnosti prometa i stabilnosti pruge.",
+      source: "Zakon o željeznici; Pravilnik NN 5/23"
+    },
+    {
+      q: "Čemu služi prijelazna krivina (klotoida) u trasi ceste?",
+      options: [
+        "Skraćenju trase",
+        "Postupnoj promjeni zakrivljenosti između pravca i kružnog zavoja te provedbi vitoperenja",
+        "Ubrzanju vozila",
+        "Označavanju granice naselja"
+      ],
+      correct: 1,
+      explanation: "Klotoida osigurava postupni prirast bočnog ubrzanja (zakrivljenost raste linearno s duljinom) i prostor za vitoperenje kolnika — vožnja je sigurnija i udobnija.",
+      source: "pravila projektiranja cesta"
     }
   ],
   flashcards: [
@@ -243,6 +430,19 @@ window.APP_DATA.push({
     { front: "Razvrstavanje željezničkih pruga?", back: "Prema značaju za promet: međunarodni, regionalni, lokalni (Uredba NN 84/21)." },
     { front: "Pružni, infrastrukturni i zaštitni pružni pojas?", back: "Pružni: zemljište ispod i uz prugu za funkcioniranje. Infrastrukturni: pružni pojas + zračni prostor. Zaštitni: pojas ograničene gradnje uz suglasnost upravitelja (NN 5/23)." },
     { front: "Nova križanja pruge i ceste?", back: "U pravilu izvan razine (denivelirano); prijelazi u razini osiguravaju se uređajima, znakovima i preglednošću." },
-    { front: "Status i upravitelj željezničke infrastrukture?", back: "Javno dobro u općoj uporabi u vlasništvu RH; upravitelj HŽ Infrastruktura." }
+    { front: "Status i upravitelj željezničke infrastrukture?", back: "Javno dobro u općoj uporabi u vlasništvu RH; upravitelj HŽ Infrastruktura." },
+    { front: "Elementi poprečnog presjeka ceste?", back: "Vozne + rubne trake, bankine, odvodnja (rigol, jarak), berme, pokosi; ovise o kategoriji ceste i projektnoj brzini." },
+    { front: "Projektna brzina?", back: "Računska brzina iz koje slijede min. polumjeri, max. nagibi i preglednosti; bira se prema kategoriji ceste i terenu." },
+    { front: "Zaustavna preglednost?", back: "Duljina za uočavanje zapreke i zaustavljanje — mora biti osigurana na CIJELOJ trasi; ovisi o brzini i nagibu." },
+    { front: "Kolnik u zavoju?", back: "Jednostrešni nagib prema unutrašnjoj strani; prijelaz = vitoperenje, izvodi se uz prijelaznu krivinu (klotoidu)." },
+    { front: "Prijelazna krivina (klotoida)?", back: "Postupna promjena zakrivljenosti pravac→zavoj (linearni prirast); daje prostor za vitoperenje, sigurniju i udobniju vožnju." },
+    { front: "Zašto je odvodnja ključna za kolnik?", back: "Voda razmekšava posteljicu i slojeve, mrazna dizanja i udarne jame; rješenja: nagibi, rigoli, jarci, propusti, drenaže." },
+    { front: "Propust vs most?", back: "Propust: provođenje vode ispod ceste, svijetli otvor do 5 m; veći otvori = most. Oboje po TPGK." },
+    { front: "Podjela prometnih znakova?", back: "Opasnost (trokut), izričite naredbe (krug), obavijesti (kvadrat/pravokutnik) + dopunske ploče, oznake na kolniku, svjetlosna signalizacija." },
+    { front: "Izvanredni prijevoz?", back: "Prekoračenje masa/dimenzija — samo uz dozvolu (ruta, uvjeti, pratnja, naknada za izvanrednu uporabu ceste)." },
+    { front: "Širina normalnog kolosijeka?", back: "1435 mm između unutarnjih rubova glava tračnica; pruge u RH su normalnog kolosijeka." },
+    { front: "Gornji i donji ustroj pruge?", back: "Gornji: tračnice, pragovi, pribor, zastor. Donji: trup pruge (nasipi, usjeci), objekti i odvodnja." },
+    { front: "Osiguranje ŽCP-a u razini?", back: "Aktivno: branici/polubranici + svjetlosni i zvučni signali. Pasivno: prometni znakovi uz osiguran pregledni trokut." },
+    { front: "Oznake kategorija javnih cesta?", back: "A (autoceste), DC/D (državne), ŽC (županijske), LC (lokalne) + broj." }
   ]
 });

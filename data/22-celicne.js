@@ -217,6 +217,198 @@ window.APP_DATA.push({
       correct: 1,
       explanation: "Uz obvezni vizualni pregled, prema razredu izvedbe i vrsti zavara primjenjuju se nerazorne metode (NDT): penetrantske, magnetske, ultrazvučne i radiografske kontrole.",
       source: "HRN EN 1090; HRN EN ISO 17635"
+    },
+    {
+      q: "Što su IPE, HEA i HEB profili?",
+      options: [
+        "Hladno oblikovani tankostijeni profili",
+        "Vruće valjani profili I odnosno H poprečnog presjeka",
+        "Zavareni sandučasti profili",
+        "Šuplji okrugli profili (cijevi)"
+      ],
+      correct: 1,
+      explanation: "IPE su vitki I-profili (tipično nosači), a HEA/HEB širokopojasni H-profili (tipično stupovi); broj u oznaci je nazivna visina u mm (kod HEA približno).",
+      source: "HRN EN 10365; pravila struke"
+    },
+    {
+      q: "Što znače oznake žilavosti JR, J0 i J2 uz oznaku čelika (npr. S235JR)?",
+      options: [
+        "Razred korozijske otpornosti",
+        "Zajamčenu udarnu žilavost od 27 J pri +20, 0 odnosno −20 °C",
+        "Razred zavarljivosti",
+        "Dopuštenu debljinu proizvoda"
+      ],
+      correct: 1,
+      explanation: "JR = 27 J pri +20 °C, J0 pri 0 °C, J2 pri −20 °C — kvaliteta se bira prema temperaturi primjene, debljini i naprezanju, radi otpornosti na krhki lom.",
+      source: "HRN EN 10025"
+    },
+    {
+      q: "Koje su kategorije vijčanih spojeva opterećenih na posmik prema EC3?",
+      options: [
+        "Kategorije I, II i III",
+        "Kategorija A (odrez/pritisak po omotaču), B (tarni za GSU) i C (tarni za GSN)",
+        "Kategorije M i V",
+        "Ne postoje kategorije posmičnih spojeva"
+      ],
+      correct: 1,
+      explanation: "A: obični spojevi na odrez i pritisak po omotaču rupe; B i C: prednapeti tarni spojevi — B ne smije prokliznuti u uporabi (GSU), C ni pri graničnom opterećenju (GSN). Na vlak: kategorije D i E.",
+      source: "HRN EN 1993-1-8 (Eurokod 3)"
+    },
+    {
+      q: "Što je a-mjera kutnog zavara?",
+      options: [
+        "Duljina zavara",
+        "Računska debljina zavara — visina trokuta upisanog u presjek zavara",
+        "Širina lica zavara",
+        "Dubina penetracije u osnovni materijal"
+      ],
+      correct: 1,
+      explanation: "Nosivost kutnog zavara računa se preko a-mjere (visina upisanog jednakokračnog trokuta) i duljine zavara; a-mjera se propisuje u projektu.",
+      source: "HRN EN 1993-1-8 (Eurokod 3)"
+    },
+    {
+      q: "Što određuju razredi izvedbe EXC1–EXC4 prema HRN EN 1090?",
+      options: [
+        "Razred korozivnosti okoliša",
+        "Zahtjeve kvalitete izvedbe čelične konstrukcije (kontrole, dokumentacija) prema posljedicama otkazivanja",
+        "Kategoriju vijaka",
+        "Brzinu montaže"
+      ],
+      correct: 1,
+      explanation: "Razred izvedbe raste sa značajem konstrukcije: EXC1 (male posljedice) do EXC4 (posebne konstrukcije, npr. veliki mostovi) — s razredom rastu zahtjevi kontrole zavara i dokumentacije.",
+      source: "HRN EN 1090-2"
+    },
+    {
+      q: "Za koje je čelične konstrukcije mjerodavan proračun na zamor?",
+      options: [
+        "Za sve zgrade",
+        "Za konstrukcije izložene čestim ponavljanim opterećenjima: kranske staze, mostovi, konstrukcije strojeva",
+        "Samo za temelje",
+        "Zamor se kod čelika ne pojavljuje"
+      ],
+      correct: 1,
+      explanation: "Ponavljana naprezanja uzrokuju rast pukotina i lom ispod statičke nosivosti — mjerodavno kod kranskih staza, mostova, dimnjaka (vjetar); detalji spojeva svrstavaju se u zamorne kategorije.",
+      source: "HRN EN 1993-1-9 (Eurokod 3)"
+    },
+    {
+      q: "Kolika je duljina izvijanja štapa upetog na oba kraja, a kolika konzole?",
+      options: [
+        "0,5 L odnosno 2 L",
+        "L u oba slučaja",
+        "2 L odnosno 0,5 L",
+        "0,7 L odnosno L"
+      ],
+      correct: 0,
+      explanation: "Teorijske duljine izvijanja: zglobno-zglobno L, upeto-upeto 0,5L, upeto-zglobno 0,7L, konzola 2L — kraća duljina izvijanja znači veću otpornost na izvijanje.",
+      source: "HRN EN 1993-1-1 (Eurokod 3)"
+    },
+    {
+      q: "Koju dvostruku ulogu ima profilirani lim u spregnutoj stropnoj ploči?",
+      options: [
+        "Toplinske izolacije i hidroizolacije",
+        "Izgubljene oplate pri betoniranju i (su)djelovanja kao vlačna armatura ploče",
+        "Zvučne izolacije i požarne zaštite",
+        "Nema nosivu ulogu"
+      ],
+      correct: 1,
+      explanation: "Profilirani lim nosi svježi beton kao oplata, a nakon očvršćivanja sudjeluje kao vanjska armatura spregnute ploče (uz mehaničko ozubljenje/utore za posmičnu vezu).",
+      source: "HRN EN 1994 (Eurokod 4)"
+    },
+    {
+      q: "Zašto su zatvoreni (šuplji) presjeci povoljniji za torziju od otvorenih I-presjeka?",
+      options: [
+        "Jer su lakši",
+        "Jer imaju višestruko veću torzijsku krutost zatvorenog toka posmičnih naprezanja",
+        "Jer se lakše zavaruju",
+        "Nisu povoljniji — otvoreni presjeci bolje nose torziju"
+      ],
+      correct: 1,
+      explanation: "U zatvorenom presjeku posmična naprezanja teku po zatvorenoj konturi (Bredtova teorija) — torzijska krutost je bitno veća nego kod otvorenih tankostijenih presjeka, koji se torziji opiru pretežno vitoperenjem.",
+      source: "mehanika konstrukcija; HRN EN 1993"
+    },
+    {
+      q: "Kako se osigurava stabilnost čelične konstrukcije TIJEKOM montaže?",
+      options: [
+        "Stabilnost tijekom montaže nije potrebna",
+        "Privremenim pridržanjima i spregovima — element se otpušta s dizalice tek kad je stabilno pridržan",
+        "Većim temeljima",
+        "Bržom montažom prije vjetra"
+      ],
+      correct: 1,
+      explanation: "Djelomično montirana konstrukcija nema sve spregove pa se stabilnost osigurava privremenim ukrutama, zategama i redoslijedom montaže iz plana montaže.",
+      source: "HRN EN 1090; pravila zaštite na radu"
+    },
+    {
+      q: "Kako se kontrolira sila prednapinjanja visokovrijednih vijaka?",
+      options: [
+        "Odokativno, prema iskustvu montera",
+        "Propisanim postupcima: moment-metodom (baždareni ključ), kombiniranom metodom ili posebnim indikatorima",
+        "Vaganjem vijka prije i poslije ugradnje",
+        "Prednapinjanje se ne kontrolira"
+      ],
+      correct: 1,
+      explanation: "Sila prednapinjanja postiže se kontroliranim momentom pritezanja (baždareni ključevi), kombiniranom metodom (moment + kut) ili indikatorima sile; postupak i kontrola propisani su normom.",
+      source: "HRN EN 1090-2"
+    },
+    {
+      q: "Kako djeluje ekspandirajući (intumescentni) protupožarni premaz na čeliku?",
+      options: [
+        "Odbija plamen glatkom površinom",
+        "Pri požaru bubri u debeli izolacijski pjenasti sloj koji usporava zagrijavanje čelika",
+        "Hladi čelik isparavanjem vode",
+        "Pretvara se u keramiku i nosi umjesto čelika"
+      ],
+      correct: 1,
+      explanation: "Na povišenoj temperaturi premaz ekspandira (i do 50 puta debljine) u ugljeniziranu pjenu male toplinske vodljivosti — čelik sporije doseže kritičnu temperaturu, čime se postiže tražena otpornost (npr. R30–R60).",
+      source: "pravila struke; HRN EN 13381"
+    },
+    {
+      q: "Čemu služe podrožnice u čeličnoj hali?",
+      options: [
+        "Temeljenju stupova",
+        "Nošenju krovnog pokrova i prijenosu opterećenja na glavne nosače; tlačnoj pojasnici često su i bočno pridržanje",
+        "Odvodnji krova",
+        "Samo za hodanje po krovu tijekom montaže"
+      ],
+      correct: 1,
+      explanation: "Podrožnice premošćuju razmak glavnih nosača i nose pokrov (snijeg, vjetar); ujedno mogu bočno pridržavati pojasnicu glavnog nosača protiv bočno-torzijskog izvijanja.",
+      source: "pravila struke; HRN EN 1993"
+    },
+    {
+      q: "Kako se čelični stup spaja s temeljem?",
+      options: [
+        "Zavarivanjem za armaturu temelja",
+        "Preko podložne ploče sa sidrenim vijcima i podlijevanjem ekspandirajućim mortom",
+        "Utiskivanjem stupa u svježi beton",
+        "Lijepljenjem epoksidom"
+      ],
+      correct: 1,
+      explanation: "Podložna ploča raspodjeljuje pritisak na beton, sidreni vijci prenose vlak i posmik (zglobno ili upeto ležište), a sloj podlijevanja izravnava i osigurava puni nalijeg.",
+      source: "HRN EN 1993-1-8; pravila struke"
+    },
+    {
+      q: "Što je čelik otporan na atmosfersku koroziju (npr. S355J2W)?",
+      options: [
+        "Nehrđajući čelik s kromom i niklom",
+        "Čelik koji stvara stabilnu zaštitnu patinu pa se može koristiti bez premaza u primjerenim uvjetima",
+        "Čelik s tvorničkim plastičnim premazom",
+        "Pocinčani čelik"
+      ],
+      correct: 1,
+      explanation: "Legiranje (Cu, Cr, Ni u malim količinama) omogućuje stvaranje guste patine koja usporava daljnju koroziju — uz uvjete izmjene suhog i vlažnog te konstrukcijske detalje bez zadržavanja vode.",
+      source: "HRN EN 10025-5"
+    },
+    {
+      q: "S kojim se zazorom u pravilu buše normalne rupe za vijke?",
+      options: [
+        "Bez zazora — promjer rupe jednak promjeru vijka",
+        "S ograničenim zazorom od 1–3 mm ovisno o promjeru vijka (npr. 2 mm za M16–M24)",
+        "S 10 mm zazora radi lakše montaže",
+        "Zazor je proizvoljan"
+      ],
+      correct: 1,
+      explanation: "Nazivni zazori normalnih rupa: 1 mm (M12, M14), 2 mm (M16–M24), 3 mm (M27 i veći); veći zazori mijenjaju ponašanje spoja i posebno se uzimaju u obzir.",
+      source: "HRN EN 1090-2; HRN EN 1993-1-8"
     }
   ],
   flashcards: [
@@ -232,6 +424,18 @@ window.APP_DATA.push({
     { front: "Spregnuti nosač — kako radi?", back: "Čelični nosač + AB ploča spojeni moždanicima: beton preuzima tlak, čelik vlak; manja visina i težina nosača (EC4)." },
     { front: "Stabilizacija čelične hale?", back: "Horizontalni (krovni) spregovi prenose sile do vertikalnih spregova/okvira i u temelje; bez njih konstrukcija nije stabilna na vjetar i potres." },
     { front: "Montažni vs. radionički spojevi?", back: "Na gradilištu vijci (brzo, pouzdano, neovisno o vremenu); u radionici zavarivanje (kontrolirani uvjeti)." },
-    { front: "Zašto čelik dobro podnosi potres?", back: "Mala masa (manje potresne sile) i velika duktilnost; EC8 traži kapacitetno projektiranje s disipativnim zonama." }
+    { front: "Zašto čelik dobro podnosi potres?", back: "Mala masa (manje potresne sile) i velika duktilnost; EC8 traži kapacitetno projektiranje s disipativnim zonama." },
+    { front: "IPE vs HEA/HEB?", back: "IPE: vitki I-profili (nosači). HEA/HEB: širokopojasni H-profili (stupovi). Broj u oznaci = nazivna visina u mm." },
+    { front: "Oznake žilavosti JR / J0 / J2?", back: "Zajamčeno 27 J udarne žilavosti pri +20 / 0 / −20 °C; biraju se prema temperaturi primjene i debljini (otpor krhkom lomu)." },
+    { front: "Kategorije posmičnih vijčanih spojeva?", back: "A: odrez i pritisak po omotaču; B: tarni, ne proklizava u uporabi (GSU); C: tarni, ne proklizava ni u GSN. Na vlak: D, E." },
+    { front: "a-mjera kutnog zavara?", back: "Računska debljina zavara = visina trokuta upisanog u presjek zavara; nosivost = f(a-mjera, duljina zavara)." },
+    { front: "Razredi izvedbe EXC1–EXC4 (EN 1090)?", back: "Zahtjevi kvalitete izvedbe prema posljedicama otkazivanja: EXC1 najblaži → EXC4 posebne konstrukcije; rastu kontrole zavara i dokumentacija." },
+    { front: "Duljine izvijanja (teorijske)?", back: "Zglobno-zglobno: L; upeto-upeto: 0,5L; upeto-zglobno: 0,7L; konzola: 2L." },
+    { front: "Gdje je mjerodavan zamor čelika?", back: "Ponavljana opterećenja: kranske staze, mostovi, dimnjaci (vjetar); detalji spojeva imaju zamorne kategorije (EC3-1-9)." },
+    { front: "Profilirani lim u spregnutoj ploči?", back: "Dvostruka uloga: izgubljena oplata pri betoniranju + vlačna armatura očvrsnule ploče (posmična veza utorima/ozubljenjem)." },
+    { front: "Torzija: zatvoreni vs otvoreni presjeci?", back: "Zatvoreni (cijevi, sanduci) imaju višestruko veću torzijsku krutost (zatvoreni tok posmika); otvoreni I-presjeci torzijski su meki." },
+    { front: "Stup na temelju?", back: "Podložna ploča + sidreni vijci + podlijevanje; ploča raspodjeljuje pritisak, vijci prenose vlak/posmik (zglobno ili upeto)." },
+    { front: "Stabilnost tijekom montaže?", back: "Privremena pridržanja, zatege i redoslijed montaže po planu; element se otpušta s dizalice tek kad je stabilno pridržan." },
+    { front: "Intumescentni premaz?", back: "Pri požaru bubri u izolacijsku pjenu (do ~50x debljine) — usporava zagrijavanje čelika do tražene otpornosti (R30–R60...)." }
   ]
 });

@@ -244,6 +244,198 @@ window.APP_DATA.push({
       correct: 1,
       explanation: "Odluka se donosi na temelju geotehničkih istraživanja: nosivosti i stišljivosti tla, opterećenja građevine, razine podzemne vode i uvjeta okolnih građevina.",
       source: "HRN EN 1997 (Eurokod 7)"
+    },
+    {
+      q: "Čime se ispituje konzistencija svježeg betona na gradilištu?",
+      options: [
+        "Tlačnom presom",
+        "Metodom slijeganja (slump test), razredi S1–S5",
+        "Ultrazvukom",
+        "Sklerometrom (Schmidtovim čekićem)"
+      ],
+      correct: 1,
+      explanation: "Konzistencija se najčešće ispituje slijeganjem stošca (slump): razredi S1 (kruta) do S5 (tekuća); konzistencija se bira prema načinu ugradnje i gustoći armature.",
+      source: "HRN EN 206; HRN EN 12350-2"
+    },
+    {
+      q: "Kako vodocementni omjer (v/c) utječe na svojstva betona?",
+      options: [
+        "Ne utječe na svojstva očvrsnulog betona",
+        "Niži v/c daje veću čvrstoću i trajnost; previsok v/c povećava poroznost",
+        "Viši v/c uvijek daje veću čvrstoću",
+        "V/c utječe samo na boju betona"
+      ],
+      correct: 1,
+      explanation: "Višak vode koji ne sudjeluje u hidrataciji ostavlja pore — pada čvrstoća i trajnost (propusnost). Zato se v/c ograničava prema razredu izloženosti, a ugradljivost popravlja plastifikatorima.",
+      source: "HRN EN 206; tehnologija betona"
+    },
+    {
+      q: "Na kojim se uzorcima standardno ispituje tlačna čvrstoća betona i kada?",
+      options: [
+        "Na kockama brida 150 mm nakon 28 dana",
+        "Na kockama brida 300 mm nakon 7 dana",
+        "Na prizmama nakon 90 dana",
+        "Na jezgrama izvađenima iz konstrukcije nakon 3 dana"
+      ],
+      correct: 0,
+      explanation: "Standardni uzorci su kocke brida 150 mm (ili valjci 150/300 mm) njegovani i ispitani nakon 28 dana; iz konstrukcije se čvrstoća po potrebi provjerava vađenjem jezgri.",
+      source: "HRN EN 12390; HRN EN 206"
+    },
+    {
+      q: "Kada se smije skinuti nosiva oplata betonske konstrukcije?",
+      options: [
+        "Nakon 24 sata bez obzira na uvjete",
+        "Kad beton postigne čvrstoću koja osigurava preuzimanje opterećenja, prema projektu i planu betoniranja",
+        "Čim beton izgubi sjaj na površini",
+        "Uvijek točno nakon 28 dana"
+      ],
+      correct: 1,
+      explanation: "Rokovi skidanja oplate ovise o razvoju čvrstoće (vrsta cementa, temperatura, njega) i o elementu; nosiva oplata skida se tek kad konstrukcija može preuzeti opterećenja, što se utvrđuje projektom/planom betoniranja.",
+      source: "HRN EN 13670; pravila struke"
+    },
+    {
+      q: "Koje mjere zahtijeva betoniranje pri niskim temperaturama?",
+      options: [
+        "Nikakve — hladnoća pogoduje betonu",
+        "Zaštitu svježeg betona od smrzavanja (topli sastojci, dodaci, pokrivanje, produljena njega), osobito ispod +5 °C",
+        "Samo veći v/c omjer",
+        "Betoniranje se zimi zakonski zabranjuje"
+      ],
+      correct: 1,
+      explanation: "Svježi beton ne smije se smrznuti prije postizanja dovoljne čvrstoće; pri niskim temperaturama hidratacija se usporava pa se griju sastojci, koriste ubrzivači i beton se štiti i njeguje dulje.",
+      source: "HRN EN 13670; tehnologija betona"
+    },
+    {
+      q: "O čemu ovise duljine sidrenja i preklopa armaturnih šipki?",
+      options: [
+        "Samo o duljini šipke iz tvornice",
+        "O promjeru šipke, čvrstoći betona, uvjetima prionjivosti i položaju šipke u presjeku",
+        "Isključivo o broju katova građevine",
+        "O boji betona"
+      ],
+      correct: 1,
+      explanation: "EC2 duljine sidrenja/preklopa izvodi iz prionjivosti: veće za deblje šipke, slabiji beton, loše uvjete prionjivosti (gornje šipke visokih elemenata) — preklopi se razmiču i po mogućnosti izvode u manje napregnutim zonama.",
+      source: "HRN EN 1992 (Eurokod 2)"
+    },
+    {
+      q: "Koja je osnovna ideja prednapetog betona?",
+      options: [
+        "Beton se ugrađuje pod tlakom pumpe",
+        "Visokovrijednim čelikom unosi se tlačno naprezanje u beton, čime se smanjuju vlačna naprezanja i pukotine u eksploataciji",
+        "Armatura se zamjenjuje čeličnim vlaknima",
+        "Beton se njeguje parom pod pritiskom"
+      ],
+      correct: 1,
+      explanation: "Prednapinjanjem (adhezijskim ili naknadnim) beton dobiva 'rezervu' tlaka pa pri opterećenju kasnije dolazi do vlaka i pukotina — mogući su veći rasponi i vitkiji presjeci.",
+      source: "HRN EN 1992 (Eurokod 2)"
+    },
+    {
+      q: "Prema čemu se zidni elementi razvrstavaju u grupe 1–4 prema Eurokodu 6?",
+      options: [
+        "Prema boji i formatu",
+        "Prema udjelu i orijentaciji šupljina u elementu",
+        "Prema vrsti morta kojim se zidaju",
+        "Prema proizvođaču"
+      ],
+      correct: 1,
+      explanation: "Grupa 1 su puni ili gotovo puni elementi, a s porastom grupe raste udio šupljina; grupa utječe na proračunsku tlačnu čvrstoću ziđa i primjenu u potresnim područjima.",
+      source: "HRN EN 1996 (Eurokod 6)"
+    },
+    {
+      q: "O čemu ovisi karakteristična tlačna čvrstoća ziđa fk?",
+      options: [
+        "Samo o debljini zida",
+        "O tlačnoj čvrstoći zidnog elementa (fb) i čvrstoći morta (fm)",
+        "Samo o visini etaže",
+        "O vrsti žbuke na zidu"
+      ],
+      correct: 1,
+      explanation: "fk se prema EC6 računa iz normalizirane tlačne čvrstoće elementa fb i čvrstoće morta fm (uz konstante ovisne o grupi elementa i vrsti morta).",
+      source: "HRN EN 1996 (Eurokod 6)"
+    },
+    {
+      q: "Kako se kod zidanih zgrada u potresnim područjima raspoređuju nosivi zidovi?",
+      options: [
+        "Svi u jednom smjeru radi jednostavnosti",
+        "Približno simetrično i u OBA ortogonalna smjera, po mogućnosti neprekinuto po visini",
+        "Samo po obodu građevine",
+        "Raspored nije bitan ako postoje serklaži"
+      ],
+      correct: 1,
+      explanation: "Potresna otpornost zidane zgrade traži zidove u oba smjera, simetrično (mala torzija) i kontinuirano po visini do temelja; uz vertikalne i horizontalne serklaže (omeđeno ziđe).",
+      source: "HRN EN 1998; HRN EN 1996"
+    },
+    {
+      q: "Čemu služe dilatacijske reške u konstrukciji?",
+      options: [
+        "Bržem betoniranju",
+        "Razdvajanju dijelova građevine radi temperaturnih promjena, skupljanja, različitih slijeganja ili potresnog razdvajanja",
+        "Provođenju instalacija",
+        "Samo estetskom raščlanjivanju fasade"
+      ],
+      correct: 1,
+      explanation: "Dilatacije omogućuju neovisne pomake dijelova konstrukcije (temperatura, skupljanje/puzanje, nejednolika slijeganja, potres) i sprječavaju nekontrolirane pukotine.",
+      source: "pravila struke; HRN EN 1992"
+    },
+    {
+      q: "Prema čemu se bira najveće zrno agregata u betonu?",
+      options: [
+        "Prema želji izvođača",
+        "Prema debljini elementa, zaštitnom sloju i najmanjem razmaku šipki armature",
+        "Uvijek se koristi zrno 32 mm",
+        "Prema godišnjem dobu"
+      ],
+      correct: 1,
+      explanation: "Najveće zrno mora proći između šipki i u zaštitni sloj (tipično ne veće od razmaka šipki umanjenog za nekoliko mm, 1/3 debljine tanjih elemenata); inače nastaju gnijezda.",
+      source: "HRN EN 206; HRN EN 1992"
+    },
+    {
+      q: "Čemu služi vibriranje betona i koja je opasnost pretjeranog vibriranja?",
+      options: [
+        "Grijanju betona; opasnosti nema",
+        "Istjerivanju zarobljenog zraka i popunjavanju oplate; pretjerano vibriranje uzrokuje segregaciju",
+        "Ubrzanju vezanja; pretjerano vibriranje nema učinka",
+        "Sušenju betona; opasnost je prebrzo očvršćivanje"
+      ],
+      correct: 1,
+      explanation: "Vibriranjem se beton zbija (izlazi zrak, popunjavaju se kutovi oplate i obavija armatura); predugo vibriranje razdvaja krupni agregat od morta (segregacija).",
+      source: "HRN EN 13670; tehnologija betona"
+    },
+    {
+      q: "Što obuhvaća kontrola betona pri preuzimanju na gradilištu?",
+      options: [
+        "Samo pregled otpremnice",
+        "Provjeru otpremnice i konzistencije te uzimanje uzoraka za ispitivanje tlačne čvrstoće (identitet betona)",
+        "Mjerenje temperature zraka",
+        "Vaganje svake mješalice"
+      ],
+      correct: 1,
+      explanation: "Uz dokumentaciju (razred, izloženost, konzistencija) provjerava se konzistencija dostavljenog betona i uzimaju uzorci — ispitivanjem identiteta potvrđuje se sukladnost isporučenog betona.",
+      source: "HRN EN 206; Tehnički propis za građevinske konstrukcije"
+    },
+    {
+      q: "Što moraju preuzeti oplata i skela tijekom betoniranja?",
+      options: [
+        "Samo težinu radnika",
+        "Tlak svježeg betona, vlastitu težinu, težinu betona i radna opterećenja — uz ograničene deformacije",
+        "Samo vjetar",
+        "Oplata ne preuzima nikakva opterećenja"
+      ],
+      correct: 1,
+      explanation: "Oplata i skela su privremene konstrukcije koje se projektiraju: bočni tlak svježeg betona (raste s brzinom betoniranja i konzistencijom), težine i radna opterećenja, uz krutost koja osigurava točnost mjera.",
+      source: "HRN EN 13670; pravila struke"
+    },
+    {
+      q: "Zašto se armatura mora očistiti i pravilno pozicionirati distancerima prije betoniranja?",
+      options: [
+        "Zbog estetike vidljivog betona",
+        "Da se osiguraju prionjivost (čista armatura) i projektirani zaštitni sloj te statička visina presjeka",
+        "Da se uštedi na betonu",
+        "Distanceri služe samo za lakše hodanje po armaturi"
+      ],
+      correct: 1,
+      explanation: "Hrđa u listićima, masnoća ili blato smanjuju prionjivost; bez distancera armatura 'legne' na oplatu — gubi se zaštitni sloj (korozija, požar) i statička visina (nosivost).",
+      source: "HRN EN 13670; HRN EN 1992"
     }
   ],
   flashcards: [
@@ -260,6 +452,18 @@ window.APP_DATA.push({
     { front: "Njega betona — što i zašto?", back: "Zaštita od isušivanja, ekstremnih temperatura i vibracija prvih dana; bez njege nastaju pukotine i ne razvija se puna čvrstoća i trajnost." },
     { front: "Načela potresno otpornog koncipiranja (EC8)?", back: "Jednostavnost i pravilnost, simetrija, dvosmjerna otpornost i krutost, torzijska otpornost, kruti stropovi (dijafragme), pouzdano temeljenje." },
     { front: "Koji Eurokod pokriva koje gradivo?", back: "EC0 osnove, EC1 djelovanja, EC2 beton, EC4 spregnute, EC6 ziđe, EC7 geotehnika, EC8 potres." },
-    { front: "Zahtjevi za dimnjak (TP NN 03/07)?", back: "Pouzdan odvod dimnih plinova (propuh), nepropusnost, otpornost na temperaturu, koroziju, kondenzat i požar čađe; omogućeno čišćenje i pregled." }
+    { front: "Zahtjevi za dimnjak (TP NN 03/07)?", back: "Pouzdan odvod dimnih plinova (propuh), nepropusnost, otpornost na temperaturu, koroziju, kondenzat i požar čađe; omogućeno čišćenje i pregled." },
+    { front: "Konzistencija svježeg betona?", back: "Slump test (slijeganje stošca), razredi S1 (kruta) – S5 (tekuća); bira se prema načinu ugradnje i gustoći armature." },
+    { front: "Vodocementni omjer (v/c)?", back: "Niži v/c → veća čvrstoća i trajnost (manje pora); ograničava se prema razredu izloženosti, ugradljivost se popravlja plastifikatorima." },
+    { front: "Standardni uzorci za tlačnu čvrstoću?", back: "Kocke brida 150 mm (ili valjci 150/300 mm), ispitivanje nakon 28 dana njege." },
+    { front: "Skidanje nosive oplate?", back: "Tek kad beton postigne čvrstoću za preuzimanje opterećenja — prema projektu/planu betoniranja (ovisi o cementu, temperaturi, njezi)." },
+    { front: "Betoniranje zimi?", back: "Svježi beton ne smije se smrznuti: grijani sastojci, ubrzivači, pokrivanje i produljena njega — posebne mjere ispod +5 °C." },
+    { front: "Prednapeti beton — princip?", back: "Prednapinjanjem čelika u beton se unosi tlak; vlačna naprezanja i pukotine javljaju se kasnije → veći rasponi, vitkiji presjeci." },
+    { front: "Grupe zidnih elemenata (EC6)?", back: "1–4 prema udjelu i orijentaciji šupljina (grupa 1 puni elementi); utječu na čvrstoću ziđa i primjenu u potresnim područjima." },
+    { front: "Tlačna čvrstoća ziđa fk?", back: "Računa se iz čvrstoće zidnog elementa (fb) i morta (fm), uz konstante ovisne o grupi elementa i vrsti morta (EC6)." },
+    { front: "Dilatacijske reške — čemu služe?", back: "Neovisni pomaci dijelova građevine: temperatura, skupljanje/puzanje, nejednolika slijeganja, potresno razdvajanje." },
+    { front: "Najveće zrno agregata?", back: "Ograničeno razmakom šipki, zaštitnim slojem i debljinom elementa — zrno mora proći kroz armaturu, inače nastaju gnijezda." },
+    { front: "Vibriranje betona?", back: "Istjeruje zrak i popunjava oplatu; predugo vibriranje → segregacija (razdvajanje agregata i morta)." },
+    { front: "Kontrola betona na gradilištu?", back: "Otpremnica (razred, izloženost), provjera konzistencije, uzorci za tlačnu čvrstoću (ispitivanje identiteta)." }
   ]
 });

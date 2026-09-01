@@ -228,6 +228,198 @@ window.APP_DATA.push({
       correct: 1,
       explanation: "Plan (NN 5/11) uređuje organizaciju, obavješćivanje i provedbu mjera kada dođe do izvanrednog ili iznenadnog onečišćenja voda; traži se poznavanje općih odredbi.",
       source: "Državni plan mjera za slučaj izvanrednih i iznenadnih onečišćenja voda, NN 5/11"
+    },
+    {
+      q: "Koji su osnovni elementi obrambenog nasipa?",
+      options: [
+        "Temelj, stupovi i greda",
+        "Kruna, branjeni i nebranjeni pokos, berme i po potrebi drenažni elementi u nožici",
+        "Kolnik i bankine",
+        "Preljev i temeljni ispust"
+      ],
+      correct: 1,
+      explanation: "Nasip čine kruna (s nadvišenjem iznad mjerodavne velike vode), pokosi prema vodi i prema branjenoj strani, berme za stabilnost i održavanje te drenaže koje kontrolirano odvode procjednu vodu.",
+      source: "pravila struke hidrotehnike"
+    },
+    {
+      q: "Što znači pojam '100-godišnja velika voda'?",
+      options: [
+        "Voda koja se pojavila prije 100 godina",
+        "Protok/vodostaj čija je vjerojatnost pojave 1 % u svakoj godini (povratno razdoblje 100 godina)",
+        "Voda koja traje 100 dana",
+        "Najveća voda ikad zabilježena"
+      ],
+      correct: 1,
+      explanation: "Povratno razdoblje od 100 godina znači vjerojatnost pojave 1 % svake godine (ne 'jednom u sto godina'); mjerodavne velike vode određuju se hidrološkom statistikom.",
+      source: "hidrologija; pravila struke"
+    },
+    {
+      q: "Koja je razlika između retencije i akumulacije?",
+      options: [
+        "Nema razlike",
+        "Retencija privremeno zadržava (prihvaća) vodni val radi smanjenja vršnog protoka; akumulacija trajno zadržava vodu za korištenje",
+        "Akumulacija je uvijek prirodna, retencija umjetna",
+        "Retencija služi samo za navodnjavanje"
+      ],
+      correct: 1,
+      explanation: "Retencija (često suha) puni se samo za velikih voda i sasijeca vršni protok vala; akumulacija trajno pohranjuje vodu (vodoopskrba, energetika, navodnjavanje) i može imati i retencijski prostor.",
+      source: "pravila struke hidrotehnike"
+    },
+    {
+      q: "Čemu služe obaloutvrde, a čemu pera (naperi)?",
+      options: [
+        "Objema se pregrađuje korito",
+        "Obaloutvrda štiti obalu od erozije; pera usmjeravaju tok i koncentriraju matiču",
+        "Obaloutvrda diže vodostaj, pera ga spuštaju",
+        "To su građevine za navodnjavanje"
+      ],
+      correct: 1,
+      explanation: "Obaloutvrde (kamen, gabioni, vegetativne obloge) oblažu i štite obalu; pera su poprečne regulacijske građevine koje odmiču tok od obale, usmjeravaju matiču i potiču taloženje uz obalu.",
+      source: "regulacije vodotoka; pravila struke"
+    },
+    {
+      q: "Koji su stupnjevi pročišćavanja komunalnih otpadnih voda?",
+      options: [
+        "Samo kloriranje",
+        "Prethodno/prvi stupanj (mehanički), drugi stupanj (biološki) i treći stupanj (dodatno uklanjanje hranjivih tvari — dušika i fosfora)",
+        "Filtriranje i punjenje u boce",
+        "Taloženje i isparavanje"
+      ],
+      correct: 1,
+      explanation: "Prvi stupanj uklanja krupne i taložive tvari (rešetke, pjeskolov, mastolov, taložnik), drugi biološki razgrađuje organsko opterećenje, treći uklanja dušik i fosfor (osjetljiva područja).",
+      source: "propisi o graničnim vrijednostima emisija otpadnih voda"
+    },
+    {
+      q: "Što je aglomeracija u smislu odvodnje otpadnih voda?",
+      options: [
+        "Skup kamenih blokova u koritu",
+        "Područje na kojem su stanovništvo i djelatnosti dovoljno koncentrirani da se otpadne vode skupljaju i odvode na pročišćavanje",
+        "Vrsta crpne stanice",
+        "Spoj dviju rijeka"
+      ],
+      correct: 1,
+      explanation: "Aglomeracija je osnovna jedinica za planiranje sustava javne odvodnje i UPOV-a; opterećenje se izražava ekvivalent stanovnicima (ES).",
+      source: "Zakon o vodama; propisi o odvodnji"
+    },
+    {
+      q: "Koja je razlika između razdjelnog i mješovitog sustava odvodnje?",
+      options: [
+        "Razdjelni odvodi samo oborinske vode",
+        "Razdjelni ima odvojene cjevovode za otpadne i oborinske vode; mješoviti ih odvodi zajedničkim kolektorom (uz kišne preljeve)",
+        "Mješoviti sustav je zabranjen",
+        "Razlika je samo u materijalu cijevi"
+      ],
+      correct: 1,
+      explanation: "U mješovitom sustavu za jakih kiša rade kišni preljevi (rasterećenje u prijemnik); razdjelni sustav omogućuje da na UPOV ide samo otpadna voda, a oborinska se ispušta/obradi zasebno.",
+      source: "pravila struke; propisi o odvodnji"
+    },
+    {
+      q: "Koje su osnovne funkcije vodospreme u vodoopskrbnom sustavu?",
+      options: [
+        "Samo ukras na brdu iznad naselja",
+        "Izravnanje dnevne potrošnje, osiguranje tlaka i rezerve vode (uključivo požarnu)",
+        "Pročišćavanje otpadne vode",
+        "Mjerenje potrošnje kućanstava"
+      ],
+      correct: 1,
+      explanation: "Vodosprema izravnava razliku dotoka i potrošnje tijekom dana, drži tlačnu liniju (visinski položaj) i čuva rezerve za prekide i gašenje požara.",
+      source: "pravila struke vodoopskrbe"
+    },
+    {
+      q: "Kako se dijeli melioracijska odvodnja?",
+      options: [
+        "Na gradsku i seosku",
+        "Na površinsku (otvoreni kanali) i podzemnu (cijevna drenaža), s crpnim stanicama gdje nema gravitacijskog ispusta",
+        "Na zimsku i ljetnu",
+        "Na privremenu i trajnu"
+      ],
+      correct: 1,
+      explanation: "Višak vode s poljoprivrednih površina odvodi se mrežom otvorenih kanala (detaljna i glavna mreža) i/ili cijevnom drenažom; u nizinama vodu često treba precrpljivati u recipijent.",
+      source: "pravila struke melioracija"
+    },
+    {
+      q: "Koje su osnovne metode navodnjavanja?",
+      options: [
+        "Samo zalijevanje cisternama",
+        "Površinsko natapanje, kišenje (raspršivači) i lokalizirano navodnjavanje kap po kap",
+        "Isparavanje i kondenzacija",
+        "Navodnjavanje podzemnim tlakom"
+      ],
+      correct: 1,
+      explanation: "Izbor metode ovisi o kulturi, tlu, vodi i energiji: površinsko (brazde, prelijevanje), kišenje te kap po kap koje je vodno najučinkovitije.",
+      source: "pravila struke melioracija"
+    },
+    {
+      q: "Za što se na vodama daje koncesija?",
+      options: [
+        "Za svako zahvaćanje vode uključivo javnu vodoopskrbu",
+        "Za gospodarsko korištenje voda i vodnoga dobra (npr. korištenje vodne snage za energiju, punjenje vode u boce, uzgoj riba)",
+        "Za prelazak mosta preko rijeke",
+        "Koncesije na vodama ne postoje"
+      ],
+      correct: 1,
+      explanation: "Koncesija se daje za gospodarsko korištenje (hidroenergija, punionice, akvakultura, vađenje pijeska u posebnim slučajevima); javna vodoopskrba obavlja se kao javna služba, ne po koncesiji.",
+      source: "Zakon o vodama"
+    },
+    {
+      q: "Čemu služe vodomjerne (hidrološke) postaje?",
+      options: [
+        "Naplati vodne naknade",
+        "Sustavnom mjerenju vodostaja i protoka — podloga za hidrološke analize, projektiranje i obranu od poplava",
+        "Kontroli kakvoće vode za piće",
+        "Proizvodnji električne energije"
+      ],
+      correct: 1,
+      explanation: "Nizovi mjerenja vodostaja i protoka temelj su za statistiku velikih i malih voda, dimenzioniranje građevina i pragove proglašenja obrane od poplava.",
+      source: "hidrologija; pravila struke"
+    },
+    {
+      q: "Što je vodni val i kako ga zaštitni sustav 'sasijeca'?",
+      options: [
+        "Val na moru; ne može se sasjeći",
+        "Porast i opadanje protoka nakon oborina; vršni protok smanjuju retencije, odteretni kanali i upravljanje ustavama",
+        "Zvučni val u cjevovodu",
+        "Val koji nastaje radom crpki"
+      ],
+      correct: 1,
+      explanation: "Obrana od poplava kombinira zadržavanje (retencije, akumulacije), preusmjeravanje (odteretni kanali) i provođenje (uređena korita, nasipi) kako vršni protok ne bi premašio propusnost korita kroz naselja.",
+      source: "pravila struke hidrotehnike"
+    },
+    {
+      q: "Što su vodoistražni radovi?",
+      options: [
+        "Traženje potonulih brodova",
+        "Istraživanja radi utvrđivanja rezervi i kakvoće podzemnih voda te uvjeta zahvaćanja (bušotine, pokusna crpljenja)",
+        "Popravci cjevovoda",
+        "Mjerenje potrošnje vode"
+      ],
+      correct: 1,
+      explanation: "Vodoistražnim radovima (bušenje, pokusno crpljenje, analize) utvrđuju se izdašnost i ranjivost vodonosnika — podloga za zahvat vode i određivanje zona sanitarne zaštite.",
+      source: "Zakon o vodama; Pravilnik NN 66/11"
+    },
+    {
+      q: "U kojem je dokumentu sadržan Plan upravljanja rizicima od poplava?",
+      options: [
+        "U prostornom planu županije",
+        "U sastavu Plana upravljanja vodnim područjima",
+        "U građevinskoj dozvoli",
+        "U planu civilne zaštite općine"
+      ],
+      correct: 1,
+      explanation: "Plan upravljanja rizicima od poplava izrađuje se u sastavu Plana upravljanja vodnim područjima: karte opasnosti i rizika od poplava te program mjera.",
+      source: "Zakon o vodama; PUVP do 2027. (NN 84/23)"
+    },
+    {
+      q: "Smije li se graditi u neuređenom inundacijskom pojasu?",
+      options: [
+        "Da, bez ograničenja",
+        "Gradnja i radnje koje smanjuju protočnost ili ugrožavaju stabilnost zaštitnih građevina zabranjene su odnosno strogo ograničene",
+        "Da, uz suglasnost susjeda",
+        "Smije se graditi samo zimi"
+      ],
+      correct: 1,
+      explanation: "Inundacijski pojas mora ostati protočan za velike vode; dopuštene su samo radnje koje ne pogoršavaju protočnost i stabilnost, uz vodopravne uvjete odnosno suglasnost Hrvatskih voda.",
+      source: "Zakon o vodama"
     }
   ],
   flashcards: [
@@ -243,6 +435,19 @@ window.APP_DATA.push({
     { front: "Vodne naknade (financiranje)?", back: "Vodni doprinos (investitor, na m3 građevine po zonama), naknada za uređenje voda, za korištenje voda, za zaštitu voda, naknade za melioracije." },
     { front: "Tko upravlja vodama, a tko komunalnim vodnim građevinama?", back: "Vodama upravljaju Hrvatske vode; komunalnim vodnim građevinama javni isporučitelji vodnih usluga." },
     { front: "Planski dokumenti upravljanja vodama (čl. 37.)?", back: "Plan upravljanja vodnim područjima (s Planom upravljanja rizicima od poplava), višegodišnji programi gradnje, financijski i detaljni planovi." },
-    { front: "PUVP do 2027. — svrha?", back: "Dobro stanje voda i smanjenje rizika od poplava kroz program mjera po vodnim područjima (NN 84/23); traži se načelno poznavanje svrhe i ciljeva." }
+    { front: "PUVP do 2027. — svrha?", back: "Dobro stanje voda i smanjenje rizika od poplava kroz program mjera po vodnim područjima (NN 84/23); traži se načelno poznavanje svrhe i ciljeva." },
+    { front: "Elementi obrambenog nasipa?", back: "Kruna (nadvišenje iznad mjerodavne vode), pokosi (branjeni/nebranjeni), berme, drenaže u nožici za procjednu vodu." },
+    { front: "100-godišnja voda?", back: "Protok/vodostaj povratnog razdoblja 100 god. = vjerojatnost pojave 1 % SVAKE godine (ne 'jednom u 100 godina')." },
+    { front: "Retencija vs akumulacija?", back: "Retencija (često suha) privremeno prihvaća vodni val i sasijeca vršni protok; akumulacija trajno pohranjuje vodu za korištenje." },
+    { front: "Obaloutvrde i pera?", back: "Obaloutvrda štiti obalu od erozije (kamen, gabioni); pera (naperi) usmjeravaju matiču, odmiču tok od obale, potiču taloženje." },
+    { front: "Stupnjevi pročišćavanja otpadnih voda?", back: "1. mehanički (rešetke, pjeskolov, taložnik); 2. biološki; 3. uklanjanje dušika i fosfora (osjetljiva područja)." },
+    { front: "Aglomeracija (odvodnja)?", back: "Područje dovoljno koncentriranog opterećenja da se otpadne vode skupljaju i pročišćavaju; opterećenje u ES (ekvivalent stanovnik)." },
+    { front: "Razdjelni vs mješoviti sustav odvodnje?", back: "Razdjelni: odvojeni cjevovodi za otpadne i oborinske vode. Mješoviti: zajednički kolektor + kišni preljevi za rasterećenje." },
+    { front: "Funkcije vodospreme?", back: "Izravnanje dnevne potrošnje, održavanje tlaka (visinski položaj) i rezerva — uključivo požarna." },
+    { front: "Melioracijska odvodnja — vrste?", back: "Površinska (otvoreni kanali: detaljna + glavna mreža) i podzemna (cijevna drenaža); u nizinama crpne stanice za precrpljivanje." },
+    { front: "Metode navodnjavanja?", back: "Površinsko natapanje, kišenje (raspršivači), kap po kap (vodno najučinkovitije)." },
+    { front: "Koncesije na vodama?", back: "Za gospodarsko korištenje: hidroenergija, punjenje u boce, akvakultura...; javna vodoopskrba NIJE koncesija (javna služba)." },
+    { front: "Gradnja u inundacijskom pojasu?", back: "Zabranjeno/strogo ograničeno sve što smanjuje protočnost ili ugrožava zaštitne građevine; samo uz vodopravne uvjete Hrvatskih voda." },
+    { front: "Vodoistražni radovi?", back: "Bušotine, pokusna crpljenja, analize — utvrđuju izdašnost i ranjivost vodonosnika; podloga za zahvat i zone sanitarne zaštite." }
   ]
 });
