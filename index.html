@@ -1,0 +1,855 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Gradivo</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700;800&family=Source+Sans+3:ital,wght@0,400;0,600;1,400&family=IBM+Plex+Mono:wght@400;500;600&display=swap">
+<style>
+:root {
+  --bg: #F4F4F1;
+  --surface: #FDFDFB;
+  --surface-2: #ECECE7;
+  --ink: #23251F;
+  --ink-soft: #5C5F55;
+  --line: #D8D8D0;
+  --line-strong: #B9B9AE;
+  --accent: #E8590C;
+  --accent-ink: #FFFFFF;
+  --accent-soft: #FBE4D5;
+  --good: #2F9E44;
+  --good-soft: #E3F5E6;
+  --bad: #D6336C;
+  --bad-soft: #FBE3EC;
+  --shadow: 0 1px 3px rgba(35,37,31,0.07);
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #17181A;
+    --surface: #1F2124;
+    --surface-2: #26282C;
+    --ink: #E9EAE4;
+    --ink-soft: #A2A49B;
+    --line: #34363B;
+    --line-strong: #4A4D53;
+    --accent: #FF7A2F;
+    --accent-ink: #1A0D04;
+    --accent-soft: #3A2416;
+    --good: #51CF66;
+    --good-soft: #16301B;
+    --bad: #F06595;
+    --bad-soft: #38151F;
+    --shadow: 0 1px 3px rgba(0,0,0,0.4);
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #17181A;
+  --surface: #1F2124;
+  --surface-2: #26282C;
+  --ink: #E9EAE4;
+  --ink-soft: #A2A49B;
+  --line: #34363B;
+  --line-strong: #4A4D53;
+  --accent: #FF7A2F;
+  --accent-ink: #1A0D04;
+  --accent-soft: #3A2416;
+  --good: #51CF66;
+  --good-soft: #16301B;
+  --bad: #F06595;
+  --bad-soft: #38151F;
+  --shadow: 0 1px 3px rgba(0,0,0,0.4);
+}
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html { -webkit-text-size-adjust: 100%; }
+body {
+  background: var(--bg);
+  color: var(--ink);
+  font-family: "Source Sans 3", "Segoe UI", system-ui, sans-serif;
+  font-size: 17px;
+  line-height: 1.55;
+}
+body::before {
+  content: "";
+  display: block;
+  height: 8px;
+  background: repeating-linear-gradient(-45deg, var(--accent) 0 14px, var(--ink) 14px 28px);
+}
+.wrap { max-width: 760px; margin: 0 auto; padding: 0 16px 90px; }
+header.app {
+  display: flex; align-items: baseline; gap: 10px;
+  padding: 20px 0 4px;
+}
+header.app h1 {
+  font-family: "Archivo", "Arial Narrow", sans-serif;
+  font-weight: 800; font-size: 1.7rem; letter-spacing: 0.01em;
+  text-transform: uppercase;
+}
+header.app .sub {
+  font-family: "IBM Plex Mono", ui-monospace, monospace;
+  font-size: 0.68rem; color: var(--ink-soft);
+  text-transform: uppercase; letter-spacing: 0.08em;
+}
+nav.tabs {
+  display: flex; gap: 4px; margin: 14px 0 22px;
+  border: 1px solid var(--line); background: var(--surface);
+  border-radius: 8px; padding: 4px;
+  position: sticky; top: 8px; z-index: 20;
+  box-shadow: var(--shadow);
+}
+nav.tabs button {
+  flex: 1; border: none; background: none; color: var(--ink-soft);
+  font-family: "IBM Plex Mono", ui-monospace, monospace;
+  font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.06em;
+  padding: 9px 2px; border-radius: 6px; cursor: pointer;
+}
+nav.tabs button:focus-visible, .btn:focus-visible, .opt:focus-visible, .chip:focus-visible, .card-flip:focus-visible {
+  outline: 2px solid var(--accent); outline-offset: 2px;
+}
+nav.tabs button.active { background: var(--ink); color: var(--bg); font-weight: 600; }
+h2.view-title {
+  font-family: "Archivo", sans-serif; font-weight: 700; font-size: 1.25rem;
+  margin-bottom: 4px; text-wrap: balance;
+}
+p.view-lead { color: var(--ink-soft); margin-bottom: 18px; font-size: 0.95rem; }
+
+/* home */
+.total-box {
+  background: var(--surface); border: 1px solid var(--line); border-radius: 10px;
+  padding: 16px; margin-bottom: 18px; box-shadow: var(--shadow);
+}
+.total-box .nums {
+  display: flex; gap: 22px; flex-wrap: wrap; margin-bottom: 10px;
+}
+.num { font-variant-numeric: tabular-nums; }
+.num b { font-family: "Archivo", sans-serif; font-size: 1.5rem; font-weight: 800; display: block; line-height: 1.1; }
+.num span { font-family: "IBM Plex Mono", monospace; font-size: 0.65rem; color: var(--ink-soft); text-transform: uppercase; letter-spacing: 0.07em; }
+.bar { height: 8px; background: var(--surface-2); border-radius: 4px; overflow: hidden; }
+.bar i { display: block; height: 100%; background: var(--accent); border-radius: 4px; transition: width .4s ease; }
+.areas { display: grid; gap: 10px; }
+.area-card {
+  background: var(--surface); border: 1px solid var(--line); border-radius: 10px;
+  padding: 14px 16px; box-shadow: var(--shadow);
+}
+.area-card .top { display: flex; align-items: center; gap: 10px; margin-bottom: 8px; }
+.area-card .icon { font-size: 1.3rem; }
+.area-card h3 { font-family: "Archivo", sans-serif; font-size: 1rem; font-weight: 700; flex: 1; text-wrap: balance; }
+.area-card .meta {
+  font-family: "IBM Plex Mono", monospace; font-size: 0.68rem; color: var(--ink-soft);
+  margin: 6px 0 8px; text-transform: uppercase; letter-spacing: 0.05em;
+  display: flex; gap: 14px; flex-wrap: wrap;
+}
+.area-card .actions { display: flex; gap: 8px; margin-top: 10px; flex-wrap: wrap; }
+.btn {
+  font-family: "IBM Plex Mono", monospace; font-size: 0.72rem;
+  text-transform: uppercase; letter-spacing: 0.06em;
+  border: 1px solid var(--line-strong); background: var(--surface);
+  color: var(--ink); border-radius: 7px; padding: 8px 14px; cursor: pointer;
+}
+.btn:hover { border-color: var(--ink); }
+.btn.primary { background: var(--accent); border-color: var(--accent); color: var(--accent-ink); font-weight: 600; }
+.btn.big { font-size: 0.8rem; padding: 12px 20px; }
+.btn:disabled { opacity: 0.45; cursor: default; }
+.empty-note {
+  background: var(--surface); border: 1px dashed var(--line-strong); border-radius: 10px;
+  padding: 18px; color: var(--ink-soft); font-size: 0.95rem;
+}
+
+/* setup chips */
+.chips { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 16px; }
+.chip {
+  border: 1px solid var(--line-strong); background: var(--surface); color: var(--ink);
+  border-radius: 999px; padding: 7px 14px; cursor: pointer; font-size: 0.85rem;
+  font-family: "Source Sans 3", sans-serif;
+}
+.chip.on { background: var(--ink); color: var(--bg); border-color: var(--ink); }
+.setup-label {
+  font-family: "IBM Plex Mono", monospace; font-size: 0.68rem; color: var(--ink-soft);
+  text-transform: uppercase; letter-spacing: 0.08em; margin: 18px 0 8px;
+}
+
+/* quiz */
+.q-head {
+  display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px;
+  font-family: "IBM Plex Mono", monospace; font-size: 0.7rem; color: var(--ink-soft);
+  text-transform: uppercase; letter-spacing: 0.06em;
+}
+.q-card {
+  background: var(--surface); border: 1px solid var(--line); border-radius: 10px;
+  padding: 18px; box-shadow: var(--shadow);
+}
+.freq { display:inline-block; margin-left:8px; padding:2px 8px; border-radius:999px; font-size:.72rem; font-weight:600; letter-spacing:.01em; vertical-align:middle; }
+.freq.f2 { background:var(--good-soft); color:var(--good); }
+.freq.f1 { background:var(--accent-soft); color:var(--accent); }
+.q-card .area-tag {
+  font-family: "IBM Plex Mono", monospace; font-size: 0.65rem; color: var(--accent);
+  text-transform: uppercase; letter-spacing: 0.07em; margin-bottom: 8px;
+}
+.q-card .q-text { font-size: 1.05rem; font-weight: 600; margin-bottom: 16px; text-wrap: balance; }
+.opts { display: grid; gap: 8px; }
+.opt {
+  text-align: left; border: 1px solid var(--line-strong); background: var(--surface);
+  color: var(--ink); border-radius: 8px; padding: 11px 14px; cursor: pointer;
+  font-size: 0.95rem; font-family: "Source Sans 3", sans-serif; line-height: 1.4;
+  display: flex; gap: 10px;
+}
+.opt .letter {
+  font-family: "IBM Plex Mono", monospace; font-size: 0.75rem; color: var(--ink-soft);
+  flex: 0 0 auto; padding-top: 2px;
+}
+.opt:not(:disabled):hover { border-color: var(--ink); }
+.opt.correct { background: var(--good-soft); border-color: var(--good); }
+.opt.correct .letter { color: var(--good); font-weight: 600; }
+.opt.wrong { background: var(--bad-soft); border-color: var(--bad); }
+.opt.wrong .letter { color: var(--bad); font-weight: 600; }
+.opt:disabled { cursor: default; }
+.expl {
+  margin-top: 14px; border-left: 3px solid var(--accent); padding: 8px 0 8px 14px;
+  font-size: 0.92rem;
+}
+.expl .src {
+  display: block; margin-top: 6px; font-family: "IBM Plex Mono", monospace;
+  font-size: 0.68rem; color: var(--ink-soft); letter-spacing: 0.03em;
+}
+.q-next { margin-top: 16px; display: flex; justify-content: flex-end; }
+
+/* results */
+.result-hero {
+  background: var(--surface); border: 1px solid var(--line); border-radius: 10px;
+  padding: 22px; text-align: center; margin-bottom: 16px; box-shadow: var(--shadow);
+}
+.result-hero .score {
+  font-family: "Archivo", sans-serif; font-weight: 800; font-size: 2.6rem;
+  font-variant-numeric: tabular-nums; line-height: 1.1;
+}
+.result-hero .verdict { color: var(--ink-soft); margin-top: 4px; }
+.review { display: grid; gap: 8px; margin-top: 16px; }
+.review .item {
+  background: var(--surface); border: 1px solid var(--line); border-radius: 8px;
+  padding: 10px 14px; font-size: 0.9rem;
+}
+.review .item.ok { border-left: 3px solid var(--good); }
+.review .item.no { border-left: 3px solid var(--bad); }
+.review .item small { color: var(--ink-soft); display: block; margin-top: 2px; }
+
+/* flashcards */
+.card-flip {
+  width: 100%; min-height: 240px; background: var(--surface);
+  border: 1px solid var(--line); border-radius: 12px; box-shadow: var(--shadow);
+  display: flex; flex-direction: column; align-items: center; justify-content: center;
+  padding: 26px; cursor: pointer; text-align: center; gap: 10px;
+  font-family: "Source Sans 3", sans-serif; color: var(--ink); font-size: 1.05rem;
+}
+.card-flip .side-tag {
+  font-family: "IBM Plex Mono", monospace; font-size: 0.65rem; color: var(--ink-soft);
+  text-transform: uppercase; letter-spacing: 0.08em;
+}
+.card-flip .front-text { font-weight: 600; font-size: 1.15rem; text-wrap: balance; }
+.card-flip .back-text { font-size: 1rem; }
+.fc-actions { display: flex; gap: 10px; margin-top: 14px; }
+.fc-actions .btn { flex: 1; padding: 13px; }
+.btn.know { background: var(--good); border-color: var(--good); color: #fff; font-weight: 600; }
+.btn.dontknow { background: var(--bad); border-color: var(--bad); color: #fff; font-weight: 600; }
+.fc-meta {
+  font-family: "IBM Plex Mono", monospace; font-size: 0.7rem; color: var(--ink-soft);
+  text-transform: uppercase; letter-spacing: 0.06em;
+  display: flex; justify-content: space-between; margin-bottom: 10px;
+}
+.wall { margin: 4px 0 18px; }
+.wall-bar { display: flex; height: 14px; border-radius: 7px; overflow: hidden; background: var(--surface-2); border: 1px solid var(--line); }
+.wall-bar i { display: block; height: 100%; }
+.wall-bar i.seg-done { background: var(--good); }
+.wall-bar i.seg-learn { background: var(--accent); }
+.wall-bar.mini { height: 8px; border-radius: 4px; margin-top: 8px; }
+.wall-legend { display: flex; gap: 18px; flex-wrap: wrap; margin-top: 10px; font-size: 0.85rem; color: var(--ink-soft); }
+.wall-legend b { color: var(--ink); font-variant-numeric: tabular-nums; }
+.wall-legend .dot { display: inline-block; width: 10px; height: 10px; border-radius: 3px; margin-right: 6px; }
+.build-list { display: grid; gap: 8px; }
+.build-row { background: var(--surface); border: 1px solid var(--line); border-radius: 10px; padding: 12px 14px; box-shadow: var(--shadow); }
+.build-row .top { display: flex; align-items: center; gap: 10px; }
+.build-row .stage { font-size: 1.15rem; }
+.build-row h3 { font-family: "Archivo", sans-serif; font-size: 0.95rem; font-weight: 700; flex: 1; text-wrap: balance; }
+.build-row .nums { font-family: "IBM Plex Mono", monospace; font-size: 0.68rem; color: var(--ink-soft); text-transform: uppercase; letter-spacing: 0.05em; white-space: nowrap; }
+
+/* summaries */
+.acc { display: grid; gap: 10px; }
+details.area-sum {
+  background: var(--surface); border: 1px solid var(--line); border-radius: 10px;
+  padding: 0; box-shadow: var(--shadow); overflow: hidden;
+}
+details.area-sum summary {
+  list-style: none; cursor: pointer; padding: 14px 16px;
+  font-family: "Archivo", sans-serif; font-weight: 700; font-size: 1rem;
+  display: flex; align-items: center; gap: 10px;
+}
+details.area-sum summary::-webkit-details-marker { display: none; }
+details.area-sum summary::after { content: "+"; margin-left: auto; font-family: "IBM Plex Mono", monospace; color: var(--ink-soft); }
+details.area-sum[open] summary::after { content: "−"; }
+.sum-body { padding: 0 16px 16px; }
+.sum-body h4 {
+  font-family: "IBM Plex Mono", monospace; font-size: 0.72rem; text-transform: uppercase;
+  letter-spacing: 0.07em; color: var(--accent); margin: 14px 0 6px;
+}
+.sum-body ul { padding-left: 20px; font-size: 0.93rem; }
+.sum-body li { margin-bottom: 4px; }
+
+.hidden { display: none !important; }
+@media (prefers-reduced-motion: reduce) {
+  * { transition: none !important; }
+}
+@media (max-width: 480px) {
+  body { font-size: 16px; }
+  header.app { flex-direction: column; gap: 2px; }
+}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header class="app">
+    <h1>Gradivo</h1>
+    <span class="sub">Stručni ispit · Poslovi sudionika u gradnji</span>
+  </header>
+
+  <nav class="tabs" id="tabs">
+    <button data-view="home" class="active">Početna</button>
+    <button data-view="quiz">Kviz</button>
+    <button data-view="cards">Kartice</button>
+    <button data-view="sum">Sažeci</button>
+  </nav>
+
+  <main id="view"></main>
+</div>
+
+<script src="data/01-gradnja.js"></script>
+<script src="data/02-prostorno.js"></script>
+<script src="data/03-obvezni.js"></script>
+<script src="data/04-upravno.js"></script>
+<script src="data/05-pozar.js"></script>
+<script src="data/06-rad.js"></script>
+<script src="data/07-okolis.js"></script>
+<script src="data/08-tehnicka.js"></script>
+<!-- dopune iz skripte za stručni ispit (01/2026) — spajaju se s gornjim područjima po id-u -->
+<script src="data/11-gradnja-skripta.js"></script>
+<script src="data/12-gradnja-skripta.js"></script>
+<script src="data/13-prostorno-skripta.js"></script>
+<script src="data/14-obvezni-skripta.js"></script>
+<script src="data/14b-upravno-skripta.js"></script>
+<script src="data/15-tehnicka-skripta.js"></script>
+<script src="data/16-tehnicka-skripta.js"></script>
+<script src="data/16b-okolis-skripta.js"></script>
+<script src="data/17-rad-skripta.js"></script>
+<script src="data/18-pozar-skripta.js"></script>
+<script src="data/19-zgrade-skripta.js"></script>
+<script src="data/20-zgrade-skripta.js"></script>
+<script>
+(function () {
+  "use strict";
+  // Više datoteka može puniti isto područje (isti id) — spajaju se redom učitavanja,
+  // nova pitanja/kartice dodaju se na kraj da indeksi (i spremljeni napredak) ostanu stabilni.
+  var AREAS = (function () {
+    var map = {}, list = [];
+    (window.APP_DATA || []).forEach(function (d) {
+      var a = map[d.id];
+      if (!a) { a = { id: d.id, order: 99, title: d.id, icon: "📄", summary: [], questions: [], flashcards: [] }; map[d.id] = a; list.push(a); }
+      if (d.order != null) a.order = d.order;
+      if (d.title) a.title = d.title;
+      if (d.icon) a.icon = d.icon;
+      a.summary = a.summary.concat(d.summary || []);
+      a.questions = a.questions.concat(d.questions || []);
+      a.flashcards = a.flashcards.concat(d.flashcards || []);
+    });
+    return list.sort(function (a, b) { return a.order - b.order; });
+  })();
+  function freqBadge(o) {
+    if (o.freq === 2) return '<span class="freq f2" title="Vrlo često postavljano pitanje (statistika ispita)">★★ vrlo često na ispitu</span>';
+    if (o.freq === 1) return '<span class="freq f1" title="Češće postavljano pitanje (statistika ispita)">★ često na ispitu</span>';
+    return "";
+  }
+  var view = document.getElementById("view");
+  var tabs = document.getElementById("tabs");
+
+  /* ---------- storage ---------- */
+  function load(key, fallback) {
+    try { return JSON.parse(localStorage.getItem(key)) || fallback; }
+    catch (e) { return fallback; }
+  }
+  function save(key, val) {
+    try { localStorage.setItem(key, JSON.stringify(val)); } catch (e) {}
+  }
+  var qstats = load("gradivo.qstats.v1", {});   // qid -> {c, w}
+  var cstats = load("gradivo.cstats.v1", {});   // cid -> {box, due}
+
+  function qid(area, i) { return area.id + "#" + i; }
+  function cid(area, i) { return area.id + "@" + i; }
+
+  /* ---------- helpers ---------- */
+  function shuffle(arr) {
+    var a = arr.slice();
+    for (var i = a.length - 1; i > 0; i--) {
+      var j = Math.floor(Math.random() * (i + 1));
+      var t = a[i]; a[i] = a[j]; a[j] = t;
+    }
+    return a;
+  }
+  function el(html) {
+    var d = document.createElement("div");
+    d.innerHTML = html;
+    return d.firstElementChild;
+  }
+  function esc(s) {
+    return String(s).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
+  }
+  function areaProgress(area) {
+    var known = 0;
+    for (var i = 0; i < area.questions.length; i++) {
+      var s = qstats[qid(area, i)];
+      if (s && s.c > 0) known++;
+    }
+    return area.questions.length ? Math.round(100 * known / area.questions.length) : 0;
+  }
+  // status kartice za prikaz: box 0 = novo, 1–2 = učim, 3 = znam
+  function areaCardCounts(a) {
+    var novo = 0, learn = 0, done = 0, due = 0, now = Date.now();
+    for (var i = 0; i < a.flashcards.length; i++) {
+      var s = cstats[cid(a, i)];
+      var box = s ? s.box : 0;
+      if (box === 0) novo++; else if (box === 3) done++; else learn++;
+      if (!s || s.due <= now) due++;
+    }
+    return { novo: novo, learn: learn, done: done, due: due, total: a.flashcards.length };
+  }
+  function wallBar(c, cls) {
+    var d = c.total ? (100 * c.done / c.total).toFixed(2) : 0;
+    var l = c.total ? (100 * c.learn / c.total).toFixed(2) : 0;
+    return '<div class="wall-bar ' + cls + '"><i class="seg-done" style="width:' + d + '%"></i><i class="seg-learn" style="width:' + l + '%"></i></div>';
+  }
+  function cardsMastered(area) {
+    var m = 0;
+    for (var i = 0; i < area.flashcards.length; i++) {
+      var s = cstats[cid(area, i)];
+      if (s && s.box >= 3) m++;
+    }
+    return m;
+  }
+
+  /* ---------- router ---------- */
+  var current = "home";
+  tabs.addEventListener("click", function (e) {
+    var b = e.target.closest("button");
+    if (!b) return;
+    go(b.dataset.view);
+  });
+  function go(name, arg) {
+    current = name;
+    Array.prototype.forEach.call(tabs.querySelectorAll("button"), function (b) {
+      b.classList.toggle("active", b.dataset.view === name);
+    });
+    window.scrollTo(0, 0);
+    if (name === "home") renderHome();
+    else if (name === "quiz") renderQuizSetup(arg);
+    else if (name === "cards") renderCardsSetup(arg);
+    else if (name === "sum") renderSummaries(arg);
+  }
+
+  /* ---------- home ---------- */
+  function renderHome() {
+    if (!AREAS.length) {
+      view.innerHTML = "";
+      view.appendChild(el('<div class="empty-note">Baza pitanja se još generira — datoteke u mapi <b>data/</b> nisu pronađene. Osvježi stranicu kasnije.</div>'));
+      return;
+    }
+    var totalQ = 0, knownQ = 0, totalC = 0, masteredC = 0;
+    AREAS.forEach(function (a) {
+      totalQ += a.questions.length;
+      totalC += a.flashcards.length;
+      masteredC += cardsMastered(a);
+      for (var i = 0; i < a.questions.length; i++) {
+        var s = qstats[qid(a, i)];
+        if (s && s.c > 0) knownQ++;
+      }
+    });
+    var pct = totalQ ? Math.round(100 * knownQ / totalQ) : 0;
+    var html =
+      '<h2 class="view-title">Tvoj napredak</h2>' +
+      '<p class="view-lead">Pitanje se računa kao savladano kad ga barem jednom točno odgovoriš.</p>' +
+      '<div class="total-box">' +
+        '<div class="nums">' +
+          '<div class="num"><b>' + pct + '%</b><span>savladano</span></div>' +
+          '<div class="num"><b>' + knownQ + '/' + totalQ + '</b><span>pitanja</span></div>' +
+          '<div class="num"><b>' + masteredC + '/' + totalC + '</b><span>kartica naučeno</span></div>' +
+        '</div>' +
+        '<div class="bar"><i style="width:' + pct + '%"></i></div>' +
+        '<div style="margin-top:14px;display:flex;gap:8px;flex-wrap:wrap">' +
+          '<button class="btn primary big" id="btn-sim">▶ Simulacija ispita (30 pitanja)</button>' +
+          '<button class="btn big" id="btn-wrong">Ponovi pogrešna</button>' +
+        '</div>' +
+      '</div>' +
+      '<div class="areas" id="area-list"></div>';
+    view.innerHTML = html;
+    var list = view.querySelector("#area-list");
+    AREAS.forEach(function (a) {
+      var p = areaProgress(a);
+      var card = el(
+        '<div class="area-card">' +
+          '<div class="top"><span class="icon">' + a.icon + '</span><h3>' + esc(a.title) + '</h3></div>' +
+          '<div class="bar"><i style="width:' + p + '%"></i></div>' +
+          '<div class="meta"><span>' + p + '% savladano</span><span>' + a.questions.length + ' pitanja</span><span>' + cardsMastered(a) + '/' + a.flashcards.length + ' kartica</span></div>' +
+          '<div class="actions">' +
+            '<button class="btn primary" data-act="quiz">Kviz</button>' +
+            '<button class="btn" data-act="cards">Kartice</button>' +
+            '<button class="btn" data-act="sum">Sažetak</button>' +
+          '</div>' +
+        '</div>');
+      card.addEventListener("click", function (e) {
+        var b = e.target.closest("button");
+        if (!b) return;
+        go(b.dataset.act, a.id);
+      });
+      list.appendChild(card);
+    });
+    view.querySelector("#btn-sim").addEventListener("click", function () { startQuiz(AREAS.map(function (a) { return a.id; }), 30, false); });
+    view.querySelector("#btn-wrong").addEventListener("click", function () { startQuiz(AREAS.map(function (a) { return a.id; }), 0, true); });
+  }
+
+  /* ---------- quiz setup ---------- */
+  var setupSel = null;
+  function renderQuizSetup(preselect) {
+    if (!AREAS.length) { renderHome(); return; }
+    setupSel = { areas: preselect ? [preselect] : AREAS.map(function (a) { return a.id; }), count: 10, onlyWrong: false, onlyFreq: false };
+    var html =
+      '<h2 class="view-title">Kviz</h2>' +
+      '<p class="view-lead">Odaberi područja i broj pitanja. Odgovor odmah dobiva objašnjenje s izvorom.</p>' +
+      '<div class="setup-label">Područja</div>' +
+      '<div class="chips" id="chips-areas"></div>' +
+      '<div class="setup-label">Broj pitanja</div>' +
+      '<div class="chips" id="chips-count"></div>' +
+      '<div class="setup-label">Način</div>' +
+      '<div class="chips" id="chips-mode"></div>' +
+      '<div style="margin-top:22px"><button class="btn primary big" id="btn-start">Kreni ▶</button></div>';
+    view.innerHTML = html;
+
+    var chipsA = view.querySelector("#chips-areas");
+    var allChip = el('<button class="chip">Sva područja</button>');
+    chipsA.appendChild(allChip);
+    allChip.addEventListener("click", function () {
+      setupSel.areas = AREAS.map(function (a) { return a.id; });
+      refreshChips();
+    });
+    AREAS.forEach(function (a) {
+      var c = el('<button class="chip" data-id="' + a.id + '">' + a.icon + " " + esc(a.title) + '</button>');
+      c.addEventListener("click", function () {
+        if (setupSel.areas.length === AREAS.length) setupSel.areas = [a.id];
+        else if (setupSel.areas.indexOf(a.id) >= 0) {
+          setupSel.areas = setupSel.areas.filter(function (x) { return x !== a.id; });
+          if (!setupSel.areas.length) setupSel.areas = [a.id];
+        } else setupSel.areas.push(a.id);
+        refreshChips();
+      });
+      chipsA.appendChild(c);
+    });
+    var chipsC = view.querySelector("#chips-count");
+    [10, 20, 30, 0].forEach(function (n) {
+      var c = el('<button class="chip" data-n="' + n + '">' + (n === 0 ? "Sva" : n) + '</button>');
+      c.addEventListener("click", function () { setupSel.count = n; refreshChips(); });
+      chipsC.appendChild(c);
+    });
+    var chipsM = view.querySelector("#chips-mode");
+    var mAll = el('<button class="chip" data-m="all">Sva pitanja</button>');
+    var mWrong = el('<button class="chip" data-m="wrong">Samo pogrešna / neodgovorena</button>');
+    var mFreq = el('<button class="chip" data-m="freq">★ Samo česta ispitna pitanja</button>');
+    mAll.addEventListener("click", function () { setupSel.onlyWrong = false; refreshChips(); });
+    mWrong.addEventListener("click", function () { setupSel.onlyWrong = true; refreshChips(); });
+    mFreq.addEventListener("click", function () { setupSel.onlyFreq = !setupSel.onlyFreq; refreshChips(); });
+    chipsM.appendChild(mAll); chipsM.appendChild(mWrong);
+    if (hasFreq()) chipsM.appendChild(mFreq);
+
+    function refreshChips() {
+      var all = setupSel.areas.length === AREAS.length;
+      allChip.classList.toggle("on", all);
+      Array.prototype.forEach.call(chipsA.querySelectorAll("[data-id]"), function (c) {
+        c.classList.toggle("on", !all && setupSel.areas.indexOf(c.dataset.id) >= 0);
+      });
+      Array.prototype.forEach.call(chipsC.querySelectorAll("[data-n]"), function (c) {
+        c.classList.toggle("on", Number(c.dataset.n) === setupSel.count);
+      });
+      mAll.classList.toggle("on", !setupSel.onlyWrong);
+      mWrong.classList.toggle("on", setupSel.onlyWrong);
+      mFreq.classList.toggle("on", setupSel.onlyFreq);
+    }
+    refreshChips();
+    view.querySelector("#btn-start").addEventListener("click", function () {
+      startQuiz(setupSel.areas, setupSel.count, setupSel.onlyWrong, setupSel.onlyFreq);
+    });
+  }
+
+  /* ---------- quiz run ---------- */
+  function hasFreq() {
+    return AREAS.some(function (a) { return a.questions.some(function (q) { return q.freq; }); });
+  }
+  function startQuiz(areaIds, count, onlyWrong, onlyFreq) {
+    var pool = [];
+    AREAS.forEach(function (a) {
+      if (areaIds.indexOf(a.id) < 0) return;
+      a.questions.forEach(function (q, i) {
+        var s = qstats[qid(a, i)];
+        if (onlyFreq && !q.freq) return;
+        if (onlyWrong && s && s.c > 0 && (!s.w || s.c > s.w)) return;
+        pool.push({ area: a, q: q, idx: i });
+      });
+    });
+    if (!pool.length) {
+      go("quiz");
+      view.insertBefore(el('<div class="empty-note" style="margin-bottom:16px">Nema pitanja za odabrani način — sve si već točno odgovorio ili nema označenih čestih pitanja u tom području. Promijeni način.</div>'), view.firstChild);
+      return;
+    }
+    var picked = shuffle(pool).slice(0, count > 0 ? count : pool.length);
+    var state = { list: picked, i: 0, correct: 0, answers: [] };
+    renderQuestion(state);
+  }
+
+  function renderQuestion(state) {
+    var item = state.list[state.i];
+    var q = item.q;
+    var order = shuffle(q.options.map(function (_, i) { return i; }));
+    var letters = ["A", "B", "C", "D"];
+    var html =
+      '<div class="q-head"><span>Pitanje ' + (state.i + 1) + " / " + state.list.length + '</span><span>Točno: ' + state.correct + '</span></div>' +
+      '<div class="bar" style="margin-bottom:14px"><i style="width:' + Math.round(100 * state.i / state.list.length) + '%"></i></div>' +
+      '<div class="q-card">' +
+        '<div class="area-tag">' + item.area.icon + " " + esc(item.area.title) + freqBadge(q) + '</div>' +
+        '<div class="q-text">' + esc(q.q) + '</div>' +
+        '<div class="opts" id="opts"></div>' +
+        '<div id="expl"></div>' +
+        '<div class="q-next hidden" id="next-row"><button class="btn primary big" id="btn-next">Sljedeće ▶</button></div>' +
+      '</div>';
+    view.innerHTML = html;
+    var opts = view.querySelector("#opts");
+    var answered = false;
+    order.forEach(function (origIdx, pos) {
+      var b = el('<button class="opt"><span class="letter">' + letters[pos] + '</span><span>' + esc(q.options[origIdx]) + '</span></button>');
+      b.addEventListener("click", function () {
+        if (answered) return;
+        answered = true;
+        var ok = origIdx === q.correct;
+        var key = qid(item.area, item.idx);
+        var s = qstats[key] || { c: 0, w: 0 };
+        if (ok) { s.c++; state.correct++; } else { s.w++; }
+        qstats[key] = s;
+        save("gradivo.qstats.v1", qstats);
+        state.answers.push({ item: item, ok: ok });
+        Array.prototype.forEach.call(opts.children, function (btn, p) {
+          btn.disabled = true;
+          if (order[p] === q.correct) btn.classList.add("correct");
+          else if (order[p] === origIdx && !ok) btn.classList.add("wrong");
+        });
+        view.querySelector("#expl").appendChild(el(
+          '<div class="expl">' + esc(q.explanation || "") +
+          (q.source ? '<span class="src">§ ' + esc(q.source) + '</span>' : "") + '</div>'));
+        var nr = view.querySelector("#next-row");
+        nr.classList.remove("hidden");
+        if (state.i === state.list.length - 1) view.querySelector("#btn-next").textContent = "Rezultat ▶";
+        view.querySelector("#btn-next").focus();
+      });
+      opts.appendChild(b);
+    });
+    view.querySelector("#btn-next").addEventListener("click", function () {
+      state.i++;
+      if (state.i >= state.list.length) renderResults(state);
+      else renderQuestion(state);
+    });
+  }
+
+  function renderResults(state) {
+    var n = state.list.length;
+    var pct = Math.round(100 * state.correct / n);
+    var verdict = pct >= 90 ? "Odlično — spreman si za ovo područje." :
+                  pct >= 70 ? "Dobro — još malo ponavljanja i sjelo je." :
+                  pct >= 50 ? "Solidno, ali prođi sažetke još jednom." :
+                  "Vrijedi ponovno proći gradivo pa probati opet.";
+    var html =
+      '<div class="result-hero">' +
+        '<div class="score">' + state.correct + " / " + n + '</div>' +
+        '<div class="verdict">' + pct + "% — " + verdict + '</div>' +
+        '<div style="margin-top:16px;display:flex;gap:8px;justify-content:center;flex-wrap:wrap">' +
+          '<button class="btn primary" id="btn-again">Novi kviz</button>' +
+          '<button class="btn" id="btn-home">Početna</button>' +
+        '</div>' +
+      '</div>' +
+      '<h2 class="view-title">Pregled odgovora</h2>' +
+      '<div class="review" id="review"></div>';
+    view.innerHTML = html;
+    var rev = view.querySelector("#review");
+    state.answers.forEach(function (a) {
+      rev.appendChild(el(
+        '<div class="item ' + (a.ok ? "ok" : "no") + '">' + esc(a.item.q.q) +
+        '<small>' + (a.ok ? "✓ točno" : "✗ netočno — " + esc(a.item.q.options[a.item.q.correct])) + '</small></div>'));
+    });
+    view.querySelector("#btn-again").addEventListener("click", function () { go("quiz"); });
+    view.querySelector("#btn-home").addEventListener("click", function () { go("home"); });
+  }
+
+  /* ---------- flashcards ---------- */
+  var BOX_DAYS = [0, 1, 3, 7]; // box1 -> +1d, box2 -> +3d, box3 -> +7d
+  function renderCardsSetup(preselect) {
+    if (!AREAS.length) { renderHome(); return; }
+    var html =
+      '<h2 class="view-title">Kartice za ponavljanje</h2>' +
+      '<p class="view-lead">Kartica koju znaš vraća se sve rjeđe — za 1, 3, pa 7 dana. Kartica koju ne znaš ponavlja se opet sutra.</p>' +
+      '<div class="chips" id="fc-areas"></div>' +
+      '<div class="wall" id="fc-wall"></div>' +
+      '<div style="display:flex;gap:8px;flex-wrap:wrap">' +
+        '<button class="btn primary big" id="fc-due">Ponovi za danas</button>' +
+        '<button class="btn big" id="fc-all">Sve kartice</button>' +
+        '<button class="btn big" id="fc-freq" title="Samo kartice označene kao često postavljana ispitna pitanja">★ Samo česta pitanja</button>' +
+      '</div>' +
+      '<div class="setup-label">Napredak po područjima</div>' +
+      '<div class="build-list" id="fc-build"></div>';
+    view.innerHTML = html;
+    var sel = preselect ? [preselect] : AREAS.map(function (a) { return a.id; });
+    var chips = view.querySelector("#fc-areas");
+    var allChip = el('<button class="chip">Sva područja</button>');
+    chips.appendChild(allChip);
+    allChip.addEventListener("click", function () { sel = AREAS.map(function (a) { return a.id; }); refresh(); });
+    AREAS.forEach(function (a) {
+      var c = el('<button class="chip" data-id="' + a.id + '">' + a.icon + " " + esc(a.title) + '</button>');
+      c.addEventListener("click", function () {
+        if (sel.length === AREAS.length) sel = [a.id];
+        else if (sel.indexOf(a.id) >= 0) { sel = sel.filter(function (x) { return x !== a.id; }); if (!sel.length) sel = [a.id]; }
+        else sel.push(a.id);
+        refresh();
+      });
+      chips.appendChild(c);
+    });
+    var buildList = view.querySelector("#fc-build");
+    AREAS.forEach(function (a) {
+      var c = areaCardCounts(a);
+      buildList.appendChild(el(
+        '<div class="build-row">' +
+          '<div class="top"><span class="stage">' + a.icon + '</span><h3>' + esc(a.title) + '</h3><span class="nums">' + c.done + '/' + c.total + ' naučeno</span></div>' +
+          wallBar(c, "mini") +
+        '</div>'));
+    });
+    function refresh() {
+      var all = sel.length === AREAS.length;
+      allChip.classList.toggle("on", all);
+      Array.prototype.forEach.call(chips.querySelectorAll("[data-id]"), function (c) {
+        c.classList.toggle("on", !all && sel.indexOf(c.dataset.id) >= 0);
+      });
+      var t = { novo: 0, learn: 0, done: 0, due: 0, total: 0 };
+      AREAS.forEach(function (a) {
+        if (sel.indexOf(a.id) < 0) return;
+        var c = areaCardCounts(a);
+        t.novo += c.novo; t.learn += c.learn; t.done += c.done; t.due += c.due; t.total += c.total;
+      });
+      view.querySelector("#fc-wall").innerHTML =
+        wallBar(t, "") +
+        '<div class="wall-legend">' +
+          '<span title="Kartice koje još nisi otvorio"><span class="dot" style="background:var(--line-strong)"></span>Novo: <b>' + t.novo + '</b></span>' +
+          '<span title="Kartice koje učiš — vraćaju se za 1, pa za 3 dana"><span class="dot" style="background:var(--accent)"></span>Učim: <b>' + t.learn + '</b></span>' +
+          '<span title="Kartice koje znaš — provjera svakih 7 dana"><span class="dot" style="background:var(--good)"></span>Znam: <b>' + t.done + '</b></span>' +
+        '</div>';
+      view.querySelector("#fc-due").textContent = "Ponovi za danas · " + t.due;
+    }
+    refresh();
+    view.querySelector("#fc-due").addEventListener("click", function () { startCards(sel, true); });
+    view.querySelector("#fc-all").addEventListener("click", function () { startCards(sel, false); });
+    view.querySelector("#fc-freq").addEventListener("click", function () { startCards(sel, false, true); });
+  }
+
+  function startCards(areaIds, dueOnly, freqOnly) {
+    var deck = [], now = Date.now();
+    AREAS.forEach(function (a) {
+      if (areaIds.indexOf(a.id) < 0) return;
+      a.flashcards.forEach(function (c, i) {
+        var s = cstats[cid(a, i)];
+        if (freqOnly && !c.freq) return;
+        if (dueOnly && s && s.due > now) return;
+        deck.push({ area: a, card: c, idx: i });
+      });
+    });
+    if (!deck.length) {
+      go("cards");
+      view.insertBefore(el('<div class="empty-note" style="margin-bottom:16px">Za danas je sve ponovljeno (ili nema označenih čestih kartica u tom području). Vrati se sutra ili odaberi "Sve kartice".</div>'), view.firstChild);
+      return;
+    }
+    runCards({ deck: shuffle(deck), i: 0, known: 0 });
+  }
+
+  function runCards(state) {
+    if (state.i >= state.deck.length) {
+      view.innerHTML =
+        '<div class="result-hero">' +
+          '<div class="score">' + state.known + " / " + state.deck.length + '</div>' +
+          '<div class="verdict">kartica označeno kao "znam" u ovoj rundi</div>' +
+          '<div style="margin-top:16px;display:flex;gap:8px;justify-content:center">' +
+            '<button class="btn primary" id="fc-back">Natrag na kartice</button>' +
+          '</div>' +
+        '</div>';
+      view.querySelector("#fc-back").addEventListener("click", function () { go("cards"); });
+      return;
+    }
+    var item = state.deck[state.i];
+    var flipped = false;
+    var html =
+      '<div class="fc-meta"><span>Kartica ' + (state.i + 1) + " / " + state.deck.length + '</span><span>' + item.area.icon + " " + esc(item.area.title) + '</span></div>' +
+      '<button class="card-flip" id="fc-card">' +
+        '<span class="side-tag">Pitanje · klikni za odgovor' + freqBadge(item.card) + '</span>' +
+        '<span class="front-text">' + esc(item.card.front) + '</span>' +
+      '</button>' +
+      '<div class="fc-actions hidden" id="fc-btns">' +
+        '<button class="btn dontknow big" id="fc-no">✗ Ne znam</button>' +
+        '<button class="btn know big" id="fc-yes">✓ Znam</button>' +
+      '</div>';
+    view.innerHTML = html;
+    var cardBtn = view.querySelector("#fc-card");
+    cardBtn.addEventListener("click", function () {
+      if (flipped) return;
+      flipped = true;
+      cardBtn.innerHTML =
+        '<span class="side-tag">Odgovor</span>' +
+        '<span class="front-text" style="font-size:0.95rem;color:var(--ink-soft)">' + esc(item.card.front) + '</span>' +
+        '<span class="back-text">' + esc(item.card.back) + '</span>';
+      view.querySelector("#fc-btns").classList.remove("hidden");
+    });
+    function grade(know) {
+      var key = cid(item.area, item.idx);
+      var s = cstats[key] || { box: 0, due: 0 };
+      s.box = know ? Math.min(3, s.box + 1) : 1;
+      s.due = Date.now() + BOX_DAYS[s.box] * 24 * 3600 * 1000;
+      cstats[key] = s;
+      save("gradivo.cstats.v1", cstats);
+      if (know) state.known++;
+      state.i++;
+      runCards(state);
+    }
+    view.querySelector("#fc-no").addEventListener("click", function () { grade(false); });
+    view.querySelector("#fc-yes").addEventListener("click", function () { grade(true); });
+  }
+
+  /* ---------- summaries ---------- */
+  function renderSummaries(openId) {
+    if (!AREAS.length) { renderHome(); return; }
+    var html =
+      '<h2 class="view-title">Sažeci gradiva</h2>' +
+      '<p class="view-lead">Ključne odredbe po područjima iz službenog ispitnog popisa regulative.</p>' +
+      '<div class="acc" id="acc"></div>';
+    view.innerHTML = html;
+    var acc = view.querySelector("#acc");
+    AREAS.forEach(function (a) {
+      var d = document.createElement("details");
+      d.className = "area-sum";
+      if (a.id === openId) d.open = true;
+      var body = "";
+      (a.summary || []).forEach(function (sec) {
+        body += "<h4>" + esc(sec.heading) + "</h4><ul>" +
+          sec.points.map(function (p) { return "<li>" + esc(p) + "</li>"; }).join("") + "</ul>";
+      });
+      d.innerHTML = "<summary>" + a.icon + " " + esc(a.title) + "</summary><div class='sum-body'>" + body + "</div>";
+      acc.appendChild(d);
+    });
+  }
+
+  go("home");
+})();
+</script>
+</body>
+</html>
