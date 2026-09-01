@@ -69,7 +69,8 @@ window.APP_DATA.push({
         "Revident: ovlašteni inženjer građevinarstva s najmanje 10 godina iskustva u projektiranju statički složenih konstrukcija; upis u razred revidenata pri Hrvatskoj komori inženjera građevinarstva (čl. 27.a).",
         "Tijela komore: Skupština, Upravni odbor, Nadzorni odbor i predsjednik (čl. 9.).",
         "Stegovna tijela: Stegovni sud (vijeće od 3 suca), Viši stegovni sud (5 sudaca) i stegovni tužitelj.",
-        "Stegovne mjere — teže povrede: ukor, novčana kazna, zabrana obavljanja poslova od 1 mjeseca do 3 godine, prestanak članstva; lakše povrede: opomena ili novčana kazna (čl. 46.).",
+        "Stegovne mjere — teže povrede: ukor, novčana kazna, zabrana obavljanja poslova od 1 mjeseca do 3 godine, prestanak članstva",
+        "Lakše povrede: opomena ili novčana kazna (čl. 46.).",
         "Članovi se obvezno osiguravaju od profesionalne odgovornosti; komora preuzima osnovno osiguranje članova."
       ]
     },

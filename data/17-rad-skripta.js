@@ -8,8 +8,10 @@ window.APP_DATA.push({
         "Svrha Zakona (čl. 1.): sustavno unapređivanje sigurnosti i zaštite zdravlja radnika, sprječavanje ozljeda na radu, profesionalnih bolesti i bolesti u vezi s radom.",
         "Vrste pravila ZNR: OSNOVNA (zahtjevi za sredstvo rada u uporabi, čl. 12.), POSEBNA (odnose se na radnike, način obavljanja poslova i radne postupke, čl. 13.) i PRIZNATA (norme, pravila struke, u praksi provjereni načini – kad nema pravnih pravila, čl. 43.). Osnovna imaju prednost pred posebnima.",
         "Opća načela prevencije (čl. 11.): izbjegavanje i procjenjivanje rizika, sprječavanje na izvoru, prilagodba rada radniku, prilagodba tehničkom napretku, zamjena opasnog neopasnim, sveobuhvatna politika prevencije, prednost skupnim mjerama pred pojedinačnim, osposobljavanje i obavješćivanje, besplatnost prevencije za radnike.",
-        "Rizik = umnožak vjerojatnosti nastanka opasnog/štetnog događaja i štetnosti (posljedice). Vrste: opasnosti, štetnosti (kemijske, fizikalne, biološke) i napori.",
-        "Radna oprema: strojevi, uređaji, postrojenja, sredstva za prijenos/prijevoz tereta, alati te skele i druga sredstva za povremeni rad na visini. Radilište = privremeno ili pokretno mjesto rada (gradilište, šumarsko radilište, gradnja broda...).",
+        "Rizik = umnožak vjerojatnosti nastanka opasnog/štetnog događaja i štetnosti (posljedice).",
+        "Vrste: opasnosti, štetnosti (kemijske, fizikalne, biološke) i napori.",
+        "Radna oprema: strojevi, uređaji, postrojenja, sredstva za prijenos/prijevoz tereta, alati te skele i druga sredstva za povremeni rad na visini.",
+        "Radilište = privremeno ili pokretno mjesto rada (gradilište, šumarsko radilište, gradnja broda...).",
         "Ključni pravilnici: mjesta rada (NN 105/20), privremena gradilišta (NN 48/18), sigurnosni znakovi (NN 91/15, 102/15, 61/16), OZO (NN 5/21), procjena rizika (NN 112/14, 129/19), osposobljavanje i stručni ispit (NN 142/21), pregled radne opreme (NN 16/16), ispitivanje radnog okoliša (NN 16/16), poslovi s posebnim uvjetima rada (NN 5/84), prva pomoć (NN 56/83)."
       ]
     },
@@ -17,12 +19,14 @@ window.APP_DATA.push({
       heading: "Osposobljavanje, radnici, odbor, prva pomoć, alkohol",
       points: [
         "Osposobljavanje za rad na siguran način (čl. 27.): prije početka rada, kod promjene radnog postupka, nove radne opreme, nove tehnologije, upućivanja na novi posao/mjesto rada i kod utvrđenog oštećenja zdravlja. Provodi se tijekom radnog vremena o trošku poslodavca.",
-        "Dokaz osposobljenosti: ZAPISNIK o ocjeni osposobljenosti – potpisuju radnik, neposredni ovlaštenik i stručnjak ZNR. Sadrži: ime/prezime/OIB radnika, poslove i mjesto rada, podatke o poslodavcu, osobe uključene u osposobljavanje, mjesto i vrijeme. Za poslove s malim rizicima dovoljno je teoretsko osposobljavanje.",
+        "Dokaz osposobljenosti: ZAPISNIK o ocjeni osposobljenosti – potpisuju radnik, neposredni ovlaštenik i stručnjak ZNR.",
+        "Sadrži: ime/prezime/OIB radnika, poslove i mjesto rada, podatke o poslodavcu, osobe uključene u osposobljavanje, mjesto i vrijeme. Za poslove s malim rizicima dovoljno je teoretsko osposobljavanje.",
         "Radnik smije odbiti rad i napustiti mjesto rada uz izravan rizik za život i zdravlje; poslodavac izvještava inspektora koji u roku od 48 sati utvrđuje činjenično stanje. Radnik zadržava plaću.",
         "Povjerenik radnika: kod poslodavca s manje od 20 radnika bira se na skupu radnika neposrednim izjašnjavanjem; više povjerenika bira koordinatora.",
         "Odbor ZNR (50+ radnika): poslodavac/ovlaštenik, stručnjak ZNR, specijalist medicine rada, povjerenik radnika (ili koordinator). Sastaje se najmanje jednom u 6 mjeseci; kod smrtne/teške ozljede, profesionalne bolesti ili nalaza inspektora sjednica u roku od 2 radna dana.",
         "Prva pomoć (čl. 56.): 2–50 radnika → najmanje 1 osposobljen radnik + po 1 za svakih sljedećih 50; pisana odluka o imenovanju. Osposobljavanje provode Hrvatski Crveni križ i specijalisti medicine rada. Na gradilištu prostorija za prvu pomoć dostupna za nosila, označena, s adresom i brojem hitne pomoći.",
-        "Alkohol: radnik je pod utjecajem ako ima više od 0,0 g/kg u krvi; provjera alkometrom; odbijanje provjere = smatra se pod utjecajem; poslodavac ga udaljuje s mjesta rada.",
+        "Alkohol: radnik je pod utjecajem ako ima više od 0,0 g/kg u krvi; provjera alkometrom",
+        "Odbijanje provjere = smatra se pod utjecajem; poslodavac ga udaljuje s mjesta rada.",
         "Poslovi s posebnim uvjetima rada (NN 5/84): dob, spol, stručna sposobnost, zdravstveno i psihičko stanje (utvrđuje specijalist medicine rada). Uključuju rad na visini >3 m, podizanje skela i postavljanje oplata, upravljanje dizalicama, signaliste, miniranje... Ne mogu se obavljati na izdvojenom mjestu rada."
       ]
     },
@@ -35,7 +39,8 @@ window.APP_DATA.push({
         "Sadržaj plana (Dodatak IV. NN 48/18): granice gradilišta (opis i shema), popis poslova s naznakom posebno opasnih radova, pravila ZNR i zajedničke mjere, postupci za opasne faze, sredstva rada i popis opasnih kemikalija, vremenski plan, obveze izvođača o međusobnom izvješćivanju, procjena troškova uređenja gradilišta i zajedničkih mjera.",
         "Koordinator II: koordinira načela prevencije kod odluka o rokovima i fazama, provjerava provode li se radni postupci sigurno, usklađuje plan s promjenama, osigurava suradnju izvođača, organizira da pristup gradilištu imaju samo zaposleni i osobe s dozvolom.",
         "Uvjeti za koordinatora (NN 142/21): najmanje preddiplomski studij arhitekture, građevinarstva, elektrotehnike ili strojarstva + stručni ispit iz graditeljstva (najmanje program za prvostupnika) + stručni ispit za koordinatora ZNR. Koordinator I može biti i koordinator II, ali ne obratno.",
-        "Prekršaji investitora: ne osigura elaborat ZNR, ne imenuje koordinatora, ne prijavi gradilište, nema plan izvođenja radova. Prekršaji koordinatora: ne izradi plan ili njegova usklađenja."
+        "Prekršaji investitora: ne osigura elaborat ZNR, ne imenuje koordinatora, ne prijavi gradilište, nema plan izvođenja radova.",
+        "Prekršaji koordinatora: ne izradi plan ili njegova usklađenja."
       ]
     },
     {
@@ -54,17 +59,22 @@ window.APP_DATA.push({
       heading: "Pravilnik o zaštiti na radu za mjesta rada (NN 105/20) – prostorije, mikroklima, provjetravanje",
       points: [
         "Po radniku najmanje 10 m3 zračnog prostora i 2 m2 slobodne površine poda (nezauzeto namještajem, strojevima, materijalom).",
-        "Svijetle visine: 3 m (prostorije sa štetnostima), 2,8 m (bez štetnosti, mikroklima zadovoljena), 2,5 m (uredi, projektantski uredi, skladišta, zadržavanje <2 h dnevno, obrti); u starim/zaštićenim zgradama iznimno do 2,2 m. Kontejneri: svijetla visina ne manja od 2,2 m. Pomoćne prostorije najmanje 2,5 m (iznimno 2,2 m).",
-        "Mikroklimatski uvjeti = temperatura, vlažnost i brzina strujanja zraka. Zimi: rad bez naprezanja 20–25 °C, laki fizički rad 16–22 °C, teški fizički rad 10–19 °C. Klimatizacija: rel. vlažnost 40–60 %, razlika vanjske/unutarnje temperature ljeti do 7 °C.",
+        "Svijetle visine: 3 m (prostorije sa štetnostima), 2,8 m (bez štetnosti, mikroklima zadovoljena), 2,5 m (uredi, projektantski uredi, skladišta, zadržavanje <2 h dnevno, obrti); u starim/zaštićenim zgradama iznimno do 2,2 m.",
+        "Kontejneri: svijetla visina ne manja od 2,2 m. Pomoćne prostorije najmanje 2,5 m (iznimno 2,2 m).",
+        "Mikroklimatski uvjeti = temperatura, vlažnost i brzina strujanja zraka.",
+        "Zimi: rad bez naprezanja 20–25 °C, laki fizički rad 16–22 °C, teški fizički rad 10–19 °C.",
+        "Klimatizacija: rel. vlažnost 40–60 %, razlika vanjske/unutarnje temperature ljeti do 7 °C.",
         "Brzina strujanja zraka: max 0,5 m/s (vanjska temp. do 10 °C), 0,6 m/s (10–27 °C), 0,8 m/s (>27 °C). Prostorije u kojima se boravi >2 h moraju se grijati u hladnom razdoblju.",
-        "Svježi zrak po radniku: 30 m3/h (do 20 m3 zračnog prostora), 20 m3/h (20–40 m3), najmanje 40 m3/h (prostorije bez prozora). Izmjene zraka: ured 1,5/h, sastanci 3/h, garderoba 1/h, kupaonica 5/h, nužnik 4/h, blagovaonica 2/h.",
+        "Svježi zrak po radniku: 30 m3/h (do 20 m3 zračnog prostora), 20 m3/h (20–40 m3), najmanje 40 m3/h (prostorije bez prozora).",
+        "Izmjene zraka: ured 1,5/h, sastanci 3/h, garderoba 1/h, kupaonica 5/h, nužnik 4/h, blagovaonica 2/h.",
         "Ispitivanje radnog okoliša: kad postupak utječe na mikroklimu, osvijetljenost, buku/vibracije, plinove/pare/prašine, biološke štetnosti – odmah po nastanku uvjeta, po rješenju inspektora ili periodički najdulje svake 3 godine."
       ]
     },
     {
       heading: "Mjesta rada – prometni putovi, stepeništa, ograde, ljestve, vrata (NN 105/20)",
       points: [
-        "Hodnici: glavni min 1,5 m, sporedni min 1,0 m, prolazi među regalima min 0,8 m. Transportni putovi min 1,8 m (ili 0,8 m širi od sredstva), obilježeni linijama širine min 5 cm. Brzina vozila: vani 10 km/h, unutra 5 km/h. Dvosmjerna cesta u krugu min 5 m, jednosmjerna 3 m. Udaljenost građevine od ruba prometnice min 0,75 m.",
+        "Hodnici: glavni min 1,5 m, sporedni min 1,0 m, prolazi među regalima min 0,8 m. Transportni putovi min 1,8 m (ili 0,8 m širi od sredstva), obilježeni linijama širine min 5 cm.",
+        "Brzina vozila: vani 10 km/h, unutra 5 km/h. Dvosmjerna cesta u krugu min 5 m, jednosmjerna 3 m. Udaljenost građevine od ruba prometnice min 0,75 m.",
         "Rampe: širina min 1,1 m (za teret 1,6 m); nagib do 10 % bez odmorišta, 10–17 % odmorišta na max 4 m visine; nagib u radnim prostorijama max 40 %; rampe više od 1 m imaju ograde.",
         "Stepeništa: korisna širina kraka min 1,1 m; krak 3–18 stepenica; visina stepenice 13–19 cm, gazište 25–37 cm, odstupanja max 0,5 cm; odmorište dugo min 1,1 m; zavojito stepenište samo do 20 osoba (gazište na najužem dijelu min 13 cm); vanjsko stepenište ograda min 1,2 m. Pokretne stepenice ne smiju biti jedini evakuacijski izlaz.",
         "Ograde: mjesta rada na visini >1,0 m; visina ograde min 1,0 m; rukohvat na 1 m; horizontalno opterećenje min 700 N/m; razmak vodoravnih prečki max 25 cm, okomitih max 14 cm; rubna zaštita min 15 cm (na stepeništu min 7,5 cm).",
@@ -75,12 +85,18 @@ window.APP_DATA.push({
     {
       heading: "Rad na visini, skele, OZO, sigurnosni znakovi",
       points: [
-        "Rad na visini >3 m = posao s posebnim uvjetima rada; posebno osjetljive skupine ne smiju raditi na visini. Radovi do 450 cm iznad terena/poda: pomoćne skele ili ljestve uz vezivanje; iznad 450 cm obvezno skele ili drugi siguran način.",
+        "Rad na visini >3 m = posao s posebnim uvjetima rada; posebno osjetljive skupine ne smiju raditi na visini.",
+        "Radovi do 450 cm iznad terena/poda: pomoćne skele ili ljestve uz vezivanje; iznad 450 cm obvezno skele ili drugi siguran način.",
         "Zaštitne nadstrešnice postavljaju se tako da visina mogućeg pada ne prelazi 300 cm; na otvorenim rubovima bez ograde radnik privezan pojasom s konopcem duljine najviše 150 cm.",
         "Skela: mora biti atestirana, imati proračun nosivosti i stabilnosti (osim ako je sastavljena prema opće priznatim normama); radnik zadovoljava uvjete poslova s posebnim uvjetima rada. Ljestve samo kod niske opasnosti/kratkotrajnog rada; prečke vodoravne, stabilna podloga.",
         "Rad s užetom: najmanje 2 odvojena usidrena užeta (radno + zaštitno), pojasevi vezani na zaštitno uže, samozaustavni uređaj, alat pričvršćen za pojas, plan spašavanja.",
-        "OZO (NN 5/21): koristi se kad se rizici ne mogu otkloniti osnovnim pravilima ili organizacijom rada; poslodavac je određuje na temelju procjene rizika; obuhvaća i svako pomagalo ili dodatak. Za gradilište: kacige, naočale, štitnici sluha, rukavice, zaštitna obuća, oprema protiv pada, odjeća visoke vidljivosti.",
-        "Sigurnosne boje: crvena = zabrana, alarm, isključenje u nuždi, požarna oprema; žuta = upozorenje; plava = obveza (nosite OZO); zelena = izlaz u nuždi, prva pomoć, nema opasnosti. Prepreke i opasna područja: izmjenične žuto-crne ili crveno-bijele pruge pod kutom 45°, jednake širine."
+        "OZO (NN 5/21): koristi se kad se rizici ne mogu otkloniti osnovnim pravilima ili organizacijom rada; poslodavac je određuje na temelju procjene rizika; obuhvaća i svako pomagalo ili dodatak.",
+        "Za gradilište: kacige, naočale, štitnici sluha, rukavice, zaštitna obuća, oprema protiv pada, odjeća visoke vidljivosti.",
+        "Sigurnosne boje: crvena = zabrana, alarm, isključenje u nuždi, požarna oprema",
+        "Žuta = upozorenje",
+        "Plava = obveza (nosite OZO)",
+        "Zelena = izlaz u nuždi, prva pomoć, nema opasnosti.",
+        "Prepreke i opasna područja: izmjenične žuto-crne ili crveno-bijele pruge pod kutom 45°, jednake širine."
       ]
     },
     {

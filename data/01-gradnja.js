@@ -8,12 +8,14 @@ window.APP_DATA.push({
     {
       heading: "Temeljni pojmovi (Zakon o gradnji, NN 155/25, čl. 3.)",
       points: [
-        "Gradnja = projektiranje i građenje građevina te stručni nadzor građenja; građenje = izvedba građevinskih i drugih radova (pripremni, zemljani, konstruktorski, instalaterski, završni, ugradnja proizvoda, opreme ili postrojenja).",
+        "Gradnja = projektiranje i građenje građevina te stručni nadzor građenja",
+        "Građenje = izvedba građevinskih i drugih radova (pripremni, zemljani, konstruktorski, instalaterski, završni, ugradnja proizvoda, opreme ili postrojenja).",
         "Građevina = građenjem nastao i s tlom povezan sklop, izveden od svrhovito povezanih građevnih proizvoda, s instalacijama ili bez njih.",
         "Zgrada = zatvorena i/ili natkrivena građevina namijenjena boravku ljudi odnosno smještaju životinja, biljaka i stvari.",
         "Rekonstrukcija = radovi na postojećoj građevini kojima se utječe na ispunjavanje temeljnih zahtjeva ili mijenja usklađenost s lokacijskim uvjetima (dograđivanje, nadograđivanje, promjena namjene...); ne smiju se ukloniti najmanje temelji i dio najniže etaže.",
         "Održavanje = radovi radi očuvanja temeljnih zahtjeva tijekom trajanja građevine, kojima se ne mijenja usklađenost s lokacijskim uvjetima.",
-        "Manje složena zgrada = stambena zgrada s najviše 2 stana do 400 m² GBP ili poljoprivredna zgrada do 600 m² GBP; višestambena zgrada = 3 ili više stambenih jedinica.",
+        "Manje složena zgrada = stambena zgrada s najviše 2 stana do 400 m² GBP ili poljoprivredna zgrada do 600 m² GBP",
+        "Višestambena zgrada = 3 ili više stambenih jedinica.",
         "Novi Zakon (NN 155/25, na snazi od 1.1.2026.) napušta dosadašnje 3 skupine građevina — građevine se razvrstavaju na manje složene zgrade, višestambene zgrade i ostale građevine."
       ]
     },

@@ -9,7 +9,8 @@ window.APP_DATA.push({
         "Vode su opće dobro s osobitom zaštitom RH i ne mogu biti objekt prava vlasništva. Granicu kopnenih voda i mora te granice vodnih područja utvrđuje Vlada RH.",
         "Vodno dobro: korita površinskih voda, uređeno i neuređeno inundacijsko područje, prostor za zaštitu izvorišta (mineralne/geotermalne izdašnosti ≥10 m3 dnevno) i otoci u koritu; pripadnost utvrđuje Ministarstvo rješenjem uz mišljenje Hrvatskih voda.",
         "Vodna područja: vodno područje rijeke Dunav i jadransko vodno područje; dijele se na podslivove (Sava; Drava i Dunav), 34 područja malih slivova i 6 sektora. Vode I. reda (međudržavne, priobalne, veće vode, bujice) utvrđuje Vlada; ostale su II. reda.",
-        "Strategiju upravljanja vodama donosi Hrvatski sabor; planski dokumenti: Strategija, Plan upravljanja vodnim područjima, višegodišnji programi gradnje, financijski plan Hrvatskih voda, Plan upravljanja vodama i detaljni planovi.",
+        "Strategiju upravljanja vodama donosi Hrvatski sabor",
+        "Planski dokumenti: Strategija, Plan upravljanja vodnim područjima, višegodišnji programi gradnje, financijski plan Hrvatskih voda, Plan upravljanja vodama i detaljni planovi.",
         "Načela: jedinstvo vodnog sustava, održivi razvitak, predostrožnost, »onečišćivač plaća« / »korisnik plaća«, naknada za korištenje iznad općeg; javno vodno dobro za odmor i rekreaciju koristi se prema odluci JLS/JP(R)S uz prethodnu suglasnost Hrvatskih voda.",
         "Koncesija za uslugu javnog navodnjavanja daje se na 3–5 godina, za radove u javnom navodnjavanju do 20 godina."
       ]
@@ -29,7 +30,8 @@ window.APP_DATA.push({
       points: [
         "Šest vodopravnih akata: vodopravni uvjeti, mišljenje na uvjete okolišne dozvole, vodopravna potvrda, vodopravna dozvola (upravni akt), posebni uvjeti priključenja i potvrda o sukladnosti s posebnim uvjetima priključenja.",
         "Vodopravne uvjete izdaju Hrvatske vode kao posebne uvjete (neupravni akt) kad propisi o prostornom uređenju, gradnji ili rudarstvu upućuju na posebne uvjete, za zahvate koji utječu na ciljeve upravljanja vodama (zahvaćanje voda, ispuštanje otpadnih voda, zone sanitarne zaštite, vodno dobro, poplavna područja, plinovodi, farme...).",
-        "Kao zaseban UPRAVNI akt (može se neposredno izvoditi zahvat): vađenje mineralnih sirovina iz obnovljivih ležišta, vodoistražni radovi i drugi radovi koji utječu na vode. Neupravni: akvakultura i istraživanje mineralnih sirovina iz neobnovljivih ležišta.",
+        "Kao zaseban UPRAVNI akt (može se neposredno izvoditi zahvat): vađenje mineralnih sirovina iz obnovljivih ležišta, vodoistražni radovi i drugi radovi koji utječu na vode.",
+        "Neupravni: akvakultura i istraživanje mineralnih sirovina iz neobnovljivih ležišta.",
         "Vodopravni uvjeti nisu potrebni za građevine koje koriste vodu iz javne vodoopskrbe i ispuštaju sanitarne otpadne vode u javnu odvodnju (osim u inundacijskom području); neće se izdati ako nije proveden PUO ili postupak prihvatljivosti za ekološku mrežu, ako nema odluke o odvodnji, ako je zahvat zabranjen u zoni sanitarne zaštite ili idejni projekt nije usklađen sa ZOV.",
         "Mišljenje na uvjete okolišne dozvole izdaju Hrvatske vode — ocjena sukladnosti uvjeta iz zahtjeva operatera glede korištenja voda i ispuštanja otpadnih voda; mogu predložiti i druge mjere. Potvrdu na utvrđene uvjete okolišne dozvole također izdaju Hrvatske vode.",
         "Vodopravna potvrda (Hrvatske vode): potvrda glavnog projekta ako je sukladan vodopravnim uvjetima; za promjenu namjene/uporabe građevine; za nezakonito izgrađenu zgradu u koridoru vodnih građevina; za elaborate vađenja, vodoistražnih radova i snimke izvedenog stanja.",

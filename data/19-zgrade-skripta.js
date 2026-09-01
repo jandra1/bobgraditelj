@@ -31,7 +31,8 @@ window.APP_DATA.push({
       points: [
         "Ulaz: jednokrilna vrata najmanje 110/210 cm ili dvokrilna 2 x 90/210 cm; otvaranje prema van ili posmično; prag ne viši od 2 cm; strugač i otirač u razini poda; uz kružna vrata i zaokretna/posmična širine 90 cm; klizna vrata 90/210 cm + uporabni prostor 150 x 150 cm.",
         "Ulaz: staklene plohe > 1,5 m2 bez prečki – uočljiva oznaka na visini 90–160 cm; vjetrobran duljine 240 cm ili toplinski zastor; zaokretna ograda usmjeravajućeg ulaza svijetle širine 90 cm; osvjetljenje 200 luxa.",
-        "Taktilna površina: reljefna obrada visine do 5 mm, prepoznatljiva stopalom ili bijelim štapom, ne otežava kolica, ne zadržava vodu i snijeg. Obvezna: stubište, od ulaza do dizala / javnog WC-a / šaltera / pulta / bankomata / orijentacijskog plana, stajalište i peron, semafor na prijelazu s više od 2 trake u istom smjeru, pješački prijelaz, pješački otok u razini kolnika, raskrižje.",
+        "Taktilna površina: reljefna obrada visine do 5 mm, prepoznatljiva stopalom ili bijelim štapom, ne otežava kolica, ne zadržava vodu i snijeg.",
+        "Obvezna: stubište, od ulaza do dizala / javnog WC-a / šaltera / pulta / bankomata / orijentacijskog plana, stajalište i peron, semafor na prijelazu s više od 2 trake u istom smjeru, pješački prijelaz, pješački otok u razini kolnika, raskrižje.",
         "Jednostavno prilagodljiv stan: može se po potrebi prilagoditi u pristupačni bez utjecaja na temeljne zahtjeve i lokacijske uvjete; rješenje prikazano u projektu; 1 na svakih 10 stanova; u pravilu u prizemlju (nije obveza); pristupačne komunikacije od garaže do stana.",
         "Stan: ulazna vrata 110 cm, ostala 80 cm, hodnici 120 cm, pragovi zaobljeni do 2 cm; kada gornjeg ruba najviše 50 cm i/ili tuš bez pregrade 90 x 90 cm; kuhinjska ploha najviše 85 cm, viseći elementi donji rub na 120 cm; utičnice 90–120 cm; kvake na vratima na 90 cm, na prozoru 90–120 cm."
       ]
@@ -40,11 +41,14 @@ window.APP_DATA.push({
       heading: "Dimnjaci, ventilacija i klimatizacija (tehnički propisi)",
       points: [
         "Tehnički propis za dimnjake: tehnička svojstva, projektiranje, izvođenje, uporabljivost, održavanje dimnjaka i zahtjevi za građevne proizvode za dimnjake.",
-        "Vrste dimnjaka prema izvođenju: montažni, predgotovljeni (sistemski), zidani. Proizvodi: glineni/keramički, metalni, betonski, predgotovljeni sistemski dimnjaci.",
+        "Vrste dimnjaka prema izvođenju: montažni, predgotovljeni (sistemski), zidani.",
+        "Proizvodi: glineni/keramički, metalni, betonski, predgotovljeni sistemski dimnjaci.",
         "Tehničko rješenje dimnjaka određuje se arhitektonskim i/ili građevinskim te strojarskim projektom; post-potresna obnova dimnjaka uz novi kondenzacijski bojler – arhitektonski, građevinski i strojarski projekt.",
         "Sustav ventilacije: dovod vanjskog i odvod onečišćenog zraka; prirodna (prozori, otvori, kanali) ili prisilna (ventilator).",
-        "Klimatizacija: temperatura, vlažnost, kvaliteta zraka + prisilna izmjena – sva 4 postupka dorade (grijanje, hlađenje, ovlaživanje, odvlaživanje). Djelomična klimatizacija: 2 ili 3 postupka.",
-        "Djelomična klimatizacija prema kvaliteti zraka: s vanjskim zrakom, bez vanjskog zraka (bez ventilacije), s mješavinom vanjskog i optočnog. Klimatizacija: samo s vanjskim zrakom ili s mješavinom."
+        "Klimatizacija: temperatura, vlažnost, kvaliteta zraka + prisilna izmjena – sva 4 postupka dorade (grijanje, hlađenje, ovlaživanje, odvlaživanje).",
+        "Djelomična klimatizacija: 2 ili 3 postupka.",
+        "Djelomična klimatizacija prema kvaliteti zraka: s vanjskim zrakom, bez vanjskog zraka (bez ventilacije), s mješavinom vanjskog i optočnog.",
+        "Klimatizacija: samo s vanjskim zrakom ili s mješavinom."
       ]
     },
     {
@@ -54,7 +58,8 @@ window.APP_DATA.push({
         "Ne izdaje se za: zgrade za vjerske obrede; privremene zgrade s rokom uporabe 2 godine ili manje, industrijska postrojenja, radionice, nestambene poljoprivredne zgrade s malim energetskim potrebama; stambene zgrade korištene manje od 4 mjeseca godišnje; slobodnostojeće zgrade korisne površine manje od 50 m2.",
         "Nove zgrade (akt za građenje nakon 1. 10. 2007.): certifikat na temelju glavnog projekta, pisane izjave izvođača, vizualnog pregleda i završnog izvješća nadzornog inženjera; sadrži preporuke za korištenje.",
         "Postojeće zgrade: energetski pregled + proračuni (QH,nd, QC,nd, isporučena energija, primarna energija, CO2) i energetski razred; sadrži prijedlog mjera (troškovno optimalno/učinkovito poboljšanje).",
-        "Primarna energija: iz obnovljivih i neobnovljivih izvora, nije podvrgnuta pretvorbi. Isporučena energija: dovodi se kroz granicu sustava (registrira se na mjernom satu).",
+        "Primarna energija: iz obnovljivih i neobnovljivih izvora, nije podvrgnuta pretvorbi.",
+        "Isporučena energija: dovodi se kroz granicu sustava (registrira se na mjernom satu).",
         "QH,nd [kWh/a] – godišnja potrebna toplinska energija za grijanje; po jedinici korisne površine [kWh/(m2·a)]. Energetsko svojstvo zgrade izražava se pokazateljem primarne energije u kWh/(m2·a).",
         "Faktor oblika f0 = A/Ve [m-1] – količnik oplošja i obujma grijanog dijela; manji je povoljniji (nerazvedene zgrade, manje pročelja = manji gubici). Toplinski most – manje područje omotača s povećanim toplinskim tokom (promjena materijala, debljine, geometrije); rizik kondenzacije.",
         "nZEB – zgrada gotovo nulte energije; najmanje 30 % godišnje isporučene energije za tehničke sustave iz obnovljivih izvora."
@@ -64,7 +69,8 @@ window.APP_DATA.push({
       heading: "TP o racionalnoj uporabi energije i toplinskoj zaštiti; TP za prozore i vrata",
       points: [
         "TP o racionalnoj uporabi energije: zahtjevi za nove zgrade i zgrade koje se griju na temperaturu višu od 12 °C; izračun energetskog svojstva, udio OIE, kriteriji nZEB, sadržaj glavnog projekta i Iskaznice energetskih svojstava, održavanje.",
-        "Zgrade koje se ne griju ili do 12 °C: toplinska zaštita ljeti, sprječavanje građevinske štete (kondenzacija), racionalna rasvjeta. Projektne temperature: 18 °C ili više; između 12 i 18 °C; negrijane.",
+        "Zgrade koje se ne griju ili do 12 °C: toplinska zaštita ljeti, sprječavanje građevinske štete (kondenzacija), racionalna rasvjeta.",
+        "Projektne temperature: 18 °C ili više; između 12 i 18 °C; negrijane.",
         "Ne primjenjuje se na: privremene zgrade do 2 godine; industrijska postrojenja, radionice, poljoprivredne zgrade s niskim potrebama (staklenici, staje); hale otvorene više od pola radnog vremena bez zračnih zavjesa; zgrade po Pravilniku o jednostavnim građevinama; vjerske zgrade.",
         "TP za prozore i vrata: vanjski prozori/vrata i ostali na koje se odnose zahtjevi (vjetar, vodonepropusnost, propusnost zraka, prolazak topline, zvučna izolacija, požar i dim); također stijene slične prozorima.",
         "Ne primjenjuje se na: vrata i stijene u potpunosti od stakla, rotirajuća vrata, vrata s mehaničkim pogonom, ostakljene krovne konstrukcije, ovješene fasade, garažna, industrijska vrata i vrata skloništa.",
@@ -80,29 +86,39 @@ window.APP_DATA.push({
         "Projekt konstrukcije dodatno sadrži: u tehničkom opisu način izvođenja, razred izloženosti, mjere zaštite; u proračunu podatke o tlu, potresnom, temperaturnom, snježnom i vjetrovnom području i požarnoj otpornosti; u programu kontrole – kontrolu proizvoda prije ugradnje.",
         "Složene konstrukcije: građevine za koje je propisana kontrola projekta; kod više područja izvješće o kontroli cijele konstrukcije izrađuje revident pretežitog područja.",
         "Rekonstrukcija: utvrditi zatečeno stanje (očevid, dokumentacija, uzorci, proračuni); projektant ocjenjuje primjerenost i opseg prethodnih istraživanja; nakon rekonstrukcije svojstva prema TPGK, iznimno najmanje kakva su bila prije ako se bitno ne utječe na konstrukciju. Mehanička otpornost ne računa se kad se radovima na nju ne utječe.",
-        "Eurokodovi: EC0 osnove, EC1 djelovanja, EC2 beton, EC3 čelik, EC4 spregnute, EC5 drvo, EC6 ziđe, EC7 geotehnika, EC8 potres, EC9 aluminij; nacionalni dodaci (potresne zone, vjetar, snijeg). Koeficijenti GSN: 1,35 stalno, 1,5 promjenjivo; GSU: 1,0."
+        "Eurokodovi: EC0 osnove, EC1 djelovanja, EC2 beton, EC3 čelik, EC4 spregnute, EC5 drvo, EC6 ziđe, EC7 geotehnika, EC8 potres, EC9 aluminij; nacionalni dodaci (potresne zone, vjetar, snijeg).",
+        "Koeficijenti GSN: 1,35 stalno, 1,5 promjenjivo; GSU: 1,0."
       ]
     },
     {
       heading: "Ziđe, mort, serklaži",
       points: [
-        "Ziđe = zidni elementi položeni na određeni način i povezani mortom. Vrste: nearmirano, omeđeno (serklaži), armirano (šipke/mreža u mortu ili betonu), prednapeto (namjerno izazvana tlačna naprezanja).",
+        "Ziđe = zidni elementi položeni na određeni način i povezani mortom.",
+        "Vrste: nearmirano, omeđeno (serklaži), armirano (šipke/mreža u mortu ili betonu), prednapeto (namjerno izazvana tlačna naprezanja).",
         "Zidni elementi: prirodni i umjetni kamen, opeka (puna, šuplja/blok, puna fasadna), betonski blokovi, porasti beton, vapnenosilikatni. Čvrstoća opeke 2–20 N/mm2 (uobičajeno 10 okomito na horizontalne sljubnice, 2 na vertikalne). Najmanja debljina nosivog zida 20 cm (betonski blokovi).",
-        "Mort: tvornički projektirani ili zadanog sastava; opće namjene, lagani (1300 kg/m3), tankoslojni (zrno do 2 mm). Na gradilištu samo za obiteljske kuće/jednostavne građevine ako je čvrstoća ≤ 5 N/mm2 uz omjere u glavnom projektu. M20 = 20 N/mm2 nakon 28 dana; min. M1 nearmirano, M5 armirano/tankoslojni/lakoagregatni.",
-        "Dodaci mortu – kemijski: aerant, plastifikator, usporivač/ubrzivač vezivanja, zadržavanje/odbijanje vode, prionljivost, snižavanje točke zamrzavanja; mineralni: vlakna, fileri, leteći pepeo, kamena prašina, pucolani, pigmenti.",
-        "Serklaži: presjek ≥ 0,02 m2, najmanja izmjera 150 mm; uzdužna armatura ≥ 1 % presjeka, ne manje od 300 mm2 (npr. 4Φ10); vilice ≥ Φ6 na ≤ 150 mm. Vertikalni: na rubovima nosivih zidova, sjecištima, uz otvore > 1,5 m2, razmak ≤ 5 m; betoniraju se nakon ziđa etaže. Horizontalni: na svakoj razini stropa, vertikalni razmak ≤ 4 m; betoniraju se sa stropom.",
-        "Veza ziđa i vertikalnog serklaža: istaci zidnih elemenata svakog drugog reda za ≥ 0,4 visine elementa, ne manje od 4 cm, ili mehanička spojna sredstva. Praksa: 4Φ14, vilice Φ6/25 cm, preklop u stupu 80 cm, presjek min. 15 x 15 cm.",
+        "Mort: tvornički projektirani ili zadanog sastava; opće namjene, lagani (1300 kg/m3), tankoslojni (zrno do 2 mm). Na gradilištu samo za obiteljske kuće/jednostavne građevine ako je čvrstoća ≤ 5 N/mm2 uz omjere u glavnom projektu.",
+        "M20 = 20 N/mm2 nakon 28 dana; min. M1 nearmirano, M5 armirano/tankoslojni/lakoagregatni.",
+        "Dodaci mortu – kemijski: aerant, plastifikator, usporivač/ubrzivač vezivanja, zadržavanje/odbijanje vode, prionljivost, snižavanje točke zamrzavanja",
+        "Mineralni: vlakna, fileri, leteći pepeo, kamena prašina, pucolani, pigmenti.",
+        "Serklaži: presjek ≥ 0,02 m2, najmanja izmjera 150 mm; uzdužna armatura ≥ 1 % presjeka, ne manje od 300 mm2 (npr. 4Φ10); vilice ≥ Φ6 na ≤ 150 mm.",
+        "Vertikalni: na rubovima nosivih zidova, sjecištima, uz otvore > 1,5 m2, razmak ≤ 5 m; betoniraju se nakon ziđa etaže.",
+        "Horizontalni: na svakoj razini stropa, vertikalni razmak ≤ 4 m; betoniraju se sa stropom.",
+        "Veza ziđa i vertikalnog serklaža: istaci zidnih elemenata svakog drugog reda za ≥ 0,4 visine elementa, ne manje od 4 cm, ili mehanička spojna sredstva.",
+        "Praksa: 4Φ14, vilice Φ6/25 cm, preklop u stupu 80 cm, presjek min. 15 x 15 cm.",
         "Prilozi TP za zidane konstrukcije: A ziđe, B zidni elementi, C mort, D veziva, E dodaci mortu, F agregat/voda/čelik/beton, G pomoćni dijelovi (spone, nadvoji), H predgotovljeno ziđe, I projektiranje, J izvođenje i održavanje."
       ]
     },
     {
       heading: "Beton, armatura, opterećenja, geotehnika",
       points: [
-        "Beton = cement + agregat + dodaci + voda; gustoća oko 2,4 t/m3; težina AB konstrukcije 25 kN/m3 (vlastita težina ploče = volumen x 25 kN/m3). C 25/30: tlačna čvrstoća 28 dana – 25 N/mm2 valjak, 30 N/mm2 kocka.",
+        "Beton = cement + agregat + dodaci + voda; gustoća oko 2,4 t/m3; težina AB konstrukcije 25 kN/m3 (vlastita težina ploče = volumen x 25 kN/m3).",
+        "C 25/30: tlačna čvrstoća 28 dana – 25 N/mm2 valjak, 30 N/mm2 kocka.",
         "Dodaci betonu – kemijski (plastifikator, superplastifikator, aerant, ubrzivač/usporivač, vodonepropusnost, za mlazni beton, za niske temperature); mineralni (fileri, pigmenti, leteći pepeo, silicijska prašina).",
         "Razredi izloženosti: X0 bez rizika, XC karbonatizacija, XD kloridi ne iz mora, XS kloridi iz mora, XF smrzavanje/odmrzavanje, XA kemijsko djelovanje, XM habanje.",
         "B500B: B = čelik za armiranje (Betonstahl), 500 = granica popuštanja N/mm2, B = razred duktilnosti (C najduktilniji, pa B, pa A). Q mreža nosiva u oba smjera, R u jednom. Preklop mreže 3 polja ili 40 cm; šipki 20 cm ili 15Φ. Balkon – armatura u gornjoj zoni; ploča – donja zona u polju, gornja nad ležajem.",
-        "EC1 opterećenja: stalna (G), promjenjiva (Q – korisno, snijeg, vjetar), izvanredna (eksplozija, sudar), kombinacije. EC8: nacionalni dodatak – karta potresnih zona prema ubrzanju tla; izoseiste – linije jednake jačine potresa; obilježja: jednostavnost, simetrija, dvosmjerna i torzijska otpornost, djelotvorni stropovi, temeljenje.",
+        "EC1 opterećenja: stalna (G), promjenjiva (Q – korisno, snijeg, vjetar), izvanredna (eksplozija, sudar), kombinacije.",
+        "EC8: nacionalni dodatak – karta potresnih zona prema ubrzanju tla; izoseiste – linije jednake jačine potresa",
+        "Obilježja: jednostavnost, simetrija, dvosmjerna i torzijska otpornost, djelotvorni stropovi, temeljenje.",
         "Geotehnički elaborat: podaci iz istražnih radova (tlo, stijena, podzemna voda); već u idejnom rješenju – način temeljenja, građevna jama, rizici; utječe na vrstu temelja, poboljšanje tla, potporne konstrukcije, dubinu.",
         "EC7 (7-1 opća pravila, 7-2 zemljani radovi/ispitivanja) – 3 geotehničke kategorije:",
         "1. male jednostavne (jednokatnice, niski zidovi – iskustvo)",

@@ -40,7 +40,8 @@ window.APP_DATA.push({
       heading: "Eurokod 6 — zidane konstrukcije",
       points: [
         "Zidane konstrukcije izvode se od zidnih elemenata (opeka, blokovi, kamen) povezanih mortom; nosivost ovisi o čvrstoći elemenata, morta i načinu zidanja.",
-        "Mort opće namjene, lagani i tankoslojni; oznaka M = tlačna čvrstoća u N/mm2 nakon 28 dana (npr. M5).",
+        "Vrste morta: opće namjene, lagani i tankoslojni.",
+        "Oznaka M = tlačna čvrstoća u N/mm2 nakon 28 dana (npr. M5).",
         "Najmanja čvrstoća morta: M1 za nearmirano ziđe, M5 za armirano ziđe.",
         "Omeđeno ziđe: ziđe s vertikalnim i horizontalnim armiranobetonskim serklažima — standardno rješenje za potresna područja.",
         "Vertikalni serklaži: na rubovima nosivih zidova, sjecištima zidova i uz veće otvore; betoniraju se NAKON izvedbe ziđa etaže.",

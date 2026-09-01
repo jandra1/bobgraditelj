@@ -10,7 +10,8 @@ window.APP_DATA.push({
         "Plan niže razine mora biti usklađen s planom više razine; plan užeg područja s planom šireg područja iste razine (uži plan može propisati strože uvjete).",
         "Čl. 86: ako JLS/JPRS ne otkloni neusklađenost u roku iz rješenja Ministarstva, Ministarstvo obustavlja plan od primjene i primjenjuju se Zakon i plan više razine/šireg područja.",
         "GUP se donosi za građevinska područja Grada Zagreba i središnjeg naselja velikoga grada (drugi gradovi ako PPUG tako odredi); ne planira površine izvan GP osim kontaktnog područja mora u prostoru ograničenja.",
-        "Etapno građenje = gradnja pojedinih građevina složene građevine određene LD; fazno građenje = gradnja građevine po dijelovima određenim LD (za svaki dio jedna ili više GD).",
+        "Etapno građenje = gradnja pojedinih građevina složene građevine određene LD",
+        "Fazno građenje = gradnja građevine po dijelovima određenim LD (za svaki dio jedna ili više GD).",
         "Javnopravna tijela: tijela državne uprave, upravni odjeli JLS/JPRS, pravne osobe s javnim ovlastima i druge osobe po posebnim zakonima – sudjeluju zahtjevima/mišljenjima u izradi planova te utvrđivanjem posebnih uvjeta i uvjeta priključenja (nisu JPT tijela koja vrše vlasničke ovlasti na zemljištu RH)."
       ]
     },
@@ -59,7 +60,8 @@ window.APP_DATA.push({
         "Moduli: eGrađevinski dnevnik, eNekretnine (promet nekretnina, zbirka kupoprodajnih cijena), ePlanovi (najsloženiji modul – slojevi i odredbe planova na snazi i u izradi), eDozvola, eEnergetski certifikat, eObnova, eKonferencija.",
         "Info lokacija – neslužbeni dokument za odabranu točku/česticu; Info dozvole – arhiva dozvola.",
         "eDozvola: sustav za izdavanje akata po ZOPU i Zakonu o gradnji; zahtjev za posebne uvjete prilaže grafički prilog i tehnički opis (idejno rješenje); rok JPT 15–30 dana; uvjeti se dostavljaju u eDozvoli ili u korisnički pretinac e-Građani.",
-        "Koraci prijavljenog korisnika (e-Građani): 1. spremi podatke, 2. kreiraj zahtjev, 3. potpiši zahtjev (AKD certifikat eOI/eKID, potpisni PIN), 4. predaj zahtjev; neprijavljeni: spremi podatke, predaj zahtjev."
+        "Koraci prijavljenog korisnika (e-Građani): 1. spremi podatke, 2. kreiraj zahtjev, 3. potpiši zahtjev (AKD certifikat eOI/eKID, potpisni PIN), 4. predaj zahtjev",
+        "Neprijavljeni: spremi podatke, predaj zahtjev."
       ]
     },
     {
@@ -70,9 +72,11 @@ window.APP_DATA.push({
         "Izvan GP: linijska infrastruktura, obrana, nadzor granice, poljoprivredne građevine, šumarstvo/lovstvo/akvakultura, planinarski domovi, eksploatacija mineralnih sirovina i ugljikovodika, reciklažna dvorišta u eksploatacijskim poljima, golf igrališta, robinzonski smještaj do 30 gostiju, stambena/pomoćna zgrada na zemljištu ≥ 20 ha, seoski turizam ≥ 2 ha, rekonstrukcija postojećih, posjetiteljska infrastruktura, mjerni uređaji, uređaji za pročišćavanje, spomen-obilježja.",
         "Golf, polo, skijališta izvan GP (čl. 57): kig max 1 %, kis max 2 %, više od 50 % parkovni nasad/zelenilo; uz njih izdvojeno GP ugostiteljsko-turističke namjene max 5 % površine obuhvata.",
         "Zahvati koji nisu građenje, a izdaje se LD: kavezi za uzgoj ribe, sidrenje pomorskih objekata, pontonska privezišta, sidrišta, plutajuće sunčane elektrane, iskopi u moru, deponije mineralnih sirovina, površine za zrakoplove na prirodnom tlu, kampovi/golf/adrenalinski parkovi bez građevina, robinzonski smještaj.",
-        "Uzgoj ribe više od 300 m od obalne crte i ribolovna područja = državni značaj; uzgoj do 300 m i sidrišta = područni (regionalni) značaj.",
+        "Uzgoj ribe više od 300 m od obalne crte i ribolovna područja = državni značaj",
+        "Uzgoj do 300 m i sidrišta = područni (regionalni) značaj.",
         "Osnovna infrastruktura = građevina za odvodnju otpadnih voda prema mjesnim prilikama iz PP i prometna površina preko koje se osigurava pristup do građevne čestice/zgrade.",
-        "Urbana preobrazba = bitna promjena obilježja izgrađenog dijela GP (mreža javnih površina, namjena, čestice); urbana sanacija = dovođenje prostornog nereda (nezakonito građenje) u planski uređeno stanje, unutar i izvan GP."
+        "Urbana preobrazba = bitna promjena obilježja izgrađenog dijela GP (mreža javnih površina, namjena, čestice)",
+        "Urbana sanacija = dovođenje prostornog nereda (nezakonito građenje) u planski uređeno stanje, unutar i izvan GP."
       ]
     },
     {
@@ -97,19 +101,23 @@ window.APP_DATA.push({
         "Obuhvat bez građevnih čestica: eksploatacijska polja, rudarski objekti, zahvati koji nisu građenje, cjevovodi/kabeli, žičare/dalekovodi, vojne lokacije; obuhvat s formiranjem čestica: ceste, pruge, nasipi, akumulacije, elektrane, zračne luke, turističke zone; obuhvat s česticom za dio zahvata: luke, HE, golf, skijališta, vjetroparkovi, solarne elektrane, složeni zahvati.",
         "Ceste: u idejnom projektu koridor/obuhvat na DOF-u s preklopom katastra; LD nije obvezna; nakon GD, a prije zahtjeva za uporabnu, čestice se formiraju parcelacijskim elaboratom uz potvrdu upravnog tijela.",
         "Situacija: za građevine s česticom na geodetskoj situaciji stvarnog stanja; bez čestice na DOF-u s katastarskim planom; sadrži koordinate lomnih točaka u HTRS96/TM, popis vlasnika nekretnine i – ako graniči s 10 ili manje nekretnina – popis susjednih vlasnika.",
-        "Rješenje o utvrđivanju građevne čestice donosi se kad GD nije utvrdila česticu, dvije+ građevine na istoj k.č. koje nisu cjelina, građevina na dvije+ k.č., ozakonjena zgrada (vlasnik ima i okolno zemljište); prilog: prijedlog na katastarskom planu, GML, dokaz da je građevina postojeća, GD s grafičkim dijelom; ne smije mijenjati granice susjedne utvrđene čestice.",
+        "Rješenje o utvrđivanju građevne čestice donosi se kad GD nije utvrdila česticu, dvije+ građevine na istoj k.č. koje nisu cjelina, građevina na dvije+ k.č., ozakonjena zgrada (vlasnik ima i okolno zemljište)",
+        "Prilog: prijedlog na katastarskom planu, GML, dokaz da je građevina postojeća, GD s grafičkim dijelom; ne smije mijenjati granice susjedne utvrđene čestice.",
         "Zgrada s više samostalnih uporabnih cjelina koja s više strana graniči s javnom površinom – građevna čestica je zemljište ispod zgrade.",
-        "Parcelacija = izmjena oblika i veličine građevne čestice; samo u skladu s LD/urbanističkim ili infrastrukturnim projektom, rješenjima o čestici, GD, PP koji grafički propisuje čestice, granicom GP, sudskom odlukom; parcelacija izvan GP radi povećanja čestice u GP nije dopuštena; GML = otvoreni format za razmjenu prostornih podataka u ISPU."
+        "Parcelacija = izmjena oblika i veličine građevne čestice; samo u skladu s LD/urbanističkim ili infrastrukturnim projektom, rješenjima o čestici, GD, PP koji grafički propisuje čestice, granicom GP, sudskom odlukom; parcelacija izvan GP radi povećanja čestice u GP nije dopuštena",
+        "GML = otvoreni format za razmjenu prostornih podataka u ISPU."
       ]
     },
     {
       heading: "Zaštićeno obalno područje mora – ključne brojke (ZOPU čl. 58–71)",
       points: [
-        "ZOP = područje JLS čije područje zadire u prostor ograničenja; prostor ograničenja = pojas kopna i otoka 1000 m od obalne crte + pojas mora 300 m; granica prostora ograničenja obvezni sadržaj plana u ZOP-u.",
+        "ZOP = područje JLS čije područje zadire u prostor ograničenja",
+        "Prostor ograničenja = pojas kopna i otoka 1000 m od obalne crte + pojas mora 300 m; granica prostora ograničenja obvezni sadržaj plana u ZOP-u.",
         "U prostoru ograničenja nema novih naselja ni novih izdvojenih dijelova GP naselja; postojeći izdvojeni dijelovi ne šire se u pojasu 100 m od obale; novo izdvojeno GP proizvodne namjene samo izvan prostora ograničenja (osim brodogradilišta i sl.).",
         "Čl. 61 zabrane: eksploatacija mineralnih sirovina; vjetro/solarne elektrane (osim integriranih FN panela na zgradama/parkiralištima); odlaganje otpada (osim pretovarnih stanica i reciklažnih dvorišta); uzgoj plave ribe, ostala marikultura 200 m od obale GP (osim Malostonski zaljev); spremišta za vlastite potrebe; privezišta/nasipavanje izvan GP; plutajući objekti za stanovanje; fizička dioba otoka; promjena obalne crte; gradnja bliže od 5 m od pomorskog dobra u naselju i 100 m u izdvojenom GP izvan naselja.",
         "Čl. 62 poljoprivredna zgrada izvan GP: GBP nadzemno do 400 m², visina do 5 m, ukopani podrum do 1000 m², najmanje 100 m od obale, zemljište ≥ 3 ha u jednoj JLS, građevna čestica ≥ 1 ha, ≥ 70 % trajnih nasada, domicilno stanovništvo (OPG, obrt, pravna osoba); max 1/5 kopnene površine prostora ograničenja izvan GP; sve čini gospodarsku i pravnu cjelinu (zabilježba u ZK).",
-        "Čl. 62 t. 2: građevina za vlastite poljoprivredne potrebe na naseljenim otocima (3/4 u prostoru ograničenja) max 20 m², zemljište ≥ 5000 m², 200 m od obale. Marikultura na pomorskom dobru: zgrada do 30 m² uz koncesiju ≥ 1 ha mora.",
+        "Čl. 62 t. 2: građevina za vlastite poljoprivredne potrebe na naseljenim otocima (3/4 u prostoru ograničenja) max 20 m², zemljište ≥ 5000 m², 200 m od obale.",
+        "Marikultura na pomorskom dobru: zgrada do 30 m² uz koncesiju ≥ 1 ha mora.",
         "Čl. 65 izdvojeno GP ugostiteljsko-turističke namjene: građevine ≥ 100 m od obale; 25–100 m bazeni, igrališta, sunčališta, šetnice, terase, sanitarni čvorovi; do 25 m plaže i zelenilo; kig max 30 %, kis max 80 %, ≥ 40 % zelenila.",
         "Čl. 66 u naselju u ZOP-u: ugostiteljsko-turistička namjena max 20 % GP naselja; smještajna građevina > 5 m od pomorskog dobra; kig max 40 %; ≥ 40 % zelenila; u mješovitoj namjeni hotel/pansion do 80 ležajeva.",
         "Čl. 67 kamp: ≥ 40 % zelenila, kig max 30 % (uključivo pokretne kućice), promet/parkirališta max 30 %; u pojasu 25 m od obale samo plaže/zelenilo, 25–100 m bazeni, igrališta, sanitarni čvorovi, oprema za kampiranje.",

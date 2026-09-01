@@ -21,7 +21,8 @@ window.APP_DATA.push({
         "Utvrđuje: sustave AVCP, obveze gospodarskih subjekata, usklađenu tehničku specifikaciju, zahtjeve i postupke za prijavljena tijela i TAB-ove.",
         "Prilog I — temeljni zahtjevi za građevine; Prilog II — postupak donošenja EAD-a; Prilog III — izjava o svojstvima (model); Prilog IV — područja proizvoda i zahtjevi za TAB-ove; Prilog V — sustavi AVCP (1+, 1, 2+, 3, 4).",
         "Uredba 568/2014 mijenja Prilog V (AVCP), Uredba 574/2014 mijenja Prilog III (sadržaj izjave o svojstvima).",
-        "Stavljanje na tržište = prvo stavljanje na raspolaganje; stavljanje na raspolaganje = svaka isporuka za distribuciju, potrošnju ili uporabu u okviru trgovačke djelatnosti, s plaćanjem ili bez.",
+        "Stavljanje na tržište = prvo stavljanje na raspolaganje",
+        "Stavljanje na raspolaganje = svaka isporuka za distribuciju, potrošnju ili uporabu u okviru trgovačke djelatnosti, s plaćanjem ili bez.",
         "Gospodarski subjekt = proizvođač, uvoznik (iz treće zemlje na tržište Unije), distributer (u opskrbnom lancu, nije proizvođač ni uvoznik) ili ovlašteni predstavnik (pisano ovlaštenje proizvođača)."
       ]
     },
@@ -33,7 +34,8 @@ window.APP_DATA.push({
         "Oplata, skela, prozorska kupčica NISU građevni proizvodi — ne ugrađuju se trajno i nemaju utjecaj na temeljne zahtjeve.",
         "Prije stavljanja na tržište GP mora biti sukladan tehničkoj specifikaciji, imati izjavu o svojstvima, CE ili C oznaku i tehničku uputu.",
         "CE se postavlja vidljivo, čitljivo i neizbrisivo, prije stavljanja na tržište; bez izjave o svojstvima CE se ne smije postaviti. C oznaku smije staviti samo proizvođač ili ovlašteni zastupnik.",
-        "Sigurni proizvod: u normalnim ili razumno predvidljivim uvjetima uporabe ne predstavlja nikakav ili samo najmanji rizik spojiv s uporabom; opasni proizvod = svaki koji nije siguran."
+        "Sigurni proizvod: u normalnim ili razumno predvidljivim uvjetima uporabe ne predstavlja nikakav ili samo najmanji rizik spojiv s uporabom",
+        "Opasni proizvod = svaki koji nije siguran."
       ]
     },
     {
@@ -75,7 +77,8 @@ window.APP_DATA.push({
         "Valjana dokumentacija — neusklađeno područje: izjava o svojstvima, oznaka C i tehnička uputa.",
         "Proizvod izrađen na gradilištu: izvještaj o ispitivanju odnosno drugi dokument kojim se dokazuje ispunjavanje zahtjeva iz projekta. Sve na hrvatskom jeziku latiničnim pismom.",
         "Bez dokumentacije → ne ugrađivati, vratiti proizvođaču. S C oznakom → smije se ugrađivati u RH. Već ugrađen bez dokumentacije → uzorak, ispitivanje; nastavak odobrava nadzorni inženjer.",
-        "Proizvod prije ugradnje odobrava nadzorni inženjer. Tehnička uporabivost: svojstva sukladna tehničkoj specifikaciji (izjava + CE/C) i nije istekao rok upotrebe iz tehničke upute."
+        "Proizvod prije ugradnje odobrava nadzorni inženjer.",
+        "Tehnička uporabivost: svojstva sukladna tehničkoj specifikaciji (izjava + CE/C) i nije istekao rok upotrebe iz tehničke upute."
       ]
     },
     {

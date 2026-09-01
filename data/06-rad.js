@@ -75,7 +75,8 @@ window.APP_DATA.push({
       heading: "Sigurnosni znakovi i buka",
       points: [
         "Sigurnosni znakovi postavljaju se kada se rizici ne mogu ukloniti ili dovoljno smanjiti drugim mjerama (NN 91/15, 102/15, 61/16).",
-        "Znakovi zabrane: okrugli, crveni rub s kosom crtom na bijeloj podlozi; znakovi upozorenja: trokutasti, žuti s crnim rubom.",
+        "Znakovi zabrane: okrugli, crveni rub s kosom crtom na bijeloj podlozi",
+        "Znakovi upozorenja: trokutasti, žuti s crnim rubom.",
         "Znakovi obveze: okrugli, plavi; znakovi za evakuacijske putove, izlaze i prvu pomoć: četvrtasti/pravokutni, zeleni; znakovi za protupožarnu opremu: četvrtasti, crveni.",
         "Pravilnik o zaštiti radnika od izloženosti buci na radu (NN 148/23): donja upozoravajuća granica 80 dB(A), gornja upozoravajuća granica 85 dB(A), granična vrijednost izloženosti 87 dB(A) uz L(EX,8h).",
         "Vršne vrijednosti zvučnog tlaka: 135 dB(C), 137 dB(C) i 140 dB(C) (200 Pa) za donju, gornju odnosno graničnu vrijednost.",

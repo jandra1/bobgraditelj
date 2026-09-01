@@ -27,7 +27,8 @@ window.APP_DATA.push({
         "Odluku o komunalnoj naknadi donosi predstavničko tijelo JLS: područja zona, koeficijenti zone i namjene, rokovi plaćanja, oslobođenja (čl. 95.).",
         "Koeficijent zone (Kz) za prvu, najbolje opremljenu zonu iznosi 1,00 (čl. 96.); koeficijent namjene (Kn) za neizgrađeno građevinsko zemljište iznosi 0,05 (čl. 97.).",
         "Vrijednost boda (B) određuje predstavničko tijelo do kraja studenoga tekuće godine za sljedeću godinu; ne odredi li novu, primjenjuje se dosadašnja (čl. 98.).",
-        "Iznos po m² = B × Kz × Kn; godišnji iznos = iznos po m² × obračunska površina nekretnine (čl. 99.).",
+        "Iznos po m² = B × Kz × Kn",
+        "Godišnji iznos = iznos po m² × obračunska površina nekretnine (čl. 99.).",
         "Rješenje donosi upravno tijelo JLS (čl. 100.), a o žalbi odlučuje upravno tijelo županije nadležno za poslove komunalnog gospodarstva (čl. 102.)."
       ]
     },

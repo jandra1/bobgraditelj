@@ -7,7 +7,8 @@ window.APP_DATA.push({
       points: [
         "Zakon o akreditaciji uređuje osnivanje i djelatnost tijela koje obavlja poslove nacionalne službe za akreditaciju (HAA — javna ustanova koju osniva Vlada RH), područje akreditacije i akreditaciju u vezi s propisima o ocjenjivanju sukladnosti.",
         "U postupku akreditacije utvrđuje se osposobljenost pravnih i fizičkih osoba prema međunarodnim/europskim normama; akreditacija se daje na zahtjev, sklapa se ugovor, dodjeljuje potvrda o akreditaciji — vremenski je ograničena.",
-        "Akreditacija = dokaz kompetentnosti (vrh piramide infrastrukture kvalitete); certifikacija = potvrda sukladnosti sustava, proizvoda ili osoba s normom (npr. HRN EN ISO 9001). Akreditacijska tijela akreditiraju certifikacijska tijela.",
+        "Akreditacija = dokaz kompetentnosti (vrh piramide infrastrukture kvalitete)",
+        "Certifikacija = potvrda sukladnosti sustava, proizvoda ili osoba s normom (npr. HRN EN ISO 9001). Akreditacijska tijela akreditiraju certifikacijska tijela.",
         "Norma je dokument za opću i višekratnu uporabu, donesen konsenzusom i odobren od priznatog tijela; same po sebi norme NISU obvezne, ali postaju obvezne kad se na njih pozivaju zakoni ili tehnički propisi.",
         "Hrvatske norme izrađuje Hrvatski zavod za norme (HZN) na prijedlog tehničkih odbora; oznaka HRN, preuzete europske HRN EN — ne treba ih nostrificirati.",
         "Četiri načina nastanka hrvatskih normi: prihvaćanje strane norme uz prijevod (pp), u izvorniku s hrvatskim ovitkom (po), objavom obavijesti o prihvaćanju (pr) i izradba izvorne hrvatske norme (izv).",
@@ -29,31 +30,38 @@ window.APP_DATA.push({
     {
       heading: "Racionalna uporaba energije, energetski certifikat",
       points: [
-        "Energetsko svojstvo zgrade izražava se pokazateljem korištenja primarne energije u kWh/(m2·a); grijana prostorija = projektna temperatura viša od 12 °C; faktor oblika f0 = A/Ve (manji je bolji).",
+        "Energetsko svojstvo zgrade izražava se pokazateljem korištenja primarne energije u kWh/(m2·a)",
+        "Grijana prostorija = projektna temperatura viša od 12 °C",
+        "Faktor oblika f0 = A/Ve (manji je bolji).",
         "Sve nove zgrade od 31. 12. 2020. moraju biti zgrade gotovo nulte energije (nZEB); zgrade tijela javne vlasti već nakon 31. 12. 2018.",
         "Propis se ne primjenjuje na privremene zgrade s rokom uporabe do 2 godine, industrijska postrojenja i zgrade niskih energetskih potreba, hale otvorene više od pola radnog vremena, zgrade bez građevinske dozvole i glavnog projekta te obredne/vjerske zgrade.",
         "Energetski certifikat pribavlja se prije uporabne dozvole, promjene vlasništva ili iznajmljivanja; izdaje ga ovlaštena osoba, a ovlaštenje daje Ministarstvo. Od 1. 7. 2013. obvezan za zgrade/cjeline koje se prodaju.",
-        "Certifikat nove zgrade: na temelju glavnog projekta, izjave izvođača, vizualnog pregleda i završnog izvješća nadzornog inženjera; sadrži preporuke za korištenje. Certifikat postojeće zgrade: energetski pregled + prijedlog ekonomski opravdanih mjera.",
+        "Certifikat nove zgrade: na temelju glavnog projekta, izjave izvođača, vizualnog pregleda i završnog izvješća nadzornog inženjera; sadrži preporuke za korištenje.",
+        "Certifikat postojeće zgrade: energetski pregled + prijedlog ekonomski opravdanih mjera.",
         "Energetski razred (A+ do G, 8 razreda) pokazatelj je specifične godišnje potrebne toplinske energije za grijanje Q''H,nd i specifične godišnje primarne energije Eprim za referentne klimatske podatke.",
         "Javno izlaganje certifikata (prva stranica + stranica s mjerama, A3): zgrade javne namjene korisne površine veće od 250 m2.",
-        "Energetski pregled prethodi certificiranju; energetsko certificiranje = skup radnji u svrhu izdavanja certifikata (Pravilnik o energetskom pregledu i certificiranju)."
+        "Energetski pregled prethodi certificiranju",
+        "Energetsko certificiranje = skup radnji u svrhu izdavanja certifikata (Pravilnik o energetskom pregledu i certificiranju)."
       ]
     },
     {
       heading: "Zakon o mjeriteljstvu",
       points: [
         "Uređuje djelokrug državnih i ovlaštenih tijela u mjeriteljstvu, sustav mjernih jedinica, etalone, zahtjeve za mjerila u zakonskom mjeriteljstvu, ovjeravanje mjerila, pretpakovine i mjeriteljsku inspekciju.",
-        "Zakonsko mjeriteljstvo = radnje iz zakonskih zahtjeva (mjerenja, jedinice, mjerila); temeljno mjeriteljstvo = državni etaloni, sljedivost i jedinstvenost mjerenja, razvoj novih metoda.",
+        "Zakonsko mjeriteljstvo = radnje iz zakonskih zahtjeva (mjerenja, jedinice, mjerila)",
+        "Temeljno mjeriteljstvo = državni etaloni, sljedivost i jedinstvenost mjerenja, razvoj novih metoda.",
         "Poslove obavljaju: Državni zavod za mjeriteljstvo (DZM), ovlaštena tijela (ovjeravanje mjerila kao javna ovlast) i nacionalni umjerni laboratoriji.",
         "Etalon = ostvarenje definicije veličine s iskazanom vrijednošću i mjernom nesigurnošću (npr. metar); državni etalon priznat odlukom mjerodavnog tijela; referentni etalon služi umjeravanju drugih etalona u organizaciji.",
-        "Umjeravanje = uspostava odnosa između vrijednosti etalona i pokazivanja mjerila; ovjeravanje = ispitivanje i označavanje mjerila kojim se potvrđuje sukladnost s propisanim zahtjevima.",
+        "Umjeravanje = uspostava odnosa između vrijednosti etalona i pokazivanja mjerila",
+        "Ovjeravanje = ispitivanje i označavanje mjerila kojim se potvrđuje sukladnost s propisanim zahtjevima.",
         "Mjeriteljska sljedivost = povezanost rezultata s referencijom neprekinutim lancem umjeravanja; u RH se primjenjuju SI jedinice."
       ]
     },
     {
       heading: "Granična stanja, koeficijenti sigurnosti, eurokodovi",
       points: [
-        "GSN = granično opterećenje pri kojem konstrukcija gubi nosivost (sigurnost); GSU = gubi uporabivost (pukotine, progibi). GSU je često stroži kriterij.",
+        "GSN = granično opterećenje pri kojem konstrukcija gubi nosivost (sigurnost)",
+        "GSU = gubi uporabivost (pukotine, progibi). GSU je često stroži kriterij.",
         "Parcijalni koeficijenti: GSN 1,35 za vlastito i 1,5 za korisno opterećenje (povoljno korisno se ne uzima); GSU 1,0 za oba. Postoje i koeficijenti za materijale i kombinacije djelovanja.",
         "Eurokodovi = usklađene europske norme za proračun konstrukcija; cilj je jedinstven sustav proračuna u Europi; svaka članica izrađuje nacionalne dodatke (karte potresnih zona, vjetar, snijeg).",
         "EC0 osnove, EC1 djelovanja, EC2 beton, EC3 čelik, EC4 spregnute, EC5 drvo, EC6 zidane, EC7 geotehnika, EC8 potres, EC9 aluminij.",
@@ -71,7 +79,8 @@ window.APP_DATA.push({
         "Dostavnica betona: razred tlačne čvrstoće, max. zrno agregata, konzistencija, udio klorida, razred izloženosti, vrsta cementa, količina, podaci o betonari, oznaka sukladnosti »C«.",
         "Zidane konstrukcije: nearmirano, omeđeno, armirano, prednapeto ziđe; projekt sadrži tehnički opis, proračun i program kontrole. Ne primjenjuje se na industrijske dimnjake, potporne zidove, mostove, brane, spremnike, lukove, svodove, kupole.",
         "Omeđeno ziđe: vertikalni i horizontalni serklaži ploštine ≥0,02 m2 s najmanjom izmjerom 150 mm; predgotovljeno ziđe ne može biti nearmirano; kod okvira ispunjenog ziđem sva vertikalna opterećenja preuzima okvir.",
-        "Čelične konstrukcije svrstavaju se u razrede izvedbe EXC1–EXC4 prema HRN EN 1090; drvena konstrukcija = od cjelovitog drva i materijala na osnovi drva."
+        "Čelične konstrukcije svrstavaju se u razrede izvedbe EXC1–EXC4 prema HRN EN 1090",
+        "Drvena konstrukcija = od cjelovitog drva i materijala na osnovi drva."
       ]
     },
     {
@@ -80,9 +89,11 @@ window.APP_DATA.push({
         "Prozori i vrata proizvode se u pogonima izvan gradilišta; profili su neharmonizirano, staklo i okovi harmonizirano područje; uobičajeni sustav 3, vrata na evakuacijskim putevima sustav 1.",
         "Projektom se određuju: otpornost na vjetar, vodonepropusnost, propusnost zraka, prolazak topline, zvučna izolacija, otpornost na požar i dim; ako je vijek građevine duži od vijeka prozora — uvjeti zamjene.",
         "Propis se ne primjenjuje na vrata u potpunosti od stakla, rotirajuća vrata, vrata s mehaničkim pogonom, ostakljene krovove, ovješene fasade, garažna, industrijska vrata i vrata za skloništa.",
-        "Dimnjak = dio građevnog sklopa, vertikalni kanal postojan na požar čađe za odvod dimnih plinova; vrste: montažni (na gradilištu od usklađenih proizvoda), predgotovljeni/sistemski (u pogonu) i zidani (od punih opeka).",
+        "Dimnjak = dio građevnog sklopa, vertikalni kanal postojan na požar čađe za odvod dimnih plinova",
+        "Vrste: montažni (na gradilištu od usklađenih proizvoda), predgotovljeni/sistemski (u pogonu) i zidani (od punih opeka).",
         "Tehnički propis za dimnjake ne primjenjuje se na samostojeći dimnjak i dimnjak isključivo u funkciji proizvodnog pogona; pričuvni dimnjak ima svijetli otvor najmanje 200 cm2 (kruta goriva u izvanrednim uvjetima).",
-        "Tehničko rješenje dimnjaka obuhvaćeno je arhitektonskim i/ili građevinskim te strojarskim projektom; proizvodi za dimnjake: glineni/keramički, metalni, betonski, sistemski dimnjaci.",
+        "Tehničko rješenje dimnjaka obuhvaćeno je arhitektonskim i/ili građevinskim te strojarskim projektom",
+        "Proizvodi za dimnjake: glineni/keramički, metalni, betonski, sistemski dimnjaci.",
         "Završni radovi (18): teracerski, fasaderski, gipsarski, keramičarski, ličilački, soboslikarski, tapetarski, kamenorezački, podopolagački, parketarski, izolaterski, bravarski, limarski, stolarski, roletarski, staklorezački, antikorozijska zaštita, spušteni stropovi i lake pregrade."
       ]
     },
@@ -92,7 +103,8 @@ window.APP_DATA.push({
         "Obvezni elementi: za svladavanje visinskih razlika (rampa, stubište, dizalo, vertikalno podizna i koso podizna platforma), za neovisno življenje (ulazni prostor, WC, kuhinja, šalter...) i u javnom prometu (stajalište, parkiralište, semafor, pješački prijelaz, otok, raskrižje).",
         "Rampa: visinska razlika do 120 cm; nagib do 1:20 (5 %), iznimno 1:12 (8,3 %) do 76 cm; širina 120 cm vani / 90 cm unutra; podest 150 cm na svakih 6 m; rukohvati promjera 4 cm na 60 i 90 cm, produženi 30 cm.",
         "Stubište: stuba max 15 cm, gazište min 33 cm, krak 110 cm unutra / 120 cm vani, kontrastni rub 2 cm, središnji rukohvat ako je krak ≥250 cm, taktilno polje upozorenja 40 cm pred prvom i iza posljednje stube.",
-        "Dizalo obvezno za razliku veću od 120 cm: kabina 110x140 cm, vrata 90 cm, ploča na 90–120 cm, rukohvat 90 cm, taktilna crta vođenja 40 cm od ulaza. Platforma: 110x140 cm, stranice do 120 cm, vrata 90 cm.",
+        "Dizalo obvezno za razliku veću od 120 cm: kabina 110x140 cm, vrata 90 cm, ploča na 90–120 cm, rukohvat 90 cm, taktilna crta vođenja 40 cm od ulaza.",
+        "Platforma: 110x140 cm, stranice do 120 cm, vrata 90 cm.",
         "Ulazni prostor: vrata 110/210 ili 2x90/210 cm, prag do 2 cm, klizna vrata 90/210 s prostorom 150x150, oznaka na staklu >1,5 m2 na 90–160 cm, vjetrobran 240 cm, osvjetljenje 200 lx.",
         "Taktilna površina: reljef do 5 mm, prepoznatljiva stopalom/bijelim štapom, ne zadržava vodu; obvezna pred stubištem, do dizala, WC-a, šaltera, na peronima, semaforima s više od 2 traka, pješačkim prijelazima.",
         "Stambene zgrade s 10 i više stanova: 1 jednostavno prilagodljiv stan na svakih 10 stanova (ulazna vrata 110 cm, ostala 80 cm, hodnik 120 cm, radna ploha do 85 cm); 5 % pristupačnih parkirališnih mjesta, ne manje od 1.",
@@ -105,7 +117,8 @@ window.APP_DATA.push({
         "Usklađeno područje: prijavljeno tijelo (laboratorij, tijelo za certificiranje kontrole tvorničke proizvodnje, tijelo za certificiranje proizvoda) i TAB — tijelo za tehničko ocjenjivanje (donosi EAD i izdaje ETA).",
         "Neusklađeno područje: odobreno tijelo (certifikat o stalnosti svojstava / certifikat KTP prema hrvatskim normama) i hrvatsko tijelo za tehničko ocjenjivanje (HTTO — hrvatski dokument za ocjenjivanje i hrvatska tehnička ocjena uz suglasnost Ministarstva).",
         "Uz proizvod se prilažu izjava o svojstvima i tehničke upute (na hrvatskom, latinicom; sigurnosne obavijesti, čuvanje, transport, ugradnja, rok ugradnje).",
-        "Nadzor na tržištu: tržišni inspektori Državnog inspektorata; nadzor uporabe na gradilištu: građevinski i drugi inspektori. RAPEX = sustav brze razmjene obavijesti o opasnim proizvodima.",
+        "Nadzor na tržištu: tržišni inspektori Državnog inspektorata; nadzor uporabe na gradilištu: građevinski i drugi inspektori.",
+        "RAPEX = sustav brze razmjene obavijesti o opasnim proizvodima.",
         "Zaštitni pojas javnih cesta od vanjskog ruba zemljišnog pojasa: autoceste i brze ceste 40 m, državne 25 m, županijske 15 m, lokalne 10 m; zemljišni pojas najmanje 1 m; posebne uvjete daju HAC, HC ili ŽUC.",
         "Nerazvrstana cesta = javno dobro u općoj uporabi u vlasništvu JLS (npr. ceste u gradovima s više od 35.000 stanovnika, pristupne ceste, terminali). Javna cesta postaje javno dobro pravomoćnošću uporabne dozvole.",
         "Službene karte DGU: HOK 1:5000 ili 1:10 000, DOF 1:2000/1:5000 i sitnije, DTK 1:25 000 do 1:250 000, PTK 1:300 000 i sitnije."

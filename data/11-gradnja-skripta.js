@@ -7,10 +7,12 @@ window.APP_DATA.push({
       points: [
         "Zgradom se NE smatra pojedinačna građevina unutar sustava infrastrukturne građevine (trafostanica, relejna kućica, crpna stanica) ni nadstrešnica za zaštitu opreme unutar industrijskih postrojenja.",
         "Gradilište = zemljište i/ili građevina, uključujući i privremeno zauzete površine, na kojima se izvodi građenje ili radovi potrebni za tehnologiju građenja i zaštite.",
-        "Složena građevina = sklop više funkcionalno i/ili tehnološki povezanih građevina (npr. uređaj za pročišćavanje voda); postojeća građevina = izgrađena na temelju građevinske dozvole ili drugog akta, ili s njom izjednačena.",
+        "Složena građevina = sklop više funkcionalno i/ili tehnološki povezanih građevina (npr. uređaj za pročišćavanje voda)",
+        "Postojeća građevina = izgrađena na temelju građevinske dozvole ili drugog akta, ili s njom izjednačena.",
         "Građevine izgrađene nakon 1. siječnja 2014. smatraju se novim zgradama.",
         "Ugradnja = povezivanje proizvoda, instalacija ili postrojenja tako da postaju sastavni dio građevine i ne mogu se odvojiti bez uklanjanja ili utjecaja na temeljne zahtjeve.",
-        "Skupine građevina: a) manje složene zgrade, b) višestambene zgrade, c) ostale građevine. Višestambena = 3 ili više stambenih jedinica, do 20 % GBP može biti poslovne namjene.",
+        "Skupine građevina: a) manje složene zgrade, b) višestambene zgrade, c) ostale građevine.",
+        "Višestambena = 3 ili više stambenih jedinica, do 20 % GBP može biti poslovne namjene.",
         "Zgrade koje su po ZOG-u 39/19 bile u skupinama 2.a, 2.b i 3.b (stambene do 2 stana i 400 m², poljoprivredne do 600 m²) smatraju se manje složenim zgradama (čl. 137.).",
         "Rokovi dovršenja (čl. 80.): zgrada za koju GD izdaje Ministarstvo 10 g., manje složena zgrada 5 g., ostale zgrade 7 g. — od prijave početka građenja; ne vrijede za pojedinačno zaštićeno kulturno dobro."
       ]
@@ -37,17 +39,21 @@ window.APP_DATA.push({
         "Zahtjeve energetske učinkovitosti propisuje ministar Tehničkim propisom o racionalnoj uporabi energije i toplinskoj zaštiti u zgradama.",
         "Energetski certifikat NE izdaje se za: vjerske zgrade, privremene zgrade (rok do 2 g.), industrijska postrojenja/radionice/nestambene poljoprivredne zgrade s malim potrebama, stambene zgrade koje se koriste manje od 4 mjeseca godišnje, slobodnostojeće zgrade korisne površine < 50 m².",
         "EC važi 10 godina; izrađuje se elektronički i ispisuje isključivo putem IEC-a; izdaje se na temelju energetskog pregleda. Investitor ga pribavlja prije uporabne dozvole; javna namjena > 250 m² — izložiti na vidljivom mjestu.",
-        "JTS: GBP ≤ 600 m², najviše 3 samostalne uporabne cjeline, kotao do 30 kW, solarni kolektori do 4 m², dizalica topline zrak–zrak do 12 kW. STS = sve ostale.",
-        "nZEB = zgrada gotovo nulte energije, min. 30 % godišnje isporučene energije za tehničke sustave iz OIE. Dubinska obnova = ušteda QH,nd i Eprim od najmanje 50 %."
+        "JTS: GBP ≤ 600 m², najviše 3 samostalne uporabne cjeline, kotao do 30 kW, solarni kolektori do 4 m², dizalica topline zrak–zrak do 12 kW.",
+        "STS = sve ostale.",
+        "nZEB = zgrada gotovo nulte energije, min. 30 % godišnje isporučene energije za tehničke sustave iz OIE.",
+        "Dubinska obnova = ušteda QH,nd i Eprim od najmanje 50 %."
       ]
     },
     {
       heading: "ZEUZ — ovlaštene osobe, IEC, elektromobilnost, strategije",
       points: [
         "Ovlaštenje za energetsko certificiranje daje Ministarstvo rješenjem na neodređeno vrijeme (uz stručno usavršavanje); protiv rješenja nema žalbe, može se pokrenuti upravni spor.",
-        "Ovlaštenje za JTS (Modul 1) i za STS (Modul 2); STS obuhvaća i JTS, a za strojarsku struku i redoviti pregled sustava grijanja/hlađenja. Uvjeti: DSS/SDSS (300 ECTS) + 5 g. iskustva ili 2 g. u projektiranju/nadzoru.",
+        "Ovlaštenje za JTS (Modul 1) i za STS (Modul 2); STS obuhvaća i JTS, a za strojarsku struku i redoviti pregled sustava grijanja/hlađenja.",
+        "Uvjeti: DSS/SDSS (300 ECTS) + 5 g. iskustva ili 2 g. u projektiranju/nadzoru.",
         "Ovlaštena osoba čuva dokumentaciju min. 10 godina; vlasnik čuva izvješće o EPZ min. 10 godina. Program izobrazbe i neovisnu kontrolu provode pravne osobe sa suglasnošću/ovlaštenjem Ministarstva na 5 godina.",
-        "Ukinuto ovlaštenje: novi zahtjev tek nakon 1 godine od pravomoćnosti rješenja. Ovlaštenje za kontrolu: pravna osoba s min. 2 zaposlene STS-ovlaštene osobe (min. 1 ARH/GRAĐ), 3 g. iskustva i > 20 pregleda STS.",
+        "Ukinuto ovlaštenje: novi zahtjev tek nakon 1 godine od pravomoćnosti rješenja.",
+        "Ovlaštenje za kontrolu: pravna osoba s min. 2 zaposlene STS-ovlaštene osobe (min. 1 ARH/GRAĐ), 3 g. iskustva i > 20 pregleda STS.",
         "IEC (čl. 42.) — Informacijski sustav energetskih certifikata: vodi ga Ministarstvo; registar ovlaštenih osoba, osoba za kontrolu, izobrazbu, izdanih EC i izvješća — registar je javan.",
         "Elektromobilnost (čl. 47.–50.): nestambene zgrade > 10 PM — barem 1 mjesto za punjenje + kanalska infrastruktura za 1 od 5 PM; > 20 PM — najmanje 1 mjesto za punjenje; stambene > 10 PM — kanalska infrastruktura za svako PM. Izuzeće ako trošak > 7 % značajne obnove.",
         "Dugoročnu strategiju obnove nacionalnog fonda zgrada do 2050. donosi Vlada na prijedlog Ministarstva: perspektiva min. 30 g., donosi se svakih 10 g., ažurira svakih 5 g.; cilj smanjenja emisija u EU 80–95 % do 2050. u odnosu na 1990.",
@@ -57,11 +63,13 @@ window.APP_DATA.push({
     {
       heading: "Sudionici u gradnji: investitor, voditelj projekta, projektant (ZOG čl. 17.–20.)",
       points: [
-        "Samo fizička osoba: projektant, nadzorni inženjer, revident. Pravna ili fizička: investitor, izvođač.",
+        "Samo fizička osoba: projektant, nadzorni inženjer, revident.",
+        "Pravna ili fizička: investitor, izvođač.",
         "Na tehnički pregled poziva se investitor, koji je dužan pozvati sve ostale sudionike u gradnji (čl. 97.).",
         "Investitor pisanim ugovorom povjerava projektiranje, kontrolu i nostrifikaciju projekata, građenje i stručni nadzor; ako je ujedno izvođač, nadzor povjerava drugoj osobi.",
         "Voditelj projekta: 8 g. iskustva, 300 ECTS, znanja iz upravljanja projektima (međunarodna ovjera ili 30 ECTS); evidenciju vodi Ministarstvo. Obveznici javne nabave obvezni ga ugovoriti: infrastruktura > 10 mil. kn, ceste > 50 mil. kn, zgrade javne namjene > 35 mil. kn, > 100 stanova.",
-        "Projektant potpisom naslovne stranice mape preuzima odgovornost da je projekt cjelovit i izrađen po čl. 33./34.; projektant izmjena odgovoran je za cijeli projekt; kršenje = teža povreda dužnosti (prijava komori).",
+        "Projektant potpisom naslovne stranice mape preuzima odgovornost da je projekt cjelovit i izrađen po čl. 33./34.; projektant izmjena odgovoran je za cijeli projekt",
+        "Kršenje = teža povreda dužnosti (prijava komori).",
         "Glavni projektant: odgovoran za cjelovitost i usklađenost projekata, određuje ga investitor ugovorom o projektiranju, može biti ujedno projektant jedne vrste projekta.",
         "Izjava projektanta u idejnom projektu (stari pravilnik): mjesto i datum, oznaka izjave, oznaka projekta, naziv i lokacija zahvata, popis prostornih planova i propisa; prema ZOG-u 155/25 izjave projektanta i glavnog projektanta u glavnom projektu više nisu potrebne."
       ]
@@ -75,7 +83,8 @@ window.APP_DATA.push({
         "Više izvođača: investitor ugovorom o građenju određuje glavnog izvođača koji imenuje glavnog inženjera gradilišta (osigurava cjelovitost i usklađenost radova, sastavlja izjavu, objedinjeni program održavanja; može biti i inženjer gradilišta jednog izvođača).",
         "Fizička osoba investitor s preddiplomskim studijem ARH/GRAĐ + stručni ispit može sama graditi obiteljsku kuću (> 70 % GBP stanovanje, najviše 2 stambene jedinice) za vlastite potrebe.",
         "Izvođač dokazuje sposobnost upisom u registar obrtnika ili sudski registar; projektant upisom u registar ovlaštenih inženjera. Izvođač ne smije biti uključen u stručni nadzor iste građevine.",
-        "Inženjer gradilišta i voditelj radova: prvostupnik (180 ECTS) + stručni ispit ili upis u imenik Komore. Manje složeni radovi: tehničar + 5 g. iskustva + stručni ispit, ili majstorski ispit.",
+        "Inženjer gradilišta i voditelj radova: prvostupnik (180 ECTS) + stručni ispit ili upis u imenik Komore.",
+        "Manje složeni radovi: tehničar + 5 g. iskustva + stručni ispit, ili majstorski ispit.",
         "Pisanu izjavu daju svi izvođači; do zahtjeva za uporabnu dozvolu čuva ih inženjer gradilišta odnosno glavni inženjer gradilišta, koji supotpisuje sve izjave izvođača."
       ]
     },
@@ -87,8 +96,10 @@ window.APP_DATA.push({
         "Obveze: nadzirati usklađenost s GD i GP, utvrditi uvjete izvođača, utvrditi da je iskolčenje obavio ovlašteni inženjer geodezije, nadzirati kontrolna ispitivanja, biti prisutan i ovjeravati građevinski dnevnik, obavijestiti investitora i inspekciju o nedostacima, sastaviti završno izvješće.",
         "Stručni nadzor provodi se za sve građevine za koje se izdaje GD; za manje složene zgrade samo glede mehaničke otpornosti i stabilnosti — nadzorni inženjer pregledava faze i odobrava daljnje radove.",
         "Proizvod koji ne zadovoljava kvalitetom: zabrana ugradnje uz upis u građevinski dnevnik; do otklanjanja nedostataka zabrana građenja; pisana obavijest investitoru i Državnom inspektoratu.",
-        "Građevinska inspekcija nadzire građenje, provedbu stručnog nadzora, održavanje i uporabu (dakle i rad nadzornog inženjera). Inspekcijske mjere: otklanjanje nepravilnosti, zabrana ugradnje proizvoda, otklanjanje oštećenja, usklađivanje građenja, uklanjanje građevine, zabrana uklanjanja, obustava građenja.",
-        "Komunalni redar: zakonitost zahvata koji nisu građenje, ruševine, pročelja i pokrovi, dovršenje vanjskog izgleda, privremena zabrana radova, izlaganje energetskog certifikata. Stranke u inspekcijskom nadzoru: sudionici u gradnji, vlasnik građevine, vlasnik zemljišta, nositelji stvarnih prava."
+        "Građevinska inspekcija nadzire građenje, provedbu stručnog nadzora, održavanje i uporabu (dakle i rad nadzornog inženjera).",
+        "Inspekcijske mjere: otklanjanje nepravilnosti, zabrana ugradnje proizvoda, otklanjanje oštećenja, usklađivanje građenja, uklanjanje građevine, zabrana uklanjanja, obustava građenja.",
+        "Komunalni redar: zakonitost zahvata koji nisu građenje, ruševine, pročelja i pokrovi, dovršenje vanjskog izgleda, privremena zabrana radova, izlaganje energetskog certifikata.",
+        "Stranke u inspekcijskom nadzoru: sudionici u gradnji, vlasnik građevine, vlasnik zemljišta, nositelji stvarnih prava."
       ]
     },
     {
@@ -96,8 +107,10 @@ window.APP_DATA.push({
       points: [
         "Revident: fizička osoba ovlaštena za kontrolu projekata glede mehaničke otpornosti i stabilnosti; ne može kontrolirati projekt u čijoj je izradi sudjelovao ili koji je izrađen u pravnoj osobi u kojoj je zaposlen/vlasnik.",
         "Kontrola je obvezna za zgrade: raspon 10 m i više, građevinska površina 800 m² i više, visina 20 m i više, konzole 5 m i više, ovješene fasade.",
-        "Industrijske/javne: tornjevi 9 m, spremnici 1000 m³, hale 800 m² ili raspon 10 m, stupovi 9 m, bazeni 300 m³, skloništa, tribine. Prometne: nasipi/usjeci 10 m, potporni zidovi 5 m, mostovi raspona 12 m ili stupa 10 m, jarboli 20 m, reklamni panoi 20 m².",
-        "Energetske: dalekovodi 110 kV i više, elektrane 20 MW i više, magistralni naftovodi/plinovodi, vjetroelektrane. Vodne: brane 5 m, zaštita voda > 50 000 ES, vodoopskrba > 100 l/s, nasipi 5 m. Tuneli i jame dublji od 5 m; klizišta 500 m² ili dubine 3 m.",
+        "Industrijske/javne: tornjevi 9 m, spremnici 1000 m³, hale 800 m² ili raspon 10 m, stupovi 9 m, bazeni 300 m³, skloništa, tribine.",
+        "Prometne: nasipi/usjeci 10 m, potporni zidovi 5 m, mostovi raspona 12 m ili stupa 10 m, jarboli 20 m, reklamni panoi 20 m².",
+        "Energetske: dalekovodi 110 kV i više, elektrane 20 MW i više, magistralni naftovodi/plinovodi, vjetroelektrane.",
+        "Vodne: brane 5 m, zaštita voda > 50 000 ES, vodoopskrba > 100 l/s, nasipi 5 m. Tuneli i jame dublji od 5 m; klizišta 500 m² ili dubine 3 m.",
         "Kontrola je potrebna i za građevine uz postojeću građevinu te nakon nostrifikacije projekata izrađenih po stranim propisima.",
         "Ovlaštenje za kontrolu: BK (betonske i zidane), MK (metalne i spregnute), DK (drvene), GK (geotehničke); ovlašteni inženjer građevinarstva s 10 g. iskustva, projektirao statički složene konstrukcije, min. 1 nadzor, doprinos struci. Ne postoje revidenti strojarskih projekata ni projekata izvedenog stanja.",
         "Izvješće revidenta: podaci o revidentu, predmet kontrole, investitor, projektant, kontrolirani dijelovi, propisi, izjava o usklađenosti, zahtjev za dodatne kontrole (izvedbeni projekt / pregled radova u fazi građenja), tehničko područje, datum, potpis."
@@ -106,13 +119,16 @@ window.APP_DATA.push({
     {
       heading: "Projekti: idejni za manje složene zgrade, glavni projekt (ZOG čl. 32.–38.)",
       points: [
-        "ZOG 155/25: idejni projekt za manje složene zgrade, glavni, izvedbeni, tipski i projekt uklanjanja. ZOPU 155/25: idejni, urbanistički i infrastrukturni projekt.",
-        "Glavni projekt = skup međusobno usklađenih projekata kojima se daje tehničko rješenje građevine i dokazuje ispunjavanje temeljnih i drugih zahtjeva; strukovne odrednice: arhitektonski, građevinski, elektrotehnički i strojarski projekt.",
+        "ZOG 155/25: idejni projekt za manje složene zgrade, glavni, izvedbeni, tipski i projekt uklanjanja.",
+        "ZOPU 155/25: idejni, urbanistički i infrastrukturni projekt.",
+        "Glavni projekt = skup međusobno usklađenih projekata kojima se daje tehničko rješenje građevine i dokazuje ispunjavanje temeljnih i drugih zahtjeva",
+        "Strukovne odrednice: arhitektonski, građevinski, elektrotehnički i strojarski projekt.",
         "Elaborati koji prethode glavnom projektu: geotehnički, zaštite od požara, krajobrazni, prometni, tehničko-tehnološkog rješenja, ZNR, zaštite od buke, konzervatorski i dr. Elaborat = pismeni sastavak u kojem se predmet temeljito stručno raščlanjuje.",
         "Glavni projekt sadrži podatke iz elaborata, projektirani vijek uporabe građevine i uvjete za održavanje; glavni projekt za građevine bez GD ne smije biti protivan prostornom planu.",
         "Situacija (čl. 37.): na geodetskoj podlozi prikazuje smještaj građevine; sudjeluje ovlašteni inženjer geodezije koji potpisuje naslovnu stranicu kvalificiranim el. potpisom.",
         "Prikaz svih primijenjenih mjera zaštite od požara (čl. 38.): sastavni dio prve mape glavnog projekta, izrađuje ga osoba ovlaštena po propisu o ZOP u suradnji s glavnim projektantom.",
-        "Sastav glavnog projekta (Pravilnik NN 118/19, 65/20): opći dio (naslovnica, ovjera revidenta, popisi, sadržaj, rješenja/uvjeti/lokacijska dozvola), tehnički dio — tekstualni (tehnički opis, dokazi, program kontrole kvalitete, posebni tehnički uvjeti, iskaz troškova) i grafički (situacija, nacrti, uređenje čestice). Prva mapa još: zajednički tehnički opis, prikaz mjera ZOP, podaci za komunalni doprinos, zajednički iskaz troškova."
+        "Sastav glavnog projekta (Pravilnik NN 118/19, 65/20): opći dio (naslovnica, ovjera revidenta, popisi, sadržaj, rješenja/uvjeti/lokacijska dozvola), tehnički dio — tekstualni (tehnički opis, dokazi, program kontrole kvalitete, posebni tehnički uvjeti, iskaz troškova) i grafički (situacija, nacrti, uređenje čestice).",
+        "Prva mapa još: zajednički tehnički opis, prikaz mjera ZOP, podaci za komunalni doprinos, zajednički iskaz troškova."
       ]
     }
   ],

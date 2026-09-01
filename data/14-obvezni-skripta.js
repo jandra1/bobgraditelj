@@ -41,8 +41,10 @@ window.APP_DATA.push({
         "Plaća se za održavanje komunalne infrastrukture; prihod proračuna JLS; odlukom predstavničkog tijela može se koristiti i za građenje/održavanje predškolskih, školskih, zdravstvenih, socijalnih, sportskih i kulturnih javnih građevina te energetsku učinkovitost zgrada JLS.",
         "Plaćaju je vlasnici odnosno korisnici za stambeni, garažni i poslovni prostor, građevinsko zemljište koje služi poslovnoj djelatnosti i neizgrađeno građevinsko zemljište (čl. 92., 93.).",
         "Odluka o komunalnoj naknadi (čl. 95.): područja zona, Kz, Kn, rok plaćanja, nekretnine važne za JLS koje se oslobađaju, opći uvjeti za pojedinačna oslobođenja.",
-        "Obračun (čl. 99.): stambeni, poslovni i garažni prostor po m² KORISNE površine (Uredba o zaštićenoj najamnini NN 40/97); građevinsko zemljište po m² STVARNE površine. Iznos po m² = Kz × Kn × B.",
-        "Zone (čl. 96.) određuju se prema uređenosti i opremljenosti komunalnom infrastrukturom; prva zona je najbolje opremljena, Kz = 1,00.",
+        "Obračun (čl. 99.): stambeni, poslovni i garažni prostor po m² KORISNE površine (Uredba o zaštićenoj najamnini NN 40/97); građevinsko zemljište po m² STVARNE površine.",
+        "Iznos po m² = Kz × Kn × B.",
+        "Zone (čl. 96.) određuju se prema uređenosti i opremljenosti komunalnom infrastrukturom",
+        "Prva zona je najbolje opremljena, Kz = 1,00.",
         "Kn (čl. 97.): stambeni, garažni i prostor neprofitnih udruga 1,00; poslovni proizvodni 1,00–5,00; poslovni neproizvodni 1,00–10,00; građevinsko zemljište za poslovnu djelatnost najviše 10 % Kn poslovnog prostora; neizgrađeno građevinsko zemljište 0,05.",
         "Djelatnost koja se ne obavlja više od 6 mjeseci godišnje: Kn umanjen 50 % (ne ispod Kn za stambeni prostor / neizgrađeno zemljište). Hoteli, turistička naselja, kampovi, golf: godišnja naknada najviše 1,5 % godišnjeg prihoda iz prethodne godine.",
         "Vrijednost boda B (čl. 98.): određuje predstavničko tijelo do kraja studenoga za primjenu od 1. siječnja; u eurima po m² korisne površine stambenog prostora u prvoj zoni; polazište je procjena troškova održavanja iz programa održavanja; ako se ne odredi, B se ne mijenja."
