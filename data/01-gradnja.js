@@ -22,9 +22,13 @@ window.APP_DATA.push({
       points: [
         "Novi Zakon propisuje OSAM temeljnih zahtjeva (dosad 7).",
         "1. mehanička otpornost i stabilnost (konstrukcijska cjelovitost)",
-        "2. sigurnost u slučaju požara; 3. zaštita od štetnih učinaka na higijenu i zdravlje",
-        "4. sigurnost i pristupačnost građevine; 5. otpornost na prolaz zvuka i akustična svojstva",
-        "6. energetska učinkovitost i toplinska svojstva; 7. emisije u vanjsko okruženje; 8. održiva uporaba prirodnih izvora",
+        "2. sigurnost u slučaju požara",
+        "3. zaštita od štetnih učinaka na higijenu i zdravlje",
+        "4. sigurnost i pristupačnost građevine",
+        "5. otpornost na prolaz zvuka i akustična svojstva",
+        "6. energetska učinkovitost i toplinska svojstva",
+        "7. emisije u vanjsko okruženje",
+        "8. održiva uporaba prirodnih izvora",
         "Građevina ih mora ispunjavati tijekom cijelog vijeka trajanja, uzimajući u obzir učinak klimatskih promjena."
       ]
     },

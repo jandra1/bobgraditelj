@@ -41,7 +41,12 @@ window.APP_DATA.push({
       heading: "Zaštita od buke (Zakon NN 30/09+ i Pravilnik NN 143/21)",
       points: [
         "Buka štetna po zdravlje je svaki zvuk koji prekoračuje najviše dopuštene razine s obzirom na vrstu izvora, vrijeme i mjesto nastanka.",
-        "Zone: 1. tiha područja za odmor i oporavak 50/40 dB(A); 2. stanovanje 55/40; 3. mješovita pretežito stambena 55/45; 4. mješovita pretežito poslovna 65/50; 5. gospodarska 65/55 (dan/noć).",
+        "Zone buke (najviše razine dan/noć):",
+        "1. tiha područja za odmor i oporavak 50/40 dB(A)",
+        "2. stanovanje 55/40",
+        "3. mješovita pretežito stambena 55/45",
+        "4. mješovita pretežito poslovna 65/50",
+        "5. gospodarska 65/55",
         "Buka gradilišta: danju i navečer najviše 65 dB(A) na najizloženijem mjestu imisije; od 8 do 18 sati dopušteno prekoračenje za dodatnih 5 dB(A).",
         "Noću buka gradilišta ne smije prelaziti vrijednosti za zonu; iznimna prekoračenja najviše tri noći u 30 dana.",
         "Mjere zaštite od buke provode se i kroz prostorno planiranje, karte buke i akcijske planove upravljanja bukom."

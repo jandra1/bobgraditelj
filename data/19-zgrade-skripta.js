@@ -104,7 +104,10 @@ window.APP_DATA.push({
         "B500B: B = čelik za armiranje (Betonstahl), 500 = granica popuštanja N/mm2, B = razred duktilnosti (C najduktilniji, pa B, pa A). Q mreža nosiva u oba smjera, R u jednom. Preklop mreže 3 polja ili 40 cm; šipki 20 cm ili 15Φ. Balkon – armatura u gornjoj zoni; ploča – donja zona u polju, gornja nad ležajem.",
         "EC1 opterećenja: stalna (G), promjenjiva (Q – korisno, snijeg, vjetar), izvanredna (eksplozija, sudar), kombinacije. EC8: nacionalni dodatak – karta potresnih zona prema ubrzanju tla; izoseiste – linije jednake jačine potresa; obilježja: jednostavnost, simetrija, dvosmjerna i torzijska otpornost, djelotvorni stropovi, temeljenje.",
         "Geotehnički elaborat: podaci iz istražnih radova (tlo, stijena, podzemna voda); već u idejnom rješenju – način temeljenja, građevna jama, rizici; utječe na vrstu temelja, poboljšanje tla, potporne konstrukcije, dubinu.",
-        "EC7 (7-1 opća pravila, 7-2 zemljani radovi/ispitivanja) – 3 geotehničke kategorije: 1. male jednostavne (jednokatnice, niski zidovi – iskustvo), 2. rutinski zahvati (plitki temelji, piloti, potporne konstrukcije – HRN EN 1997), 3. složeni/velikog rizika (meko tlo, klizišta, tuneli, brane, nuklearke, seizmična područja – geotehničar specijalist)."
+        "EC7 (7-1 opća pravila, 7-2 zemljani radovi/ispitivanja) – 3 geotehničke kategorije:",
+        "1. male jednostavne (jednokatnice, niski zidovi – iskustvo)",
+        "2. rutinski zahvati (plitki temelji, piloti, potporne konstrukcije – HRN EN 1997)",
+        "3. složeni/velikog rizika (meko tlo, klizišta, tuneli, brane, nuklearke, seizmična područja – geotehničar specijalist)"
       ]
     },
     {
@@ -113,7 +116,13 @@ window.APP_DATA.push({
         "Završni radovi: teracerski, fasaderski, gipsarski, keramičarski, ličilački, soboslikarski, tapetarski, kamenorezački, podopolagački, parketarski, izolaterski, bravarski, limarski, stolarski, roletarski, staklorezački, antikorozijska zaštita, spušteni stropovi i lake pregrade.",
         "Plivajući pod: kruti estrih »pliva« na elastičnom sloju (EPS) bez ikakve krute veze s nosivom međukatnom konstrukcijom (EPS i bočno uz zidove) – zvučna izolacija od udarnog zvuka.",
         "Buka okoliša – neželjen ili štetan zvuk u vanjskom prostoru od ljudske aktivnosti; buka je fizikalna štetnost (Pravilnik NN 143/21, čl. 4., Tablica 1.).",
-        "Zone buke (dan/večer/noć/Lden dB(A)): 1. tiha zaštićena područja 50/45/40/50; 2. stanovanje 55/55/40/56; 3. mješovita pretežito stambena 55/55/45/57; 4. mješovita pretežito poslovna 65/65/50/66; 5. gospodarska zanatska, uslužna, turistička, sport 65/65/55/67; 6. industrija – na granici sa zonom 1–4 ne smije prijeći njihove razine.",
+        "Zone buke (dan/večer/noć/Lden dB(A)):",
+        "1. tiha zaštićena područja 50/45/40/50",
+        "2. stanovanje 55/55/40/56",
+        "3. mješovita pretežito stambena 55/55/45/57",
+        "4. mješovita pretežito poslovna 65/65/50/66",
+        "5. gospodarska zanatska, uslužna, turistička, sport 65/65/55/67",
+        "6. industrija – na granici sa zonom 1–4 ne smije prijeći njihove razine",
         "POS stanovi: soba ≥ 18 m2; spavaća ≥ 10 m2, dodatna ≥ 8 m2; svijetla visina ≥ 2,60 m; 4–7 katova prostor za 1 dizalo, 8+ katova za najmanje 2; parapet niži od 0,90 m – dodatna ograda s gornjim rubom na ≥ 1 m; 2,5-sobni i veći stan – dodatni nužnik 0,80 x 1,40 m."
       ]
     }

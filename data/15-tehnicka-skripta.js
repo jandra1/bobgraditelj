@@ -51,7 +51,15 @@ window.APP_DATA.push({
     {
       heading: "Izjava o svojstvima (Prilog III Uredbe, izmjena Uredbom 574/2014)",
       points: [
-        "Sadrži: 1. jedinstvenu identifikacijsku oznaku vrste proizvoda, 2. namjenu, 3. proizvođača, 4. ovlaštenog predstavnika, 5. sustav AVCP, 6.a usklađenu normu + prijavljeno tijelo / 6.b EAD + ETA + TAB + prijavljeno tijelo, 7. objavljena svojstva, 8. odgovarajuću/specifičnu tehničku dokumentaciju.",
+        "Izjava o svojstvima sadrži:",
+        "1. jedinstvenu identifikacijsku oznaku vrste proizvoda",
+        "2. namjenu",
+        "3. proizvođača",
+        "4. ovlaštenog predstavnika",
+        "5. sustav AVCP",
+        "6.a usklađenu normu + prijavljeno tijelo / 6.b EAD + ETA + TAB + prijavljeno tijelo",
+        "7. objavljena svojstva",
+        "8. odgovarajuću/specifičnu tehničku dokumentaciju",
         "Mora sadržavati svojstvo barem jedne bitne značajke; izdaje se pod isključivom odgovornošću proizvođača.",
         "Sastavljanjem izjave proizvođač preuzima odgovornost za sukladnost proizvoda s objavljenim svojstvima.",
         "Specifična tehnička dokumentacija: dokazuje da su metode iz sustava AVCP zamijenjene drugim metodama uz istovrijednost rezultata.",

@@ -10,7 +10,10 @@ window.APP_DATA.push({
         "Sadržaj (s upućivanjem na izvještaj o istraživanju temeljnog tla): opis lokacije i okoline, opis uvjeta u temeljnom tlu, opis zadane gradnje uključujući djelovanja, proračunske vrijednosti svojstava tla i stijene.",
         "Dalje sadrži: izjave o primijenjenim pravilima i normama, izjave o prikladnosti lokacije u odnosu na zadanu gradnju i razini prihvatljivih rizika, proračune i crteže, preporuke za projektiranje temelja.",
         "Obvezno i popis svih stavaka koje će se kontrolirati tijekom građenja ili koje zahtijevaju održavanje ili praćenje ponašanja.",
-        "Istraživanja temeljnog tla provode se u fazama: (1) prethodna istraživanja za postavljanje i projektiranje idejnog projekta konstrukcije, (2) istraživanja za projekt, (3) kontrola i praćenje ponašanja."
+        "Istraživanja temeljnog tla provode se u fazama:",
+        "(1) prethodna istraživanja za postavljanje i projektiranje idejnog projekta konstrukcije",
+        "(2) istraživanja za projekt",
+        "(3) kontrola i praćenje ponašanja"
       ]
     },
     {
