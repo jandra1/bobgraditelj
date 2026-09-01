@@ -63,6 +63,50 @@ window.APP_DATA.push({
         "Zakon o financiranju vodnoga gospodarstva: izvori su vodne naknade — vodni doprinos (plaća se pri gradnji), naknada za uređenje voda, naknada za korištenje voda, naknada za zaštitu voda i naknada za melioracijsku odvodnju/navodnjavanje.",
         "Vodni doprinos plaća investitor na gradnju građevina; osnovica je prostorni metar (m3) građevine, po zonama."
       ]
+    },
+    {
+      heading: "Vodno dobro i branjena područja (ZOV, detaljnije)",
+      points: [
+        "Vodno dobro (čl. 9.) čine: vodonosna i napuštena korita, inundacijsko područje (uređeno i neuređeno), otoci u koritu i prostori oko izvorišta koja se koriste za javnu vodoopskrbu.",
+        "Javno vodno dobro je neotuđivo — u vlasništvu RH; njime upravljaju Hrvatske vode.",
+        "Vodne građevine prema čl. 25. dijele se u pet skupina: regulacijske i zaštitne, komunalne, melioracijske, za proizvodnju električne energije (brane, akumulacije, dovodi, strojarnice) i za unutarnju plovidbu.",
+        "Melioracijske građevine: osnovne (glavni odvodni kanali, crpne stanice) i detaljne (parcelna kanalska mreža, drenaže); njima u pravilu upravljaju županije.",
+        "Branjeno područje je teritorijalna jedinica provedbe obrane od poplava (sliv ili dio sliva jedinstvenih vodnorežimskih obilježja) — po branjenim područjima ustrojeni su sektori i dionice s glavnim provedbenim planom.",
+        "Na vodnom dobru moguća su ograničena prava (najam, zakup, služnost, pravo građenja) uz suglasnost Hrvatskih voda."
+      ]
+    },
+    {
+      heading: "Regulacijske i zaštitne građevine u praksi",
+      points: [
+        "Nasip: kruna s nadvišenjem iznad mjerodavne velike vode, pokosi (branjeni/nebranjeni), berme, drenaža u nožici; gradi se u slojevima uz zbijanje zemljanog materijala.",
+        "Obaloutvrde: kameni nabačaj, obloge, gabioni, vegetativne (biotehničke) obloge — štite obalu od erozije.",
+        "Pera (naperi) i paralelne građevine usmjeravaju matiču, štite obalu i potiču taloženje.",
+        "Brane: betonske (gravitacijske, lučne) i nasute (zemljane, kamene s jezgrom ili ekranom); obvezni dijelovi su preljev (evakuacija velikih voda) i temeljni ispust (pražnjenje).",
+        "Za nasute brane primjenjuju se priznata tehnička pravila projektiranja (kontrola procjeđivanja, stabilnost pokosa, filtri).",
+        "Retencije i akumulacije sasijecaju vodni val; odteretni (rasteretni) kanali preusmjeravaju dio velikih voda mimo naselja.",
+        "Crpne stanice obrane od poplava precrpljuju unutarnje vode u recipijent kad gravitacijski ispust nije moguć (visoki vodostaji)."
+      ]
+    },
+    {
+      heading: "Vodoopskrba i odvodnja — tehnički sustavi",
+      points: [
+        "Vodoopskrbni sustav: zahvat (izvorište, zdenci, akumulacija) → kondicioniranje vode → crpne stanice → vodospreme → magistralni cjevovodi i razdjelna mreža.",
+        "Vodosprema izravnava dnevnu potrošnju, drži tlak (tlačne zone po visini) i rezerve, uključivo požarnu.",
+        "Sustav odvodnje: razdjelni (odvojeno otpadne i oborinske vode) ili mješoviti (zajednički kolektor s kišnim preljevima).",
+        "Uređaj za pročišćavanje otpadnih voda (UPOV): prethodno i prvo (mehaničko), drugo (biološko) i treće pročišćavanje (uklanjanje dušika i fosfora); opterećenje u ES po aglomeracijama.",
+        "Oborinske vode s prometnih i radnih površina po potrebi se obrađuju (taložnice, separatori ulja) prije ispuštanja.",
+        "Gubici u mreži, mjerenje i tlačne probe cjevovoda dio su kontrole kvalitete izvedbe vodovodnih sustava."
+      ]
+    },
+    {
+      heading: "Hidrologija i podloge za projektiranje",
+      points: [
+        "Hidrološke podloge: nizovi vodostaja i protoka s vodomjernih postaja, oborinski podaci, krivulje protoka.",
+        "Povratno razdoblje: velika voda povratnog razdoblja T ima vjerojatnost pojave 1/T svake godine (100-godišnja voda: 1 %).",
+        "Mjerodavne velike vode za dimenzioniranje zaštitnih građevina određuju se hidrološkom statistikom (npr. 25-, 100-, 1000-godišnje vode ovisno o značaju građevine).",
+        "Karte opasnosti i karte rizika od poplava (u sklopu Plana upravljanja rizicima od poplava) prikazuju dosege poplava različitih vjerojatnosti.",
+        "Za zahvate na vodama i vodnom dobru izrađuju se i geodetske, geotehničke i vodnogospodarske podloge; uvjeti se utvrđuju vodopravnim uvjetima."
+      ]
     }
   ],
   questions: [

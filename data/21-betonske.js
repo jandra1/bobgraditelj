@@ -66,6 +66,63 @@ window.APP_DATA.push({
         "Projektiranje, izvedba i održavanje dimnjaka provode se prema Tehničkom propisu za dimnjake u građevinama i pripadnim normama.",
         "Dimnjak mora biti izveden od proizvoda otpornih na temperaturu, koroziju i kondenzat te omogućiti čišćenje i pregled."
       ]
+    },
+    {
+      heading: "Sastojci betona: cement, agregat, voda, dodaci",
+      points: [
+        "Beton = cement + agregat + voda + dodaci; cement je hidraulično vezivo koje veže i pod vodom.",
+        "Vrste cementa (HRN EN 197-1): CEM I portlandski, CEM II portlandski miješani, CEM III metalurški (sa zgurom), CEM IV pucolanski, CEM V miješani.",
+        "Razredi čvrstoće cementa: 32,5 / 42,5 / 52,5 (N = normalna, R = rana čvrstoća).",
+        "Agregat: prirodni (šljunak, pijesak) ili drobljeni; miješa se iz frakcija (0/4, 4/8, 8/16, 16/32) prema granulometrijskoj krivulji.",
+        "Voda za beton ne smije sadržavati tvari koje štete vezanju ili armaturi (pitka voda u pravilu odgovara).",
+        "Kemijski dodaci: plastifikatori i superplastifikatori (ugradljivost uz manji v/c), aeranti (otpornost na smrzavanje), ubrzivači, usporivači, dodaci za vodonepropusnost.",
+        "Mineralni dodaci: leteći pepeo, silicijska prašina, mljeveni vapnenac (filer), pigmenti."
+      ]
+    },
+    {
+      heading: "Svojstva betona i ispitivanja",
+      points: [
+        "Konzistencija svježeg betona: slump razredi S1–S5; bira se prema načinu ugradnje i gustoći armature.",
+        "Vodocementni omjer ključan za čvrstoću i trajnost: niži v/c = manje pora, veća čvrstoća; ograničen prema razredu izloženosti.",
+        "Tlačna čvrstoća: kocke 150 mm ili valjci 150/300 mm nakon 28 dana; razredi C 12/15 do C 90/105 (obični beton).",
+        "Skupljanje betona: smanjenje volumena sušenjem — uzrok pukotina; ograničava se njegom, armaturom i razdjelnicama.",
+        "Puzanje betona: prirast deformacije pod dugotrajnim opterećenjem — povećava progibe s vremenom.",
+        "Ispitivanja na gradilištu: konzistencija (slump), uzorci za tlačnu čvrstoću (identitet), po potrebi vodonepropusnost i otpornost na smrzavanje.",
+        "Na očvrsnuloj konstrukciji: nerazorne metode (sklerometar, ultrazvuk) i vađenje jezgri (izvrtaka)."
+      ]
+    },
+    {
+      heading: "Izvedba betonskih radova (HRN EN 13670)",
+      points: [
+        "Prije betoniranja provjeravaju se oplata (geometrija, čistoća, premaz), armatura (položaj, zaštitni sloj) i organizacija ugradnje — odobrava nadzorni inženjer.",
+        "Ugradnja: beton se ne smije slobodno spuštati s velike visine (segregacija); ugrađuje se u slojevima uz vibriranje.",
+        "Prekid betoniranja izvodi se na statički povoljnim mjestima; nastavak uz pripremu (hrapavljenje, čišćenje, kvašenje) radne reške.",
+        "Njega betona: vlaženje, prekrivanje folijom/geotekstilom, sredstva za njegu; trajanje ovisi o razredu izloženosti, temperaturi i vrsti cementa.",
+        "Betoniranje pri niskim temperaturama: svježi beton ne smije se smrznuti (grijani sastojci, ubrzivači, zaštita); pri visokim temperaturama: hlađenje, betoniranje noću, brza njega.",
+        "Skidanje oplate tek nakon postizanja potrebne čvrstoće prema planu betoniranja; podupiranje ploča i greda ostaje dulje.",
+        "Tolerancije geometrije i položaja armature propisane su normom izvedbe i projektom."
+      ]
+    },
+    {
+      heading: "Armatura — izvedba i detalji",
+      points: [
+        "Čelik za armiranje B500 (šipke, mreže, rešetkasti nosači); razredi duktilnosti A/B/C.",
+        "Sidrenje i preklopi prema EC2: ovise o promjeru, čvrstoći betona i uvjetima prionjivosti; preklope razmicati, izbjegavati u najnapregnutijim presjecima.",
+        "Savijanje šipki: propisani najmanji promjeri trnova (ovisno o promjeru šipke) da se čelik i beton ne oštete.",
+        "Zaštitni sloj osigurava se distancerima; armatura mora biti čista (bez masnoće, blata, listajuće hrđe) i učvršćena protiv pomicanja.",
+        "Mreže: preklop najmanje propisani broj polja; kod ploča donja zona u polju, gornja nad ležajevima; konzole i balkoni — glavna armatura u GORNJOJ zoni.",
+        "Prije betoniranja obvezan pregled i preuzimanje armature od nadzornog inženjera (upis u građevinski dnevnik)."
+      ]
+    },
+    {
+      heading: "Prednapeti beton",
+      points: [
+        "Prednapinjanjem se u beton unosi tlačno naprezanje visokovrijednim čelikom (užad, šipke) — konstrukcija dobiva 'rezervu' prije pojave vlaka i pukotina.",
+        "Adhezijsko (prethodno) prednapinjanje: natege se napnu prije betoniranja (predgotovljeni elementi u pogonu); sila se prenosi prionjivošću.",
+        "Naknadno prednapinjanje: natege u zaštitnim cijevima napinju se nakon očvršćivanja betona i sidre na krajevima; cijevi se injektiraju smjesom protiv korozije.",
+        "Prednosti: veći rasponi, vitkiji presjeci, kontrola pukotina i progiba; zahtijeva strogu kontrolu izvedbe (sile napinjanja, izvlačenje klina, injektiranje).",
+        "Gubici prednapona: trenje, popuštanje klina, elastično skraćenje, skupljanje i puzanje betona, relaksacija čelika."
+      ]
     }
   ],
   questions: [

@@ -62,6 +62,49 @@ window.APP_DATA.push({
         "EC8 za čelične konstrukcije: duktilno ponašanje postiže se izborom razreda presjeka, kapacitetnim projektiranjem i disipativnim zonama (npr. ekscentrični spregovi).",
         "Čelične konstrukcije zbog male mase i duktilnosti u pravilu povoljno podnose potres."
       ]
+    },
+    {
+      heading: "Materijal i proizvodi",
+      points: [
+        "Razredi konstrukcijskog čelika: S235, S275, S355, S460 (broj = granica popuštanja fy u N/mm2 za debljine do 40 mm; s debljinom fy pada).",
+        "Oznake žilavosti: JR (27 J pri +20 °C), J0 (0 °C), J2 (−20 °C) — biraju se prema temperaturi primjene i debljini radi otpora krhkom lomu.",
+        "Vruće valjani profili: IPE (vitki I — nosači), HEA/HEB/HEM (širokopojasni H — stupovi), UPE/UPN (U-profili), L-profili (kutnici).",
+        "Šuplji profili (cijevi okrugle, kvadratne, pravokutne): torzijski kruti, pogodni za rešetke i stupove.",
+        "Hladno oblikovani tankostijeni profili i profilirani limovi: sekundarne konstrukcije, podrožnice, obloge, spregnute ploče.",
+        "Materijal se dokazuje certifikatima tvornice (npr. 3.1) — kemijski sastav i mehanička svojstva svake šarže."
+      ]
+    },
+    {
+      heading: "Proračun elemenata (EC3) — pregled",
+      points: [
+        "Otpornost presjeka: vlak, tlak, savijanje, posmik i njihove interakcije; ovisno o razredu presjeka plastična ili elastična raspodjela.",
+        "Tlačni elementi: otpornost na izvijanje preko bezdimenzijske vitkosti i krivulja izvijanja (a0–d, prema obliku presjeka i osi).",
+        "Savijani nosači: uz otpornost presjeka provjerava se bočno-torzijsko izvijanje ako tlačna pojasnica nije pridržana.",
+        "Vitki limovi (razred 4): proračun s djelotvornim (reduciranim) presjekom zbog lokalnog izbočivanja.",
+        "GSU kod čelika: ograničenje progiba (tipično L/250 ukupno, L/300 promjenjivo — prema projektu) i vibracija.",
+        "Progib ne ovisi o razredu čelika (isti E) — kod progibom mjerodavnih nosača ne pomaže čvršći čelik, nego veći presjek/visina."
+      ]
+    },
+    {
+      heading: "Izvedba i montaža (HRN EN 1090)",
+      points: [
+        "Izvođač čeličnih konstrukcija mora imati certificiranu tvorničku kontrolu proizvodnje (FPC) i CE označavanje prema HRN EN 1090-1.",
+        "Razred izvedbe EXC1–EXC4 određuje projektant prema posljedicama otkazivanja; s razredom rastu zahtjevi kontrole i dokumentacije.",
+        "Zavarivanje: kvalificirani postupci (WPS/WPQR) i atestirani zavarivači; kontrola vizualno + NDT prema razredu izvedbe.",
+        "Tolerancije izrade i montaže propisane su normom (bitne tolerancije za nosivost, funkcionalne za izgled/montažu).",
+        "Plan montaže: redoslijed, privremena stabilnost (spregovi, zatege), rad na visini prema pravilima zaštite na radu.",
+        "Vijci se ugrađuju s propisanim pritezanjem; prednapeti spojevi kontroliranim momentom/kutom uz baždarene ključeve."
+      ]
+    },
+    {
+      heading: "Zamor i pregledi konstrukcija",
+      points: [
+        "Zamor je mjerodavan kod ponavljanih opterećenja: kranske staze, mostovi, dimnjaci i jarboli (vjetar), strojarske konstrukcije.",
+        "Detalji spojeva svrstavaju se u kategorije detalja (krivulje zamora); loši detalji (nagli prijelazi, zavari poprijeko na naprezanje) drastično smanjuju vijek.",
+        "Priznata tehnička pravila traže redovite preglede čeličnih konstrukcija u uporabi: stanje antikorozivne zaštite, spojeva (popuštanje vijaka), deformacije i pukotine.",
+        "Korozija smanjuje presjek i nosivost — pregledi i obnova zaštite dio su održavanja građevine prema Zakonu o gradnji.",
+        "Kod ocjene postojećih konstrukcija: pregled, ispitivanja materijala, provjera prema važećim normama."
+      ]
     }
   ],
   questions: [

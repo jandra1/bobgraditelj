@@ -68,6 +68,50 @@ window.APP_DATA.push({
         "Križanja željezničke pruge i ceste: nova križanja u pravilu se izvode izvan razine (denivelirano); željezničko-cestovni prijelazi u razini osiguravaju se prema propisima (uređaji, znakovi, preglednost).",
         "Zakon o sigurnosti i interoperabilnosti željezničkog sustava uređuje tehničke i sigurnosne zahtjeve za podsustave željezničkog sustava."
       ]
+    },
+    {
+      heading: "Zakon o cestama — sastavni dijelovi i financiranje",
+      points: [
+        "Javnu cestu čine (čl. 4.): cestovna građevina (donji stroj, kolnička konstrukcija, mostovi, tuneli...), građevine za odvodnju, zemljišni pojas, cestovno zemljište, prometna signalizacija i oprema, priključci, zaštitne ograde i objekti za održavanje.",
+        "Cestovno zemljište obuhvaća i površine za odmorišta, parkirališta, naplatu cestarine i objekte za održavanje ceste.",
+        "Izvori financiranja javnih cesta: godišnja naknada pri registraciji vozila, cestarina (autoceste i objekti s naplatom), naknade za izvanredni prijevoz i prekomjernu uporabu, koncesijske naknade i dr.",
+        "Autoceste i objekti s naplatom mogu se dati u koncesiju.",
+        "Postavljanje reklama uz autoceste ograničeno je u pojasu od 100 m (čl. 59.).",
+        "Troškove izgradnje priključka na javnu cestu snosi vlasnik/korisnik nekretnine koja se priključuje (čl. 51.)."
+      ]
+    },
+    {
+      heading: "Elementi trase ceste — projektiranje",
+      points: [
+        "Projektna brzina je računska veličina iz koje proizlaze najmanji polumjeri zavoja, najveći uzdužni nagibi i potrebne preglednosti.",
+        "Zaustavna preglednost mora biti osigurana na cijeloj trasi; za pretjecanje i raskrižja traže se veće preglednosti.",
+        "Horizontalni tok trase: pravci, kružni zavoji i prijelazne krivine (klotoide) — klotoida daje postupni prirast bočnog ubrzanja i prostor za vitoperenje.",
+        "U zavoju jednostrešni poprečni nagib prema unutrašnjoj strani; u pravcu dvostrešni (krovni) nagib radi odvodnje (min. oko 2,5 %).",
+        "Vertikalni tok: uzdužni nagibi ograničeni kategorijom ceste i terenom; lomovi nivelete zaobljavaju se vertikalnim krivinama (konveksne/konkavne).",
+        "Poprečni presjek: vozne trake, rubne trake, bankine, rigoli/jarci, berme; širine ovise o kategoriji ceste i projektnoj brzini."
+      ]
+    },
+    {
+      heading: "Kolnička konstrukcija i odvodnja",
+      points: [
+        "Kolnička konstrukcija prenosi prometno opterećenje na posteljicu; dimenzionira se prema prometnom opterećenju (mjerodavna osovina), nosivosti posteljice i klimi.",
+        "Slojevi: posteljica → nasipni/zamjenski materijal → nevezani nosivi sloj (drobljeni kamen) → (cementom/bitumenom vezani nosivi sloj) → asfaltni nosivi, vezni i habajući sloj.",
+        "Asfaltne mješavine prema HRN EN 13108 (AC — asfaltbeton, SMA — splitmastiks za teški promet, PA — drenažni asfalt); svojstva dokazuje izjava o svojstvima.",
+        "Voda je najveći neprijatelj kolnika: rješenja su poprečni i uzdužni nagibi, rigoli, jarci, propusti, drenaže i kontrolirano prihvaćanje oborinske vode.",
+        "Oprema ceste: zaštitne (odbojne) ograde prema kriterijima opasnosti, smjerokazni stupići, prometni znakovi i oznake na kolniku, rasvjeta.",
+        "Betonski kolnici i popločenja koriste se na posebnim površinama (autobusna stajališta, terminali, tuneli) zbog otpornosti na kolotraženje."
+      ]
+    },
+    {
+      heading: "Željeznica — pojasevi i gradnja uz prugu",
+      points: [
+        "Pružni pojas: zemljište ispod i uz prugu — najmanje 8 m od osi krajnjeg kolosijeka sa svake strane, odnosno 6 m kad pruga prolazi kroz naselje, s pripadajućim zračnim prostorom.",
+        "Zaštitni pružni pojas: 100 m mjereno vodoravno od osi krajnjeg kolosijeka sa svake strane (Pravilnik NN 5/23).",
+        "U pružnom pojasu smiju se graditi samo građevine uvjetovane križanjem s prugom (iznimno za utovar/istovar u željezničkom prijevozu).",
+        "Građevine u zaštitnom pružnom pojasu: u pravilu najmanje 12 m od osi najbližeg kolosijeka; uz nasip najmanje 6 m od nožice nasipa.",
+        "Stupovi i dalekovodi uz prugu: udaljenost najmanje jednaka njihovoj ukupnoj visini uvećanoj za 3 m.",
+        "Posebne uvjete i suglasnost za gradnju u pojasevima izdaje upravitelj infrastrukture; zabranjeno je skladištenje zapaljivih tvari i visoko raslinje koje ugrožava prugu."
+      ]
     }
   ],
   questions: [
