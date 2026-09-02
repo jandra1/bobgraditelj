@@ -571,7 +571,7 @@ details.area-sum[open] summary::after { content: "−"; }
     var mWrong = el('<button class="chip" data-m="wrong">Samo pogrešna / neodgovorena</button>');
     var mFreq = el('<button class="chip" data-m="freq">★ Samo česta ispitna pitanja</button>');
     var mExam = el('<button class="chip" data-m="exam" title="Gradivo zabilježeno u iskustvima s ispitnih rokova 2025./2026.">🎯 Pitano na ispitu</button>');
-    mAll.addEventListener("click", function () { setupSel.onlyWrong = false; refreshChips(); });
+    mAll.addEventListener("click", function () { setupSel.onlyWrong = false; setupSel.onlyFreq = false; setupSel.onlyExam = false; refreshChips(); });
     mWrong.addEventListener("click", function () { setupSel.onlyWrong = true; refreshChips(); });
     mFreq.addEventListener("click", function () { setupSel.onlyFreq = !setupSel.onlyFreq; refreshChips(); });
     mExam.addEventListener("click", function () { setupSel.onlyExam = !setupSel.onlyExam; refreshChips(); });
@@ -588,7 +588,7 @@ details.area-sum[open] summary::after { content: "−"; }
       Array.prototype.forEach.call(chipsC.querySelectorAll("[data-n]"), function (c) {
         c.classList.toggle("on", Number(c.dataset.n) === setupSel.count);
       });
-      mAll.classList.toggle("on", !setupSel.onlyWrong);
+      mAll.classList.toggle("on", !setupSel.onlyWrong && !setupSel.onlyFreq && !setupSel.onlyExam);
       mWrong.classList.toggle("on", setupSel.onlyWrong);
       mFreq.classList.toggle("on", setupSel.onlyFreq);
       mExam.classList.toggle("on", setupSel.onlyExam);
