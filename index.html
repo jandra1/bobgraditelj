@@ -446,11 +446,11 @@ mark { background: var(--accent-soft); color: inherit; border-radius: 3px; paddi
     return String(s).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
   }
   function reportLink(kind, area, text, answer) {
-    var title = "Greška u " + kind + ": " + text.slice(0, 60) + (text.length > 60 ? "…" : "");
-    var body = "**Područje:** " + area.title + "\n**" + (kind === "kartici" ? "Kartica" : "Pitanje") + ":** " + text +
-      (answer ? "\n**Odgovor u aplikaciji:** " + answer : "") + "\n\n**Što je pogrešno / kako bi trebalo glasiti:**\n";
-    var url = "https://github.com/jandra1/bobgraditelj/issues/new?title=" + encodeURIComponent(title) + "&body=" + encodeURIComponent(body);
-    return '<a class="report-link" href="' + esc(url) + '" target="_blank" rel="noopener">⚑ Prijavi grešku u ' + (kind === "kartici" ? "ovoj kartici" : "ovom pitanju") + '</a>';
+    var subject = "Bob Graditelj — greška u " + kind + ": " + text.slice(0, 60) + (text.length > 60 ? "…" : "");
+    var body = "Područje: " + area.title + "\n" + (kind === "kartici" ? "Kartica" : "Pitanje") + ": " + text +
+      (answer ? "\nOdgovor u aplikaciji: " + answer : "") + "\n\nŠto je pogrešno / kako bi trebalo glasiti:\n";
+    var url = "mailto:jandrijevic55@gmail.com?subject=" + encodeURIComponent(subject) + "&body=" + encodeURIComponent(body);
+    return '<a class="report-link" href="' + esc(url) + '">⚑ Prijavi grešku u ' + (kind === "kartici" ? "ovoj kartici" : "ovom pitanju") + '</a>';
   }
   function areaProgress(area) {
     var known = 0;
