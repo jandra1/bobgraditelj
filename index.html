@@ -299,14 +299,6 @@ details.area-sum[open] summary::after { content: "−"; }
 .sum-body ul { padding-left: 20px; font-size: 0.93rem; }
 .sum-body li { margin-bottom: 4px; }
 
-/* prijava greške */
-.report-link {
-  display: inline-block; margin-top: 10px;
-  font-family: "IBM Plex Mono", monospace; font-size: 0.65rem; letter-spacing: 0.04em;
-  color: var(--ink-soft); text-decoration: underline dotted; text-underline-offset: 3px;
-}
-.report-link:hover { color: var(--accent); }
-
 /* usmena simulacija */
 .oral-hint { color: var(--ink-soft); font-size: 0.9rem; margin-bottom: 6px; }
 .oral-correct { margin-top: 10px; padding: 10px 14px; background: var(--good-soft); border: 1px solid var(--good); border-radius: 8px; font-weight: 600; }
@@ -444,13 +436,6 @@ mark { background: var(--accent-soft); color: inherit; border-radius: 3px; paddi
   }
   function esc(s) {
     return String(s).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
-  }
-  function reportLink(kind, area, text, answer) {
-    var subject = "Bob Graditelj — greška u " + kind + ": " + text.slice(0, 60) + (text.length > 60 ? "…" : "");
-    var body = "Područje: " + area.title + "\n" + (kind === "kartici" ? "Kartica" : "Pitanje") + ": " + text +
-      (answer ? "\nOdgovor u aplikaciji: " + answer : "") + "\n\nŠto je pogrešno / kako bi trebalo glasiti:\n";
-    var url = "mailto:jandrijevic55@gmail.com?subject=" + encodeURIComponent(subject) + "&body=" + encodeURIComponent(body);
-    return '<a class="report-link" href="' + esc(url) + '">⚑ Prijavi grešku u ' + (kind === "kartici" ? "ovoj kartici" : "ovom pitanju") + '</a>';
   }
   function areaProgress(area) {
     var known = 0;
@@ -706,8 +691,7 @@ mark { background: var(--accent-soft); color: inherit; border-radius: 3px; paddi
         });
         view.querySelector("#expl").appendChild(el(
           '<div class="expl">' + esc(q.explanation || "") +
-          (q.source ? '<span class="src">§ ' + esc(q.source) + '</span>' : "") +
-          reportLink("pitanju", item.area, q.q, q.options[q.correct]) + '</div>'));
+          (q.source ? '<span class="src">§ ' + esc(q.source) + '</span>' : "") + '</div>'));
         var nr = view.querySelector("#next-row");
         nr.classList.remove("hidden");
         if (state.i === state.list.length - 1) view.querySelector("#btn-next").textContent = "Rezultat ▶";
@@ -744,8 +728,7 @@ mark { background: var(--accent-soft); color: inherit; border-radius: 3px; paddi
         '<p class="oral-hint">Odgovori naglas — kao pred ispitivačem — pa otkrij odgovor.</p>' +
         '<div id="oral-answer" class="hidden">' +
           '<div class="oral-correct">' + esc(q.options[q.correct]) + '</div>' +
-          '<div class="expl">' + esc(q.explanation || "") + (q.source ? '<span class="src">§ ' + esc(q.source) + '</span>' : "") +
-          reportLink("pitanju", item.area, q.q, q.options[q.correct]) + '</div>' +
+          '<div class="expl">' + esc(q.explanation || "") + (q.source ? '<span class="src">§ ' + esc(q.source) + '</span>' : "") + '</div>' +
         '</div>' +
         '<div class="q-next" id="reveal-row"><button class="btn primary big" id="btn-reveal">Pokaži odgovor</button></div>' +
         '<div class="fc-actions hidden" id="oral-btns">' +
@@ -915,8 +898,7 @@ mark { background: var(--accent-soft); color: inherit; border-radius: 3px; paddi
       '<div class="fc-actions hidden" id="fc-btns">' +
         '<button class="btn dontknow big" id="fc-no">✗ Ne znam</button>' +
         '<button class="btn know big" id="fc-yes">✓ Znam</button>' +
-      '</div>' +
-      '<div class="hidden" id="fc-report" style="text-align:center">' + reportLink("kartici", item.area, item.card.front, item.card.back) + '</div>';
+      '</div>';
     view.innerHTML = html;
     var cardBtn = view.querySelector("#fc-card");
     cardBtn.addEventListener("click", function () {
@@ -927,7 +909,6 @@ mark { background: var(--accent-soft); color: inherit; border-radius: 3px; paddi
         '<span class="front-text" style="font-size:0.95rem;color:var(--ink-soft)">' + esc(item.card.front) + '</span>' +
         '<span class="back-text">' + esc(item.card.back) + '</span>';
       view.querySelector("#fc-btns").classList.remove("hidden");
-      view.querySelector("#fc-report").classList.remove("hidden");
     });
     function grade(know) {
       var key = cid(item.area, item.idx);
