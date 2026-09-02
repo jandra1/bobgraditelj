@@ -51,6 +51,7 @@ window.APP_DATA.push({
     },
     {
       q: "Građevinska dozvola je:",
+      exam: true,
       options: [
         "Neupravni akt",
         "Opći akt",
@@ -87,6 +88,7 @@ window.APP_DATA.push({
     },
     {
       q: "Što je tijelo graditeljstva dužno učiniti prije izdavanja građevinske dozvole?",
+      exam: true,
       options: [
         "Objaviti glavni projekt na svojim mrežnim stranicama",
         "Stranki pružiti mogućnost uvida u spis predmeta radi izjašnjenja",
@@ -99,6 +101,7 @@ window.APP_DATA.push({
     },
     {
       q: "Vlasnik susjedne nekretnine stranka je u postupku izdavanja građevinske dozvole za manje složenu zgradu ako se njegova nekretnina nalazi na udaljenosti manjoj od:",
+      exam: true,
       options: [
         "h/2 visine pročelja mjereno od pročelja zgrade za koju se izdaje dozvola",
         "3 m od granice građevne čestice",
@@ -111,6 +114,7 @@ window.APP_DATA.push({
     },
     {
       q: "Tko NIJE stranka u postupku izdavanja građevinske dozvole za građevinu od interesa za Republiku Hrvatsku ili koju izdaje Ministarstvo?",
+      exam: true,
       options: [
         "Investitor",
         "Vlasnik nekretnine za koju se izdaje dozvola",
@@ -123,6 +127,7 @@ window.APP_DATA.push({
     },
     {
       q: "U ime Republike Hrvatske kao stranke u postupku izdavanja građevinske dozvole za građevine na pomorskom dobru i one koje s njim graniče nastupa:",
+      exam: true,
       options: [
         "Ministarstvo mora, prometa i infrastrukture",
         "Nadležno državno odvjetništvo",
@@ -135,6 +140,7 @@ window.APP_DATA.push({
     },
     {
       q: "Tko je stranka u postupku izdavanja lokacijske dozvole?",
+      exam: true,
       options: [
         "Samo podnositelj zahtjeva",
         "Podnositelj zahtjeva i tijelo graditeljstva",
@@ -209,11 +215,11 @@ window.APP_DATA.push({
   flashcards: [
     { front: "Što je upravni akt?", back: "Pojedinačna odluka kojom je javnopravno tijelo odlučilo o pravu, obvezi ili pravnom interesu stranke u upravnoj stvari; pismeno kojim javnopravno tijelo odlučuje u upravnom postupku. Podliježe upravnom sporu. Građevinska dozvola je upravni akt. (Uredba o uredskom poslovanju NN 75/21)" },
     { front: "Što je neupravni akt?", back: "Pismeno kojim javnopravno tijelo odgovara na podnesak stranke, određuje, prekida ili završava neku službenu radnju te obavlja službeno dopisivanje s drugim tijelima i strankama. (Uredba o uredskom poslovanju NN 75/21)" },
-    { front: "Je li građevinska dozvola upravni akt?", back: "Da — građevinska dozvola je upravni akt (pojedinačna odluka o pravu investitora u upravnoj stvari) i podliježe upravnom sporu." },
+    { front: "Je li građevinska dozvola upravni akt?", exam: true, back: "Da — građevinska dozvola je upravni akt (pojedinačna odluka o pravu investitora u upravnoj stvari) i podliježe upravnom sporu." },
     { front: "Uvid u spis predmeta — obveza tijela graditeljstva", back: "Prije izdavanja građevinske dozvole (ZOG čl. 69.) odnosno lokacijske dozvole (ZOPU čl. 176.) tijelo je dužno stranki pružiti mogućnost uvida u spis predmeta radi izjašnjenja." },
-    { front: "Tko su stranke u postupku izdavanja građevinske dozvole za manje složenu zgradu?", back: "Investitor/vlasnik nekretnine i nositelji drugih stvarnih prava; RH (državno odvjetništvo) za nekretnine koje graniče s pomorskim dobrom; vlasnik i nositelj stvarnih prava na susjednoj nekretnini koja se nalazi na udaljenosti manjoj od h/2 visine pročelja." },
-    { front: "Tko su stranke u postupku izdavanja građevinske dozvole za građevinu od interesa za RH ili koju izdaje Ministarstvo?", back: "Investitor, vlasnik nekretnine i nositelj drugih stvarnih prava na toj nekretnini te RH zastupana po državnom odvjetništvu za građevine na pomorskom dobru i koje s njim graniče. Susjedi nisu stranke." },
-    { front: "Tko je stranka u postupku izdavanja lokacijske dozvole?", back: "Podnositelj zahtjeva, vlasnik nekretnine, koncesionar i nositelj drugih stvarnih prava, RH (državno odvjetništvo) za zahvate na pomorskom dobru te vlasnik i nositelj stvarnih prava na nekretnini koja neposredno graniči (ZOPU čl. 176.)." },
+    { front: "Tko su stranke u postupku izdavanja građevinske dozvole za manje složenu zgradu?", exam: true, back: "Investitor/vlasnik nekretnine i nositelji drugih stvarnih prava; RH (državno odvjetništvo) za nekretnine koje graniče s pomorskim dobrom; vlasnik i nositelj stvarnih prava na susjednoj nekretnini koja se nalazi na udaljenosti manjoj od h/2 visine pročelja." },
+    { front: "Tko su stranke u postupku izdavanja građevinske dozvole za građevinu od interesa za RH ili koju izdaje Ministarstvo?", exam: true, back: "Investitor, vlasnik nekretnine i nositelj drugih stvarnih prava na toj nekretnini te RH zastupana po državnom odvjetništvu za građevine na pomorskom dobru i koje s njim graniče. Susjedi nisu stranke." },
+    { front: "Tko je stranka u postupku izdavanja lokacijske dozvole?", exam: true, back: "Podnositelj zahtjeva, vlasnik nekretnine, koncesionar i nositelj drugih stvarnih prava, RH (državno odvjetništvo) za zahvate na pomorskom dobru te vlasnik i nositelj stvarnih prava na nekretnini koja neposredno graniči (ZOPU čl. 176.)." },
     { front: "Kada se stranke na uvid u spis pozivaju javnim pozivom?", back: "Ako u postupku sudjeluje više od 10 stranaka, građevina neposredno graniči s više od 10 nekretnina, čestica se formira od 10 ili više nekretnina ili obuhvat zahvata ima 10 ili više nekretnina — javni poziv na elektroničkoj oglasnoj ploči." },
     { front: "Dostava poziva za uvid u spis kad je 10 stranaka ili manje", back: "1. OIB + aktivan korisnički pretinac → u korisnički pretinac (državna informacijska infrastruktura); 2. OIB bez pretinca → poštom osobnom dostavom na adresu iz OIB servisa; 3. bez OIB-a u zemljišnoj knjizi → javni poziv." },
     { front: "Rok za izjašnjenje stranke nakon uvida u spis", back: "Na zahtjev stranke tijelo može odrediti rok od najviše 8 dana za pisano izjašnjenje; ako se stranka ne izjasni, smatra se da joj je uvid pružen i da nema primjedbi." }

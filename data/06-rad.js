@@ -87,6 +87,7 @@ window.APP_DATA.push({
   questions: [
     {
       q: "U kojem obliku poslodavac mora imati procjenu rizika?",
+      exam: true,
       options: [
         "Samo u ovjerenom papirnatom obliku s pečatom javnog bilježnika",
         "Procjena rizika nije obvezna za poslodavce s manje od 20 radnika",
@@ -149,6 +150,7 @@ window.APP_DATA.push({
     },
     {
       q: "Tko smije obavljati poslove s posebnim uvjetima rada?",
+      exam: true,
       options: [
         "Svaki radnik uz pojačani nadzor poslodavca",
         "Radnik koji je potpisao izjavu o preuzimanju rizika",
@@ -173,6 +175,7 @@ window.APP_DATA.push({
     },
     {
       q: "Kada je investitor obvezan imenovati koordinatora zaštite na radu?",
+      exam: true,
       options: [
         "Samo za građevine ukupne vrijednosti veće od 1 milijun eura",
         "Kada radove izvode ili je predviđeno da ih izvode dva ili više izvođača",
@@ -185,6 +188,7 @@ window.APP_DATA.push({
     },
     {
       q: "Koja je zadaća koordinatora zaštite na radu u fazi izrade projekta (koordinator I)?",
+      exam: true,
       options: [
         "Vodi građevinski dnevnik gradilišta",
         "Obavlja stručni nadzor građenja",
@@ -197,6 +201,7 @@ window.APP_DATA.push({
     },
     {
       q: "Koja je, među ostalim, zadaća koordinatora zaštite na radu u fazi izvođenja radova (koordinator II)?",
+      exam: true,
       options: [
         "Provjerava provođenje plana izvođenja radova i organizira suradnju te uzajamno obavješćivanje izvođača",
         "Izdaje uporabnu dozvolu za građevinu",
@@ -209,6 +214,7 @@ window.APP_DATA.push({
     },
     {
       q: "Kome se dostavlja prijava gradilišta?",
+      exam: true,
       options: [
         "Ministarstvu graditeljstva",
         "Jedinici lokalne samouprave",
@@ -221,6 +227,7 @@ window.APP_DATA.push({
     },
     {
       q: "U kojem se roku prijava gradilišta dostavlja inspekciji rada?",
+      exam: true,
       options: [
         "U roku od 8 dana od početka radova",
         "Najkasnije jedan dan prije početka izvođenja radova",
@@ -245,6 +252,7 @@ window.APP_DATA.push({
     },
     {
       q: "Gdje se mora nalaziti preslika prijave gradilišta?",
+      exam: true,
       options: [
         "Na gradilištu, na vidljivom mjestu",
         "U arhivi projektanta",
@@ -257,6 +265,7 @@ window.APP_DATA.push({
     },
     {
       q: "Tko je obvezan osigurati izradu plana izvođenja radova i kada?",
+      exam: true,
       options: [
         "Glavni izvođač, najkasnije na dan tehničkog pregleda",
         "Nadzorni inženjer, tijekom izvođenja radova",
@@ -281,6 +290,7 @@ window.APP_DATA.push({
     },
     {
       q: "Oslobađa li imenovanje koordinatora zaštite na radu investitora i izvođače njihove odgovornosti za zaštitu na radu?",
+      exam: true,
       options: [
         "Da, odgovornost u cijelosti preuzima koordinator",
         "Da, ali samo za radove iz Dodatka II.",
@@ -396,6 +406,7 @@ window.APP_DATA.push({
     },
     {
       q: "Kada se radna oprema obvezno pregledava odnosno ispituje?",
+      exam: true,
       options: [
         "Samo kada to zatraži povjerenik radnika",
         "Samo jednom, prilikom kupnje",
@@ -429,10 +440,12 @@ window.APP_DATA.push({
   flashcards: [
     {
       front: "Procjena rizika",
+      exam: true,
       back: "Temeljni dokument zaštite na radu: poslodavac je mora imati u pisanom ili elektroničkom obliku, mora odgovarati postojećim rizicima, a izrađuje se uz sudjelovanje radnika. (Zakon o zaštiti na radu, čl. 18.)"
     },
     {
       front: "Osposobljavanje za rad na siguran način",
+      exam: true,
       back: "Provodi se prije početka rada, kod promjena u radnom postupku, nove opreme/tehnologije i premještaja. Neosposobljeni radnik radi samo pod neposrednim nadzorom osposobljenog radnika, najviše 60 dana. (čl. 27.-28.)"
     },
     {
@@ -449,26 +462,32 @@ window.APP_DATA.push({
     },
     {
       front: "Poslovi s posebnim uvjetima rada",
+      exam: true,
       back: "Poslovi koje smije obavljati samo radnik koji ispunjava uvjete glede dobi, stručne osposobljenosti, zdravstvenog stanja i psihičkih sposobnosti; zdravstvenu sposobnost utvrđuje specijalist medicine rada uz periodične provjere. (čl. 36.)"
     },
     {
       front: "Koordinator zaštite na radu I",
+      exam: true,
       back: "Djeluje u fazi projektiranja: koordinira primjenu načela zaštite na radu u projektnim rješenjima i planiranju rokova te izrađuje ili daje izraditi plan izvođenja radova. (Zakon o zaštiti na radu, čl. 77.)"
     },
     {
       front: "Koordinator zaštite na radu II",
+      exam: true,
       back: "Djeluje u fazi izvođenja: koordinira primjenu načela zaštite na radu, provjerava provođenje plana izvođenja radova i organizira suradnju te uzajamno obavješćivanje izvođača. (Zakon o zaštiti na radu, čl. 77.)"
     },
     {
       front: "Kada se imenuju koordinatori zaštite na radu?",
+      exam: true,
       back: "Investitor ih mora imenovati (za projektiranje i za izvođenje) kada radove izvode ili je predviđeno da ih izvode dva ili više izvođača; imenovanje ne oslobađa sudionike odgovornosti. (čl. 73.)"
     },
     {
       front: "Prijava gradilišta — uvjeti i rok",
+      exam: true,
       back: "Dostavlja se inspekciji rada najkasnije jedan dan prije početka radova: obvezna za posebno opasne radove iz Dodatka II. (bez obzira na trajanje) i kad radovi traju dulje od 10 dana. Preslika mora biti izvješena na gradilištu. (ZZR čl. 75.; NN 48/18 čl. 4.)"
     },
     {
       front: "Plan izvođenja radova",
+      exam: true,
       back: "Dokument zaštite na radu za gradilište; izradu osigurava investitor prije uspostave gradilišta, a sadrži i posebne mjere za posebno opasne radove iz Dodatka II. (ZZR čl. 73.; NN 48/18)"
     },
     {
@@ -493,6 +512,7 @@ window.APP_DATA.push({
     },
     {
       front: "Radna oprema — pregledi i ispitivanja",
+      exam: true,
       back: "Obvezno nakon postavljanja prije prve uporabe, nakon premještanja, nakon izvanrednih događaja i preinaka te povremeno; opremom s posebnim rizicima rukuju samo određeni osposobljeni radnici. (NN 18/17)"
     },
     {

@@ -109,6 +109,7 @@ window.APP_DATA.push({
     },
     {
       q: "Što je evakuacijski put prema Zakonu o zaštiti od požara?",
+      exam: true,
       options: [
         "Posebno projektiran i izveden put koji vodi od bilo koje točke u građevini do vanjskog ili sigurnog prostora, a omogućuje sigurno napuštanje građevine",
         "Bilo koji hodnik u građevini širi od 90 cm",
@@ -121,6 +122,7 @@ window.APP_DATA.push({
     },
     {
       q: "Tko je dužan djelovati na način kojim se ne može izazvati požar?",
+      exam: true,
       options: [
         "Samo pravne osobe koje obavljaju gospodarsku djelatnost",
         "Samo vlasnici građevina razvrstanih u kategorije ugroženosti",
@@ -164,6 +166,7 @@ window.APP_DATA.push({
     },
     {
       q: "Za koje je građevine obvezna izrada elaborata zaštite od požara?",
+      exam: true,
       options: [
         "Za sve građevine za koje se izdaje građevinska dozvola",
         "Samo za građevine javne namjene",
@@ -176,6 +179,7 @@ window.APP_DATA.push({
     },
     {
       q: "Čemu služi elaborat zaštite od požara?",
+      exam: true,
       options: [
         "Zamjenjuje glavni projekt u dijelu zaštite od požara",
         "Podloga je za izradu projekata (glavnog projekta) prema posebnom propisu",
@@ -188,6 +192,7 @@ window.APP_DATA.push({
     },
     {
       q: "Od kojih se dijelova sastoji elaborat zaštite od požara?",
+      exam: true,
       options: [
         "Samo od proračuna požarnog opterećenja",
         "Od troškovnika i nacrta",
@@ -200,6 +205,7 @@ window.APP_DATA.push({
     },
     {
       q: "Uz što se obvezno prilaže elaborat zaštite od požara?",
+      exam: true,
       options: [
         "Uz zahtjev za izdavanje potvrde glavnog projekta",
         "Uz zahtjev za priključenje na komunalnu infrastrukturu",
@@ -248,6 +254,7 @@ window.APP_DATA.push({
     },
     {
       q: "Tko utvrđuje posebne uvjete zaštite od požara u postupcima gradnje?",
+      exam: true,
       options: [
         "Ministarstvo unutarnjih poslova, odnosno nadležna policijska uprava",
         "Hrvatska vatrogasna zajednica",
@@ -260,6 +267,7 @@ window.APP_DATA.push({
     },
     {
       q: "Kada Ministarstvo unutarnjih poslova sudjeluje u tehničkom pregledu građevine?",
+      exam: true,
       options: [
         "Uvijek, za sve građevine za koje se izdaje uporabna dozvola",
         "Nikada — tehnički pregled provodi samo građevinska inspekcija",
@@ -272,6 +280,7 @@ window.APP_DATA.push({
     },
     {
       q: "Što označavaju oznake R, E i I kod otpornosti na požar?",
+      exam: true,
       options: [
         "Reakciju na požar, energiju i intenzitet",
         "Nosivost, cjelovitost i toplinsku izolaciju dijela građevine tijekom određenog vremena",
@@ -284,6 +293,7 @@ window.APP_DATA.push({
     },
     {
       q: "Što je požarni odjeljak?",
+      exam: true,
       options: [
         "Dio građevine odijeljen od ostalih dijelova konstrukcijama otporne na požar, tako da se požar određeno vrijeme zadrži unutar njega",
         "Prostorija u kojoj je smještena vatrodojavna centrala",
@@ -296,6 +306,7 @@ window.APP_DATA.push({
     },
     {
       q: "U kojim se jedinicama iskazuju klase otpornosti na požar građevinskih konstrukcija?",
+      exam: true,
       options: [
         "U stupnjevima Celzijevim (npr. 300 °C, 600 °C)",
         "U kW/m2 oslobođene topline",
@@ -320,6 +331,7 @@ window.APP_DATA.push({
     },
     {
       q: "Kolika je u pravilu najveća dopuštena ukupna duljina evakuacijskog puta u građevini bez sustava automatske dojave i gašenja požara?",
+      exam: true,
       options: ["20 m", "40 m", "80 m", "100 m"],
       correct: 1,
       explanation: "Najveća ukupna duljina evakuacijskog puta u pravilu je 40 m, a u građevinama štićenim automatskom dojavom i gašenjem požara do 60 m.",
@@ -327,6 +339,7 @@ window.APP_DATA.push({
     },
     {
       q: "Kolika je najmanja svijetla širina evakuacijskog puta u pravilu?",
+      exam: true,
       options: ["1,10 m", "0,60 m", "2,00 m", "0,80 m"],
       correct: 0,
       explanation: "Širina evakuacijskog puta određuje se prema broju korisnika, ali ne smije biti manja od 1,10 m (u visokim zgradama zahtjevi su stroži).",
@@ -334,6 +347,7 @@ window.APP_DATA.push({
     },
     {
       q: "Kolika je najmanja širina vatrogasnog pristupa za jednosmjerno kretanje vatrogasnih vozila?",
+      exam: true,
       options: ["1,8 m", "2,25 m", "2,5 m", "3 m"],
       correct: 3,
       explanation: "Vatrogasni pristup za jednosmjerno kretanje vozila mora biti širok najmanje 3 m.",
@@ -348,6 +362,7 @@ window.APP_DATA.push({
     },
     {
       q: "Koliki je najveći dopušteni uzdužni nagib vatrogasnog pristupa?",
+      exam: true,
       options: ["12%", "5%", "20%", "25%"],
       correct: 0,
       explanation: "Nagib vatrogasnog pristupa ne smije prelaziti 12%; pristup mora podnijeti i osovinski pritisak od 100 kN.",
@@ -355,6 +370,7 @@ window.APP_DATA.push({
     },
     {
       q: "Kako se prema plamištu dijele zapaljive tekućine?",
+      exam: true,
       options: [
         "Na eksplozivne (do 21 °C) i neeksplozivne (iznad 21 °C)",
         "Na upaljive (lako zapaljive) s plamištem do 38 °C i gorive s plamištem iznad 38 °C",
@@ -374,6 +390,7 @@ window.APP_DATA.push({
     },
     {
       q: "Tko provodi inspekcijski nadzor nad provedbom Zakona o zapaljivim tekućinama i plinovima?",
+      exam: true,
       options: [
         "Građevinska inspekcija Državnog inspektorata",
         "Inspekcija rada",
@@ -386,6 +403,7 @@ window.APP_DATA.push({
     },
     {
       q: "U kojem je od navedenih slučajeva obvezna izvedba unutarnje hidrantske mreže?",
+      exam: true,
       options: [
         "U građevini u kojoj se okuplja više od 50 osoba",
         "U svakoj stambenoj zgradi s više od 3 stana",
@@ -424,14 +442,17 @@ window.APP_DATA.push({
   flashcards: [
     {
       front: "Otpornost na požar (R, E, I)",
+      exam: true,
       back: "Sposobnost dijela građevine da kroz određeno vrijeme zadrži nosivost (R), cjelovitost (E) i/ili toplinsku izolaciju (I). Iskazuje se klasama u minutama: 15, 20, 30, 45, 60, 90, 120, 180, 240, 360."
     },
     {
       front: "Požarni odjeljak",
+      exam: true,
       back: "Dio građevine odijeljen od ostalih dijelova konstrukcijama otpornim na požar tako da se požar i dim određeno vrijeme zadrže unutar odjeljka i ne šire na ostatak građevine."
     },
     {
       front: "Evakuacijski put",
+      exam: true,
       back: "Posebno projektiran i izveden put koji vodi od bilo koje točke u građevini do vanjskog ili sigurnog prostora, a omogućuje osobama zahvaćenim požarom sigurno napuštanje građevine."
     },
     {
@@ -444,10 +465,12 @@ window.APP_DATA.push({
     },
     {
       front: "Elaborat zaštite od požara",
+      exam: true,
       back: "Podloga za izradu glavnog projekta; obvezan za građevine skupine 2. Sadrži tekstualni dio (opći i stručni) i grafičke priloge; prilaže se zahtjevu za izdavanje potvrde glavnog projekta. (Zakon, čl. 28.; NN 51/12)"
     },
     {
       front: "Tko utvrđuje posebne uvjete zaštite od požara u gradnji?",
+      exam: true,
       back: "Ministarstvo unutarnjih poslova, odnosno nadležna policijska uprava; MUP sudjeluje i u tehničkom pregledu građevina kod kojih je sudjelovao u postupku."
     },
     {
@@ -460,10 +483,12 @@ window.APP_DATA.push({
     },
     {
       front: "Najveća duljina i najmanja širina evakuacijskog puta",
+      exam: true,
       back: "Duljina u pravilu do 40 m (do 60 m uz automatsku dojavu i gašenje požara); najmanja svijetla širina u pravilu 1,10 m. (NN 29/13, 87/15)"
     },
     {
       front: "Vatrogasni pristup — osnovne mjere",
+      exam: true,
       back: "Širina za jednosmjerni promet min. 3 m; kolni prolaz kroz građevinu min. 3 x 4 m; nosivost 100 kN osovinskog pritiska; nagib do 12%; slijepi pristup dulji od 100 m mora imati okretište. (NN 35/94)"
     },
     {
@@ -472,6 +497,7 @@ window.APP_DATA.push({
     },
     {
       front: "Hidrantska mreža — tlak i trajanje opskrbe",
+      exam: true,
       back: "Najmanji tlak 0,25 MPa (2,5 bara); opskrba vodom za gašenje: unutarnja mreža najmanje 60 minuta, vanjska najmanje 120 minuta. (NN 8/06)"
     },
     {
@@ -492,6 +518,7 @@ window.APP_DATA.push({
     },
     {
       front: "Unutarnja hidrantska mreža — kada je obvezna?",
+      exam: true,
       back: "Među ostalim: prostori okupljanja više od 50 osoba, garaže i parkirališta veći od 100 m2, trgovine veće od 100 m2, podzemne etaže veće od 100 m2. (Pravilnik o hidrantskoj mreži, čl. 3.)"
     }
   ]

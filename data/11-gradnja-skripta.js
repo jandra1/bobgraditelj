@@ -187,6 +187,7 @@ window.APP_DATA.push({
     },
     {
       q: "Koji je primjer složene građevine prema Zakonu o gradnji?",
+      exam: true,
       options: [
         "Višestambena zgrada s garažom",
         "Obiteljska kuća s bazenom",
@@ -212,6 +213,7 @@ window.APP_DATA.push({
     },
     {
       q: "Što se pri rekonstrukciji zgrade prema Zakonu o gradnji ne smije ukloniti?",
+      exam: true,
       options: [
         "Krovna konstrukcija",
         "Najmanje temelji i dijelovi najniže etaže",
@@ -263,6 +265,7 @@ window.APP_DATA.push({
     },
     {
       q: "Čime su propisani temeljni zahtjevi za građevinu?",
+      exam: true,
       options: [
         "Prostornim planom i lokacijskom dozvolom",
         "Zakonom o gradnji i tehničkim propisima",
@@ -276,6 +279,7 @@ window.APP_DATA.push({
     },
     {
       q: "Za koji je temeljni zahtjev za građevinu nadležan MUP (izdaje posebne uvjete)?",
+      exam: true,
       options: [
         "Mehanička otpornost i stabilnost",
         "Sigurnost i pristupačnost građevine",
@@ -302,6 +306,7 @@ window.APP_DATA.push({
     },
     {
       q: "U kojem se dokumentu dokazuje ispunjavanje temeljnih zahtjeva za građevinu?",
+      exam: true,
       options: [
         "U glavnom projektu",
         "U građevinskoj dozvoli",
@@ -341,6 +346,7 @@ window.APP_DATA.push({
     },
     {
       q: "Koji tehnički propis uređuje pristupačnost građevina osobama s invaliditetom i smanjene pokretljivosti?",
+      exam: true,
       options: [
         "Tehnički propis o osiguranju pristupačnosti građevina osobama s invaliditetom i smanjene pokretljivosti (NN 12/2023)",
         "Tehnički propis za građevinske konstrukcije",
@@ -354,6 +360,7 @@ window.APP_DATA.push({
     },
     {
       q: "Što od navedenog NE spada u temeljni zahtjev 'održiva uporaba prirodnih izvora u građevinama'?",
+      exam: true,
       options: [
         "Što veće smanjenje ukupne količine ugrađene energije",
         "Što veće povećanje ponovne uporabe ili mogućnosti recikliranja građevine",
@@ -367,6 +374,7 @@ window.APP_DATA.push({
     },
     {
       q: "Uz čiju se suglasnost može odstupiti od temeljnih zahtjeva pri rekonstrukciji građevine koja je pojedinačno zaštićeno kulturno dobro?",
+      exam: true,
       options: [
         "Uz suglasnost konzervatorskog odjela",
         "Uz suglasnost nadležnog upravnog tijela županije",
@@ -380,6 +388,7 @@ window.APP_DATA.push({
     },
     {
       q: "Ako se pri odstupanju od temeljnih zahtjeva odstupa od zahtjeva sigurnosti u slučaju požara, Ministarstvo izdaje suglasnost tek nakon:",
+      exam: true,
       options: [
         "prethodno pribavljenog mišljenja ministarstva nadležnog za zaštitu od požara",
         "provedenog tehničkog pregleda",
@@ -430,6 +439,7 @@ window.APP_DATA.push({
     },
     {
       q: "Tko je dužan prije izrade glavnog projekta nove zgrade uzeti u obzir izvedivost visokoučinkovitih alternativnih sustava opskrbe energijom?",
+      exam: true,
       options: [
         "Investitor",
         "Projektant",
@@ -454,6 +464,7 @@ window.APP_DATA.push({
     },
     {
       q: "Za koju se od navedenih zgrada NE izdaje energetski certifikat?",
+      exam: true,
       options: [
         "Slobodnostojeću zgradu s ukupnom korisnom površinom manjom od 50 m²",
         "Stambenu zgradu koja se koristi 6 mjeseci godišnje",
@@ -466,6 +477,7 @@ window.APP_DATA.push({
     },
     {
       q: "Koliko dugo važi energetski certifikat zgrade?",
+      exam: true,
       options: [
         "5 godina",
         "10 godina",
@@ -490,6 +502,7 @@ window.APP_DATA.push({
     },
     {
       q: "Vlasnik zgrade javne namjene mora izložiti energetski certifikat na vidljivom mjestu ako korisna površina zgrade prelazi:",
+      exam: true,
       options: [
         "100 m²",
         "250 m²",
@@ -527,6 +540,7 @@ window.APP_DATA.push({
     },
     {
       q: "Koliko najmanje godina vlasnik zgrade mora čuvati izvješće o energetskom pregledu zgrade?",
+      exam: true,
       options: [
         "5 godina",
         "3 godine",
@@ -540,6 +554,7 @@ window.APP_DATA.push({
     },
     {
       q: "Što obuhvaća ovlaštenje za energetsko certificiranje i energetski pregled zgrade sa složenim tehničkim sustavom (STS)?",
+      exam: true,
       options: [
         "Samo zgrade sa složenim tehničkim sustavom",
         "I ovlaštenje za zgrade s jednostavnim tehničkim sustavom, a za osobe strojarske struke i redoviti pregled sustava grijanja, hlađenja ili klimatizacije",
@@ -565,6 +580,7 @@ window.APP_DATA.push({
     },
     {
       q: "Tko provodi neovisnu kontrolu energetskih certifikata i izvješća o redovitom pregledu sustava grijanja i hlađenja?",
+      exam: true,
       options: [
         "Građevinska inspekcija",
         "Hrvatska komora inženjera građevinarstva",
@@ -666,6 +682,7 @@ window.APP_DATA.push({
     },
     {
       q: "Koji sudionici u gradnji mogu biti samo fizičke osobe?",
+      exam: true,
       options: [
         "Investitor, projektant i izvođač",
         "Investitor i nadzorni inženjer",
@@ -679,6 +696,7 @@ window.APP_DATA.push({
     },
     {
       q: "Tko se poziva na tehnički pregled građevine i tko je dužan pozvati ostale sudionike u gradnji?",
+      exam: true,
       options: [
         "Poziva se investitor, koji je dužan pozvati sve ostale sudionike u gradnji",
         "Tijelo graditeljstva pojedinačno poziva svakog sudionika",
@@ -718,6 +736,7 @@ window.APP_DATA.push({
     },
     {
       q: "Tko određuje glavnog projektanta?",
+      exam: true,
       options: [
         "Investitor ugovorom o projektiranju ili druga osoba određena tim ugovorom",
         "Tijelo graditeljstva u građevinskoj dozvoli",
@@ -731,6 +750,7 @@ window.APP_DATA.push({
     },
     {
       q: "Čime projektant preuzima odgovornost da je projekt cjelovit i izrađen u skladu sa Zakonom?",
+      exam: true,
       options: [
         "Pisanom izjavom projektanta u prvoj mapi",
         "Pečatom ovlaštenog inženjera na svakom nacrtu",
@@ -755,6 +775,7 @@ window.APP_DATA.push({
     },
     {
       q: "Što je dotadašnji izvođač dužan učiniti ako tijekom građenja dođe do promjene izvođača?",
+      exam: true,
       options: [
         "Zatražiti izmjenu građevinske dozvole",
         "Obavijestiti građevinsku inspekciju",
@@ -780,6 +801,7 @@ window.APP_DATA.push({
     },
     {
       q: "Ako u građenju sudjeluju dva ili više izvođača, tko određuje glavnog izvođača i što on imenuje?",
+      exam: true,
       options: [
         "Tijelo graditeljstva; imenuje nadzornog inženjera",
         "Izvođači sporazumno; imenuje voditelja radova",
@@ -805,6 +827,7 @@ window.APP_DATA.push({
     },
     {
       q: "Kako izvođač, a kako projektant dokazuju da mogu obavljati svoju djelatnost?",
+      exam: true,
       options: [
         "Oba upisom u registar ovlaštenih inženjera",
         "Izvođač ugovorom o građenju, projektant diplomom",
@@ -818,6 +841,7 @@ window.APP_DATA.push({
     },
     {
       q: "Koji uvjet obrazovanja mora ispunjavati osoba imenovana za inženjera gradilišta?",
+      exam: true,
       options: [
         "Preddiplomski sveučilišni ili stručni studij (najmanje 180 ECTS) odgovarajuće struke i položen stručni ispit, ili upis u imenik inženjera gradilišta Komore",
         "Diplomski studij (300 ECTS) i 8 godina iskustva",
@@ -830,6 +854,7 @@ window.APP_DATA.push({
     },
     {
       q: "Tko čuva pisane izjave izvođača do podnošenja zahtjeva za izdavanje uporabne dozvole?",
+      exam: true,
       options: [
         "Investitor",
         "Inženjer gradilišta odnosno glavni inženjer gradilišta kada je imenovan",
@@ -843,6 +868,7 @@ window.APP_DATA.push({
     },
     {
       q: "Koja od tvrdnji o nadzornom inženjeru je TOČNA prema ZOG-u 155/25?",
+      exam: true,
       options: [
         "Može biti zaposlenik izvođača ako ima ovlaštenje",
         "Može biti pravna osoba registrirana za nadzor",
@@ -856,6 +882,7 @@ window.APP_DATA.push({
     },
     {
       q: "Na koji način investitor određuje glavnog nadzornog inženjera kada nadzor provodi više nadzornih inženjera?",
+      exam: true,
       options: [
         "Pisanim ugovorom",
         "Upisom u građevinski dnevnik",
@@ -869,6 +896,7 @@ window.APP_DATA.push({
     },
     {
       q: "Nadzorni inženjer dužan je utvrditi da je iskolčenje građevine obavio:",
+      exam: true,
       options: [
         "izvođač",
         "projektant",
@@ -893,6 +921,7 @@ window.APP_DATA.push({
     },
     {
       q: "Kako mora postupiti nadzorni inženjer ako proizvod koji dođe na gradilište ne zadovoljava kvalitetom?",
+      exam: true,
       options: [
         "Obavijestiti projektanta i zatražiti izmjenu projekta",
         "Zabraniti njegovu ugradnju i zabranu upisati u građevinski dnevnik",
@@ -905,6 +934,7 @@ window.APP_DATA.push({
     },
     {
       q: "Koje podatke sadrži završno izvješće nadzornog inženjera za manje složene zgrade?",
+      exam: true,
       options: [
         "Samo podatke koji se odnose na mehaničku otpornost i stabilnost",
         "Podatke o svim temeljnim zahtjevima",
@@ -917,6 +947,7 @@ window.APP_DATA.push({
     },
     {
       q: "Koju kontrolu projekta revident NE SMIJE obaviti?",
+      exam: true,
       options: [
         "Kontrolu projekta zgrade raspona većeg od 10 m",
         "Kontrolu projekta izrađenog prema stranim propisima",
@@ -929,6 +960,7 @@ window.APP_DATA.push({
     },
     {
       q: "Za koje je zgrade obvezna kontrola glavnog projekta glede mehaničke otpornosti i stabilnosti?",
+      exam: true,
       options: [
         "Sve zgrade s više od dvije etaže",
         "Zgrade raspona 10 m i više, građevinske površine 800 m² i više, visine 20 m i više, konzole 5 m i više te ovješene fasade",
@@ -942,6 +974,7 @@ window.APP_DATA.push({
     },
     {
       q: "Za koje je mostove obvezna kontrola glavnog projekta (revizija)?",
+      exam: true,
       options: [
         "Raspona 5 m i više",
         "Raspona 20 m i više",
@@ -955,6 +988,7 @@ window.APP_DATA.push({
     },
     {
       q: "Za koje je energetske građevine obvezna kontrola glavnog projekta glede mehaničke otpornosti i stabilnosti?",
+      exam: true,
       options: [
         "Dalekovode 110 kV i više te elektrane instalirane snage 20 MW i više",
         "Dalekovode 35 kV i više te elektrane 5 MW i više",
@@ -968,6 +1002,7 @@ window.APP_DATA.push({
     },
     {
       q: "Kada je potrebna kontrola projekta glede mehaničke otpornosti i stabilnosti za građevinu za koju inače nije obvezna?",
+      exam: true,
       options: [
         "Ako se gradi na području zaštićenom kao kulturno dobro",
         "Ako je vrijednost investicije veća od 10 mil. kn",
@@ -992,6 +1027,7 @@ window.APP_DATA.push({
     },
     {
       q: "Što je glavni projekt prema Zakonu o gradnji (NN 155/25)?",
+      exam: true,
       options: [
         "Skup nacrta kojima se daju osnovna oblikovno-funkcionalna rješenja i smještaj zgrade",
         "Skup međusobno usklađenih projekata kojima se daje tehničko rješenje građevine i dokazuje ispunjavanje temeljnih zahtjeva te drugih zahtjeva i uvjeta",
@@ -1005,6 +1041,7 @@ window.APP_DATA.push({
     },
     {
       q: "Koji od navedenih projekata NIJE strukovna odrednica glavnog projekta prema ZOG-u?",
+      exam: true,
       options: [
         "Arhitektonski projekt",
         "Građevinski projekt",
@@ -1031,6 +1068,7 @@ window.APP_DATA.push({
     },
     {
       q: "Tko uz glavnog projektanta sudjeluje u izradi situacije građevine i preuzima odgovornost potpisom naslovne stranice projekta?",
+      exam: true,
       options: [
         "Revident",
         "Nadzorni inženjer",
@@ -1043,6 +1081,7 @@ window.APP_DATA.push({
     },
     {
       q: "Tko izrađuje prikaz svih primijenjenih mjera zaštite od požara u glavnom projektu i gdje se on nalazi?",
+      exam: true,
       options: [
         "Glavni projektant; u svakoj mapi projekta",
         "Stručna osoba ovlaštena prema propisu o zaštiti od požara, u suradnji s glavnim projektantom; u prvoj mapi glavnog projekta",
@@ -1055,6 +1094,7 @@ window.APP_DATA.push({
     },
     {
       q: "Koji je dodatni sadržaj prve mape glavnog projekta u odnosu na ostale mape (tekstualni dio)?",
+      exam: true,
       options: [
         "Izvedbeni nacrti i detalji",
         "Građevinski dnevnik i pisana izjava izvođača",
@@ -1069,53 +1109,53 @@ window.APP_DATA.push({
   flashcards: [
     { front: "Definicija: zgrada — i što se ne smatra zgradom?", back: "Zatvorena i/ili natkrivena građevina namijenjena boravku ljudi odnosno smještaju životinja, biljaka i stvari. Zgradom se ne smatra pojedinačna građevina unutar infrastrukturne građevine (trafostanica, relejna kućica, crpna stanica) ni nadstrešnica za zaštitu opreme unutar industrijskih postrojenja. (ZOG 155/25, čl. 3.)", freq: 2 },
     { front: "Definicija: gradilište", back: "Zemljište i/ili građevina, uključujući i privremeno zauzete površine, na kojima se izvodi građenje ili radovi potrebni za primjenu odgovarajuće tehnologije građenja i zaštite. (ZOG čl. 3.)", freq: 2 },
-    { front: "Složena građevina i postojeća građevina — definicije", back: "Složena građevina = sklop više funkcionalno i/ili tehnološki povezanih građevina (npr. uređaj za pročišćavanje voda). Postojeća građevina = izgrađena na temelju građevinske dozvole ili drugog odgovarajućeg akta, ili s njom izjednačena prema zakonu. (ZOG čl. 3.)", freq: 1 },
-    { front: "Nabroji skupine građevina prema ZOG-u 155/25.", back: "a) manje složene zgrade (stambene do 2 stana i 400 m² GBP, poljoprivredne do 600 m²), b) višestambene zgrade (3+ stambene jedinice, do 20 % GBP poslovno), c) ostale građevine.", freq: 2 },
+    { front: "Složena građevina i postojeća građevina — definicije", exam: true, back: "Složena građevina = sklop više funkcionalno i/ili tehnološki povezanih građevina (npr. uređaj za pročišćavanje voda). Postojeća građevina = izgrađena na temelju građevinske dozvole ili drugog odgovarajućeg akta, ili s njom izjednačena prema zakonu. (ZOG čl. 3.)", freq: 1 },
+    { front: "Nabroji skupine građevina prema ZOG-u 155/25.", exam: true, back: "a) manje složene zgrade (stambene do 2 stana i 400 m² GBP, poljoprivredne do 600 m²), b) višestambene zgrade (3+ stambene jedinice, do 20 % GBP poslovno), c) ostale građevine.", freq: 2 },
     { front: "U koju skupinu spada obiteljska kuća u sklopu koje je frizerski salon?", back: "Ako javnopravna tijela ne izdaju posebne uvjete — skupina ostalih građevina (bivša 3.a) jer nije samo stambena namjena; ako izdaju posebne uvjete — bivša 2.b, tj. manje složena zgrada (provjeriti prostorni plan, npr. zonu sanitarne zaštite)." },
     { front: "Rokovi dovršenja zgrada po skupinama (ZOG čl. 80.)", back: "Zgrada za koju GD izdaje Ministarstvo — 10 godina; manje složena zgrada — 5 godina; ostale zgrade — 7 godina. Teku od prijave početka građenja; ne odnose se na pojedinačno zaštićena kulturna dobra; izmjena GD ne utječe na rokove." },
-    { front: "Čime su propisani temeljni zahtjevi za građevinu i gdje se dokazuju?", back: "Zakonom o gradnji i tehničkim propisima (u skladu s europskim usklađivanjem tehničkog zakonodavstva); dokazuju se u glavnom projektu, uz vjerojatni učinak klimatskih promjena. (ZOG čl. 5.)", freq: 2 },
-    { front: "Koji temeljni zahtjev izdaje (za koji je nadležan) MUP?", back: "Sigurnost građevine u slučaju požara. (ZOG čl. 7.)", freq: 2 },
+    { front: "Čime su propisani temeljni zahtjevi za građevinu i gdje se dokazuju?", exam: true, back: "Zakonom o gradnji i tehničkim propisima (u skladu s europskim usklađivanjem tehničkog zakonodavstva); dokazuju se u glavnom projektu, uz vjerojatni učinak klimatskih promjena. (ZOG čl. 5.)", freq: 2 },
+    { front: "Koji temeljni zahtjev izdaje (za koji je nadležan) MUP?", exam: true, back: "Sigurnost građevine u slučaju požara. (ZOG čl. 7.)", freq: 2 },
     { front: "Koji su temeljni sigurnosni zahtjevi?", back: "Oni koji se odnose na sigurnost same građevine i korisnika: mehanička otpornost i stabilnost, sigurnost u slučaju požara, zaštita od štetnih učinaka na higijenu i zdravlje te sigurnost i pristupačnost građevine.", freq: 2 },
     { front: "Mehanička otpornost i stabilnost — koja 4 zahtjeva mora ispuniti konstrukcija?", back: "Trajnost (tijekom vijeka trajanja), otpornost konstrukcije (podnijeti sva djelovanja bez rušenja i nedopustivih deformacija), upotrebljivost (ostati unutar zahtjeva za upotrebu) i robusnost (očuvati cjelovitost u štetnim događajima: potres, eksplozija, požar, udar, ljudska pogreška). (ZOG čl. 6.)", freq: 2 },
-    { front: "Sigurnost i pristupačnost građevina (ZOG čl. 9.)", back: "Građevina ne smije predstavljati neprihvatljive rizike od nezgoda (klizanje, pad, sudar, opekline, električni udar, povrede od pada dijelova); mora se projektirati vodeći računa o pristupačnosti osobama s invaliditetom i smanjene pokretljivosti — Tehnički propis NN 12/2023.", freq: 1 },
+    { front: "Sigurnost i pristupačnost građevina (ZOG čl. 9.)", exam: true, back: "Građevina ne smije predstavljati neprihvatljive rizike od nezgoda (klizanje, pad, sudar, opekline, električni udar, povrede od pada dijelova); mora se projektirati vodeći računa o pristupačnosti osobama s invaliditetom i smanjene pokretljivosti — Tehnički propis NN 12/2023.", freq: 1 },
     { front: "Održiva uporaba prirodnih izvora u građevinama (ZOG čl. 13.) — što osigurava?", back: "Resursno učinkovitu uporabu sirovina i sekundarnih materijala; smanjenje količine sirovina, ugrađene energije, otpada i uporabe vode; povećanje ponovne uporabe/recikliranja građevine i materijala nakon rastavljanja; jednostavnost rastavljanja.", freq: 2 },
-    { front: "Odstupanje od temeljnih zahtjeva (ZOG čl. 14.) — kada i kako?", back: "Pri rekonstrukciji kulturnog dobra (ako bi se narušila spomenička svojstva) ili radi pristupa osoba smanjene pokretljivosti — uz prethodnu suglasnost Ministarstva (nije upravni akt); za požar prethodno mišljenje ministarstva nadležnog za ZOP. Uvjet: nije moguće tehničko rješenje ili je trošak u bitnom nerazmjeru s koristi.", freq: 1 },
+    { front: "Odstupanje od temeljnih zahtjeva (ZOG čl. 14.) — kada i kako?", exam: true, back: "Pri rekonstrukciji kulturnog dobra (ako bi se narušila spomenička svojstva) ili radi pristupa osoba smanjene pokretljivosti — uz prethodnu suglasnost Ministarstva (nije upravni akt); za požar prethodno mišljenje ministarstva nadležnog za ZOP. Uvjet: nije moguće tehničko rješenje ili je trošak u bitnom nerazmjeru s koristi.", freq: 1 },
     { front: "Dopuštena odstupanja u građenju (ZOG čl. 81.)", back: "Odstupanje po pravilima struke ako ne utječe na temeljne zahtjeve ni lokacijske uvjete; ukupne vanjske mjere do najviše 0,30 m, osim građevinskog pravca i udaljenosti od međe. Za kulturno dobro nije dopušteno nikakvo odstupanje pravca, međe ni vanjskih mjera.", freq: 1 },
     { front: "Alternativni sustavi opskrbe energijom (ZEUZ čl. 12.) — koji su i tko ih razmatra?", back: "Decentralizirani sustav na OIE, kogeneracija, daljinsko grijanje/hlađenje (posebno na OIE), dizalice topline. Projektant ih razmatra prije izrade glavnog projekta nove zgrade i prikazuje u glavnom projektu." },
-    { front: "Za koje se zgrade NE izdaje energetski certifikat?", back: "Vjerske zgrade; privremene zgrade s rokom uporabe do 2 godine, industrijska postrojenja, radionice i nestambene poljoprivredne zgrade s malim energetskim potrebama; stambene zgrade koje se koriste manje od 4 mjeseca godišnje; slobodnostojeće zgrade korisne površine < 50 m². (ZEUZ čl. 13.)" },
+    { front: "Za koje se zgrade NE izdaje energetski certifikat?", exam: true, back: "Vjerske zgrade; privremene zgrade s rokom uporabe do 2 godine, industrijska postrojenja, radionice i nestambene poljoprivredne zgrade s malim energetskim potrebama; stambene zgrade koje se koriste manje od 4 mjeseca godišnje; slobodnostojeće zgrade korisne površine < 50 m². (ZEUZ čl. 13.)" },
     { front: "Energetsko certificiranje — koje radnje obuhvaća i koliko EC važi?", back: "Energetski pregled zgrade, proračuni za referentne klimatske podatke (QH,nd, isporučena i primarna energija, CO2), određivanje energetskog razreda, izrada certifikata. EC važi 10 godina; izrađuje se i ispisuje isključivo putem IEC-a." },
     { front: "Zgrade s jednostavnim tehničkim sustavom (JTS) — kriteriji", back: "GBP ≤ 600 m², najviše 3 samostalne uporabne cjeline; kotao do 30 kW bez povrata topline; solarni kolektori do 4 m²; dizalica topline zrak-zrak do 12 kW; pojedinačni rashladni uređaji; lokalna ventilacija bez obrade zraka. STS = sve ostale zgrade." },
-    { front: "Obveze vlasnika zgrade vezane uz energetski certifikat", back: "Pribaviti EC prije prodaje, iznajmljivanja, zakupa ili leasinga; predati ga kupcu/najmoprimcu; predočiti mogućem kupcu; u oglasu navesti energetski razred. Javna namjena > 250 m² korisne površine — izložiti EC na vidljivom mjestu. Investitor ga pribavlja prije uporabne dozvole." },
+    { front: "Obveze vlasnika zgrade vezane uz energetski certifikat", exam: true, back: "Pribaviti EC prije prodaje, iznajmljivanja, zakupa ili leasinga; predati ga kupcu/najmoprimcu; predočiti mogućem kupcu; u oglasu navesti energetski razred. Javna namjena > 250 m² korisne površine — izložiti EC na vidljivom mjestu. Investitor ga pribavlja prije uporabne dozvole." },
     { front: "Energetska obnova, dubinska obnova, integralna i sveobuhvatna obnova", back: "Energetska obnova = mjere EnU za poboljšanje energetskog svojstva (pregled, certificiranje, projekt, ovojnica, tehnički sustavi, OIE). Dubinska = ovojnica + sustavi, ušteda QH,nd i Eprim ≥ 50 %. Integralna = više mjera, obvezno na ovojnici, QH,nd ≥ 50 %. Sveobuhvatna = uz energetske i mjere ZOP, zdravih uvjeta i potresne otpornosti.", freq: 1 },
-    { front: "Energetski pregled zgrade (EPZ) — što je i tko ga obavlja?", back: "Sustavan postupak analize potrošnje i energetskih svojstava zgrade te isplativosti ušteda; obavlja ga ovlaštena osoba; EC se izdaje na temelju EPZ-a; završava izvješćem koje potpisuju sve ovlaštene osobe; vlasnik čuva izvješće min. 10 godina. (ZEUZ čl. 16., 23., 24.)", freq: 1 },
+    { front: "Energetski pregled zgrade (EPZ) — što je i tko ga obavlja?", exam: true, back: "Sustavan postupak analize potrošnje i energetskih svojstava zgrade te isplativosti ušteda; obavlja ga ovlaštena osoba; EC se izdaje na temelju EPZ-a; završava izvješćem koje potpisuju sve ovlaštene osobe; vlasnik čuva izvješće min. 10 godina. (ZEUZ čl. 16., 23., 24.)", freq: 1 },
     { front: "Tko i kako daje ovlaštenje za energetsko certificiranje? Pravni lijek?", back: "Ministarstvo rješenjem, na neodređeno vrijeme uz uvjet stručnog usavršavanja. Protiv rješenja nema žalbe, ali se može pokrenuti upravni spor." },
     { front: "Vrste ovlaštenja za energetsko certificiranje (JTS/STS) i što obuhvaćaju", back: "1) JTS (Modul 1), 2) STS (Modul 2). Ovlaštenje za STS obuhvaća i JTS, a strojarskoj struci i redoviti pregled sustava grijanja, hlađenja ili klimatizacije. Uvjeti: DSS/SDSS 300 ECTS + 5 g. u struci ili 2 g. projektiranje/nadzor (ili prvostupnik + 10 g. / 5 g.).", freq: 1 },
     { front: "Za koje zgrade ovlaštena osoba ne smije izdati EC?", back: "Za zgradu u čijem je projektiranju, kontroli, nadzoru, građenju ili održavanju sudjelovala ona ili njezin poslodavac; koja je u njezinu vlasništvu ili vlasništvu poslodavca/bračnog druga/srodnika; za koju posreduje u prodaji/najmu. Ni za pravnu osobu u kojoj ima udjele ili je član uprave/zaposlenik; ni kao zaposlenik opskrbljivača energijom, upravitelja ili posrednika za tu zgradu." },
-    { front: "Informacijski sustav energetskih certifikata (IEC) — ZEUZ čl. 42.", back: "Računalna aplikacija za izdavanje, pohranu i kontrolu EC te izvješća o EPZ i redovitim pregledima; uspostavlja i vodi Ministarstvo. Registar: ovlaštene osobe, osobe za kontrolu, osobe za izobrazbu, izdani EC, izdana izvješća. Registar je javan.", freq: 1 },
+    { front: "Informacijski sustav energetskih certifikata (IEC) — ZEUZ čl. 42.", exam: true, back: "Računalna aplikacija za izdavanje, pohranu i kontrolu EC te izvješća o EPZ i redovitim pregledima; uspostavlja i vodi Ministarstvo. Registar: ovlaštene osobe, osobe za kontrolu, osobe za izobrazbu, izdani EC, izdana izvješća. Registar je javan.", freq: 1 },
     { front: "Elektromobilnost u zgradama (ZEUZ čl. 47.–50.) — zahtjevi i izuzeća", back: "Nestambene nove/značajno obnovljene > 10 PM: 1 mjesto za punjenje + kanalska infrastruktura za 1 od 5 PM; sve nestambene > 20 PM: min. 1 mjesto za punjenje; stambene > 10 PM: kanalska infrastruktura za svako PM. Izuzeća: mala i srednja poduzeća, zahtjev za dozvolu do 10.3.2021., mikroizolirani sustavi, trošak > 7 % značajne obnove." },
     { front: "Dugoročna strategija obnove nacionalnog fonda zgrada — tko, do kada, koliko često?", back: "Donosi Vlada RH na prijedlog Ministarstva, za fond zgrada do 2050.; perspektiva min. 30 godina; donosi se svakih 10 godina, ažurira po potrebi svakih 5; cilj smanjenja emisija u EU 80–95 % do 2050. u odnosu na 1990.; dostavlja se EK s Nacionalnim integriranim energetskim i klimatskim planom.", freq: 2 },
     { front: "Nacionalni plan obnove zgrada i programi — tko ih donosi?", back: "Vlada RH donosi Nacionalni plan obnove zgrada (do 2050., ažurira svakih 5 g., ciljevi za 2030., 2040. i 2050.), Programe energetske obnove zgrada, Program razvoja zelene infrastrukture u urbanim područjima i Program razvoja kružnog gospodarenja prostorom i zgradama." },
     { front: "Iskaznica energetskih svojstava zgrade — tko izrađuje, što sadrži, tko potpisuje?", back: "Izrađuje projektant, prilaže se uz glavni projekt i zahtjev za GD. Sadrži: investitor, oznaka projekta, opis zgrade, potrebna toplinska energija, električna energija, automatizacija, energija za termotehničke sustave, udio OIE, energetsko svojstvo (nZEB). Potpis: 12–18 °C glavni projektant i projektant dijela za energiju; > 18 °C i ostali projektanti." },
     { front: "Tko od sudionika u gradnji može biti samo fizička osoba, a tko i pravna?", back: "Samo fizička: projektant, nadzorni inženjer, revident. Pravna ili fizička: investitor, izvođač. (ZOG čl. 17.–28.)", freq: 2 },
-    { front: "Koji se sudionici u gradnji pozivaju na tehnički pregled?", back: "Poziva se investitor, koji je dužan pozvati sve ostale sudionike u gradnji. (ZOG čl. 97.; Pravilnik o tehničkom pregledu građevine NN 46/18, čl. 3.)", freq: 2 },
+    { front: "Koji se sudionici u gradnji pozivaju na tehnički pregled?", exam: true, back: "Poziva se investitor, koji je dužan pozvati sve ostale sudionike u gradnji. (ZOG čl. 97.; Pravilnik o tehničkom pregledu građevine NN 46/18, čl. 3.)", freq: 2 },
     { front: "Voditelj projekta — uvjeti i kada je obvezan?", back: "8 g. iskustva, diplomski studij ARH/GRAĐ/EL/STR (300 ECTS), znanja iz upravljanja projektima (međunarodna ovjera ili 30 ECTS); evidencija pri Ministarstvu; imenuje ga investitor. Obveznici javne nabave: infrastruktura > 10 mil. kn, ceste > 50 mil. kn, zgrade javne namjene > 35 mil. kn, > 100 stanova.", freq: 1 },
-    { front: "Glavni projektant — tko ga određuje i za što odgovara?", back: "Određuje ga investitor ugovorom o projektiranju (ili druga osoba određena ugovorom); odgovoran za cjelovitost i međusobnu usklađenost projekata i svih dijelova složene građevine; potvrđuje kvalificiranim el. potpisom naslovne stranice; može biti i projektant jedne vrste projekta; kršenje = teža povreda dužnosti (prijava komori).", freq: 1 },
-    { front: "Što sadrži izjava projektanta u sklopu idejnog projekta (stari Pravilnik)?", back: "Mjesto i datum, oznaku izjave, oznaku idejnog projekta i ureda, naziv i lokaciju zahvata, popis prostornih planova te popis zakona i propisa s kojima je usklađen. Napomena: prema ZOG-u 155/25 izjave projektanta i glavnog projektanta u glavnom projektu nisu potrebne — odgovornost se preuzima el. potpisom." },
-    { front: "Glavni izvođač i glavni inženjer gradilišta — tko ih određuje i što rade?", back: "Kod 2+ izvođača investitor ugovorom o građenju određuje glavnog izvođača (odgovoran za usklađivanje radova) koji imenuje glavnog inženjera gradilišta: osigurava cjelovitost i usklađenost radova, sastavlja izjavu o usklađenosti obveza, izrađuje objedinjeni program održavanja, supotpisuje sve izjave izvođača; može biti i inženjer gradilišta jednog izvođača.", freq: 1 },
+    { front: "Glavni projektant — tko ga određuje i za što odgovara?", exam: true, back: "Određuje ga investitor ugovorom o projektiranju (ili druga osoba određena ugovorom); odgovoran za cjelovitost i međusobnu usklađenost projekata i svih dijelova složene građevine; potvrđuje kvalificiranim el. potpisom naslovne stranice; može biti i projektant jedne vrste projekta; kršenje = teža povreda dužnosti (prijava komori).", freq: 1 },
+    { front: "Što sadrži izjava projektanta u sklopu idejnog projekta (stari Pravilnik)?", exam: true, back: "Mjesto i datum, oznaku izjave, oznaku idejnog projekta i ureda, naziv i lokaciju zahvata, popis prostornih planova te popis zakona i propisa s kojima je usklađen. Napomena: prema ZOG-u 155/25 izjave projektanta i glavnog projektanta u glavnom projektu nisu potrebne — odgovornost se preuzima el. potpisom." },
+    { front: "Glavni izvođač i glavni inženjer gradilišta — tko ih određuje i što rade?", exam: true, back: "Kod 2+ izvođača investitor ugovorom o građenju određuje glavnog izvođača (odgovoran za usklađivanje radova) koji imenuje glavnog inženjera gradilišta: osigurava cjelovitost i usklađenost radova, sastavlja izjavu o usklađenosti obveza, izrađuje objedinjeni program održavanja, supotpisuje sve izjave izvođača; može biti i inženjer gradilišta jednog izvođača.", freq: 1 },
     { front: "Što izvođač mora napraviti nakon završetka građenja?", back: "Sastaviti pisanu izjavu o izvedenim radovima (kvalificirani el. potpis) te izraditi program i način održavanja građevine i ugrađene opreme u skladu s glavnim projektom. (ZOG čl. 22.)", freq: 2 },
     { front: "Kako izvođač (fizička i pravna osoba) dokazuje da može obavljati djelatnost? Kako projektant?", back: "Izvođač upisom u odgovarajući registar (obrtni ili sudski registar) za djelatnost građenja; projektant upisom u registar ovlaštenih inženjera. Izvođač se mora osigurati od odgovornosti i ne smije sudjelovati u nadzoru iste građevine.", freq: 1 },
-    { front: "Glavni inženjer gradilišta, inženjer gradilišta, voditelj radova — o čemu ovisi tko je imenovan?", back: "Izvođač imenuje inženjera gradilišta (vodi građenje više struka) i/ili voditelja radova (vodi radove svoje struke) — ovisno o vrsti i opsegu radova; oba svakodnevno upisuju u građevinski dnevnik. Glavni inženjer gradilišta imenuje se kad ima 2+ izvođača (imenuje ga glavni izvođač).", freq: 1 },
-    { front: "Sadržaj pisane izjave izvođača (Pravilnik NN 43/14)", back: "Naziv građevine i podaci o GD; podaci o izvođaču (OIB) i inženjeru gradilišta; popis radova i pripadajući projekt; izjava o udovoljavanju uvjetima glavnog/izvedbenog projekta; izvješće o izvođenju i ugradnji proizvoda s uvjetima održavanja; izmjene u odnosu na projekt i GD; očitovanje o neizvedenim radovima; drugi podaci (uvođenje u posao, primopredaja). Daju je svi izvođači; čuva inženjer gradilišta do zahtjeva za uporabnu dozvolu.", freq: 1 },
-    { front: "Nadzorni inženjer — tko je i tko ne može biti?", back: "Fizička osoba s pravom uporabe naziva ovlašteni arhitekt ili ovlašteni inženjer koja u ime investitora provodi stručni nadzor; ne može biti zaposlenik izvođača ni osobe povezane s izvođačem. Kod više vrsta radova investitor pisanim ugovorom određuje glavnog nadzornog inženjera. (ZOG čl. 24.)", freq: 2 },
+    { front: "Glavni inženjer gradilišta, inženjer gradilišta, voditelj radova — o čemu ovisi tko je imenovan?", exam: true, back: "Izvođač imenuje inženjera gradilišta (vodi građenje više struka) i/ili voditelja radova (vodi radove svoje struke) — ovisno o vrsti i opsegu radova; oba svakodnevno upisuju u građevinski dnevnik. Glavni inženjer gradilišta imenuje se kad ima 2+ izvođača (imenuje ga glavni izvođač).", freq: 1 },
+    { front: "Sadržaj pisane izjave izvođača (Pravilnik NN 43/14)", exam: true, back: "Naziv građevine i podaci o GD; podaci o izvođaču (OIB) i inženjeru gradilišta; popis radova i pripadajući projekt; izjava o udovoljavanju uvjetima glavnog/izvedbenog projekta; izvješće o izvođenju i ugradnji proizvoda s uvjetima održavanja; izmjene u odnosu na projekt i GD; očitovanje o neizvedenim radovima; drugi podaci (uvođenje u posao, primopredaja). Daju je svi izvođači; čuva inženjer gradilišta do zahtjeva za uporabnu dozvolu.", freq: 1 },
+    { front: "Nadzorni inženjer — tko je i tko ne može biti?", exam: true, back: "Fizička osoba s pravom uporabe naziva ovlašteni arhitekt ili ovlašteni inženjer koja u ime investitora provodi stručni nadzor; ne može biti zaposlenik izvođača ni osobe povezane s izvođačem. Kod više vrsta radova investitor pisanim ugovorom određuje glavnog nadzornog inženjera. (ZOG čl. 24.)", freq: 2 },
     { front: "Stručni nadzor manje složenih zgrada — u odnosu na što i kako?", back: "Samo u odnosu na mehaničku otpornost i stabilnost; nadzorni inženjer na gradilištu pregledava pojedine faze građenja i odobrava daljnje izvođenje radova; završno izvješće sadrži samo podatke o MOS. (ZOG čl. 26.)" },
     { front: "Razlika između stručnog i inspekcijskog nadzora", back: "Stručni nadzor provodi nadzorni inženjer u ime investitora (usklađenost s GD, projektom, propisima). Građevinska inspekcija (državni službenici: glavni, viši, inspektor, nadzornik) nadzire građenje, provedbu stručnog nadzora, održavanje i uporabu — dakle i rad nadzornog inženjera — i naređuje inspekcijske mjere (otklanjanje nepravilnosti, zabrana ugradnje proizvoda, otklanjanje oštećenja, usklađivanje, uklanjanje, zabrana uklanjanja, obustava)." },
-    { front: "Kako mora postupiti nadzorni inženjer ako proizvod ne zadovoljava kvalitetom?", back: "Zabraniti ugradnju i zabranu upisati u građevinski dnevnik. Ako je ugrađen: odrediti način otklanjanja (kontrolno tijelo, računska provjera, očevid/ispitivanje uzoraka), zabraniti nastavak radova do otklanjanja, upisati prestanak zabrane; pisano obavijestiti investitora i Državni inspektorat. (Pravilnik NN 131/21)" },
-    { front: "Revident — tko može biti i što ne smije?", back: "Fizička osoba ovlaštena za kontrolu projekata glede mehaničke otpornosti i stabilnosti; odgovara da kontrolirani projekt udovoljava ZOG-u, propisima i pravilima struke; ne može kontrolirati projekt u čijoj je izradi sudjelovao ili izrađen/nostrificiran u pravnoj osobi gdje je zaposlen ili vlasnik. Ne postoje revidenti strojarskih projekata ni projekata izvedenog stanja." },
-    { front: "Koje zgrade idu na kontrolu projekta (reviziju)?", back: "Zgrade konstrukcije raspona 10 m i više, građevinske površine 800 m² i više, visine 20 m i više, konzole prepusta 5 m i više, ovješene fasade. Također: rekonstrukcije koje utječu na MOS tih građevina, građenje neposredno uz postojeću građevinu i projekti po stranim propisima nakon nostrifikacije. (Pravilnik o kontroli projekata, čl. 3.)", freq: 2 },
-    { front: "Pragovi za kontrolu projekta — inženjerske građevine (nabroji ključne brojke)", back: "Tornjevi/stupovi 9 m; spremnici 1000 m³; hale 800 m² ili raspon 10 m; bazeni 300 m³; nasipi/usjeci 10 m; potporni zidovi 5 m; mostovi raspon 12 m ili stup 10 m; jarboli 20 m; dalekovodi 110 kV; elektrane 20 MW; brane 5 m; zaštita voda > 50 000 ES; vodoopskrba > 100 l/s; tuneli i jame > 5 m; klizišta 500 m² ili 3 m dubine; temeljenje na pilotima/kesonima, poboljšano tlo 5 m.", freq: 2 },
+    { front: "Kako mora postupiti nadzorni inženjer ako proizvod ne zadovoljava kvalitetom?", exam: true, back: "Zabraniti ugradnju i zabranu upisati u građevinski dnevnik. Ako je ugrađen: odrediti način otklanjanja (kontrolno tijelo, računska provjera, očevid/ispitivanje uzoraka), zabraniti nastavak radova do otklanjanja, upisati prestanak zabrane; pisano obavijestiti investitora i Državni inspektorat. (Pravilnik NN 131/21)" },
+    { front: "Revident — tko može biti i što ne smije?", exam: true, back: "Fizička osoba ovlaštena za kontrolu projekata glede mehaničke otpornosti i stabilnosti; odgovara da kontrolirani projekt udovoljava ZOG-u, propisima i pravilima struke; ne može kontrolirati projekt u čijoj je izradi sudjelovao ili izrađen/nostrificiran u pravnoj osobi gdje je zaposlen ili vlasnik. Ne postoje revidenti strojarskih projekata ni projekata izvedenog stanja." },
+    { front: "Koje zgrade idu na kontrolu projekta (reviziju)?", exam: true, back: "Zgrade konstrukcije raspona 10 m i više, građevinske površine 800 m² i više, visine 20 m i više, konzole prepusta 5 m i više, ovješene fasade. Također: rekonstrukcije koje utječu na MOS tih građevina, građenje neposredno uz postojeću građevinu i projekti po stranim propisima nakon nostrifikacije. (Pravilnik o kontroli projekata, čl. 3.)", freq: 2 },
+    { front: "Pragovi za kontrolu projekta — inženjerske građevine (nabroji ključne brojke)", exam: true, back: "Tornjevi/stupovi 9 m; spremnici 1000 m³; hale 800 m² ili raspon 10 m; bazeni 300 m³; nasipi/usjeci 10 m; potporni zidovi 5 m; mostovi raspon 12 m ili stup 10 m; jarboli 20 m; dalekovodi 110 kV; elektrane 20 MW; brane 5 m; zaštita voda > 50 000 ES; vodoopskrba > 100 l/s; tuneli i jame > 5 m; klizišta 500 m² ili 3 m dubine; temeljenje na pilotima/kesonima, poboljšano tlo 5 m.", freq: 2 },
     { front: "Ovlaštenje za kontrolu projekata — područja i uvjeti", back: "BK (betonske i zidane), MK (metalne i spregnute), DK (drvene), GK (geotehničke konstrukcije). Daje se ovlaštenom inženjeru građevinarstva s min. 10 g. iskustva koji je projektirao statički složene konstrukcije, proveo min. 1 nadzor takve konstrukcije i dao doprinos struci (znanstveni/stručni radovi). Popis revidenata na stranicama Ministarstva." },
-    { front: "Glavni projekt — definicija i strukovne odrednice", back: "Skup međusobno usklađenih projekata kojima se daje tehničko rješenje građevine i dokazuje ispunjavanje temeljnih i drugih zahtjeva. Sadrži jedan ili više projekata: arhitektonski, građevinski, elektrotehnički, strojarski. Mora sadržavati podatke iz elaborata, projektirani vijek uporabe i uvjete održavanja. (ZOG čl. 34.)", freq: 2 },
-    { front: "Koji elaborati prethode izradi glavnog projekta? Što je elaborat?", back: "Geotehnički, zaštite od požara, krajobrazni, prometni, tehničko-tehnološkog rješenja, zaštite na radu, zaštite od buke, konzervatorski i drugi potrebni. Elaborat je pismeni sastavak u kojem se predmet temeljito stručno raščlanjuje i obrazlaže.", freq: 1 },
-    { front: "Sastavni dijelovi glavnog projekta (Pravilnik NN 118/19, 65/20)", back: "OPĆI DIO: naslovnica, stranica za ovjeru revidenta, popis projektanata, popis mapa, sadržaj, rješenje o okolišu, posebni uvjeti/uvjeti priključenja, lokacijska dozvola (prva mapa). TEHNIČKI DIO — tekstualni: tehnički opis, dokazi temeljnih zahtjeva, program kontrole kvalitete, posebni tehnički uvjeti (otpad), iskaz troškova; prva mapa još zajednički opis, prikaz mjera ZOP, podaci za komunalni doprinos. Grafički: situacija, nacrti, uređenje čestice." }
+    { front: "Glavni projekt — definicija i strukovne odrednice", exam: true, back: "Skup međusobno usklađenih projekata kojima se daje tehničko rješenje građevine i dokazuje ispunjavanje temeljnih i drugih zahtjeva. Sadrži jedan ili više projekata: arhitektonski, građevinski, elektrotehnički, strojarski. Mora sadržavati podatke iz elaborata, projektirani vijek uporabe i uvjete održavanja. (ZOG čl. 34.)", freq: 2 },
+    { front: "Koji elaborati prethode izradi glavnog projekta? Što je elaborat?", exam: true, back: "Geotehnički, zaštite od požara, krajobrazni, prometni, tehničko-tehnološkog rješenja, zaštite na radu, zaštite od buke, konzervatorski i drugi potrebni. Elaborat je pismeni sastavak u kojem se predmet temeljito stručno raščlanjuje i obrazlaže.", freq: 1 },
+    { front: "Sastavni dijelovi glavnog projekta (Pravilnik NN 118/19, 65/20)", exam: true, back: "OPĆI DIO: naslovnica, stranica za ovjeru revidenta, popis projektanata, popis mapa, sadržaj, rješenje o okolišu, posebni uvjeti/uvjeti priključenja, lokacijska dozvola (prva mapa). TEHNIČKI DIO — tekstualni: tehnički opis, dokazi temeljnih zahtjeva, program kontrole kvalitete, posebni tehnički uvjeti (otpad), iskaz troškova; prva mapa još zajednički opis, prikaz mjera ZOP, podaci za komunalni doprinos. Grafički: situacija, nacrti, uređenje čestice." }
   ]
 });

@@ -129,6 +129,7 @@ window.APP_DATA.push({
     },
     {
       q: "Što opisuju razredi poprečnih presjeka 1–4 u Eurokodu 3?",
+      exam: true,
       options: [
         "Kvalitetu izrade profila u radionici",
         "Otpornost presjeka na lokalno izbočivanje i sposobnost razvoja plastične otpornosti",

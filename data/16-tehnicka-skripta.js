@@ -128,6 +128,7 @@ window.APP_DATA.push({
   questions: [
     {
       q: "Što uređuje Zakon o akreditaciji?",
+      exam: true,
       options: [
         "Postupke ocjenjivanja sukladnosti proizvoda i isprave o sukladnosti",
         "Osnivanje i djelatnost tijela koje obavlja poslove nacionalne službe za akreditaciju, područje akreditacije i akreditaciju u vezi s propisima o ocjenjivanju sukladnosti",
@@ -141,6 +142,7 @@ window.APP_DATA.push({
     },
     {
       q: "Što se utvrđuje u postupku akreditacije?",
+      exam: true,
       options: [
         "Sukladnost proizvoda s harmoniziranom normom",
         "Ispunjavanje temeljnih zahtjeva za građevinu",
@@ -154,6 +156,7 @@ window.APP_DATA.push({
     },
     {
       q: "Koja je tvrdnja o dodijeljenoj akreditaciji točna?",
+      exam: true,
       options: [
         "Akreditacija je vremenski ograničena i dodjeljuje se potvrdom o akreditaciji na temelju ugovora",
         "Akreditacija se dodjeljuje trajno, bez vremenskog ograničenja",
@@ -166,6 +169,7 @@ window.APP_DATA.push({
     },
     {
       q: "Koja je razlika između akreditacije i certifikacije?",
+      exam: true,
       options: [
         "Akreditacija se odnosi na proizvode, a certifikacija na laboratorije",
         "Nema razlike, riječ je o istovjetnim postupcima",
@@ -216,6 +220,7 @@ window.APP_DATA.push({
     },
     {
       q: "Za građevni proizvod koji nije obuhvaćen hrvatskom normom ni usklađenom tehničkom specifikacijom, tko na traženje proizvođača izrađuje hrvatski dokument za ocjenjivanje?",
+      exam: true,
       options: [
         "Hrvatski zavod za norme uz suglasnost HAA",
         "Prijavljeno tijelo uz suglasnost Europske komisije",
@@ -229,6 +234,7 @@ window.APP_DATA.push({
     },
     {
       q: "Tko donosi tehničke propise i jesu li obvezni?",
+      exam: true,
       options: [
         "Hrvatski zavod za norme; obvezni su samo ako to odredi Vlada",
         "Hrvatska komora inženjera građevinarstva; neobvezni su",
@@ -242,6 +248,7 @@ window.APP_DATA.push({
     },
     {
       q: "Na koji način tehnički propis daje tehničke zahtjeve?",
+      exam: true,
       options: [
         "Isključivo izravno, bez pozivanja na norme",
         "Isključivo upućivanjem na europske norme",
@@ -254,6 +261,7 @@ window.APP_DATA.push({
     },
     {
       q: "Na koje se konstrukcije primjenjuje Tehnički propis za građevinske konstrukcije?",
+      exam: true,
       options: [
         "Na nove i rekonstruirane betonske, čelične, spregnute, drvene, zidane, geotehničke, potresno otporne, aluminijske i ostale konstrukcije",
         "Samo na nove betonske i čelične konstrukcije",
@@ -267,6 +275,7 @@ window.APP_DATA.push({
     },
     {
       q: "Kako Tehnički propis za građevinske konstrukcije definira građevinsku konstrukciju?",
+      exam: true,
       options: [
         "Skup građevnih proizvoda ugrađenih u građevinu prema izjavi o svojstvima",
         "Skup građevinskih elemenata raspoređenih i povezanih na projektom određen način, na konačnom mjestu u građevini, radi mehaničke otpornosti i stabilnosti i dijela zahtjeva sigurnosti u slučaju požara",
@@ -279,6 +288,7 @@ window.APP_DATA.push({
     },
     {
       q: "Što od navedenog NIJE među posljedicama koje predvidiva djelovanja prema Tehničkom propisu za građevinske konstrukcije ne smiju prouzročiti?",
+      exam: true,
       options: [
         "Rušenje cijele građevine ili njezinog dijela",
         "Vibracije koje ugrožavaju sigurnost ili izazivaju neugodu korisnika",
@@ -291,6 +301,7 @@ window.APP_DATA.push({
     },
     {
       q: "Što sadrži program kontrole i osiguranja kvalitete u projektu pojedine struke?",
+      exam: true,
       options: [
         "Samo popis građevnih proizvoda i njihovih proizvođača",
         "Troškovnik radova i dinamički plan građenja",
@@ -304,6 +315,7 @@ window.APP_DATA.push({
     },
     {
       q: "Ako u programu kontrole i osiguranja kvalitete nije drukčije navedeno, provedba potrebnih ispitivanja smatra se:",
+      exam: true,
       options: [
         "Tekućim ispitivanjima proizvođača u kontroli tvorničke proizvodnje",
         "Kontrolnim ispitivanjima odnosno kontrolnim postupcima čiju provedbu određuje nadzorni inženjer",
@@ -343,6 +355,7 @@ window.APP_DATA.push({
     },
     {
       q: "Što je mjerni etalon?",
+      exam: true,
       options: [
         "Uređaj koji se upotrebljava za mjerenja u prometu robe",
         "Kombinacija proizvoda i ambalaže u koju je zapakiran",
@@ -367,6 +380,7 @@ window.APP_DATA.push({
     },
     {
       q: "Koji je sustav ocjenjivanja i provjere stalnosti svojstava propisan za toplinsko-izolacijske proizvode koji podliježu propisima zaštite od požara (razredi A1, A2, B, C)?",
+      exam: true,
       options: [
         "Sustav 4",
         "Sustav 3",
@@ -379,6 +393,7 @@ window.APP_DATA.push({
     },
     {
       q: "Što označava granično stanje uporabivosti (GSU)?",
+      exam: true,
       options: [
         "Granično opterećenje pri kojem konstrukcija gubi uporabivost (pukotine, progibi) iako nije ugrožena sigurnost",
         "Opterećenje pri kojem dolazi do loma materijala",
@@ -391,6 +406,7 @@ window.APP_DATA.push({
     },
     {
       q: "Koliki su parcijalni koeficijenti sigurnosti za djelovanja kod graničnog stanja nosivosti?",
+      exam: true,
       options: [
         "1,35 za vlastito i 1,5 za korisno opterećenje",
         "1,0 za vlastito i 1,0 za korisno opterećenje",
@@ -403,6 +419,7 @@ window.APP_DATA.push({
     },
     {
       q: "Što su eurokodovi i što je svaka država članica obvezna izraditi?",
+      exam: true,
       options: [
         "Usklađene europske norme za proračun konstrukcija; svaka članica izrađuje nacionalne dodatke (potresne zone, vjetar, snijeg)",
         "Europske uredbe o građevnim proizvodima; svaka članica izrađuje tehničke propise",
@@ -416,6 +433,7 @@ window.APP_DATA.push({
     },
     {
       q: "Koji eurokod uređuje geotehničko projektiranje?",
+      exam: true,
       options: [
         "EC5",
         "EC6",
@@ -428,6 +446,7 @@ window.APP_DATA.push({
     },
     {
       q: "Koji eurokod određuje projektiranje vodovoda i kanalizacije?",
+      exam: true,
       options: [
         "Eurokod 1 (djelovanja na konstrukcije)",
         "Eurokod 7 (geotehničko projektiranje)",
@@ -440,6 +459,7 @@ window.APP_DATA.push({
     },
     {
       q: "Za koje je konstrukcije eurokod još u izradi i što se koristi u međuvremenu?",
+      exam: true,
       options: [
         "Za aluminijske konstrukcije; koristi se EC3",
         "Za staklene konstrukcije; koristi se tehnički propis za staklene konstrukcije",
@@ -453,6 +473,7 @@ window.APP_DATA.push({
     },
     {
       q: "Što je beton prema Tehničkom propisu za građevinske konstrukcije?",
+      exam: true,
       options: [
         "Građevni proizvod koji se sastoji od cementa, agregata, vode i dodataka betonu",
         "Građevni proizvod koji se sastoji od cementa, pijeska i vode",
@@ -466,6 +487,7 @@ window.APP_DATA.push({
     },
     {
       q: "Je li beton u usklađenom (harmoniziranom) području i koji je sustav ocjenjivanja i provjere stalnosti svojstava za beton?",
+      exam: true,
       options: [
         "Da; sustav 1+",
         "Da; sustav 3",
@@ -504,6 +526,7 @@ window.APP_DATA.push({
     },
     {
       q: "Koje su vrste ziđa od kojih se izvodi zidana konstrukcija?",
+      exam: true,
       options: [
         "Puno, šuplje i lagano ziđe",
         "Jednostruko, dvostruko i troslojno ziđe",
@@ -530,6 +553,7 @@ window.APP_DATA.push({
     },
     {
       q: "Koje su najmanje dimenzije omeđujućih vijenaca (serklaža) kod omeđenog ziđa?",
+      exam: true,
       options: [
         "Ploština presjeka 0,04 m2 s najmanjom izmjerom 200 mm",
         "Ploština presjeka 0,01 m2 s najmanjom izmjerom 100 mm",
@@ -566,6 +590,7 @@ window.APP_DATA.push({
     },
     {
       q: "Koji je uobičajeni sustav ocjenjivanja za prozore i vrata vanjske ovojnice, a koji za vrata na evakuacijskim putevima?",
+      exam: true,
       options: [
         "Sustav 1 za ovojnicu, sustav 3 za evakuacijska vrata",
         "Sustav 4 za ovojnicu, sustav 2+ za evakuacijska vrata",
@@ -579,6 +604,7 @@ window.APP_DATA.push({
     },
     {
       q: "Što od navedenog NIJE svojstvo prozora i vrata koje se prema Tehničkom propisu za prozore i vrata određuje projektom građevine?",
+      exam: true,
       options: [
         "Otpornost na opterećenje vjetrom",
         "Vodonepropusnost pri djelovanju kiše i vjetra",
@@ -592,6 +618,7 @@ window.APP_DATA.push({
     },
     {
       q: "Na što se NE primjenjuje Tehnički propis za prozore i vrata?",
+      exam: true,
       options: [
         "Na drvene prozore stambenih zgrada",
         "Na vrata između požarnih sektora",
@@ -604,6 +631,7 @@ window.APP_DATA.push({
     },
     {
       q: "Na koje se dimnjake NE primjenjuje Tehnički propis za dimnjake u građevinama?",
+      exam: true,
       options: [
         "Na zidane dimnjake od punih opeka",
         "Na pričuvne dimnjake",
@@ -617,6 +645,7 @@ window.APP_DATA.push({
     },
     {
       q: "Koje su vrste dimnjaka prema Tehničkom propisu za dimnjake?",
+      exam: true,
       options: [
         "Montažni, predgotovljeni (sistemski) i zidani",
         "Keramički, metalni i betonski",
@@ -630,6 +659,7 @@ window.APP_DATA.push({
     },
     {
       q: "Što je pričuvni dimnjak?",
+      exam: true,
       options: [
         "Dimnjak za odvod plinova iz kotlovnice u slučaju kvara glavnog dimnjaka",
         "Dimnjak svijetlog otvora najmanje 100 cm2 za plinska ložišta",
@@ -691,6 +721,7 @@ window.APP_DATA.push({
     },
     {
       q: "Na koje se zgrade NE primjenjuje Tehnički propis o racionalnoj uporabi energije i toplinskoj zaštiti u zgradama?",
+      exam: true,
       options: [
         "Na stambene zgrade s manje od 10 stanova",
         "Na privremene zgrade s rokom uporabe do 2 godine, zgrade s niskim energetskim potrebama, hale otvorene više od polovice radnog vremena, zgrade bez građevinske dozvole i glavnog projekta te obredne i vjerske zgrade",
@@ -703,6 +734,7 @@ window.APP_DATA.push({
     },
     {
       q: "Kada se mora pribaviti energetski certifikat i tko izdaje ovlaštenje za njegovo izdavanje?",
+      exam: true,
       options: [
         "Prije izdavanja građevinske dozvole; ovlaštenje izdaje HKIG",
         "Prije uporabne dozvole, promjene vlasništva ili iznajmljivanja zgrade; ovlaštenje izdaje Ministarstvo",
@@ -715,6 +747,7 @@ window.APP_DATA.push({
     },
     {
       q: "Na temelju čega se izdaje energetski certifikat nove zgrade?",
+      exam: true,
       options: [
         "Na temelju energetskog pregleda s mjerenjem potrošnje tijekom prve godine uporabe",
         "Na temelju izjave investitora i računa za energente",
@@ -727,6 +760,7 @@ window.APP_DATA.push({
     },
     {
       q: "U čemu se razlikuje energetski certifikat postojeće zgrade od certifikata nove zgrade?",
+      exam: true,
       options: [
         "Certifikat postojeće zgrade nema energetski razred",
         "Certifikat nove zgrade vrijedi trajno, a postojeće 5 godina",
@@ -740,6 +774,7 @@ window.APP_DATA.push({
     },
     {
       q: "Što od navedenog NIJE sadržaj energetskog certifikata?",
+      exam: true,
       options: [
         "Energetski razred i rok važenja certifikata",
         "Podaci o termotehničkim sustavima i korištenju obnovljivih izvora",
@@ -753,6 +788,7 @@ window.APP_DATA.push({
     },
     {
       q: "Koje zgrade moraju imati javno izložen energetski certifikat?",
+      exam: true,
       options: [
         "Sve stambene zgrade s 10 i više stanova",
         "Zgrade javne namjene korisne površine veće od 1000 m2",
@@ -779,6 +815,7 @@ window.APP_DATA.push({
     },
     {
       q: "Za svladavanje kolike visinske razlike se koristi rampa kao element pristupačnosti i koji joj je dopušteni nagib?",
+      exam: true,
       options: [
         "Do 76 cm; nagib do 1:10",
         "Do 120 cm; nagib do 1:20 (5 %), iznimno 1:12 (8,3 %) za razlike do 76 cm",
@@ -844,6 +881,7 @@ window.APP_DATA.push({
     },
     {
       q: "Kako se izvodi pristupačna taktilna površina?",
+      exam: true,
       options: [
         "Reljefnom obradom visine do 5 mm, prepoznatljivom na dodir stopala ili bijelog štapa, koja ne otežava kretanje kolica i ne zadržava vodu",
         "Reljefnom obradom visine 10–15 mm od gumenih ploča",
@@ -857,6 +895,7 @@ window.APP_DATA.push({
     },
     {
       q: "Koji su obvezni elementi pristupačnosti u javnom prometu?",
+      exam: true,
       options: [
         "Rampa, stubište, dizalo i platforma",
         "Stajalište i peron, parkirališno mjesto, javna pješačka površina, semafor, pješački prijelaz, pješački otok i raskrižje",
@@ -882,6 +921,7 @@ window.APP_DATA.push({
     },
     {
       q: "Koliko jednostavno prilagodljivih stanova mora imati stambena zgrada na koju se primjenjuje obveza pristupačnosti?",
+      exam: true,
       options: [
         "Po 1 na svakih 10 stanova, u zgradama s 10 i više stanova",
         "Po 1 na svakih 5 stanova, u zgradama s 5 i više stanova",
@@ -894,6 +934,7 @@ window.APP_DATA.push({
     },
     {
       q: "Uz čiju je suglasnost dopušteno iznimno odstupiti od propisanih elemenata pristupačnosti pri rekonstrukciji građevine u urbanističkoj cjelini upisanoj u Registar kulturnih dobara?",
+      exam: true,
       options: [
         "Uz suglasnost jedinice lokalne samouprave",
         "Uz suglasnost ministarstva nadležnog za graditeljstvo, uz mišljenje tijela nadležnog za zaštitu kulturnih dobara",
@@ -906,6 +947,7 @@ window.APP_DATA.push({
     },
     {
       q: "Koje je tijelo u usklađenom području nadležno za donošenje europskog dokumenta za ocjenjivanje i izdavanje europske tehničke ocjene?",
+      exam: true,
       options: [
         "Prijavljeni laboratorij",
         "Tijelo za certificiranje kontrole tvorničke proizvodnje",
@@ -919,6 +961,7 @@ window.APP_DATA.push({
     },
     {
       q: "Koje tijelo provodi zadaće treće strane u NEusklađenom području građevnih proizvoda?",
+      exam: true,
       options: [
         "Prijavljeno tijelo",
         "Odobreno tijelo, koje izdaje certifikat o stalnosti svojstava ili certifikat o sukladnosti kontrole tvorničke proizvodnje prema hrvatskim normama",
@@ -944,6 +987,7 @@ window.APP_DATA.push({
     },
     {
       q: "Kod kojih je konstrukcija obvezno probno opterećenje?",
+      exam: true,
       options: [
         "Kod svih cestovnih mostova raspona 5 m i većeg",
         "Kod svih AB stropova raspona većeg od 8 m",
@@ -956,6 +1000,7 @@ window.APP_DATA.push({
     },
     {
       q: "Koliki je zaštitni pojas državne ceste mjeren od vanjskog ruba zemljišnog pojasa?",
+      exam: true,
       options: [
         "40 m",
         "25 m",
@@ -969,6 +1014,7 @@ window.APP_DATA.push({
     },
     {
       q: "U čijem je vlasništvu nerazvrstana cesta?",
+      exam: true,
       options: [
         "Republike Hrvatske",
         "Županije na čijem se području nalazi",
@@ -994,53 +1040,53 @@ window.APP_DATA.push({
     }
   ],
   flashcards: [
-    { front: "Što uređuje Zakon o akreditaciji i koje je akreditacijsko tijelo u RH?", back: "Osnivanje i djelatnost tijela za nacionalnu službu za akreditaciju, područje akreditacije i akreditaciju u vezi s propisima o ocjenjivanju sukladnosti. Akreditacijsko tijelo je Hrvatska akreditacijska agencija (HAA) — javna ustanova koju osniva Vlada RH; akreditira laboratorije, certifikacijska i inspekcijska tijela.", freq: 2 },
-    { front: "Što se utvrđuje u postupku akreditacije?", back: "Osposobljenost pravnih i fizičkih osoba za poslove za koje se daje akreditacija prema međunarodnim i europskim (ili istovrijednim nacionalnim) normama i dokumentima organizacija za akreditaciju. Akreditacija na zahtjev, ugovor, potvrda o akreditaciji — vremenski ograničena.", freq: 1 },
-    { front: "Razlika akreditacije i certifikacije?", back: "Akreditacija = dokaz kompetentnosti za ispitivanja, mjerenja, certifikaciju ili inspekciju (vrh piramide; rezultat potvrda o akreditaciji). Certifikacija = potvrda sukladnosti sustava, proizvoda ili osoba s normom (npr. ISO 9001; rezultat certifikat). Akreditacijska tijela akreditiraju certifikacijska tijela.", freq: 1 },
+    { front: "Što uređuje Zakon o akreditaciji i koje je akreditacijsko tijelo u RH?", exam: true, back: "Osnivanje i djelatnost tijela za nacionalnu službu za akreditaciju, područje akreditacije i akreditaciju u vezi s propisima o ocjenjivanju sukladnosti. Akreditacijsko tijelo je Hrvatska akreditacijska agencija (HAA) — javna ustanova koju osniva Vlada RH; akreditira laboratorije, certifikacijska i inspekcijska tijela.", freq: 2 },
+    { front: "Što se utvrđuje u postupku akreditacije?", exam: true, back: "Osposobljenost pravnih i fizičkih osoba za poslove za koje se daje akreditacija prema međunarodnim i europskim (ili istovrijednim nacionalnim) normama i dokumentima organizacija za akreditaciju. Akreditacija na zahtjev, ugovor, potvrda o akreditaciji — vremenski ograničena.", freq: 1 },
+    { front: "Razlika akreditacije i certifikacije?", exam: true, back: "Akreditacija = dokaz kompetentnosti za ispitivanja, mjerenja, certifikaciju ili inspekciju (vrh piramide; rezultat potvrda o akreditaciji). Certifikacija = potvrda sukladnosti sustava, proizvoda ili osoba s normom (npr. ISO 9001; rezultat certifikat). Akreditacijska tijela akreditiraju certifikacijska tijela.", freq: 1 },
     { front: "Što su norme i jesu li obvezne?", back: "Pisani dokument s definicijama, specifikacijama, pravilima za materijale, proizvode, procese; za opću i višekratnu uporabu, donesen konsenzusom i odobren od priznatog tijela (HZN na prijedlog tehničkih odbora). Same po sebi nisu obvezne, ali postaju obvezne kad se zakon ili tehnički propis na njih poziva.", freq: 2 },
     { front: "Ciljevi normizacije?", back: "Sigurnost proizvoda i procesa, zdravlje ljudi i okoliš; promicanje kakvoće; svrsishodna uporaba rada, materijala i energije; poboljšanje učinkovitosti, ograničenje raznolikosti, spojivost i zamjenjivost; otklanjanje tehničkih zapreka u međunarodnoj trgovini.", freq: 1 },
     { front: "Označavanje hrvatskih i preuzetih europskih normi; treba li nostrifikacija?", back: "Hrvatske HRN, preuzete europske HRN EN. Ne treba ih nostrificirati. Nastaju na 4 načina: pp (prijevod), po (izvornik s hrvatskim ovitkom), pr (objava obavijesti o prihvaćanju), izv (izvorna hrvatska norma)." },
     { front: "Što ako za građevni proizvod ne postoji norma?", back: "EU put: proizvođač traži europsku tehničku ocjenu — TAB donosi europski dokument za ocjenjivanje (EAD) i izdaje ETA. Nacionalni put (čl. 37. ZGP): HTTO uz prethodnu suglasnost Ministarstva izrađuje hrvatski dokument za ocjenjivanje i izdaje hrvatsku tehničku ocjenu.", freq: 1 },
-    { front: "Što su tehnički propisi, tko ih donosi, jesu li obvezni?", back: "Propisi koji razrađuju temeljne zahtjeve za građevinu, tehnička svojstva građevnih proizvoda i druge tehničke zahtjeve; zahtjeve daju izravno ili upućivanjem na normu. Donosi ih ministar, objavljuju se u NN, OBVEZNI su. Primjeri: TP za građevinske konstrukcije, TP o građevnim proizvodima, TP za dimnjake, TP o racionalnoj uporabi energije.", freq: 1 },
-    { front: "Predmet i primjena Tehničkog propisa za građevinske konstrukcije?", back: "Propisuje tehnička svojstva konstrukcija, zahtjeve za projektiranje, izvođenje, održavanje, uklanjanje i svojstva proizvoda za ugradnju. Primjenjuje se na konstrukcijske i nekonstrukcijske elemente koji moraju biti mehanički otporni i stabilni, na nove i rekonstruirane: betonske, čelične, spregnute, drvene, zidane, geotehničke, potresno otporne, aluminijske i ostale konstrukcije.", freq: 2 },
-    { front: "Što predvidiva djelovanja na konstrukciju ne smiju prouzročiti (TPGK)?", back: "Rušenje cijele građevine ili dijela; neprihvatljive deformacije; oštećenja drugih dijelova, instalacija ili opreme zbog deformacija nosive konstrukcije; oštećenja nerazmjerna izvornom uzroku; vibracije koje ugrožavaju sigurnost ili izazivaju neugodu. U požaru — očuvanje nosivosti tijekom propisanog vremena." },
-    { front: "Sadržaj programa kontrole i osiguranja kvalitete?", back: "Svojstva bitnih značajki proizvoda koji se ugrađuju; ispitivanja i dokazivanje uporabljivosti proizvoda izrađenih na gradilištu; ispitivanja tehničke/funkcionalne ispravnosti; uvjeti građenja; ispitivanja prije uporabe i kod pune zaposjednutosti; opis pokusnog rada; učestalost periodičnih pregleda; popis propisa i normi.", freq: 2 },
+    { front: "Što su tehnički propisi, tko ih donosi, jesu li obvezni?", exam: true, back: "Propisi koji razrađuju temeljne zahtjeve za građevinu, tehnička svojstva građevnih proizvoda i druge tehničke zahtjeve; zahtjeve daju izravno ili upućivanjem na normu. Donosi ih ministar, objavljuju se u NN, OBVEZNI su. Primjeri: TP za građevinske konstrukcije, TP o građevnim proizvodima, TP za dimnjake, TP o racionalnoj uporabi energije.", freq: 1 },
+    { front: "Predmet i primjena Tehničkog propisa za građevinske konstrukcije?", exam: true, back: "Propisuje tehnička svojstva konstrukcija, zahtjeve za projektiranje, izvođenje, održavanje, uklanjanje i svojstva proizvoda za ugradnju. Primjenjuje se na konstrukcijske i nekonstrukcijske elemente koji moraju biti mehanički otporni i stabilni, na nove i rekonstruirane: betonske, čelične, spregnute, drvene, zidane, geotehničke, potresno otporne, aluminijske i ostale konstrukcije.", freq: 2 },
+    { front: "Što predvidiva djelovanja na konstrukciju ne smiju prouzročiti (TPGK)?", exam: true, back: "Rušenje cijele građevine ili dijela; neprihvatljive deformacije; oštećenja drugih dijelova, instalacija ili opreme zbog deformacija nosive konstrukcije; oštećenja nerazmjerna izvornom uzroku; vibracije koje ugrožavaju sigurnost ili izazivaju neugodu. U požaru — očuvanje nosivosti tijekom propisanog vremena." },
+    { front: "Sadržaj programa kontrole i osiguranja kvalitete?", exam: true, back: "Svojstva bitnih značajki proizvoda koji se ugrađuju; ispitivanja i dokazivanje uporabljivosti proizvoda izrađenih na gradilištu; ispitivanja tehničke/funkcionalne ispravnosti; uvjeti građenja; ispitivanja prije uporabe i kod pune zaposjednutosti; opis pokusnog rada; učestalost periodičnih pregleda; popis propisa i normi.", freq: 2 },
     { front: "Ako u programu kontrole nije drukčije navedeno, čime se smatraju potrebna ispitivanja?", back: "Kontrolnim ispitivanjima odnosno kontrolnim postupcima čiju provedbu određuje nadzorni inženjer.", freq: 1 },
     { front: "Što uređuje Zakon o mjeriteljstvu?", back: "Djelokrug državnih i ovlaštenih tijela u mjeriteljstvu, sustav točnih i spojivih mjerenja, sustav mjernih jedinica (SI), mjerne etalone, zahtjeve za mjerila u zakonskom mjeriteljstvu, stavljanje mjerila na tržište, ovjeravanje mjerila, pretpakovine i boce kao mjerne spremnike te mjeriteljsku inspekciju.", freq: 2 },
     { front: "Podjela mjeriteljstva?", back: "1) Zakonsko — radnje iz zakonskih zahtjeva: mjerenja, mjerne jedinice, mjerila i metode koje provode mjerodavna tijela. 2) Temeljno — istražuje stalnice prirodnih pojava: uspostava državnih etalona SI jedinica, sljedivost i jedinstvenost mjerenja usporedbom s međunarodnim etalonima, razvoj novih mjernih metoda.", freq: 1 },
     { front: "Tko obavlja poslove mjeriteljstva?", back: "Državni zavod za mjeriteljstvo (DZM — upravne stvari, nacrti zakona, ovlašćivanje, ovjeravanje, službena mjerenja, nadzor), ovlaštena tijela (ovjeravanje zakonitih mjerila kao javna ovlast) i pravne osobe — nacionalni umjerni laboratoriji." },
-    { front: "Etalon, državni etalon, referentni etalon?", back: "Etalon = ostvarenje definicije veličine s iskazanom vrijednošću i mjernom nesigurnošću, referencija (npr. metar). Državni etalon = priznat odlukom mjerodavnog tijela kao temelj za dodjelu vrijednosti drugim etalonima u RH; sljediv do međunarodnih. Referentni etalon = za umjeravanje drugih etalona u organizaciji/lokaciji." },
+    { front: "Etalon, državni etalon, referentni etalon?", exam: true, back: "Etalon = ostvarenje definicije veličine s iskazanom vrijednošću i mjernom nesigurnošću, referencija (npr. metar). Državni etalon = priznat odlukom mjerodavnog tijela kao temelj za dodjelu vrijednosti drugim etalonima u RH; sljediv do međunarodnih. Referentni etalon = za umjeravanje drugih etalona u organizaciji/lokaciji." },
     { front: "Umjeravanje vs. ovjeravanje mjerila?", back: "Umjeravanje: uspostavlja odnos između vrijednosti veličine etalona (s nesigurnostima) i pokazivanja mjerila, te se koristi za dobivanje rezultata. Ovjeravanje: ispitivanje i označavanje mjerila kojim se potvrđuje usklađenost s propisanim mjeriteljskim zahtjevima." },
-    { front: "Sustav ocjenjivanja za toplinsko-izolacijske proizvode?", back: "Ovisi o proizvodu (dodatak ZA norme, HRN EN 13172): sustav 3 za sve primjene (svojstva osim požara); sustav 1 za proizvode s odredivom mjerom u proizvodnji koja daje viši razred reakcije na požar (A1, A2, B, C); sustav 4 kad nije potrebno ispitivanje reakcije na požar." },
-    { front: "Granično stanje nosivosti i uporabivosti?", back: "GSN = granično opterećenje pri kojem konstrukcija gubi nosivost (sigurnost). GSU = pri kojem gubi uporabivost (pukotine, progibi) — nije bitno za sigurnost, ali za korištenje. Oba važna; GSU je češće stroži pa se prema njemu projektira." },
+    { front: "Sustav ocjenjivanja za toplinsko-izolacijske proizvode?", exam: true, back: "Ovisi o proizvodu (dodatak ZA norme, HRN EN 13172): sustav 3 za sve primjene (svojstva osim požara); sustav 1 za proizvode s odredivom mjerom u proizvodnji koja daje viši razred reakcije na požar (A1, A2, B, C); sustav 4 kad nije potrebno ispitivanje reakcije na požar." },
+    { front: "Granično stanje nosivosti i uporabivosti?", exam: true, back: "GSN = granično opterećenje pri kojem konstrukcija gubi nosivost (sigurnost). GSU = pri kojem gubi uporabivost (pukotine, progibi) — nije bitno za sigurnost, ali za korištenje. Oba važna; GSU je češće stroži pa se prema njemu projektira." },
     { front: "Koeficijenti sigurnosti (parcijalni faktori)?", back: "GSN: 1,35 vlastito, 1,5 korisno opterećenje (povoljno korisno, npr. protiv odižućeg vjetra, ne uzima se). GSU: 1,0 za oba. Postoje i koeficijenti za smanjenje čvrstoće materijala i za kombinacije djelovanja." },
-    { front: "Što su eurokodovi, čemu služe, što određuju?", back: "Set usklađenih europskih normi za statički proračun konstrukcija; cilj: jedinstven sustav proračuna u Europi i okvir za ujednačene specifikacije proizvoda. Članice ih obvezno prihvaćaju i izrađuju nacionalne dodatke (karte potresnih zona, opterećenje vjetrom i snijegom). EC0 osnove, EC1 djelovanja, EC2 beton, EC3 čelik, EC4 spregnute, EC5 drvo, EC6 zidane, EC7 geotehnika, EC8 potres, EC9 aluminij.", freq: 2 },
-    { front: "Koji eurokod je u izradi i što se koristi dotad? Koji eurokod za vodovod i kanalizaciju?", back: "U izradi je eurokod za staklene konstrukcije — dotad tehnički propis za staklene konstrukcije. Vodovod i kanalizacija nisu određeni ni jednim eurokodom, već drugim normama. Uz eurokodove smiju se koristiti tehnički propisi i druge norme; strane norme uz dokazivanje.", freq: 1 },
-    { front: "Što je beton? Je li u usklađenom području i koji je sustav?", back: "Građevni proizvod od cementa, agregata, vode i dodataka betonu. Nije u usklađenom području; sustav ocjenjivanja i provjere stalnosti svojstava 2+. Betonski čelik 1+, cement 1+, armatura prema tehničkoj specifikaciji. Sukladnost na gradilištu dokazuje se prema normi iz programa kontrole u glavnom projektu.", freq: 1 },
+    { front: "Što su eurokodovi, čemu služe, što određuju?", exam: true, back: "Set usklađenih europskih normi za statički proračun konstrukcija; cilj: jedinstven sustav proračuna u Europi i okvir za ujednačene specifikacije proizvoda. Članice ih obvezno prihvaćaju i izrađuju nacionalne dodatke (karte potresnih zona, opterećenje vjetrom i snijegom). EC0 osnove, EC1 djelovanja, EC2 beton, EC3 čelik, EC4 spregnute, EC5 drvo, EC6 zidane, EC7 geotehnika, EC8 potres, EC9 aluminij.", freq: 2 },
+    { front: "Koji eurokod je u izradi i što se koristi dotad? Koji eurokod za vodovod i kanalizaciju?", exam: true, back: "U izradi je eurokod za staklene konstrukcije — dotad tehnički propis za staklene konstrukcije. Vodovod i kanalizacija nisu određeni ni jednim eurokodom, već drugim normama. Uz eurokodove smiju se koristiti tehnički propisi i druge norme; strane norme uz dokazivanje.", freq: 1 },
+    { front: "Što je beton? Je li u usklađenom području i koji je sustav?", exam: true, back: "Građevni proizvod od cementa, agregata, vode i dodataka betonu. Nije u usklađenom području; sustav ocjenjivanja i provjere stalnosti svojstava 2+. Betonski čelik 1+, cement 1+, armatura prema tehničkoj specifikaciji. Sukladnost na gradilištu dokazuje se prema normi iz programa kontrole u glavnom projektu.", freq: 1 },
     { front: "Projekt betonske konstrukcije — što se dokazuje i što sadrži?", back: "Dokazuje da će građevina tijekom građenja i uporabnog vijeka (najmanje 50 god.) ispunjavati mehaničku otpornost i stabilnost, otpornost na požar (iznimno ne ako posebnim propisom nije određeno vrijeme očuvanja nosivosti) i dr. Sadrži: 1) tehnički opis, 2) proračun mehaničke otpornosti i stabilnosti (djelovanja, tlo, potres, snijeg, vjetar, požar), 3) program kontrole i osiguranja kvalitete.", freq: 1 },
     { front: "Što sadrži dostavnica betona?", back: "Podatke o betonu: razred tlačne čvrstoće, maksimalno zrno agregata, konzistenciju (npr. slijeganjem), udio klorida, razred izloženosti, vrstu cementa; količinu betona; podatke o betonari; oznaku sukladnosti »C«." },
     { front: "Posebna pravila za zidane konstrukcije — primjena i dijelovi projekta?", back: "Primjena na nosivo, fasadno, obložno, pregradno, vezno, ispunsko i protupožarno ziđe (i ziđe koje nije dio konstrukcije). Ne primjenjuje se na industrijske dimnjake, potporne zidove, propuste, mostove, brane, spremnike, dinamički opterećene i lukove, svodove, kupole. Projekt: tehnički opis, proračun mehaničke otpornosti i stabilnosti, program kontrole i osiguranja kvalitete.", freq: 1 },
-    { front: "Vrste zidanih konstrukcija i uvjeti za omeđeno ziđe?", back: "Nearmirano, omeđeno, armirano i prednapeto ziđe. Omeđeno ziđe: vertikalni i horizontalni AB ili armirani zidani serklaži ploštine ≥0,02 m2 s najmanjom izmjerom 150 mm; nemaju učinak okvira, nego sa ziđem daju nosivost i duktilnost; ziđe preuzima vertikalna opterećenja. Predgotovljeno ziđe ne može biti nearmirano." },
-    { front: "Tehnički zahtjevi za prozore i vrata — sustavi i svojstva?", back: "Proizvode se u pogonima izvan gradilišta; ugrađuju uz izjavu o sukladnosti. Profili neharmonizirano, staklo i okovi harmonizirano područje. Sustav 3 za vanjsku ovojnicu, sustav 1 za vrata na evakuacijskim putevima. Projektom se određuju: otpornost na vjetar, vodonepropusnost, propusnost zraka, prolazak topline, zvučna izolacija, otpornost na požar i dim; ako je vijek građevine duži — uvjeti zamjene.", freq: 2 },
-    { front: "Na što se ne primjenjuje Tehnički propis za prozore i vrata?", back: "Vrata i stijene u potpunosti od stakla, rotirajuća vrata, vrata s mehaničkim pogonom, ostakljene krovne konstrukcije, ovješene fasade, garažna vrata, industrijska vrata i vrata za skloništa." },
-    { front: "Tehnički propis za dimnjake — što propisuje, na što se ne primjenjuje, vrste dimnjaka?", back: "Propisuje tehnička svojstva dimnjaka, zahtjeve za projektiranje, izvođenje, uporabljivost, održavanje i proizvode za dimnjake. Ne primjenjuje se na samostojeći dimnjak i dimnjak isključivo u funkciji proizvodnog pogona. Vrste: montažni (na gradilištu od usklađenih proizvoda), predgotovljeni/sistemski (u pogonu), zidani (od punih opeka). Pričuvni dimnjak ≥200 cm2 za kruta goriva.", freq: 2 },
-    { front: "Što je dimnjak i u kojem je projektu obuhvaćen?", back: "Dio građevnog sklopa u obliku vertikalnog kanala postojanog na požar čađe za siguran odvod dimnih plinova uređaja za loženje u atmosferu; svojstva usklađena s uređajem za loženje, priključnom cijevi i gorivom. Tehničko rješenje u arhitektonskom i/ili građevinskom te strojarskom projektu. Proizvodi: glineni/keramički, metalni, betonski, sistemski dimnjaci." },
-    { front: "Vrste završnih radova?", back: "Teracerski, fasaderski, gipsarski, keramičarski, ličilački, soboslikarski, tapetarski, kamenorezački, podopolagački, parketarski, izolaterski, bravarski, limarski, stolarski, roletarski, staklorezački, radovi na antikorozijskoj zaštiti, radovi na spuštenim stropovima i lakim pregradama (18 vrsta).", freq: 2 },
-    { front: "Energetsko svojstvo zgrade i kada se mora pribaviti energetski certifikat?", back: "Izračunata ili izmjerena energija za grijanje, hlađenje, ventilaciju, PTV i rasvjetu, izražena primarnom energijom u kWh/(m2·a). Certifikat se pribavlja prije uporabne dozvole, promjene vlasništva ili iznajmljivanja; izdaje ovlaštena osoba (ovlaštenje daje Ministarstvo); od 1. 7. 2013. obvezan za cjeline koje se prodaju." },
-    { front: "U čemu se razlikuju energetski certifikati za postojeće i nove zgrade?", back: "Postojeće: obvezno prijedlog ekonomski opravdanih (troškovno učinkovitih) mjera poboljšanja na temelju energetskog pregleda — ušteda, povrat investicije. Nove: preporuke za korištenje zgrade vezano na gospodarenje energijom i očuvanje topline; izdaje se na temelju glavnog projekta, izjave izvođača, vizualnog pregleda i završnog izvješća nadzornog inženjera.", freq: 1 },
-    { front: "Sadržaj energetskog certifikata?", back: "Opći podaci o zgradi, energetski razred, rok važenja, podaci o izdavatelju i sudionicima, oznaka certifikata, podaci o termotehničkim sustavima, energetske potrebe, korištenje obnovljivih izvora, prijedlog mjera, detaljnije informacije i objašnjenja. Uređeno Pravilnikom o energetskim pregledima i certificiranju.", freq: 1 },
-    { front: "Svrha energetskog certifikata i tko ga javno izlaže?", back: "Informiranje vlasnika i korisnika o energetskom svojstvu zgrade/cjeline i usporedba zgrada (energetski sustavi, ovojnica). Javno izlaganje: zgrade javne namjene korisne površine veće od 250 m2 — prva stranica i stranica s mjerama/preporukama, zajedno na A3.", freq: 1 },
+    { front: "Vrste zidanih konstrukcija i uvjeti za omeđeno ziđe?", exam: true, back: "Nearmirano, omeđeno, armirano i prednapeto ziđe. Omeđeno ziđe: vertikalni i horizontalni AB ili armirani zidani serklaži ploštine ≥0,02 m2 s najmanjom izmjerom 150 mm; nemaju učinak okvira, nego sa ziđem daju nosivost i duktilnost; ziđe preuzima vertikalna opterećenja. Predgotovljeno ziđe ne može biti nearmirano." },
+    { front: "Tehnički zahtjevi za prozore i vrata — sustavi i svojstva?", exam: true, back: "Proizvode se u pogonima izvan gradilišta; ugrađuju uz izjavu o sukladnosti. Profili neharmonizirano, staklo i okovi harmonizirano područje. Sustav 3 za vanjsku ovojnicu, sustav 1 za vrata na evakuacijskim putevima. Projektom se određuju: otpornost na vjetar, vodonepropusnost, propusnost zraka, prolazak topline, zvučna izolacija, otpornost na požar i dim; ako je vijek građevine duži — uvjeti zamjene.", freq: 2 },
+    { front: "Na što se ne primjenjuje Tehnički propis za prozore i vrata?", exam: true, back: "Vrata i stijene u potpunosti od stakla, rotirajuća vrata, vrata s mehaničkim pogonom, ostakljene krovne konstrukcije, ovješene fasade, garažna vrata, industrijska vrata i vrata za skloništa." },
+    { front: "Tehnički propis za dimnjake — što propisuje, na što se ne primjenjuje, vrste dimnjaka?", exam: true, back: "Propisuje tehnička svojstva dimnjaka, zahtjeve za projektiranje, izvođenje, uporabljivost, održavanje i proizvode za dimnjake. Ne primjenjuje se na samostojeći dimnjak i dimnjak isključivo u funkciji proizvodnog pogona. Vrste: montažni (na gradilištu od usklađenih proizvoda), predgotovljeni/sistemski (u pogonu), zidani (od punih opeka). Pričuvni dimnjak ≥200 cm2 za kruta goriva.", freq: 2 },
+    { front: "Što je dimnjak i u kojem je projektu obuhvaćen?", exam: true, back: "Dio građevnog sklopa u obliku vertikalnog kanala postojanog na požar čađe za siguran odvod dimnih plinova uređaja za loženje u atmosferu; svojstva usklađena s uređajem za loženje, priključnom cijevi i gorivom. Tehničko rješenje u arhitektonskom i/ili građevinskom te strojarskom projektu. Proizvodi: glineni/keramički, metalni, betonski, sistemski dimnjaci." },
+    { front: "Vrste završnih radova?", exam: true, back: "Teracerski, fasaderski, gipsarski, keramičarski, ličilački, soboslikarski, tapetarski, kamenorezački, podopolagački, parketarski, izolaterski, bravarski, limarski, stolarski, roletarski, staklorezački, radovi na antikorozijskoj zaštiti, radovi na spuštenim stropovima i lakim pregradama (18 vrsta).", freq: 2 },
+    { front: "Energetsko svojstvo zgrade i kada se mora pribaviti energetski certifikat?", exam: true, back: "Izračunata ili izmjerena energija za grijanje, hlađenje, ventilaciju, PTV i rasvjetu, izražena primarnom energijom u kWh/(m2·a). Certifikat se pribavlja prije uporabne dozvole, promjene vlasništva ili iznajmljivanja; izdaje ovlaštena osoba (ovlaštenje daje Ministarstvo); od 1. 7. 2013. obvezan za cjeline koje se prodaju." },
+    { front: "U čemu se razlikuju energetski certifikati za postojeće i nove zgrade?", exam: true, back: "Postojeće: obvezno prijedlog ekonomski opravdanih (troškovno učinkovitih) mjera poboljšanja na temelju energetskog pregleda — ušteda, povrat investicije. Nove: preporuke za korištenje zgrade vezano na gospodarenje energijom i očuvanje topline; izdaje se na temelju glavnog projekta, izjave izvođača, vizualnog pregleda i završnog izvješća nadzornog inženjera.", freq: 1 },
+    { front: "Sadržaj energetskog certifikata?", exam: true, back: "Opći podaci o zgradi, energetski razred, rok važenja, podaci o izdavatelju i sudionicima, oznaka certifikata, podaci o termotehničkim sustavima, energetske potrebe, korištenje obnovljivih izvora, prijedlog mjera, detaljnije informacije i objašnjenja. Uređeno Pravilnikom o energetskim pregledima i certificiranju.", freq: 1 },
+    { front: "Svrha energetskog certifikata i tko ga javno izlaže?", exam: true, back: "Informiranje vlasnika i korisnika o energetskom svojstvu zgrade/cjeline i usporedba zgrada (energetski sustavi, ovojnica). Javno izlaganje: zgrade javne namjene korisne površine veće od 250 m2 — prva stranica i stranica s mjerama/preporukama, zajedno na A3.", freq: 1 },
     { front: "Čega je pokazatelj energetski razred zgrade?", back: "Specifične godišnje potrebne toplinske energije za grijanje Q''H,nd i specifične godišnje primarne energije Eprim za referentne klimatske podatke i Algoritmom propisan režim. Kod stambenih Eprim obuhvaća grijanje, PTV i ventilaciju; kod nestambenih i rasvjetu. 8 razreda A+ (najbolji) do G.", freq: 1 },
     { front: "Zgrada gotovo nulte energije — rokovi?", back: "Zgrada vrlo visokih energetskih svojstava; gotovo nulta energija podmiruje se iz obnovljivih izvora na zgradi ili u blizini. Od 31. 12. 2020. sve nove zgrade; nove zgrade tijela javne vlasti nakon 31. 12. 2018." },
     { front: "Rampa — uvjeti (NN 12/23)?", back: "Za visinske razlike do 120 cm; nagib do 1:20 (5 %), iznimno 1:12 (8,3 %) do 76 cm; širina ≥120 cm vani, ≥90 cm unutra; odmorišni podest ≥150 cm na svakih 6 m; protuklizna površina; ograda s rukohvatima promjera 4 cm na 60 i 90 cm, produženi 30 cm sa zaobljenim završetkom; staklena ispuna obilježena; oznake pristupačnosti.", freq: 1 },
-    { front: "Stubište — uvjeti pristupačnosti?", back: "Stuba ≤15 cm, gazište ≥33 cm; krak ≥110 cm unutra / ≥120 cm vani; kontrastni protuklizni rub ≥2 cm; rukohvati kontinuirani, produženi 30 cm; središnji rukohvat ako je krak ≥250 cm; prostor ispod kraka ograđen (70 cm) ili deniveliran 3 cm do visine 210 cm; taktilno polje upozorenja ≥40 cm pred prvom i iza posljednje stube.", freq: 1 },
-    { front: "Dizalo i vertikalno podizna platforma — uvjeti?", back: "Dizalo obvezno za razliku >120 cm: kabina ≥110x140 cm, vrata ≥90 cm (posmična/van), ploča na 90–120 cm s Brailleom, rukohvat 90 cm, zvučna i svjetlosna najava, taktilna crta vođenja 40 cm od ulaza. Platforma (kad nema dizala): ploha ≥110x140 cm, bočne stranice do 120 cm, vrata ≥90 cm.", freq: 1 },
-    { front: "Ulazni prostor — uvjeti pristupačnosti?", back: "Vrata jednokrilna ≥110/210 cm ili dvokrilna 2x90/210 cm, otvaranje van/posmično, pristupačna kvaka, prag ≤2 cm, otirač u razini poda; uz kružna vrata i zaokretna ≥90 cm; klizna ≥90/210 s prostorom 150x150 cm; oznaka na staklu >1,5 m2 na 90–160 cm; vjetrobran 240 cm ili toplinski zastor; osvjetljenje 200 lx.", freq: 1 },
-    { front: "Taktilna površina — izvedba i gdje je obvezna?", back: "Reljefna obrada visine do 5 mm, ne otežava kolica, prepoznatljiva stopalom/bijelim štapom, ne zadržava vodu, lako se održava. Obvezna: stubište (pred prvom/iza posljednje stube), od ulaza do dizala, WC-a, bankomata, šaltera, pulta, orijentacijskog plana; stajalište/peron; semafor na cesti s više od 2 traka u smjeru; pješački prijelaz; otok u razini kolnika; raskrižje.", freq: 1 },
-    { front: "Obvezni elementi pristupačnosti — tri skupine?", back: "1) Za svladavanje visinskih razlika: rampa, stubište, dizalo, vertikalno podizna i koso podizna sklopiva platforma. 2) Za neovisno življenje: ulazni prostor, komunikacije, WC, kupaonica, kuhinja, soba, radni prostor, stan, šalter, pult, bankomat, električne instalacije, kvake, induktivna petlja, oglasni pano... 3) U javnom prometu: stajalište i peron, parkirališno mjesto, pješačka površina, semafor, prijelaz, otok, raskrižje.", freq: 1 },
-    { front: "Zaštitni pojas javnih cesta?", back: "Zemljište uz javnu cestu s ograničenjima; mjeri se od vanjskog ruba zemljišnog pojasa sa svake strane: autoceste 40 m, brze ceste 40 m, državne 25 m, županijske 15 m, lokalne 10 m. Za lokacijsku dozvolu u pojasu traže se posebni uvjeti HAC-a, HC-a ili ŽUC-a.", freq: 1 },
-    { front: "Nerazvrstane ceste — što su i čije su?", back: "Ceste za promet vozilima koje svatko može koristiti, a nisu razvrstane kao javne: ceste u gradovima >35.000 stanovnika i sjedištima županija, ceste koje povezuju naselja i područja unutar gradova, terminali i okretišta javnog prijevoza, pristupne ceste do građevina. Javno dobro u općoj uporabi u vlasništvu JLS.", freq: 2 },
-    { front: "Koja tijela treće strane postoje? Što su TAB-ovi?", back: "Usklađeno područje: prijavljeno tijelo (laboratorij; tijelo za certificiranje KTP; tijelo za certificiranje proizvoda) — certifikat o stalnosti svojstava / o sukladnosti KTP; TAB — tijelo za tehničko ocjenjivanje: donosi europski dokument za ocjenjivanje i izdaje europsku tehničku ocjenu. Neusklađeno: odobreno tijelo i hrvatsko tijelo za tehničko ocjenjivanje (hrvatska tehnička ocjena).", freq: 2 },
-    { front: "Kada je obvezno probno opterećenje?", back: "Cestovni i pješački mostovi raspona ≥15 m; željeznički ≥10 m; tribine za ≥1000 osoba; konstrukcije raspona ≥30 m; kranske staze ≥15 m ili kranovi ≥20 t; javne građevine za ≥1000 osoba; brane; spremnici ≥1000 m3; spremnici opasnih/zapaljivih tvari ≥20 m3. Definira ga projektant u projektu." }
+    { front: "Stubište — uvjeti pristupačnosti?", exam: true, back: "Stuba ≤15 cm, gazište ≥33 cm; krak ≥110 cm unutra / ≥120 cm vani; kontrastni protuklizni rub ≥2 cm; rukohvati kontinuirani, produženi 30 cm; središnji rukohvat ako je krak ≥250 cm; prostor ispod kraka ograđen (70 cm) ili deniveliran 3 cm do visine 210 cm; taktilno polje upozorenja ≥40 cm pred prvom i iza posljednje stube.", freq: 1 },
+    { front: "Dizalo i vertikalno podizna platforma — uvjeti?", exam: true, back: "Dizalo obvezno za razliku >120 cm: kabina ≥110x140 cm, vrata ≥90 cm (posmična/van), ploča na 90–120 cm s Brailleom, rukohvat 90 cm, zvučna i svjetlosna najava, taktilna crta vođenja 40 cm od ulaza. Platforma (kad nema dizala): ploha ≥110x140 cm, bočne stranice do 120 cm, vrata ≥90 cm.", freq: 1 },
+    { front: "Ulazni prostor — uvjeti pristupačnosti?", exam: true, back: "Vrata jednokrilna ≥110/210 cm ili dvokrilna 2x90/210 cm, otvaranje van/posmično, pristupačna kvaka, prag ≤2 cm, otirač u razini poda; uz kružna vrata i zaokretna ≥90 cm; klizna ≥90/210 s prostorom 150x150 cm; oznaka na staklu >1,5 m2 na 90–160 cm; vjetrobran 240 cm ili toplinski zastor; osvjetljenje 200 lx.", freq: 1 },
+    { front: "Taktilna površina — izvedba i gdje je obvezna?", exam: true, back: "Reljefna obrada visine do 5 mm, ne otežava kolica, prepoznatljiva stopalom/bijelim štapom, ne zadržava vodu, lako se održava. Obvezna: stubište (pred prvom/iza posljednje stube), od ulaza do dizala, WC-a, bankomata, šaltera, pulta, orijentacijskog plana; stajalište/peron; semafor na cesti s više od 2 traka u smjeru; pješački prijelaz; otok u razini kolnika; raskrižje.", freq: 1 },
+    { front: "Obvezni elementi pristupačnosti — tri skupine?", exam: true, back: "1) Za svladavanje visinskih razlika: rampa, stubište, dizalo, vertikalno podizna i koso podizna sklopiva platforma. 2) Za neovisno življenje: ulazni prostor, komunikacije, WC, kupaonica, kuhinja, soba, radni prostor, stan, šalter, pult, bankomat, električne instalacije, kvake, induktivna petlja, oglasni pano... 3) U javnom prometu: stajalište i peron, parkirališno mjesto, pješačka površina, semafor, prijelaz, otok, raskrižje.", freq: 1 },
+    { front: "Zaštitni pojas javnih cesta?", exam: true, back: "Zemljište uz javnu cestu s ograničenjima; mjeri se od vanjskog ruba zemljišnog pojasa sa svake strane: autoceste 40 m, brze ceste 40 m, državne 25 m, županijske 15 m, lokalne 10 m. Za lokacijsku dozvolu u pojasu traže se posebni uvjeti HAC-a, HC-a ili ŽUC-a.", freq: 1 },
+    { front: "Nerazvrstane ceste — što su i čije su?", exam: true, back: "Ceste za promet vozilima koje svatko može koristiti, a nisu razvrstane kao javne: ceste u gradovima >35.000 stanovnika i sjedištima županija, ceste koje povezuju naselja i područja unutar gradova, terminali i okretišta javnog prijevoza, pristupne ceste do građevina. Javno dobro u općoj uporabi u vlasništvu JLS.", freq: 2 },
+    { front: "Koja tijela treće strane postoje? Što su TAB-ovi?", exam: true, back: "Usklađeno područje: prijavljeno tijelo (laboratorij; tijelo za certificiranje KTP; tijelo za certificiranje proizvoda) — certifikat o stalnosti svojstava / o sukladnosti KTP; TAB — tijelo za tehničko ocjenjivanje: donosi europski dokument za ocjenjivanje i izdaje europsku tehničku ocjenu. Neusklađeno: odobreno tijelo i hrvatsko tijelo za tehničko ocjenjivanje (hrvatska tehnička ocjena).", freq: 2 },
+    { front: "Kada je obvezno probno opterećenje?", exam: true, back: "Cestovni i pješački mostovi raspona ≥15 m; željeznički ≥10 m; tribine za ≥1000 osoba; konstrukcije raspona ≥30 m; kranske staze ≥15 m ili kranovi ≥20 t; javne građevine za ≥1000 osoba; brane; spremnici ≥1000 m3; spremnici opasnih/zapaljivih tvari ≥20 m3. Definira ga projektant u projektu." }
   ]
 });

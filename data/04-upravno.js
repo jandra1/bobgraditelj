@@ -237,6 +237,7 @@ window.APP_DATA.push({
     },
     {
       q: "Kako će javnopravno tijelo postupiti s nepotpunim ili nerazumljivim podneskom?",
+      exam: true,
       options: [
         "Odredit će stranci primjereni rok za otklanjanje nedostatka uz upozorenje na pravne posljedice; ako stranka nedostatak ne otkloni, podnesak će se odbaciti",
         "Odmah će ga odbaciti bez pozivanja stranke",
@@ -309,6 +310,7 @@ window.APP_DATA.push({
     },
     {
       q: "U kojem je roku javnopravno tijelo dužno donijeti rješenje o zahtjevu stranke?",
+      exam: true,
       options: [
         "8 dana kod neposrednog rješavanja, 15 dana kad se provodi ispitni postupak",
         "Bez odgode, a najkasnije 30 dana od podnošenja urednog zahtjeva kod neposrednog rješavanja, odnosno 60 dana kad se provodi ispitni postupak",

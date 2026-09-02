@@ -116,6 +116,7 @@ window.APP_DATA.push({
   questions: [
     {
       q: "Što, uz sustave ocjenjivanja i provjere stalnosti svojstava građevnih proizvoda, uređuje Zakon o građevnim proizvodima?",
+      exam: true,
       options: [
         "Zahtjeve za prijavljena i odobrena tijela, postupak prijave i njihove obveze te primjenu Uredbe 305/2011 u usklađenom i neusklađenom području",
         "Uvjete za obavljanje djelatnosti građenja i stručnog nadzora",
@@ -129,6 +130,7 @@ window.APP_DATA.push({
     },
     {
       q: "Na koje se tržište odnosi neusklađeno područje građevnih proizvoda (oznaka C)?",
+      exam: true,
       options: [
         "Tržište cijele Europske unije",
         "Tržište Republike Hrvatske",
@@ -142,6 +144,7 @@ window.APP_DATA.push({
     },
     {
       q: "Što podrazumijeva usklađena (harmonizirana) tehnička specifikacija?",
+      exam: true,
       options: [
         "Tehnički propis i hrvatsku normu na koju on upućuje",
         "Hrvatski dokument za ocjenjivanje (HDO) i hrvatsku tehničku ocjenu",
@@ -155,6 +158,7 @@ window.APP_DATA.push({
     },
     {
       q: "Što podrazumijeva hrvatska tehnička specifikacija?",
+      exam: true,
       options: [
         "Tehnički propis odnosno neusklađenu hrvatsku normu (bez ZA dodatka) na koju upućuje tehnički propis, ili hrvatski dokument za ocjenjivanje (HDO)",
         "Europski dokument za ocjenjivanje preveden na hrvatski jezik",
@@ -168,6 +172,7 @@ window.APP_DATA.push({
     },
     {
       q: "Po čemu se prepoznaje usklađena (harmonizirana) europska norma za građevne proizvode?",
+      exam: true,
       options: [
         "Po oznaci HRN ispred broja norme",
         "Po tome što u prilogu ima ZA dodatak",
@@ -206,6 +211,7 @@ window.APP_DATA.push({
     },
     {
       q: "Kojem tijelu u usklađenom području je analogno »odobreno tijelo« iz neusklađenog područja?",
+      exam: true,
       options: [
         "Prijavljenom tijelu (notified body)",
         "Tijelu za tehničko ocjenjivanje (TAB)",
@@ -232,6 +238,7 @@ window.APP_DATA.push({
     },
     {
       q: "Koje tijelo u Republici Hrvatskoj je imenovano kao tijelo za tehničko ocjenjivanje (TAB) i ujedno je HTTO?",
+      exam: true,
       options: [
         "Hrvatski zavod za norme",
         "Hrvatska akreditacijska agencija",
@@ -244,6 +251,7 @@ window.APP_DATA.push({
     },
     {
       q: "Gdje se nalazi službeni popis prijavljenih tijela (notified bodies) za građevne proizvode?",
+      exam: true,
       options: [
         "U Narodnim novinama, u prilogu ZoGP-a",
         "U registru Hrvatske gospodarske komore",
@@ -256,6 +264,7 @@ window.APP_DATA.push({
     },
     {
       q: "Koji dokument izdaje prijavljeno tijelo za certificiranje proizvoda u sustavima 1+ i 1?",
+      exam: true,
       options: [
         "Certifikat o stalnosti svojstava",
         "Certifikat o sukladnosti kontrole tvorničke proizvodnje",
@@ -269,6 +278,7 @@ window.APP_DATA.push({
     },
     {
       q: "Koji dokument i koje tijelo izdaje u sustavu ocjenjivanja 2+?",
+      exam: true,
       options: [
         "Certifikat o stalnosti svojstava — tijelo za certificiranje proizvoda",
         "Certifikat o sukladnosti kontrole tvorničke proizvodnje — tijelo za certificiranje kontrole tvorničke proizvodnje",
@@ -282,6 +292,7 @@ window.APP_DATA.push({
     },
     {
       q: "U sustavu ocjenjivanja 3 prijavljeno tijelo je:",
+      exam: true,
       options: [
         "tijelo za certificiranje proizvoda koje izdaje certifikat o stalnosti svojstava",
         "tijelo za certificiranje KTP koje provodi početni pregled pogona",
@@ -295,6 +306,7 @@ window.APP_DATA.push({
     },
     {
       q: "Što proizvođač preuzima sastavljanjem izjave o svojstvima?",
+      exam: true,
       options: [
         "Obvezu ugradnje proizvoda u građevinu",
         "Obvezu akreditacije vlastitog laboratorija",
@@ -307,6 +319,7 @@ window.APP_DATA.push({
     },
     {
       q: "Koje od navedenih tijela NIJE vrsta prijavljenog tijela za koju Ministarstvo donosi rješenje prema ZoGP-u (čl. 12.)?",
+      exam: true,
       options: [
         "Laboratorij",
         "Tijelo za certificiranje kontrole tvorničke proizvodnje",
@@ -343,6 +356,7 @@ window.APP_DATA.push({
     },
     {
       q: "Što prema Uredbi 305/2011 znači »stavljanje na tržište« građevnog proizvoda?",
+      exam: true,
       options: [
         "Svaka isporuka proizvoda distributeru",
         "Ugradnja proizvoda u građevinu",
@@ -356,6 +370,7 @@ window.APP_DATA.push({
     },
     {
       q: "Koja tvrdnja o »stavljanju na raspolaganje na tržištu« prema Uredbi 305/2011 je točna?",
+      exam: true,
       options: [
         "Odnosi se samo na isporuke uz naplatu",
         "Odnosi se samo na prvi ulazak proizvoda na tržište EU",
@@ -369,6 +384,7 @@ window.APP_DATA.push({
     },
     {
       q: "Što je građevni proizvod prema Uredbi (EU) 305/2011?",
+      exam: true,
       options: [
         "Svaki proizvod ili sklop proizveden i stavljen na tržište radi trajne ugradnje u građevinu, čija svojstva utječu na svojstva građevine s obzirom na temeljne zahtjeve",
         "Svaki proizvod koji se koristi na gradilištu tijekom građenja",
@@ -382,6 +398,7 @@ window.APP_DATA.push({
     },
     {
       q: "Što je »sklop« prema Uredbi (EU) 305/2011?",
+      exam: true,
       options: [
         "Građevina sastavljena od montažnih elemenata",
         "Građevni proizvod koji je proizvođač stavio na tržište kao skupinu od najmanje dvije zasebne komponente koje se postavljaju zajedno radi ugradnje",
@@ -395,6 +412,7 @@ window.APP_DATA.push({
     },
     {
       q: "Je li oplata ili skela građevni proizvod u smislu Uredbe 305/2011?",
+      exam: true,
       options: [
         "Da, jer se koriste pri građenju građevine",
         "Da, ali samo ako imaju CE oznaku",
@@ -407,6 +425,7 @@ window.APP_DATA.push({
     },
     {
       q: "Koje zahtjeve mora ispunjavati građevni proizvod prije stavljanja na tržište?",
+      exam: true,
       options: [
         "Mora imati uporabnu dozvolu i atest Državnog inspektorata",
         "Mora biti ispitan u akreditiranom laboratoriju bez obzira na sustav ocjenjivanja",
@@ -420,6 +439,7 @@ window.APP_DATA.push({
     },
     {
       q: "Zašto se građevni proizvodi u RH, iako smo u EU, ne označavaju isključivo oznakom CE?",
+      exam: true,
       options: [
         "Jer još uvijek postoje proizvodi usklađeni samo s hrvatskom tehničkom specifikacijom (neusklađeno područje) koji nose oznaku C",
         "Jer RH ima izuzeće od primjene Uredbe 305/2011 do 2030.",
@@ -432,6 +452,7 @@ window.APP_DATA.push({
     },
     {
       q: "Što od navedenog izvođač NE mora utvrditi pri preuzimanju građevnog proizvoda na gradilištu prema Tehničkom propisu o građevnim proizvodima?",
+      exam: true,
       options: [
         "Je li proizvod namijenjen ugradnji u građevinu u skladu s glavnim projektom",
         "Je li proizvod isporučen s valjanom dokumentacijom",
@@ -456,6 +477,7 @@ window.APP_DATA.push({
     },
     {
       q: "Što čini valjanu dokumentaciju građevnog proizvoda u usklađenom području na gradilištu (čl. 3. Tehničkog propisa o građevnim proizvodima)?",
+      exam: true,
       options: [
         "Izjava o svojstvima, oznaka C i tehnička uputa",
         "Izvještaj o ispitivanju i program kontrole kvalitete",
@@ -469,6 +491,7 @@ window.APP_DATA.push({
     },
     {
       q: "Koja je valjana dokumentacija za građevni proizvod u neusklađenom području koji dolazi na gradilište?",
+      exam: true,
       options: [
         "Izjava o svojstvima, »C« oznaka i tehnička uputa",
         "Izjava o svojstvima, oznaka CE i sigurnosne obavijesti",
@@ -495,6 +518,7 @@ window.APP_DATA.push({
     },
     {
       q: "Što treba učiniti ako građevni proizvod dođe na gradilište bez propisane dokumentacije?",
+      exam: true,
       options: [
         "Ugraditi ga uz suglasnost investitora",
         "Ne smije se ugraditi, a proizvod treba vratiti proizvođaču",
@@ -508,6 +532,7 @@ window.APP_DATA.push({
     },
     {
       q: "Na gradilište je stigao proizvod s valjanom dokumentacijom, ali nosi oznaku C umjesto CE. Što vrijedi?",
+      exam: true,
       options: [
         "Ne smije se ugraditi jer je u RH obvezna samo CE oznaka",
         "Smije se ugraditi samo uz suglasnost Ministarstva",
@@ -534,6 +559,7 @@ window.APP_DATA.push({
     },
     {
       q: "Tko treba odobriti građevni proizvod koji je ocijenjen i ima izjavu o svojstvima prije nego što ga izvođač ugradi?",
+      exam: true,
       options: [
         "Nadzorni inženjer",
         "Projektant",
@@ -572,6 +598,7 @@ window.APP_DATA.push({
     },
     {
       q: "Koji je sustav ocjenjivanja sukladnosti ukinut novim Zakonom o građevnim proizvodima?",
+      exam: true,
       options: [
         "Sustav 1",
         "Sustav 2",
@@ -584,6 +611,7 @@ window.APP_DATA.push({
     },
     {
       q: "Građevni proizvod na koji se ne odnosi Uredba 305/2011 zakonito je stavljen na tržište u drugoj državi članici EU ili Turskoj. Kako se tretira u RH?",
+      exam: true,
       options: [
         "Mora proći postupak ocjenjivanja kod odobrenog tijela i dobiti oznaku C",
         "Ne smije se stavljati na tržište RH bez hrvatske tehničke ocjene",
@@ -622,6 +650,7 @@ window.APP_DATA.push({
     },
     {
       q: "Što je tehnička specifikacija građevnog proizvoda?",
+      exam: true,
       options: [
         "Dokument kojim proizvođač izražava svojstva proizvoda u vezi s bitnim značajkama",
         "Dokument u skladu s kojim se ocjenjuju svojstva građevnog proizvoda u odnosu na njegove bitne značajke; može biti usklađena/neusklađena norma ili europski/hrvatski dokument za ocjenjivanje",
@@ -647,6 +676,7 @@ window.APP_DATA.push({
     },
     {
       q: "Kada je Uredba (EU) br. 305/2011 stupila na snagu i za koga je obvezna?",
+      exam: true,
       options: [
         "1. 1. 2011., obvezna za članice koje su je ratificirale",
         "1. 7. 2013., obvezna za sve države članice EU",
@@ -660,6 +690,7 @@ window.APP_DATA.push({
     },
     {
       q: "Što sadrži Prilog V Uredbe (EU) 305/2011?",
+      exam: true,
       options: [
         "Temeljne zahtjeve za građevine",
         "Model izjave o svojstvima",
@@ -673,6 +704,7 @@ window.APP_DATA.push({
     },
     {
       q: "U kojem se prilogu Uredbe 305/2011 nalazi model (obrazac) izjave o svojstvima?",
+      exam: true,
       options: [
         "Prilog I",
         "Prilog II",
@@ -686,6 +718,7 @@ window.APP_DATA.push({
     },
     {
       q: "Što mijenjaju delegirane uredbe 568/2014 i 574/2014 u odnosu na Uredbu 305/2011?",
+      exam: true,
       options: [
         "568/2014 mijenja Prilog V (sustavi AVCP), a 574/2014 Prilog III (sadržaj izjave o svojstvima)",
         "568/2014 mijenja Prilog I (temeljni zahtjevi), a 574/2014 Prilog IV (TAB-ovi)",
@@ -698,6 +731,7 @@ window.APP_DATA.push({
     },
     {
       q: "Koja tvrdnja o postavljanju oznake CE na građevni proizvod je točna?",
+      exam: true,
       options: [
         "Postavlja se nakon što je proizvod ugrađen u građevinu",
         "Smije se postaviti i bez izjave o svojstvima ako je proizvod obuhvaćen usklađenom normom",
@@ -724,6 +758,7 @@ window.APP_DATA.push({
     },
     {
       q: "Koji od navedenih NIJE jedan od pet sustava ocjenjivanja i provjere stalnosti svojstava građevnih proizvoda?",
+      exam: true,
       options: [
         "Sustav 1+",
         "Sustav 2+",
@@ -774,6 +809,7 @@ window.APP_DATA.push({
     },
     {
       q: "Koji je sustav ocjenjivanja u kojem prijavljeno tijelo nema nikakvih zadataka, a sve provodi proizvođač (npr. vrata unutar zgrade)?",
+      exam: true,
       options: [
         "Sustav 2+",
         "Sustav 3",
@@ -798,6 +834,7 @@ window.APP_DATA.push({
     },
     {
       q: "Kako postupaju prijavljena tijela i proizvođači u pogledu ocjenjivanja svojstava proizvoda za koji je izdana europska tehnička ocjena (ETA)?",
+      exam: true,
       options: [
         "Provode ponovno ocjenjivanje svojstava u okviru svog sustava",
         "Traže od TAB-a da ponovi ocjenu za svaku seriju",
@@ -810,6 +847,7 @@ window.APP_DATA.push({
     },
     {
       q: "Tko je »uvoznik« prema Uredbi 305/2011?",
+      exam: true,
       options: [
         "Svaka osoba u opskrbnom lancu koja stavlja proizvod na raspolaganje na tržištu",
         "Fizička ili pravna osoba s poslovnim nastanom u Uniji koja građevni proizvod iz treće zemlje stavlja na tržište Unije",
@@ -822,6 +860,7 @@ window.APP_DATA.push({
     },
     {
       q: "Što je zajednički naziv za proizvođača, uvoznika, distributera i ovlaštenog predstavnika prema Uredbi 305/2011?",
+      exam: true,
       options: [
         "Gospodarski subjekt",
         "Sudionik u gradnji",
@@ -834,6 +873,7 @@ window.APP_DATA.push({
     },
     {
       q: "Koliko dugo proizvođač mora čuvati tehničku dokumentaciju i izjavu o svojstvima nakon stavljanja proizvoda na tržište?",
+      exam: true,
       options: [
         "5 godina",
         "2 godine",
@@ -858,6 +898,7 @@ window.APP_DATA.push({
     },
     {
       q: "Koju od navedenih uloga u provedbi Uredbe 305/2011 NEMA Ministarstvo nadležno za graditeljstvo?",
+      exam: true,
       options: [
         "Kontaktna točka za građevne proizvode",
         "Upravno tijelo za prijavljivanje prijavljenih tijela i imenovanje TAB-ova",
@@ -870,6 +911,7 @@ window.APP_DATA.push({
     },
     {
       q: "Čime prijavljena tijela dokazuju ispunjavanje zahtjeva Uredbe 305/2011 i tko donosi rješenje?",
+      exam: true,
       options: [
         "Potvrdom o akreditaciji nacionalnog akreditacijskog tijela; rješenje donosi Ministarstvo po prethodnom mišljenju Povjerenstva za građevne proizvode",
         "Certifikatom ISO 9001; rješenje donosi Europska komisija",
@@ -882,6 +924,7 @@ window.APP_DATA.push({
     },
     {
       q: "Kada Ministarstvo donosi privremeno rješenje za prijavljeno tijelo?",
+      exam: true,
       options: [
         "Kada tijelo nema pravnu osobnost",
         "Kada je podnositelj već prijavljen Europskoj komisiji, a akreditacijski postupak za traženi proizvod je u tijeku",
@@ -894,6 +937,7 @@ window.APP_DATA.push({
     },
     {
       q: "Koja tvrdnja o zahtjevima za prijavljena tijela prema Uredbi 305/2011 je točna?",
+      exam: true,
       options: [
         "Naknade uprave i osoblja za ocjenjivanje mogu ovisiti o broju provedenih ocjenjivanja",
         "Prijavljeno tijelo može biti proizvođač proizvoda koje ocjenjuje ako je akreditirano",
@@ -906,6 +950,7 @@ window.APP_DATA.push({
     },
     {
       q: "Prema kojem dijelu Uredbe 305/2011 Ministarstvo provjerava zahtjeve za imenovanje tijela za tehničko ocjenjivanje (TAB)?",
+      exam: true,
       options: [
         "Tablica 2 Priloga IV",
         "Prilog V",
@@ -942,6 +987,7 @@ window.APP_DATA.push({
     },
     {
       q: "Što je certifikat o stalnosti svojstava i za koje se sustave izdaje?",
+      exam: true,
       options: [
         "Dokument kojim proizvođač izražava svojstva proizvoda; izdaje se za sustave 2+ i 4",
         "Dokument laboratorija o rezultatima ispitivanja; izdaje se za sustav 3",
@@ -979,6 +1025,7 @@ window.APP_DATA.push({
     },
     {
       q: "Koji razred izloženosti betona prema HRN EN 206 označava koroziju armature uzrokovanu kloridima iz mora?",
+      exam: true,
       options: [
         "XS (XS1–XS3)",
         "XD (XD1–XD3)",
@@ -1004,6 +1051,7 @@ window.APP_DATA.push({
     },
     {
       q: "Kako proizvođač koji je proizvod bez izjave o svojstvima (iznimka iz čl. 27. ZoGP) ujedno i ugradio preuzima odgovornost za proizvod i njegovu sigurnu ugradnju?",
+      exam: true,
       options: [
         "Izjavom upisanom u građevinski dnevnik",
         "Certifikatom odobrenog tijela",
@@ -1017,6 +1065,7 @@ window.APP_DATA.push({
     },
     {
       q: "Gdje su u glavnom projektu navedene specifikacije proizvoda za koje proizvođač nema obvezu sastavljanja izjave o svojstvima (izrađeni na gradilištu, izvanserijski i sl.)?",
+      exam: true,
       options: [
         "U tehničkom opisu arhitektonskog projekta",
         "U troškovniku radova",
@@ -1056,6 +1105,7 @@ window.APP_DATA.push({
     },
     {
       q: "Koji od navedenih podataka NIJE obvezni sadržaj izjave o svojstvima prema Prilogu III Uredbe 305/2011?",
+      exam: true,
       options: [
         "Jedinstvena identifikacijska oznaka vrste proizvoda i namjena",
         "Sustav ocjenjivanja i provjere stalnosti svojstava (AVCP)",
@@ -1069,6 +1119,7 @@ window.APP_DATA.push({
     },
     {
       q: "Što se navodi u izjavi o svojstvima ako se ona temelji na europskoj tehničkoj ocjeni (točka 6.b)?",
+      exam: true,
       options: [
         "Broj EAD-a s datumom, broj ETA s datumom, naziv TAB-a i identifikacijski broj prijavljenog tijela",
         "Samo referentni broj usklađene norme i datum izdavanja",
@@ -1081,6 +1132,7 @@ window.APP_DATA.push({
     },
     {
       q: "Što je »specifična tehnička dokumentacija« u smislu izjave o svojstvima?",
+      exam: true,
       options: [
         "Tehnička uputa za ugradnju proizvoda na hrvatskom jeziku",
         "Dokumentacija kojom se dokazuje da su metode iz primjenjivog sustava AVCP zamijenjene drugim metodama, uz uvjet istovrijednosti rezultata s rezultatima ispitnih metoda iz usklađene norme",
@@ -1100,21 +1152,25 @@ window.APP_DATA.push({
     },
     {
       front: "Usklađeno i neusklađeno područje — što je razlika?",
+      exam: true,
       back: "Usklađeno (CE): tržište EU, Uredba 305/2011 + ZoGP, usklađene tehničke specifikacije (HRN EN sa ZA dodatkom ili EAD), prijavljena tijela, TAB izdaje ETA. Neusklađeno (C): tržište RH, ZoGP Glava III., hrvatske tehničke specifikacije (tehnički propis/hrvatska norma bez ZA ili HDO), odobrena tijela, HTTO izdaje HTO. Sustavi ocjenjivanja i izjave o svojstvima su identični.",
       freq: 2
     },
     {
       front: "Što podrazumijeva usklađena (harmonizirana) tehnička specifikacija?",
+      exam: true,
       back: "1. usklađenu europsku normu (HRN EN norma koja u prilogu ima ZA dodatak); 2. europski dokument za ocjenjivanje (EAD) — kada nema primjenjive norme; na temelju njega TAB izdaje ETA.",
       freq: 2
     },
     {
       front: "Što podrazumijeva hrvatska tehnička specifikacija?",
+      exam: true,
       back: "1. tehnički propis, odnosno neusklađenu (hrvatsku) normu bez ZA dodatka na koju upućuje tehnički propis; 2. hrvatski dokument za ocjenjivanje (HDO) — na temelju kojeg HTTO izdaje hrvatsku tehničku ocjenu.",
       freq: 2
     },
     {
       front: "Što je tehnička specifikacija?",
+      exam: true,
       back: "Dokument u skladu s kojim se ocjenjuju svojstva GP u odnosu na bitne značajke; može biti usklađena/neusklađena norma ili europski/hrvatski dokument za ocjenjivanje. Sadrži minimalne zahtjeve (min. tlačna čvrstoća, otpornost na požar, vodopropusnost...). Može biti norma, dio norme ili poseban dokument.",
       freq: 2
     },
@@ -1134,20 +1190,24 @@ window.APP_DATA.push({
     },
     {
       front: "Koje dokumente izdaju prijavljena/odobrena tijela po sustavima ocjenjivanja?",
+      exam: true,
       back: "Sustav 1+ i 1: tijelo za certificiranje proizvoda → certifikat o stalnosti svojstava. Sustav 2+: tijelo za certificiranje KTP → certifikat o sukladnosti kontrole tvorničke proizvodnje. Sustav 3: laboratorij → izvještaj o ispitivanju. Sustav 4: tijelo nema zadataka.",
       freq: 1
     },
     {
       front: "Koja su prijavljena tijela, TAB, odobrena tijela i HTTO u RH?",
+      exam: true,
       back: "Prijavljena tijela: IGH, Strojarski fakultet, SŠ Bedekovčina, Geo expert, Končar, Ascon institut, Alfa atest... (lista u NANDO bazi EK). Imenovano tijelo TAB: IGH. Odobrena tijela: IGH, Strojarski fakultet, Geo expert, LTM, Zavod za ispitivanje kvalitete... HTTO: IGH."
     },
     {
       front: "Što znači »stavljanje na tržište« i »stavljanje na raspolaganje na tržištu« (Uredba 305/2011)?",
+      exam: true,
       back: "Stavljanje na tržište = prvo stavljanje na raspolaganje proizvoda na tržištu. Stavljanje na raspolaganje = svaka isporuka proizvoda za distribuiranje, potrošnju ili uporabu na tržištu u okviru trgovačke djelatnosti, s plaćanjem ili bez plaćanja.",
       freq: 1
     },
     {
       front: "Definicija građevnog proizvoda i sklopa (Uredba 305/2011)",
+      exam: true,
       back: "Građevni proizvod: svaki proizvod ili sklop proizveden i stavljen na tržište radi trajne ugradnje u građevinu ili njezine dijelove, čija svojstva imaju učinak na svojstva građevine s obzirom na temeljne zahtjeve. Sklop: GP koji je proizvođač stavio na tržište kao skupinu od najmanje dvije zasebne komponente koje se postavljaju zajedno radi ugradnje.",
       freq: 2
     },
@@ -1157,6 +1217,7 @@ window.APP_DATA.push({
     },
     {
       front: "Koje zahtjeve moraju ispunjavati građevni proizvodi prije stavljanja na tržište?",
+      exam: true,
       back: "Moraju biti sukladni zahtjevima tehničke specifikacije, imati izjavu o svojstvima bitnih značajki izdanu od proizvođača, biti označeni CE ili C oznakom i imati tehničku uputu.",
       freq: 2
     },
@@ -1166,6 +1227,7 @@ window.APP_DATA.push({
     },
     {
       front: "Što izvođač utvrđuje pri preuzimanju građevnog proizvoda na gradilištu?",
+      exam: true,
       back: "1. je li proizvod namijenjen ugradnji u skladu s glavnim projektom; 2. je li isporučen s valjanom dokumentacijom (čl. 3. TPGP); 3. jesu li svojstva, bitne značajke i podaci za ugradnju sukladni glavnom projektu; 4. rok do kojega se smije ugraditi. Upisuje se u građevinski dnevnik, dokumentacija se pohranjuje na gradilištu; ako se ne ugrađuje odmah — propisno skladištiti."
     },
     {
@@ -1175,6 +1237,7 @@ window.APP_DATA.push({
     },
     {
       front: "Što ako proizvod na gradilištu nema navedenu dokumentaciju?",
+      exam: true,
       back: "Ne smije se ugraditi; proizvod treba vratiti proizvođaču.",
       freq: 1
     },
@@ -1190,6 +1253,7 @@ window.APP_DATA.push({
     },
     {
       front: "Tko treba odobriti proizvod koji ima izjavu o svojstvima prije nego ga izvođač ugradi?",
+      exam: true,
       back: "Nadzorni inženjer.",
       freq: 1
     },
@@ -1209,11 +1273,13 @@ window.APP_DATA.push({
     },
     {
       front: "Što ako proizvod nije ni u usklađenom ni u neusklađenom području, odnosno dolazi iz druge države članice EU (ili Turske, EFTA/EGP)?",
+      exam: true,
       back: "Proizvodi na koje se ne odnosi Uredba 305/2011, a zakonito su stavljeni na tržište u drugoj članici EU, Turskoj ili EFTA državi stranci EGP-a smatraju se kompatibilnima prema Uredbi (EU) 2019/515 o uzajamnom priznavanju. Gospodarski subjekt osigurava prateću dokumentaciju na hrvatskom (namjeravana uporaba, značajke, sigurnosne obavijesti, upute o rukovanju/skladištenju/ugradnji/odlaganju); bez izjave o uzajamnom priznavanju dostavlja dokumentaciju po čl. 5. st. 5. i 6. Uredbe 2019/515.",
       freq: 1
     },
     {
       front: "Sve o Uredbi (EU) 305/2011",
+      exam: true,
       back: "Utvrđuje usklađene uvjete za stavljanje na tržište GP; stavlja izvan snage Direktivu 89/106/EEZ; na snazi od 1. 7. 2013., obvezna za sve članice. Utvrđuje: sustave AVCP, obveze gospodarskih subjekata, usklađenu tehničku specifikaciju, zahtjeve i postupke za prijavljena tijela i TAB-ove, ostala pitanja. Prilozi: I temeljni zahtjevi za građevine; II postupak donošenja EAD-a; III izjava o svojstvima; IV područja proizvoda i zahtjevi za TAB-ove; V sustavi AVCP (1+, 1, 2+, 3, 4).",
       freq: 2
     },
@@ -1228,6 +1294,7 @@ window.APP_DATA.push({
     },
     {
       front: "Nabroji pet sustava ocjenjivanja i provjere stalnosti svojstava i tko što radi.",
+      exam: true,
       back: "1+ : tijelo za certificiranje proizvoda — ocjenjivanje svojstava, početni pregled pogona i KTP, kontinuirani nadzor KTP, ispitivanje slučajnih uzoraka; proizvođač KTP + ispitivanje uzoraka po planu. 1: isto bez slučajnih uzoraka. 2+: proizvođač KTP, ispitivanje uzoraka i ocjenjivanje svojstava; tijelo za certificiranje KTP — početni pregled i kontinuirani nadzor. 3: proizvođač KTP; laboratorij ocjenjuje svojstva na dostavljenim uzorcima. 4: proizvođač KTP i ocjenjivanje svojstava; tijelo nema zadataka. (Prilog V Uredbe; Pravilnik NN 118/19)",
       freq: 2
     },
@@ -1238,6 +1305,7 @@ window.APP_DATA.push({
     },
     {
       front: "Sustav 3 — tko je prijavljeno tijelo i što tko radi?",
+      exam: true,
       back: "Prijavljeno tijelo je ispitni laboratorij: ocjenjuje svojstva na dostavljenim uzorcima i izdaje izvještaj o ispitivanju. Proizvođač provodi samo kontrolu tvorničke proizvodnje. Primjer: krovni pokrovi koji podliježu propisima o opasnim tvarima.",
       freq: 2
     },
@@ -1251,22 +1319,27 @@ window.APP_DATA.push({
     },
     {
       front: "Obveze proizvođača (ZoGP čl. 30., Uredba čl. 11.)",
+      exam: true,
       back: "Sastavlja izjavu o svojstvima i stavlja CE/C; izrađuje tehničku dokumentaciju; čuva tehničku dokumentaciju i izjavu 10 godina; osigurava da serijska proizvodnja zadržava svojstva; ispituje uzorke s tržišta, evidentira pritužbe i nesukladne proizvode; osigurava broj tipa/šarže/serije te svoje ime i adresu na proizvodu; prilaže izjavu i tehničke upute na hrvatskom latiničnim pismom; kod nesukladnosti popravne mjere, povlačenje ili opoziv; kod rizika obavještava Ministarstvo i Državni inspektorat."
     },
     {
       front: "Uloge Ministarstva u provedbi Uredbe 305/2011 (ZoGP čl. 12.)",
+      exam: true,
       back: "Kontaktna točka za građevne proizvode; upravno tijelo za prijavljivanje prijavljenih tijela; upravno tijelo za imenovanje TAB-ova; član Stalnog odbora za graditeljstvo."
     },
     {
       front: "Postupak provjere ispunjavanja zahtjeva za prijavljena tijela (ZoGP čl. 12.)",
+      exam: true,
       back: "Pravna osoba podnosi zahtjev Ministarstvu; zahtjeve Uredbe dokazuje potvrdom o akreditaciji nacionalnog akreditacijskog tijela. Rješenje donosi Ministarstvo po mišljenju Povjerenstva za građevne proizvode — za laboratorij, laboratorij za požar/akustiku/opasne tvari, tijelo za certificiranje KTP, tijelo za certificiranje proizvoda. Nakon pravomoćnosti prijava EK i članicama. Privremeno rješenje ako je tijelo već prijavljeno EK, a akreditacija je u tijeku."
     },
     {
       front: "Zahtjevi za prijavljena tijela (Uredba 305/2011)",
+      exam: true,
       back: "Pravna osobnost po nacionalnom pravu; neovisna treća strana (ne smije biti projektant, proizvođač, dobavljač, instalater, kupac, vlasnik, korisnik ni održavatelj proizvoda niti njihov predstavnik; bez savjetodavnih usluga); stručno osoblje, postupci i oprema; nepristranost — naknade ne ovise o broju ni rezultatu ocjenjivanja; osiguranje od odgovornosti (osim ako odgovornost preuzme država); profesionalna tajna; sudjelovanje u koordinacijskoj skupini prijavljenih tijela."
     },
     {
       front: "Postupak imenovanja TAB-a (ZoGP čl. 16.) i postupak ukidanja ovlaštenja",
+      exam: true,
       back: "Zahtjev Ministarstvu; provjera zahtjeva iz Tablice 2 Priloga IV Uredbe; dokumentaciju propisuje ministar pravilnikom; rješenje po mišljenju Povjerenstva za jedno ili više područja proizvoda; podaci EK i članicama. Ukidanje: tijelo koje prestane ispunjavati zahtjeve obavještava Ministarstvo u roku 15 dana; provjera, mišljenje Povjerenstva o ozbiljnosti nedostataka, rok za uklanjanje ili povlačenje/ograničenje/obustava prijave odnosno imenovanja."
     },
     {
@@ -1275,29 +1348,35 @@ window.APP_DATA.push({
     },
     {
       front: "Što je certifikat o stalnosti svojstava? Za koje sustave se izdaje?",
+      exam: true,
       back: "Dokument koji dokazuje da GP zadovoljava zahtjeve stalnosti svojstava propisane tehničkom specifikacijom; izdaje ga ovlaštena osoba na zahtjev proizvođača, ovlaštenog zastupnika ili uvoznika ako su provedene propisane radnje i stalnost dokazana. Izdaje se za sustave 1+ i 1. Za 2+ certifikat o sukladnosti KTP, za 3 izvještaj o ispitivanju.",
       freq: 1
     },
     {
       front: "Objasni izjavu o svojstvima za beton C12/15 d31.5 S2 Cl 0,40 X0",
+      exam: true,
       back: "C12/15 — razred tlačne čvrstoće: fck,valj 12 N/mm² (valjak 15/30 cm), fck,cube 15 N/mm² (kocka 15 cm) pri 28 dana; ≥ 95 % rezultata iznad propisane (5 % fraktil). d31.5 — max zrno agregata 31,5 mm. S2 — razred obradivosti (slijeganje). Cl 0,40 — sadržaj klorida (% mase cementa). X0 — razred izloženosti, nema rizika od korozije. (HRN EN 206)"
     },
     {
       front: "Razredi izloženosti betona (HRN EN 206)",
+      exam: true,
       back: "X0 — nema rizika od korozije; XC — karbonatizacija (XC1–4); XF — smrzavanje/odmrzavanje sa ili bez sredstava za odleđivanje (XF1–4); XD — kloridi koji nisu iz mora (XD1–3); XS — kloridi iz mora (XS1–3); XA — kemijsko djelovanje (XA1–3); XM — habanje (XM1–3). Norma za svaki razred propisuje max v/c, min razred čvrstoće, min cementa, min zraka, agregat otporan na smrzavanje (XF), sulfatnootporni cement (XA)."
     },
     {
       front: "Za koji proizvod se ne izdaje izjava o svojstvima? (ZoGP čl. 27.)",
+      exam: true,
       back: "Iznimno, ako je proizvod izrađen prema svojstvima iz glavnog projekta i: proizveden pojedinačno ili po posebnoj narudžbi u izvanserijskom postupku i ujedno ugrađen od proizvođača; izrađen na gradilištu pojedinačne građevine; proizveden neindustrijski, tradicionalno ili za očuvanje baštine; pribavljen rušenjem građevine i pripremljen za ponovnu uporabu. Proizvođač koji ga je i ugradio preuzima odgovornost izjavom upisanom u građevinski dnevnik.",
       freq: 2
     },
     {
       front: "Gdje su u glavnom projektu navedene specifikacije proizvoda koji nemaju izjavu o svojstvima?",
+      exam: true,
       back: "U programu kontrole i osiguranja kvalitete.",
       freq: 1
     },
     {
       front: "Treba li cigla iz trgovine na gradilištu imati izjavu o svojstvima? Što ako je nema?",
+      exam: true,
       back: "Da, mora imati izjavu o svojstvima. Ako je nema, ne smije se ugraditi. Ako proizvod ne ispunjava svojstva ili je već ugrađen — proizvođač mora odmah poduzeti popravne mjere za usklađenje ili povlačenje i ponovno dokazivati svojstva."
     },
     {
@@ -1312,6 +1391,7 @@ window.APP_DATA.push({
     },
     {
       front: "Sadržaj izjave o svojstvima (Prilog III Uredbe 305/2011, izmjena 574/2014)",
+      exam: true,
       back: "1. jedinstvena identifikacijska oznaka vrste proizvoda; 2. namjena; 3. proizvođač; 4. ovlašteni predstavnik; 5. sustav AVCP; 6.a usklađena norma (ref. broj + datum) i prijavljeno tijelo / 6.b EAD (broj, datum), ETA (broj, datum), TAB i prijavljeno tijelo; 7. objavljena svojstva (barem jedna bitna značajka); 8. odgovarajuća i/ili specifična tehnička dokumentacija. Izdaje se pod isključivom odgovornošću proizvođača.",
       freq: 2
     },

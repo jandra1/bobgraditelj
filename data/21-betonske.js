@@ -128,6 +128,7 @@ window.APP_DATA.push({
   questions: [
     {
       q: "Što označava razred betona C 25/30?",
+      exam: true,
       options: [
         "Tlačnu čvrstoću od 25 N/mm2 na kocki i 30 N/mm2 na valjku",
         "Karakterističnu tlačnu čvrstoću nakon 28 dana: 25 N/mm2 na valjku i 30 N/mm2 na kocki",
@@ -140,6 +141,7 @@ window.APP_DATA.push({
     },
     {
       q: "Koji su parcijalni koeficijenti djelovanja za granično stanje nosivosti (GSN)?",
+      exam: true,
       options: [
         "1,0 za stalna i 1,2 za promjenjiva djelovanja",
         "1,5 za stalna i 1,35 za promjenjiva djelovanja",
@@ -152,6 +154,7 @@ window.APP_DATA.push({
     },
     {
       q: "Što opisuju razredi izloženosti betona (X0, XC, XD, XS, XF, XA)?",
+      exam: true,
       options: [
         "Razred tlačne čvrstoće betona",
         "Okolišne uvjete kojima je beton izložen i koji utječu na trajnost",
@@ -176,6 +179,7 @@ window.APP_DATA.push({
     },
     {
       q: "Što znači oznaka čelika za armiranje B500B?",
+      exam: true,
       options: [
         "Tlačna čvrstoća 500 N/mm2, razred izloženosti B",
         "Granica popuštanja 500 N/mm2, razred duktilnosti B",
@@ -188,6 +192,7 @@ window.APP_DATA.push({
     },
     {
       q: "Koja je najmanja čvrstoća morta za armirano ziđe?",
+      exam: true,
       options: ["M1", "M2,5", "M5", "M10"],
       correct: 2,
       explanation: "Za armirano ziđe (i tankoslojni te lakoagregatni mort) traži se najmanje M5; za nearmirano ziđe dovoljan je M1.",
@@ -195,6 +200,7 @@ window.APP_DATA.push({
     },
     {
       q: "Kada se betoniraju vertikalni serklaži omeđenog ziđa?",
+      exam: true,
       options: [
         "Prije zidanja zidova etaže",
         "Nakon izvedbe ziđa etaže",
@@ -207,6 +213,7 @@ window.APP_DATA.push({
     },
     {
       q: "Gdje se moraju izvesti vertikalni serklaži kod omeđenog ziđa?",
+      exam: true,
       options: [
         "Samo na uglovima građevine",
         "Na rubovima nosivih zidova, sjecištima zidova i uz veće otvore",
@@ -238,6 +245,7 @@ window.APP_DATA.push({
     },
     {
       q: "Koje granično stanje obuhvaća progibe i pukotine konstrukcije?",
+      exam: true,
       options: [
         "Granično stanje nosivosti (GSN)",
         "Granično stanje uporabljivosti (GSU)",
@@ -262,6 +270,7 @@ window.APP_DATA.push({
     },
     {
       q: "Što određuje nacionalni dodatak Eurokodu 8 za Hrvatsku?",
+      exam: true,
       options: [
         "Cijene građenja u potresnim područjima",
         "Kartu potresnih područja prema poredbenom vršnom ubrzanju tla",
@@ -274,6 +283,7 @@ window.APP_DATA.push({
     },
     {
       q: "Što mora osigurati dimnjak prema Tehničkom propisu za dimnjake?",
+      exam: true,
       options: [
         "Samo dovoljnu visinu iznad sljemena",
         "Odvod dimnih plinova, nepropusnost, otpornost na požar čađe te mogućnost čišćenja i pregleda",
@@ -286,6 +296,7 @@ window.APP_DATA.push({
     },
     {
       q: "Kojim se Eurokodom projektiraju spregnute čelično-betonske konstrukcije?",
+      exam: true,
       options: ["Eurokod 2", "Eurokod 3", "Eurokod 4", "Eurokod 6"],
       correct: 2,
       explanation: "EC4 (HRN EN 1994) uređuje projektiranje spregnutih čelično-betonskih konstrukcija; EC2 je beton, EC3 čelik, EC6 ziđe.",
@@ -329,6 +340,7 @@ window.APP_DATA.push({
     },
     {
       q: "Na kojim se uzorcima standardno ispituje tlačna čvrstoća betona i kada?",
+      exam: true,
       options: [
         "Na kockama brida 150 mm nakon 28 dana",
         "Na kockama brida 300 mm nakon 7 dana",
@@ -365,6 +377,7 @@ window.APP_DATA.push({
     },
     {
       q: "O čemu ovise duljine sidrenja i preklopa armaturnih šipki?",
+      exam: true,
       options: [
         "Samo o duljini šipke iz tvornice",
         "O promjeru šipke, čvrstoći betona, uvjetima prionjivosti i položaju šipke u presjeku",
@@ -389,6 +402,7 @@ window.APP_DATA.push({
     },
     {
       q: "Prema čemu se zidni elementi razvrstavaju u grupe 1–4 prema Eurokodu 6?",
+      exam: true,
       options: [
         "Prema boji i formatu",
         "Prema udjelu i orijentaciji šupljina u elementu",
@@ -401,6 +415,7 @@ window.APP_DATA.push({
     },
     {
       q: "O čemu ovisi karakteristična tlačna čvrstoća ziđa fk?",
+      exam: true,
       options: [
         "Samo o debljini zida",
         "O tlačnoj čvrstoći zidnog elementa (fb) i čvrstoći morta (fm)",
@@ -494,34 +509,103 @@ window.APP_DATA.push({
       correct: 1,
       explanation: "Hrđa u listićima, masnoća ili blato smanjuju prionjivost; bez distancera armatura 'legne' na oplatu — gubi se zaštitni sloj (korozija, požar) i statička visina (nosivost).",
       source: "HRN EN 13670; HRN EN 1992"
+    },
+    {
+      q: "Što znači oznaka Cl 0,40 kod betona?",
+      exam: true,
+      options: [
+        "Da beton sadrži 0,40 % klora u vodi",
+        "Najveći dopušteni sadržaj klorida izražen u % na masu cementa — Cl 0,40 vrijedi za armirani beton",
+        "Razred konzistencije betona",
+        "Debljinu zaštitnog sloja od 0,40 cm"
+      ],
+      correct: 1,
+      explanation: "Razred sadržaja klorida iskazuje najveći dopušteni udio klorida (Cl–) u % mase cementa: za armirani beton Cl 0,40, za prednapeti Cl 0,20, za nearmirani Cl 1,0. Kloridi uzrokuju koroziju armature.",
+      source: "HRN EN 206"
+    },
+    {
+      q: "Objasni punu oznaku betona: C 30/37 XC2 D16 S3 Cl 0,4.",
+      exam: true,
+      options: [
+        "Razred čvrstoće, razred izloženosti, najveće zrno agregata 16 mm, konzistencija (slump S3), razred sadržaja klorida",
+        "Cijena, boja, težina, brzina ugradnje i proizvođač betona",
+        "Razred čvrstoće, dubina ugradnje, broj uzoraka, način njege, rok isporuke",
+        "Oznaka vrijedi samo za predgotovljene elemente"
+      ],
+      correct: 0,
+      explanation: "C 30/37 = tlačna čvrstoća (valjak/kocka); XC2 = razred izloženosti (karbonatizacija, mokro-suho); D16 = najveće zrno agregata (Dmax 16 mm); S3 = razred konzistencije slijeganjem; Cl 0,4 = razred sadržaja klorida.",
+      source: "HRN EN 206"
+    },
+    {
+      q: "Koje preglede građevinskih konstrukcija u uporabi propisuje Tehnički propis i koliko se često provodi glavni pregled mostova?",
+      exam: true,
+      options: [
+        "Samo izvanredne preglede nakon potresa",
+        "Redovite, glavne i izvanredne preglede; glavni pregled mostova najmanje svakih 5 godina",
+        "Godišnje tehničke preglede koje provodi MUP",
+        "Pregledi nisu propisani"
+      ],
+      correct: 1,
+      explanation: "Tijekom uporabe provode se redoviti, glavni (temeljitiji, u propisanim razmacima — za mostove najmanje svakih 5 godina) i izvanredni pregledi (nakon izvanrednih događaja poput potresa ili udara).",
+      source: "Tehnički propis za građevinske konstrukcije"
+    },
+    {
+      q: "Što se pregledava pri glavnom pregledu mosta?",
+      exam: true,
+      options: [
+        "Samo prometna signalizacija na mostu",
+        "Slijeganje temelja i upornjaka, stanje stupova i rasponskog sklopa, ležajevi i prijelazne naprave, pukotine, progibi, korozija armature, odvodnja, ograde i kolnik",
+        "Samo naplata mostarine",
+        "Isključivo rasvjeta mosta"
+      ],
+      correct: 1,
+      explanation: "Glavni pregled obuhvaća sve bitne dijelove: temelje/upornjake (slijeganja), stupove, rasponski sklop (pukotine, progibi), ležajeve i prijelazne naprave, zaštitni sloj i koroziju, uređaje za odvodnju (voda i led razaraju konstrukciju), ograde i kolničku konstrukciju.",
+      source: "Tehnički propis za građevinske konstrukcije; pravila struke"
+    },
+    {
+      q: "Za koje se konstrukcije provodi ispitivanje pokusnim (probnim) opterećenjem?",
+      exam: true,
+      options: [
+        "Za sve zgrade prije tehničkog pregleda",
+        "Za konstrukcije velikih raspona i posebnog značaja — npr. mostove raspona 15 m i više te tribine — prema programu iz projekta",
+        "Samo za obiteljske kuće",
+        "Pokusno opterećenje je ukinuto"
+      ],
+      correct: 1,
+      explanation: "Pokusno opterećenje prije uporabe dokazuje ponašanje izvedene konstrukcije: opterećenje se nanosi prema programu iz projekta, mjere se progibi i uspoređuju s proračunskima; propisano je za mostove većih raspona (15 m i više), tribine i slične konstrukcije.",
+      source: "Tehnički propis za građevinske konstrukcije"
     }
   ],
   flashcards: [
-    { front: "Parcijalni koeficijenti djelovanja za GSN?", back: "1,35 za stalna djelovanja (G), 1,5 za promjenjiva (Q); za GSU u pravilu 1,0." },
-    { front: "Što znači C 25/30?", back: "Karakteristična tlačna čvrstoća betona nakon 28 dana: 25 N/mm2 na valjku, 30 N/mm2 na kocki." },
-    { front: "Razredi izloženosti betona?", back: "X0 bez rizika; XC karbonatizacija; XD kloridi (ne iz mora); XS morska voda; XF smrzavanje/odmrzavanje; XA kemijsko djelovanje." },
-    { front: "B500B — značenje oznake?", back: "Čelik za armiranje granice popuštanja 500 N/mm2, razred duktilnosti B (razredi A, B, C; C najduktilniji)." },
-    { front: "Najmanja čvrstoća morta za nearmirano i armirano ziđe?", back: "Nearmirano ziđe: M1. Armirano ziđe, tankoslojni i lakoagregatni mort: M5." },
-    { front: "Gdje dolaze vertikalni serklaži omeđenog ziđa?", back: "Na rubovima nosivih zidova, sjecištima zidova i uz veće otvore; betoniraju se nakon izvedbe ziđa etaže." },
-    { front: "Kada se betoniraju horizontalni serklaži?", back: "Na razini svakog stropa, zajedno sa stropnom konstrukcijom." },
+    { front: "Parcijalni koeficijenti djelovanja za GSN?", exam: true, back: "1,35 za stalna djelovanja (G), 1,5 za promjenjiva (Q); za GSU u pravilu 1,0." },
+    { front: "Što znači C 25/30?", exam: true, back: "Karakteristična tlačna čvrstoća betona nakon 28 dana: 25 N/mm2 na valjku, 30 N/mm2 na kocki." },
+    { front: "Razredi izloženosti betona?", exam: true, back: "X0 bez rizika; XC karbonatizacija; XD kloridi (ne iz mora); XS morska voda; XF smrzavanje/odmrzavanje; XA kemijsko djelovanje." },
+    { front: "B500B — značenje oznake?", exam: true, back: "Čelik za armiranje granice popuštanja 500 N/mm2, razred duktilnosti B (razredi A, B, C; C najduktilniji)." },
+    { front: "Najmanja čvrstoća morta za nearmirano i armirano ziđe?", exam: true, back: "Nearmirano ziđe: M1. Armirano ziđe, tankoslojni i lakoagregatni mort: M5." },
+    { front: "Gdje dolaze vertikalni serklaži omeđenog ziđa?", exam: true, back: "Na rubovima nosivih zidova, sjecištima zidova i uz veće otvore; betoniraju se nakon izvedbe ziđa etaže." },
+    { front: "Kada se betoniraju horizontalni serklaži?", exam: true, back: "Na razini svakog stropa, zajedno sa stropnom konstrukcijom." },
     { front: "Vlastita težina armiranog betona?", back: "25 kN/m3 (ploča: debljina x 25 kN/m3 po m2 tlocrta)." },
-    { front: "GSN i GSU — razlika?", back: "GSN = granično stanje nosivosti (sigurnost od sloma). GSU = granično stanje uporabljivosti (progibi, vibracije, pukotine)." },
+    { front: "GSN i GSU — razlika?", exam: true, back: "GSN = granično stanje nosivosti (sigurnost od sloma). GSU = granično stanje uporabljivosti (progibi, vibracije, pukotine)." },
     { front: "Čemu služi zaštitni sloj betona?", back: "Štiti armaturu od korozije, osigurava prionjivost armature i betona te požarnu otpornost; debljina ovisi o razredu izloženosti." },
     { front: "Njega betona — što i zašto?", back: "Zaštita od isušivanja, ekstremnih temperatura i vibracija prvih dana; bez njege nastaju pukotine i ne razvija se puna čvrstoća i trajnost." },
     { front: "Načela potresno otpornog koncipiranja (EC8)?", back: "Jednostavnost i pravilnost, simetrija, dvosmjerna otpornost i krutost, torzijska otpornost, kruti stropovi (dijafragme), pouzdano temeljenje." },
-    { front: "Koji Eurokod pokriva koje gradivo?", back: "EC0 osnove, EC1 djelovanja, EC2 beton, EC4 spregnute, EC6 ziđe, EC7 geotehnika, EC8 potres." },
-    { front: "Zahtjevi za dimnjak (TP NN 03/07)?", back: "Pouzdan odvod dimnih plinova (propuh), nepropusnost, otpornost na temperaturu, koroziju, kondenzat i požar čađe; omogućeno čišćenje i pregled." },
+    { front: "Koji Eurokod pokriva koje gradivo?", exam: true, back: "EC0 osnove, EC1 djelovanja, EC2 beton, EC4 spregnute, EC6 ziđe, EC7 geotehnika, EC8 potres." },
+    { front: "Zahtjevi za dimnjak (TP NN 03/07)?", exam: true, back: "Pouzdan odvod dimnih plinova (propuh), nepropusnost, otpornost na temperaturu, koroziju, kondenzat i požar čađe; omogućeno čišćenje i pregled." },
     { front: "Konzistencija svježeg betona?", back: "Slump test (slijeganje stošca), razredi S1 (kruta) – S5 (tekuća); bira se prema načinu ugradnje i gustoći armature." },
     { front: "Vodocementni omjer (v/c)?", back: "Niži v/c → veća čvrstoća i trajnost (manje pora); ograničava se prema razredu izloženosti, ugradljivost se popravlja plastifikatorima." },
-    { front: "Standardni uzorci za tlačnu čvrstoću?", back: "Kocke brida 150 mm (ili valjci 150/300 mm), ispitivanje nakon 28 dana njege." },
+    { front: "Standardni uzorci za tlačnu čvrstoću?", exam: true, back: "Kocke brida 150 mm (ili valjci 150/300 mm), ispitivanje nakon 28 dana njege." },
     { front: "Skidanje nosive oplate?", back: "Tek kad beton postigne čvrstoću za preuzimanje opterećenja — prema projektu/planu betoniranja (ovisi o cementu, temperaturi, njezi)." },
     { front: "Betoniranje zimi?", back: "Svježi beton ne smije se smrznuti: grijani sastojci, ubrzivači, pokrivanje i produljena njega — posebne mjere ispod +5 °C." },
     { front: "Prednapeti beton — princip?", back: "Prednapinjanjem čelika u beton se unosi tlak; vlačna naprezanja i pukotine javljaju se kasnije → veći rasponi, vitkiji presjeci." },
     { front: "Grupe zidnih elemenata (EC6)?", back: "1–4 prema udjelu i orijentaciji šupljina (grupa 1 puni elementi); utječu na čvrstoću ziđa i primjenu u potresnim područjima." },
-    { front: "Tlačna čvrstoća ziđa fk?", back: "Računa se iz čvrstoće zidnog elementa (fb) i morta (fm), uz konstante ovisne o grupi elementa i vrsti morta (EC6)." },
+    { front: "Tlačna čvrstoća ziđa fk?", exam: true, back: "Računa se iz čvrstoće zidnog elementa (fb) i morta (fm), uz konstante ovisne o grupi elementa i vrsti morta (EC6)." },
     { front: "Dilatacijske reške — čemu služe?", back: "Neovisni pomaci dijelova građevine: temperatura, skupljanje/puzanje, nejednolika slijeganja, potresno razdvajanje." },
     { front: "Najveće zrno agregata?", back: "Ograničeno razmakom šipki, zaštitnim slojem i debljinom elementa — zrno mora proći kroz armaturu, inače nastaju gnijezda." },
     { front: "Vibriranje betona?", back: "Istjeruje zrak i popunjava oplatu; predugo vibriranje → segregacija (razdvajanje agregata i morta)." },
-    { front: "Kontrola betona na gradilištu?", back: "Otpremnica (razred, izloženost), provjera konzistencije, uzorci za tlačnu čvrstoću (ispitivanje identiteta)." }
+    { front: "Kontrola betona na gradilištu?", back: "Otpremnica (razred, izloženost), provjera konzistencije, uzorci za tlačnu čvrstoću (ispitivanje identiteta)." },
+    { front: "Razredi sadržaja klorida u betonu?", exam: true, back: "% Cl– na masu cementa: nearmirani Cl 1,0; armirani Cl 0,40; prednapeti Cl 0,20. Kloridi uzrokuju koroziju armature." },
+    { front: "Puna oznaka betona C 30/37 XC2 D16 S3 Cl 0,4?", exam: true, back: "Čvrstoća (valjak/kocka) · razred izloženosti · najveće zrno Dmax 16 mm · konzistencija S3 (slump) · razred klorida." },
+    { front: "Pregledi konstrukcija u uporabi?", exam: true, back: "Redoviti, glavni i izvanredni. Glavni pregled mostova min. svakih 5 godina: slijeganja, pukotine, progibi, ležajevi, prijelazne naprave, korozija, odvodnja, ograde." },
+    { front: "Pokusno (probno) opterećenje — za što i kako?", exam: true, back: "Mostovi raspona ≥ 15 m, tribine i sl.; po programu iz projekta, mjere se progibi i uspoređuju s proračunskima prije uporabe." }
   ]
 });

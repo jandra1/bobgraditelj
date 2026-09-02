@@ -69,6 +69,7 @@ window.APP_DATA.push({
   questions: [
     {
       q: "Što geotehnički projekt prema Eurokodu 7 mora navesti?",
+      exam: true,
       options: [
         "Pretpostavke, podatke, metode proračuna i rezultate provjere sigurnosti i uporabljivosti",
         "Samo rezultate laboratorijskih ispitivanja uzoraka tla",
@@ -165,6 +166,7 @@ window.APP_DATA.push({
     },
     {
       q: "U kojem poglavlju Eurokoda 2 propisane su metode za procjenu otpornosti armiranog betona na proboj?",
+      exam: true,
       options: [
         "6.4.3.5",
         "4.4.1",
@@ -177,6 +179,7 @@ window.APP_DATA.push({
     },
     {
       q: "Od čega može nastati proboj armiranobetonske ploče?",
+      exam: true,
       options: [
         "Od jednoliko raspodijeljenog opterećenja po cijeloj ploči",
         "Od koncentriranog opterećenja ili ležajne reakcije koja djeluje na razmjerno maloj površini, npr. kod ravnih ploča izravno oslonjenih na stupove",
@@ -189,6 +192,7 @@ window.APP_DATA.push({
     },
     {
       q: "Prema Eurokodu 2, koji uvjet za kružni stup određuje da je nužan proračun na proboj?",
+      exam: true,
       options: [
         "D ≤ 1,5d",
         "D ≤ 11d",
@@ -201,6 +205,7 @@ window.APP_DATA.push({
     },
     {
       q: "Prema Eurokodu 2, koji uvjet za pravokutni stup određuje da je nužan proračun na proboj?",
+      exam: true,
       options: [
         "u ≤ 3,5d",
         "u ≤ 1,5d",
@@ -213,6 +218,7 @@ window.APP_DATA.push({
     },
     {
       q: "Što označava veličina d u uvjetima za proboj (D ≤ 3,5d, u ≤ 11d)?",
+      exam: true,
       options: [
         "Statičku visinu ploče iznad stupa",
         "Promjer stupa",
@@ -225,6 +231,7 @@ window.APP_DATA.push({
     },
     {
       q: "Na kojem se razmaku od stupa nalazi kritični opseg pri proračunu na proboj (ploština opterećenja nije uz slobodni rub)?",
+      exam: true,
       options: [
         "0,5d",
         "1,5d",
@@ -237,6 +244,7 @@ window.APP_DATA.push({
     },
     {
       q: "Što je potrebno kada je pri proračunu na proboj udaljenost od stupa do slobodnog ruba ploče manja od d?",
+      exam: true,
       options: [
         "Ništa posebno – rub se zanemaruje",
         "Smanjenje statičke visine ploče",
@@ -249,6 +257,7 @@ window.APP_DATA.push({
     },
     {
       q: "Kada prema Eurokodu 2 nije potreban proračun poprečne armature protiv proboja?",
+      exam: true,
       options: [
         "Kada je debljina ploče veća od 20 cm",
         "Kada je stup kružnog presjeka",
@@ -261,6 +270,7 @@ window.APP_DATA.push({
     },
     {
       q: "Koje su mjere za osiguranje ploče na proboj?",
+      exam: true,
       options: [
         "Poprečna armatura, zadebljanje ploče, vute",
         "Povećanje razreda izloženosti betona",
@@ -273,6 +283,7 @@ window.APP_DATA.push({
     },
     {
       q: "Kako se pri dokazu na proboj tretira poprečna sila u temeljnim pločama?",
+      exam: true,
       options: [
         "Uvećava se za 50 % zbog nejednolikog tlaka tla",
         "Dopušteno ju je umanjiti za vrijednost rezultante reaktivnog tlaka tla unutar kritičnog presjeka",
@@ -285,6 +296,7 @@ window.APP_DATA.push({
     },
     {
       q: "Što vrijedi za osnovnu proračunsku posmičnu čvrstoću kod ploča opterećenih na proboj?",
+      exam: true,
       options: [
         "Može se povećati do 30 % ako je ploča debela",
         "Povećava se ovisno o razredu betona",
@@ -321,6 +333,7 @@ window.APP_DATA.push({
     },
     {
       q: "Kolika je težina 1 m³ zida (ziđa)?",
+      exam: true,
       options: [
         "25 kN/m³",
         "8–11 kN/m³",
@@ -357,6 +370,7 @@ window.APP_DATA.push({
     },
     {
       q: "Što znači da je građevinska dozvola pravomoćna?",
+      exam: true,
       options: [
         "Ne postoji više mogućnost ni žalbe ni upravnog spora",
         "Protiv nje se još može uložiti žalba Ministarstvu",
@@ -369,6 +383,7 @@ window.APP_DATA.push({
     },
     {
       q: "Što znači da je građevinska dozvola izvršna?",
+      exam: true,
       options: [
         "Da su svi pravni lijekovi iscrpljeni",
         "Da je moguće još pokretanje upravnog spora",
@@ -516,17 +531,17 @@ window.APP_DATA.push({
     { front: "Što navodi geotehnički projekt?", back: "Pretpostavke, podatke, metode proračuna i rezultate provjere sigurnosti i uporabljivosti. Razina razrade ovisi o tipu projekta – za jednostavne projekte može biti dovoljna jedna stranica. Stavke se navode s upućivanjem na izvještaj o istraživanju temeljnog tla (Eurokod 7)." },
     { front: "Nabroji sadržaj geotehničkog projekta.", back: "Opis lokacije i okoline; opis uvjeta u temeljnom tlu; opis zadane gradnje uključujući djelovanja; proračunske vrijednosti svojstava tla i stijene; izjave o primijenjenim pravilima i normama; izjave o prikladnosti lokacije i razini prihvatljivih rizika; proračuni i crteži; preporuke za projektiranje temelja; popis stavaka koje se kontroliraju tijekom građenja ili zahtijevaju održavanje/praćenje ponašanja." },
     { front: "U kojim se fazama provode istraživanja temeljnog tla?", back: "1) prethodna istraživanja – za postavljanje i projektiranje idejnog projekta konstrukcije; 2) istraživanja za projekt; 3) kontrola i praćenje ponašanja. Provode se u fazama ovisno o problemima uočenim tijekom planiranja, proračuna i građenja." },
-    { front: "Što je proboj armiranobetonske ploče i kada nastaje?", back: "Lom ploče od koncentriranog opterećenja ili ležajne reakcije na razmjerno maloj površini – npr. ravne ploče izravno oslonjene na stupove. Metode procjene otpornosti na proboj daje Eurokod 2, poglavlje 6.4.3.5." },
-    { front: "Koja dva uvjeta Eurokod 2 daje za nužnost proračuna na proboj?", back: "D ≤ 3,5d za kružni stup (D = promjer stupa) i u ≤ 11d za pravokutni stup (u = opseg stupa); d = statička visina ploče iznad stupa." },
-    { front: "Gdje je kritični opseg (presjek) pri proračunu na proboj?", back: "Opseg koji opasuje ploštinu nanošenja opterećenja na razmaku 1,5d od stupa. Ako je u blizini slobodni rub, uzima se u obzir; ako je udaljenost do ruba manja od d, potrebna je posebna rubna armatura duž ruba." },
+    { front: "Što je proboj armiranobetonske ploče i kada nastaje?", exam: true, back: "Lom ploče od koncentriranog opterećenja ili ležajne reakcije na razmjerno maloj površini – npr. ravne ploče izravno oslonjene na stupove. Metode procjene otpornosti na proboj daje Eurokod 2, poglavlje 6.4.3.5." },
+    { front: "Koja dva uvjeta Eurokod 2 daje za nužnost proračuna na proboj?", exam: true, back: "D ≤ 3,5d za kružni stup (D = promjer stupa) i u ≤ 11d za pravokutni stup (u = opseg stupa); d = statička visina ploče iznad stupa." },
+    { front: "Gdje je kritični opseg (presjek) pri proračunu na proboj?", exam: true, back: "Opseg koji opasuje ploštinu nanošenja opterećenja na razmaku 1,5d od stupa. Ako je u blizini slobodni rub, uzima se u obzir; ako je udaljenost do ruba manja od d, potrebna je posebna rubna armatura duž ruba." },
     { front: "Kada nije potrebna poprečna armatura protiv proboja?", back: "Kada je vSd ≤ vRd1. Ako je dokazano suprotno, treba predvidjeti poprečnu armaturu ili drugo osiguranje na posmik (pojačanje vrha stupa i sl.)." },
-    { front: "Koje su mjere osiguranja ploče na proboj?", back: "Poprečna armatura, zadebljanje ploče, vute (pojačanje vrha stupa). Kad debljina ploče ili temelja nije dovoljna, valja predvidjeti neku od tih mjera." },
-    { front: "Posebnosti dokaza na proboj kod temeljnih ploča?", back: "Dopušteno je poprečnu silu umanjiti za vrijednost rezultante reaktivnog tlaka tla unutar kritičnog presjeka. Kod ploča opterećenih na proboj ne smije se povećati osnovna proračunska posmična čvrstoća." },
+    { front: "Koje su mjere osiguranja ploče na proboj?", exam: true, back: "Poprečna armatura, zadebljanje ploče, vute (pojačanje vrha stupa). Kad debljina ploče ili temelja nije dovoljna, valja predvidjeti neku od tih mjera." },
+    { front: "Posebnosti dokaza na proboj kod temeljnih ploča?", exam: true, back: "Dopušteno je poprečnu silu umanjiti za vrijednost rezultante reaktivnog tlaka tla unutar kritičnog presjeka. Kod ploča opterećenih na proboj ne smije se povećati osnovna proračunska posmična čvrstoća." },
     { front: "Uzduž čega se provodi dokaz preuzimanja probojne poprečne sile?", back: "Uzduž utvrđenoga kritičnog presjeka (kritični opseg na 1,5d od stupa)." },
-    { front: "Specifična težina opeke i ziđa?", back: "Jedan komad opeke: 12 do 20 kg. Težina 1 m³ zida: 8–11 kN/m³." },
+    { front: "Specifična težina opeke i ziđa?", exam: true, back: "Jedan komad opeke: 12 do 20 kg. Težina 1 m³ zida: 8–11 kN/m³." },
     { front: "Nagib krova za kupu mediteran?", back: "22°." },
     { front: "Nagib krova za kupu kanalicu?", back: "30°–40°." },
-    { front: "Razlika pravomoćne i izvršne građevinske dozvole?", back: "Pravomoćna – ne postoji mogućnost ni žalbe ni upravnog spora. Izvršna – moguće je još pokretanje upravnog spora." },
+    { front: "Razlika pravomoćne i izvršne građevinske dozvole?", exam: true, back: "Pravomoćna – ne postoji mogućnost ni žalbe ni upravnog spora. Izvršna – moguće je još pokretanje upravnog spora." },
     { front: "Je li moguća žalba na odluku Ministarstva?", back: "Ne – na odluku Ministarstva nikad nije moguća žalba, moguć je samo upravni spor." },
     { front: "Minimalna dubina temeljenja?", back: "10–15 cm ispod dubine smrzavanja. U Republici Hrvatskoj dubina smrzavanja iznosi 80 cm do 120 cm." },
     { front: "Što uređuje Zakon o zaštiti od buke?", back: "Mjere za izbjegavanje, sprječavanje ili smanjivanje štetnih učinaka buke u okolišu na zdravlje ljudi (uključujući smetanje bukom), osobito: utvrđivanje izloženosti buci izradom karata buke, osiguravanje dostupnosti podataka o buci okoliša i izradu akcijskih planova na temelju podataka iz karata buke." },

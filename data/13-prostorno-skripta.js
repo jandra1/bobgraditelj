@@ -167,6 +167,7 @@ window.APP_DATA.push({
     },
     {
       q: "Ako javnopravno tijelo na očevidu u postupku dozvole za promjenu namjene ne može dati potvrdu usmeno na zapisnik, koji rok mu određuje upravno tijelo za pisano izdavanje ili odbijanje potvrde?",
+      exam: true,
       options: ["8 dana", "30 dana", "15 dana", "60 dana"],
       correct: 2,
       explanation: "Potvrdu JPT daje usmeno na zapisnik prilikom očevida, a ako to nije moguće, upravno tijelo odnosno Ministarstvo određuje rok od 15 dana; ako se JPT ne odazove ili ne dostavi potvrdu/rješenje, smatra se da je potvrda izdana.",
@@ -175,6 +176,7 @@ window.APP_DATA.push({
     },
     {
       q: "Što je etapno građenje prema Zakonu o prostornom uređenju?",
+      exam: true,
       options: [
         "Građenje građevine po njezinim dijelovima određenim građevinskom dozvolom",
         "Građenje jednostavne građevine bez građevinske dozvole u više navrata",
@@ -188,6 +190,7 @@ window.APP_DATA.push({
     },
     {
       q: "Što je fazno građenje?",
+      exam: true,
       options: [
         "Građenje građevine po njezinim dijelovima određenim lokacijskom dozvolom, za koje se izdaju jedna ili više građevinskih dozvola",
         "Građenje više samostalnih građevina složene građevine",
@@ -201,6 +204,7 @@ window.APP_DATA.push({
     },
     {
       q: "Koje od navedenih tijela NIJE javnopravno tijelo u smislu Zakona o prostornom uređenju?",
+      exam: true,
       options: [
         "Upravni odjel županije nadležan za zaštitu okoliša",
         "Tijelo koje po posebnom propisu vrši vlasničke ovlasti na građevinskom zemljištu u vlasništvu Republike Hrvatske",
@@ -214,6 +218,7 @@ window.APP_DATA.push({
     },
     {
       q: "Od čega se sastoji prostorni plan kao cjeloviti dokument?",
+      exam: true,
       options: [
         "Od tekstualnog dijela, troškovnika i geodetskog elaborata",
         "Od strateškog i provedbenog dijela te sažetka za javnost",
@@ -226,6 +231,7 @@ window.APP_DATA.push({
     },
     {
       q: "Što čini Ministarstvo ako jedinica lokalne samouprave ne otkloni neusklađenost prostornog plana u roku određenom rješenjem?",
+      exam: true,
       options: [
         "Samo donosi novi plan umjesto jedinice lokalne samouprave",
         "Podnosi tužbu Upravnom sudu radi poništenja plana",
@@ -263,6 +269,7 @@ window.APP_DATA.push({
     },
     {
       q: "Tko je nositelj izrade prostornog plana lokalne razine?",
+      exam: true,
       options: [
         "Ministarstvo nadležno za prostorno uređenje",
         "Zavod za prostorno uređenje županije",
@@ -284,6 +291,7 @@ window.APP_DATA.push({
     },
     {
       q: "Do kada su javnopravna tijela dužna jednom godišnje dostaviti jedinici lokalne samouprave prijedloge o potrebi izrade prostornih planova ili izjavu da nemaju novih zahtjeva?",
+      exam: true,
       options: ["Do kraja veljače", "Do kraja ožujka", "Do 30. lipnja", "Do 31. prosinca"],
       correct: 0,
       explanation: "JPT su dužna na početku svake godine, do kraja veljače, dostaviti prijedloge i zahtjeve o potrebi izrade planova ili izjavu da nemaju novih zahtjeva u odnosu na prethodnu godinu.",
@@ -292,6 +300,7 @@ window.APP_DATA.push({
     },
     {
       q: "Tko donosi odluku o izradi prostornog plana lokalne razine?",
+      exam: true,
       options: [
         "Gradsko odnosno općinsko vijeće",
         "Gradonačelnik odnosno općinski načelnik",
@@ -313,6 +322,7 @@ window.APP_DATA.push({
     },
     {
       q: "Tko utvrđuje prijedlog prostornog plana lokalne razine za javnu raspravu?",
+      exam: true,
       options: [
         "Gradsko odnosno općinsko vijeće",
         "Stručni izrađivač plana",
@@ -334,6 +344,7 @@ window.APP_DATA.push({
     },
     {
       q: "Koliko traje javni uvid u prijedlog izmjena i dopuna prostornog plana za koje se ne provodi strateška procjena?",
+      exam: true,
       options: [
         "Uvijek točno 30 dana",
         "Najviše 30, a najmanje 15 dana",
@@ -347,6 +358,7 @@ window.APP_DATA.push({
     },
     {
       q: "Koliko se puta najviše može provoditi ponovna javna rasprava o prijedlogu prostornog plana?",
+      exam: true,
       options: ["Jednom", "Dva puta", "Tri puta", "Neograničeno, dok se ne postigne suglasnost"],
       correct: 2,
       explanation: "Ponovna javna rasprava (javni uvid 15 dana) može se provoditi najviše tri puta, nakon čega se donosi nova odluka o izradi plana i provodi novi postupak.",
@@ -355,6 +367,7 @@ window.APP_DATA.push({
     },
     {
       q: "U kojem je roku zavod za prostorno uređenje županije dužan dati mišljenje o usklađenosti PPUG/O, GUP-a ili UPU-a s prostornim planom županije i Zakonom?",
+      exam: true,
       options: ["8 dana", "15 dana", "60 dana", "30 dana"],
       correct: 3,
       explanation: "Prije donošenja PPUG/O, GUP-a i UPU-a mora se pribaviti mišljenje zavoda za prostorno uređenje županije, koji ga je dužan dati i dostaviti nositelju izrade u roku od 30 dana.",
@@ -376,6 +389,7 @@ window.APP_DATA.push({
     },
     {
       q: "U kojem se roku odluka o donošenju prostornog plana objavljuje u informacijskom sustavu putem ePlanova nakon objave u službenom glasilu?",
+      exam: true,
       options: ["Najkasnije 8 dana", "Najkasnije 15 dana", "Najkasnije 30 dana", "Najkasnije 60 dana"],
       correct: 1,
       explanation: "Odluka o donošenju objavljuje se u ISPU putem ePlanova najkasnije 15 dana od objave u službenom glasilu; odredbe za provedbu, kartografski prikazi i obrazloženje objavljuju se u roku 30 dana od stupanja na snagu odluke.",
@@ -411,6 +425,7 @@ window.APP_DATA.push({
     },
     {
       q: "Tko vodi evidenciju prostornih planova županijske i lokalne razine unutar ISPU-a?",
+      exam: true,
       options: [
         "Ministarstvo neposredno",
         "Zavodi za prostorno uređenje županije/Grada Zagreba i velikog grada, uz koordinaciju Zavoda za prostorni razvoj",
@@ -510,6 +525,7 @@ window.APP_DATA.push({
     },
     {
       q: "Od kojeg datuma projektant može idejni projekt izrađen kao BIM model predati putem elektroničkog sustava hrBIM?",
+      exam: true,
       options: ["Od 1. siječnja 2026.", "Od 1. srpnja 2026.", "Od 1. siječnja 2027.", "Od 31. prosinca 2027."],
       correct: 2,
       explanation: "Za zahvate za koje se prema pravilniku izrađuje BIM model, idejni projekt se može predati putem hrBIM sustava od 1. siječnja 2027.; BIM model idejnog projekta predaje se u IFC formatu na razini razvijenosti LOD 200.",
@@ -517,6 +533,7 @@ window.APP_DATA.push({
     },
     {
       q: "Što su lokacijski uvjeti prema Zakonu o prostornom uređenju?",
+      exam: true,
       options: [
         "Posebni uvjeti koje utvrđuju javnopravna tijela putem eDozvole",
         "Uvjeti priključenja na komunalnu infrastrukturu",
@@ -530,6 +547,7 @@ window.APP_DATA.push({
     },
     {
       q: "Koja je od tvrdnji o pravnoj naravi lokacijske dozvole TOČNA?",
+      exam: true,
       options: [
         "Lokacijska dozvola je upravni akt protiv kojeg se može pokrenuti upravni spor na Upravnom sudu",
         "Lokacijska dozvola je neupravni akt informativne naravi",
@@ -542,6 +560,7 @@ window.APP_DATA.push({
     },
     {
       q: "Koji se dokument NE PRILAŽE zahtjevu za izdavanje lokacijske dozvole?",
+      exam: true,
       options: [
         "Idejni projekt i sažetak",
         "Glavni projekt s potvrdama javnopravnih tijela",
@@ -555,6 +574,7 @@ window.APP_DATA.push({
     },
     {
       q: "Što podnositelj zahtjeva mora dostaviti kao dokaz pravnog interesa za lokacijsku dozvolu za građevinu za proizvodnju i/ili skladištenje električne energije?",
+      exam: true,
       options: [
         "Samo izvadak iz zemljišne knjige za sve katastarske čestice",
         "Suglasnost Vlade Republike Hrvatske i ugovor o koncesiji",
@@ -567,6 +587,7 @@ window.APP_DATA.push({
     },
     {
       q: "Koliko važi lokacijska dozvola za zahvate u prostoru za koje je izdaje Ministarstvo, računajući od pravomoćnosti do podnošenja zahtjeva za građevinsku dozvolu?",
+      exam: true,
       options: ["2 godine", "4 godine", "5 godina", "6 godina"],
       correct: 3,
       explanation: "Opći rok je četiri godine od pravomoćnosti za podnošenje zahtjeva za GD za barem jednu fazu/etapu, a za zahvate za koje lokacijsku dozvolu izdaje Ministarstvo rok je šest godina.",
@@ -587,6 +608,7 @@ window.APP_DATA.push({
     },
     {
       q: "Za koje se jednostavne građevine i radove izdaje uporabna dozvola?",
+      exam: true,
       options: [
         "Za sve građevine iz Pravilnika, uključujući one bez glavnog projekta",
         "Za građevine i radove iz članaka 4. i 5. Pravilnika, za koje je potreban glavni projekt, ali ne i građevinska dozvola",
@@ -599,6 +621,7 @@ window.APP_DATA.push({
     },
     {
       q: "Do kada u pravilu mora biti formirana građevna čestica odnosno provedena parcelacija?",
+      exam: true,
       options: [
         "Prije podnošenja zahtjeva za lokacijsku dozvolu",
         "Prije izdavanja građevinske dozvole",
@@ -612,6 +635,7 @@ window.APP_DATA.push({
     },
     {
       q: "Do kada mora biti formirana građevna čestica kad se lokacijskom dozvolom određuje obuhvat zahvata unutar kojeg se čestica formira parcelacijskim elaboratom (npr. cesta)?",
+      exam: true,
       options: [
         "Prije izdavanja lokacijske dozvole",
         "Prije prijave početka građenja",
@@ -625,6 +649,7 @@ window.APP_DATA.push({
     },
     {
       q: "Kako se formira građevna čestica ceste prema važećim propisima?",
+      exam: true,
       options: [
         "U idejnom projektu određuje se obuhvat (koridor) na DOF-u s preklopom katastra, a građevne čestice formiraju se parcelacijskim elaboratom nakon građevinske dozvole, prije zahtjeva za uporabnu dozvolu",
         "Građevna čestica ceste mora biti u cijelosti formirana parcelacijskim elaboratom prije izdavanja lokacijske dozvole",
@@ -637,6 +662,7 @@ window.APP_DATA.push({
     },
     {
       q: "Koja je od tvrdnji o parcelaciji građevinskog zemljišta TOČNA?",
+      exam: true,
       options: [
         "Parcelacija zemljišta izvan građevinskog područja dopuštena je radi povećanja građevne čestice unutar građevinskog područja",
         "Parcelacija zemljišta izvan građevinskog područja radi povećanja građevne čestice unutar granice građevinskog područja nije dopuštena",
@@ -693,6 +719,7 @@ window.APP_DATA.push({
     },
     {
       q: "Koliki su najveći kig i kis građevne čestice u izdvojenom građevinskom području izvan naselja ugostiteljsko-turističke namjene u ZOP-u?",
+      exam: true,
       options: ["kig 40 %, kis 100 %", "kig 20 %, kis 60 %", "kig 50 %, kis 150 %", "kig 30 %, kis 80 %"],
       correct: 3,
       explanation: "U izdvojenom GP UT namjene najveća izgrađenost (kig) je 30 %, najveća iskoristivost (kis) 80 %, najmanje 40 % čestice je zelenilo, građevine su najmanje 100 m od obale (25–100 m bazeni, igrališta, šetnice).",
@@ -772,6 +799,7 @@ window.APP_DATA.push({
     },
     {
       q: "Do kada Hrvatski sabor treba donijeti Prostorni plan isključivoga gospodarskog pojasa Republike Hrvatske?",
+      exam: true,
       options: ["Do 31. prosinca 2025.", "Do 31. prosinca 2027.", "Do 31. prosinca 2026.", "Do 31. prosinca 2030."],
       correct: 2,
       explanation: "PP isključivoga gospodarskog pojasa RH jedan je od prostornih planova područja posebnih obilježja (uz PP nacionalnog parka, parka prirode i PPPPO određen DPPR-om); Sabor ga treba donijeti do 31. prosinca 2026.",
@@ -889,45 +917,54 @@ window.APP_DATA.push({
     },
     {
       front: "Objasni razliku između etapnog i faznog građenja.",
+      exam: true,
       back: "Etapno građenje: građenje pojedinih GRAĐEVINA od kojih se sastoji složena građevina određena LD, za svaku jedna ili više GD (npr. OPG s uljarom, pogonom, apartmanima – svaka etapa dobiva uporabnu). Fazno građenje: građenje jedne građevine po njezinim DIJELOVIMA određenim LD (npr. odvodnja naselja u fazama koje samostalno funkcioniraju). (ZOPU čl. 19.)",
       freq: 2
     },
     {
       front: "Što su javnopravna tijela? Nabroji.",
+      exam: true,
       back: "Tijela državne uprave i druga državna tijela, upravni odjeli i službe JLS/JPRS (osim tijela koja vrše vlasničke ovlasti na građevinskom zemljištu RH), pravne osobe s javnim ovlastima i druge osobe određene posebnim zakonima – sudjeluju u sustavu PU davanjem zahtjeva i mišljenja u izradi planova te utvrđivanjem posebnih uvjeta i/ili uvjeta priključenja.",
       freq: 2
     },
     {
       front: "Što sadrži prostorni plan kao cjeloviti dokument i što se događa s neusklađenim planom (čl. 86)?",
+      exam: true,
       back: "Odredbe za provedbu, kartografske prikaze i obrazloženje (prijedlog za javnu raspravu i sažetak za javnost). Plan niže razine mora biti usklađen s višim, plan užeg područja sa širim iste razine. Ako JLS ne otkloni neusklađenost u roku iz rješenja, Ministarstvo obustavlja plan od primjene i primjenjuju se Zakon i plan više razine."
     },
     {
       front: "Tko je nositelj izrade prostornog plana i što radi?",
+      exam: true,
       back: "Državna razina: Ministarstvo; područna: stručno upravno tijelo županije/Grada Zagreba; lokalna: stručno upravno tijelo JLS. Obavlja administrativne poslove i vodi dokumentaciju (nacrt prijedloga), provodi stručnu i javnu raspravu, priprema konačni prijedlog za donošenje.",
       freq: 2
     },
     {
       front: "Tko je stručni izrađivač prostornog plana i tko je odgovorni voditelj?",
+      exam: true,
       back: "Stručni izrađivač: Zavod za prostorni razvoj, zavod županije/Grada Zagreba, zavod grada te pravne i fizičke osobe ovlaštene po Zakonu o poslovima i djelatnostima PU (ovlašteni arhitekt urbanist; pravna osoba mora imati zaposlenog OAU i još jednog OAU ili 3 stručnjaka različitih struka). Prije izrade imenuje odgovornog voditelja – službenika zavoda/zaposlenika s najmanje 4 godine staža na poslovima PU.",
       freq: 2
     },
     {
       front: "Nabroji korake postupka izrade i donošenja prostornog plana.",
+      exam: true,
       back: "1. Iniciranje (svatko; JPT do kraja veljače); 2. odluka o izradi (ministar/župan/gradonačelnik-načelnik) i objava; 3. zahtjevi JPT; 4. stručna rasprava (dvotrećinska većina, zapisnik, izvješće); 5. utvrđivanje prijedloga; 6. javna rasprava (objava 8 dana prije, javni uvid 30 dana, javno izlaganje, izvješće); 7. eventualna ponovna javna rasprava (15 dana, max 3×); 8. obavijest sudionicima; 9. nacrt i konačni prijedlog; 10. mišljenje zavoda (30 dana)/suglasnost Ministarstva; 11. donošenje i objava odluke.",
       freq: 1
     },
     {
       front: "Tko donosi odluku o izradi prostornog plana i što ona sadrži?",
+      exam: true,
       back: "Državna razina: ministar; područna: župan / gradonačelnik Grada Zagreba; lokalna: gradonačelnik / općinski načelnik. Sadrži ciljeve i programska polazišta, obuhvat plana, popis JPT i drugih sudionika te ostale elemente po Pravilniku o prostornim planovima. Izrada započinje stupanjem odluke na snagu; objava na stranicama nositelja, Ministarstva i u ISPU.",
       freq: 1
     },
     {
       front: "Stručna rasprava o prostornom planu – kada se provodi i kako završava?",
+      exam: true,
       back: "Provodi se tijekom izrade nacrta prijedloga (jedna ili više) radi pribavljanja zahtjeva i usuglašavanja interesa; pozivaju se stručni izrađivač, JPT i sudionici iz odluke o izradi (i povjerenstvo za stratešku procjenu). Ne provodi se za izmjene bez širenja GP/novih namjena/bitne promjene rješenja. Završava zaključkom uz suglasnost dvotrećinske većine; inače se ponavlja uz korekciju rješenja. Nositelj sastavlja izvješće.",
       freq: 1
     },
     {
       front: "Za koje se prostorne planove provodi strateška procjena utjecaja na okoliš?",
+      exam: true,
       back: "Za Državni plan prostornog razvoja, PPPPO, PP županije/Grada Zagreba, PPUG/O te GUP i UPU. Za GUP i UPU nije potrebna strateška procjena ni ocjena o potrebi ako je provedena za PPUG/O."
     },
     {
@@ -947,6 +984,7 @@ window.APP_DATA.push({
     },
     {
       front: "Gdje se objavljuje odluka o donošenju prostornog plana i u kojim rokovima?",
+      exam: true,
       back: "Sabor – Narodne novine; županijska skupština/skupština GZ – službeno glasilo županije; gradsko/općinsko vijeće – službeno glasilo JLS (ako nema, glasilo županije). U ePlanove najkasnije 15 dana od objave. Odredbe za provedbu, kartografski prikazi i obrazloženje (prilog odluke) objavljuju se u roku 30 dana od stupanja na snagu."
     },
     {
@@ -960,16 +998,19 @@ window.APP_DATA.push({
     },
     {
       front: "Što je ISPU i koje podatke obuhvaća?",
+      exam: true,
       back: "Interoperabilni, multiplatformni sustav za izradu, donošenje, provedbu i nadzor planova, praćenje stanja u prostoru i evidenciju akata; uspostavlja Ministarstvo. Podaci: stanje i korištenje prostora (i nekretnine), zaštita voda, planovi na snazi i u izradi, namjena i uvjeti korištenja, akti JPT, sektorske strategije, infrastruktura, vlasništvo, koncesije, prostorni slojevi JPT, evidencija rješenja o uklanjanju. (ZOPU čl. 31.)",
       freq: 2
     },
     {
       front: "Što sve možemo vidjeti u ISPU-u (registri, moduli, podloge)?",
+      exam: true,
       back: "Registar prostornih planova (važeći – stara generacija rasteri, nova generacija vektorski e-planovi; planovi u izradi), registar dokumentacije o prostoru, registar dozvola/akata, registar energetskih certifikata, NIPP, mrežne usluge WMS/WFS, podloge (DOF 1968., DOF po godinama, TK, HOK, DKP, RPJ, granice na moru), moduli (eGrađevinski dnevnik, eNekretnine, ePlanovi, eDozvola, eEnergetski certifikat, eObnova, eKonferencija), oglasna ploča, Info lokacija i Info dozvole.",
       freq: 2
     },
     {
       front: "eDozvola – posebni uvjeti i uvjeti priključenja: kako se traže i kome?",
+      exam: true,
       back: "Prijava u sustav (e-Građani), novi zahtjev, iz izbornika odabrati posebne uvjete; prilaže se grafički prilog i tehnički opis (podaci o građevini i lokaciji – idejno rješenje). Zahtjev se upućuje JPT-ima (Ministarstvo), rok 15–30 dana. Uvjeti se dostavljaju u eDozvoli (naši predmeti) ili u osobni korisnički pretinac e-Građana. Koraci: spremi podatke – kreiraj – potpiši (AKD certifikat, PIN) – predaj.",
       freq: 2
     },
@@ -985,6 +1026,7 @@ window.APP_DATA.push({
     },
     {
       front: "Lokacijska informacija – tko izdaje, rok, oblik, je li upravni akt?",
+      exam: true,
       back: "Izrađuje se elektronički putem ISPU-a; gdje nema plana nove generacije izdaje upravno tijelo u roku 15 dana (najviše 5 k.č. u zahtjevu), iznimno u fizičkom obliku. Sadrži dijelove odredbi za provedbu iz svih važećih planova i napomenu da se na temelju nje ne može provoditi zahvat ni izrađivati projekt. Nije upravni akt – služi samo informativno. (ZOPU čl. 37.)",
       freq: 2
     },
@@ -994,40 +1036,48 @@ window.APP_DATA.push({
     },
     {
       front: "Što je jedinstveni opis zahvata u prostoru i što sadrži ocjena usklađenosti s prostornim planom?",
+      exam: true,
       back: "Dio tehničkog dijela idejnog projekta kojim se određuju lokacijski uvjeti i mjere. Sadrži: sažeti opis rješenja, ocjenu usklađenosti s PP i tekstualni opis lokacijskih uvjeta (obrasci: Prilog 3 zgrade, 4 infrastruktura/obuhvat, 5 zahvati koji nisu građenje). Ocjena usklađenosti: izvod iz kartografskih prikaza u originalnom mjerilu s legendom, preklop zahvata s prikazima, relevantne odredbe, analiza i zaključak. (Pravilnik NN 92/24, čl. 16.)",
       freq: 1
     },
     {
       front: "Što su lokacijski uvjeti? Nabroji neke.",
+      exam: true,
       back: "Kvantitativni i kvalitativni uvjeti i mjere za provedbu zahvata koji se na temelju PP i posebnih propisa određuju LD ili GD: vrsta radova, lokacija, namjena s brojem uporabnih cjelina, oblik i veličina čestice/obuhvata, površina za smještaj građevina, gabariti i etaže, oblikovanje, uređenje čestice (zelenilo, parkirališta), pristupačnost, priključenje, mjere zaštite okoliša, krajobrazno uređenje, etape/faze, posebni uvjeti i uvjeti priključenja, obveza uklanjanja/sanacije/ispitivanja tla i dr. (ZOPU čl. 174.)",
       freq: 2
     },
     {
       front: "Što se prilaže zahtjevu za izdavanje lokacijske dozvole?",
+      exam: true,
       back: "Putem eDozvole: 1. idejni projekt i sažetak (BIM putem hrBIM od 1. 1. 2027.); 2. rješenje o prihvatljivosti zahvata za okoliš i/ili ekološku mrežu (ako je obvezno); 3. rješenje o ocjeni potrebe procjene utjecaja na okoliš; 4. potvrda o nostrifikaciji (strani propisi); 5. dokaz pravnog interesa za zahvate iz čl. 157. (ZOPU čl. 156.)",
       freq: 1
     },
     {
       front: "Što se smatra dokazom pravnog interesa za lokacijsku dozvolu (čl. 157)?",
+      exam: true,
       back: "Akt nadležnog tijela kojim je podnositelj određen za provedbu zahvata ili poziv na posebni zakon; za nekretnine bez mogućnosti stjecanja stvarnih prava – ovlaštenje davatelja koncesije; za elektrane/skladišta el. energije – energetsko odobrenje, ugovor o priključenju i suglasnost vlasnika (osim pravne osobe RH); za zemljište u natpolovičnom vlasništvu RH/JLS – suglasnost upravitelja ili ugovor o pravu građenja/služnosti; za priuštivo stanovanje – suglasnost Vlade ili JLS/JPRS."
     },
     {
       front: "Koliko važi lokacijska dozvola?",
+      exam: true,
       back: "Prestaje važiti ako se u 4 godine od pravomoćnosti ne podnese zahtjev za GD za barem jednu fazu/etapu ili se ne pristupi provedbi zahvata bez akta za građenje; za LD koje izdaje Ministarstvo rok je 6 godina. LD po kojoj je izdana GD prestaje s prestankom GD (svih faza/etapa). LD za zahvat koji nije građenje uz sklopljen ugovor o koncesiji važi do isteka koncesije. (ZOPU čl. 182.)",
       freq: 1
     },
     {
       front: "Do kad treba biti formirana građevna čestica / provedena parcelacija?",
+      exam: true,
       back: "Prije prijave početka građenja. Iznimno, ako se LD-om određuje obuhvat zahvata unutar kojeg se parcelacijskim elaboratom formira građevna čestica (npr. ceste, pruge, zračne luke, turističke zone), čestica mora biti formirana prije podnošenja zahtjeva za izdavanje uporabne dozvole.",
       freq: 2
     },
     {
       front: "Što je građevna čestica i kada se određuje građevna čestica, a kada obuhvat zahvata?",
+      exam: true,
       back: "Građevna čestica zgrade je u načelu jedna k.č. čiji su oblik, veličina i smještaj u skladu s PP i koja ima pristup na prometnu površinu; trajno je namijenjena uporabi te zgrade (može biti više k.č., npr. na granici k.o.). Čestica se određuje kad treba osigurati jednoznačno korištenje prostora u jednoj namjeni; obuhvat zahvata za eksploatacijska polja, rudarske objekte, zahvate koji nisu građenje, cjevovode, kabele, žičare, dalekovode, vojne lokacije, složene zahvate.",
       freq: 1
     },
     {
       front: "Rješenje o utvrđivanju građevne čestice – kada se donosi i što se prilaže?",
+      exam: true,
       back: "Kada za postojeću građevinu GD/aktom nije utvrđena čestica ili zemljište nužno za uporabu, kad to propisuje posebni zakon ili kad vlasnik želi promijeniti oblik/veličinu čestice. Smatra se da čestica nije utvrđena: GD nije odredila oblik i veličinu; dvije+ građevine na istoj k.č. koje nisu cjelina; građevina na dvije+ k.č.; ozakonjena zgrada (vlasnik ima i okolno zemljište). Prilozi: prijedlog na katastarskom planu, GML, dokaz da je građevina postojeća, GD s grafičkim dijelom. Ne smije mijenjati granice susjedne utvrđene čestice; zgrada s više cjelina uz javne površine – čestica je zemljište ispod zgrade. (ZOPU čl. 198.–201.)",
       freq: 1
     },
@@ -1037,6 +1087,7 @@ window.APP_DATA.push({
     },
     {
       front: "Parcelacija građevinskog zemljišta – u skladu s čime i što je GML?",
+      exam: true,
       back: "Parcelacija = izmjena oblika i veličine građevne čestice; samo u skladu s LD/urbanističkim ili infrastrukturnim projektom, rješenjem o utvrđivanju čestice ili zemljišta nužnog za uporabu, GD ili drugim aktom po kojem je građeno, PP-om koji grafički propisuje čestice, granicom GP (poljoprivredno/šumsko zemljište), sudskom odlukom. Nije dopuštena parcelacija izvan GP radi povećanja čestice u GP. Provodi se u katastru uz potvrdu upravnog tijela na elaborat. GML je otvoreni format za razmjenu prostornih podataka u ISPU – koordinate lomnih točaka čestice/obuhvata i građevina."
     },
     {
@@ -1079,6 +1130,7 @@ window.APP_DATA.push({
     },
     {
       front: "Prostorni planovi područja posebnih obilježja – koji su i što propisuju?",
+      exam: true,
       back: "Strateški i provedbeni planovi: PP isključivog gospodarskog pojasa RH (Sabor do 31. 12. 2026.), PP nacionalnog parka, PP parka prirode i PPPPO određen DPPR-om. Propisuju mjere zaštite prirode, okoliša i kulturnih dobara te uvjete provedbe svih zahvata na području za koje se ne donosi UPU; određuju temeljnu organizaciju i razgraničenje prostora (uključujući GP naselja), razmještaj funkcija upravljanja i infrastrukture, mjere korištenja i zaštite te prilagodbe klimatskim promjenama."
     },
     {

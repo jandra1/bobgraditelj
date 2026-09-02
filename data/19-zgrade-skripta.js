@@ -146,6 +146,7 @@ window.APP_DATA.push({
   questions: [
     {
       q: "Što su obvezni elementi pristupačnosti prema Pravilniku o osiguranju pristupačnosti građevina?",
+      exam: true,
       options: [
         "Elementi za projektiranje i građenje kojima se određuju veličina, svojstva, instalacije, uređaji i oprema građevine radi pristupa, kretanja, boravka i rada osoba s invaliditetom i smanjene pokretljivosti na jednakoj razini kao ostalim osobama",
         "Popis pomagala (kolica, štake, bijeli štap) koje korisnik građevine mora imati na raspolaganju na ulazu",
@@ -159,6 +160,7 @@ window.APP_DATA.push({
     },
     {
       q: "Ako Pravilnikom za određenu građevinu nije određen obvezni element pristupačnosti, čemu mora udovoljiti tehničko rješenje građevine?",
+      exam: true,
       options: [
         "Uvjetima iz posebne suglasnosti Ministarstva",
         "Uvjetima uporabe pomagala – prostoru za invalidska kolica, štap, štake, hodalice, bijeli štap i psa vodiča",
@@ -172,6 +174,7 @@ window.APP_DATA.push({
     },
     {
       q: "Koji od navedenih NIJE element pristupačnosti za svladavanje visinskih razlika?",
+      exam: true,
       options: [
         "Koso podizna sklopiva platforma",
         "Vertikalno podizna platforma",
@@ -185,6 +188,7 @@ window.APP_DATA.push({
     },
     {
       q: "Koji od navedenih pripada elementima pristupačnosti javnog prometa?",
+      exam: true,
       options: [
         "Induktivna petlja",
         "Orijentacijski plan za kretanje u građevini",
@@ -211,6 +215,7 @@ window.APP_DATA.push({
     },
     {
       q: "Pri rekonstrukciji građevine u urbanističkoj cjelini upisanoj u Registar kulturnih dobara RH ne mogu se osigurati elementi pristupačnosti bez narušavanja spomeničkog svojstva. Što je uvjet za iznimno odstupanje?",
+      exam: true,
       options: [
         "Rješenje Konzervatorskog odjela kojim se građevina izuzima iz primjene Pravilnika",
         "Suglasnost ministarstva nadležnog za graditeljstvo, uz mišljenje tijela nadležnog za zaštitu kulturnih dobara priloženo prijedlogu",
@@ -224,6 +229,7 @@ window.APP_DATA.push({
     },
     {
       q: "Do koje se visinske razlike rampa koristi kao element pristupačnosti u unutarnjem prostoru?",
+      exam: true,
       options: [
         "Do uključivo 76 cm",
         "Do uključivo 90 cm",
@@ -237,6 +243,7 @@ window.APP_DATA.push({
     },
     {
       q: "Koji je dopušteni nagib rampe kao elementa pristupačnosti?",
+      exam: true,
       options: [
         "Do uključivo 1:20 (5 %), iznimno 1:12 (8,3 %) za visinske razlike do uključivo 76 cm",
         "Do uključivo 1:12 (8,3 %), iznimno 1:8 (12,5 %) za visinske razlike do 50 cm",
@@ -289,6 +296,7 @@ window.APP_DATA.push({
     },
     {
       q: "Kada se dizalo obvezno primjenjuje kao element pristupačnosti i koje su mu najmanje unutarnje dimenzije?",
+      exam: true,
       options: [
         "Za visinsku razliku veću od 120 cm; kabina najmanje 110 x 140 cm",
         "Za visinsku razliku veću od 76 cm; kabina najmanje 100 x 125 cm",
@@ -315,6 +323,7 @@ window.APP_DATA.push({
     },
     {
       q: "Kolika je najmanja širina taktilne crte vođenja od ulaznih vrata građevine do dizala?",
+      exam: true,
       options: [
         "20 cm",
         "30 cm",
@@ -328,6 +337,7 @@ window.APP_DATA.push({
     },
     {
       q: "Koje su najveća visina stube i najmanja širina nastupne plohe pristupačnog stubišta?",
+      exam: true,
       options: [
         "Visina 17 cm, nastupna ploha 28 cm",
         "Visina 18 cm, nastupna ploha 30 cm",
@@ -341,6 +351,7 @@ window.APP_DATA.push({
     },
     {
       q: "Kolika je najmanja svijetla širina stubišnog kraka pristupačnog stubišta u unutarnjem, odnosno vanjskom prostoru?",
+      exam: true,
       options: [
         "110 cm unutra, 120 cm vani",
         "90 cm unutra, 110 cm vani",
@@ -380,6 +391,7 @@ window.APP_DATA.push({
     },
     {
       q: "Na kojem od navedenih mjesta primjena taktilne površine NIJE propisana kao obvezna?",
+      exam: true,
       options: [
         "Pred prvom i iza posljednje stube stubišta",
         "Na početku i kraju rampe",
@@ -393,6 +405,7 @@ window.APP_DATA.push({
     },
     {
       q: "Koliko se jednostavno prilagodljivih stanova obvezno osigurava u stambenoj zgradi?",
+      exam: true,
       options: [
         "1 na svakih 5 stanova",
         "1 po ulazu, bez obzira na broj stanova",
@@ -406,6 +419,7 @@ window.APP_DATA.push({
     },
     {
       q: "Koje su najmanje širine ulaznih vrata, ostalih vrata i hodnika u jednostavno prilagodljivom stanu?",
+      exam: true,
       options: [
         "Ulazna 90 cm, ostala 70 cm, hodnici 100 cm",
         "Ulazna 100 cm, ostala 90 cm, hodnici 150 cm",
@@ -419,6 +433,7 @@ window.APP_DATA.push({
     },
     {
       q: "Što je jednostavno prilagodljiv stan?",
+      exam: true,
       options: [
         "Stan koji se po potrebi može prilagoditi u pristupačni bez utjecaja na temeljne zahtjeve za građevinu i na način ispunjavanja lokacijskih uvjeta, a mogućnost prilagodbe prikazana je u projektu",
         "Stan u prizemlju s ugrađenim svim elementima pristupačnosti u trenutku izdavanja uporabne dozvole",
@@ -432,6 +447,7 @@ window.APP_DATA.push({
     },
     {
       q: "Koji uvjeti vrijede za kupaonicu i kuhinju jednostavno prilagodljivog stana?",
+      exam: true,
       options: [
         "Kada gornjeg ruba do 60 cm, tuš 80 x 80 cm; radna ploha do 90 cm",
         "Kada gornjeg ruba najviše 50 cm i/ili tuš bez pregrade najmanje 90 x 90 cm; konzolna radna ploha najviše 85 cm, viseći elementi donjim rubom na 120 cm",
@@ -458,6 +474,7 @@ window.APP_DATA.push({
     },
     {
       q: "Koje vrste dimnjaka razlikuje Tehnički propis za dimnjake prema načinu izvođenja?",
+      exam: true,
       options: [
         "Jednoslojni, dvoslojni i troslojni",
         "Unutarnji, vanjski i fasadni",
@@ -471,6 +488,7 @@ window.APP_DATA.push({
     },
     {
       q: "Kojim se projektima određuje tehničko rješenje dimnjaka te uvjeti za njegovo izvođenje i održavanje?",
+      exam: true,
       options: [
         "Arhitektonskim i/ili građevinskim projektom te strojarskim projektom",
         "Isključivo strojarskim projektom",
@@ -484,6 +502,7 @@ window.APP_DATA.push({
     },
     {
       q: "U post-potresnoj obnovi rekonstruira se srušeni dimnjak i ugrađuje novi kondenzacijski bojler. Koji su glavni projekti potrebni?",
+      exam: true,
       options: [
         "Samo građevinski projekt konstrukcije dimnjaka",
         "Arhitektonski, građevinski i strojarski projekt",
@@ -497,6 +516,7 @@ window.APP_DATA.push({
     },
     {
       q: "Pod kojim uvjetima se mort za ziđe smije izrađivati na gradilištu?",
+      exam: true,
       options: [
         "Uvijek, ako izvođač provodi kontrolu tlačne čvrstoće",
         "Nikad – mort mora biti tvornički projektiran",
@@ -523,6 +543,7 @@ window.APP_DATA.push({
     },
     {
       q: "Koja je najmanja klasa morta za armirano ziđe?",
+      exam: true,
       options: [
         "M1",
         "M5",
@@ -536,6 +557,7 @@ window.APP_DATA.push({
     },
     {
       q: "Koje su vrste mortova za ziđe prema tehničkom propisu i po čemu se razlikuju?",
+      exam: true,
       options: [
         "Cementni, vapneni i gipsani – prema vezivu",
         "Jednokomponentni i dvokomponentni – prema broju veziva",
@@ -562,6 +584,7 @@ window.APP_DATA.push({
     },
     {
       q: "Koju najmanju ploštinu presjeka i najmanju izmjeru u tlocrtu zida moraju imati serklaži omeđenog ziđa?",
+      exam: true,
       options: [
         "0,01 m2, najmanja izmjera 100 mm",
         "0,02 m2, najmanja izmjera 150 mm",
@@ -575,6 +598,7 @@ window.APP_DATA.push({
     },
     {
       q: "Koji je pravilan redoslijed izvedbe serklaža i ziđa kod omeđenog ziđa?",
+      exam: true,
       options: [
         "Prvo se betoniraju vertikalni serklaži, zatim se zida ziđe između njih, a horizontalni serklaži betoniraju se prije stropa",
         "Vertikalni i horizontalni serklaži betoniraju se zajedno prije zidanja, kao okvir",
@@ -588,6 +612,7 @@ window.APP_DATA.push({
     },
     {
       q: "Gdje se obvezno izvode vertikalni serklaži omeđenog ziđa?",
+      exam: true,
       options: [
         "Samo na uglovima zgrade i na razmaku do 8 m",
         "Uz svaki otvor bez obzira na veličinu i na razmaku do 3 m",
@@ -601,6 +626,7 @@ window.APP_DATA.push({
     },
     {
       q: "Koliki je najveći dopušteni vertikalni razmak horizontalnih serklaža?",
+      exam: true,
       options: [
         "4 m",
         "3 m",
@@ -614,6 +640,7 @@ window.APP_DATA.push({
     },
     {
       q: "Koja je najmanja armatura serklaža omeđenog ziđa?",
+      exam: true,
       options: [
         "Uzdužna armatura 0,5 % presjeka, ne manje od 200 mm2; vilice Φ8 na 200 mm",
         "Uzdužna armatura najmanje 1 % presjeka serklaža, ne manje od 300 mm2 (npr. 4Φ10); vilice promjera ne manjeg od 6 mm na razmaku ne većem od 150 mm",
@@ -627,6 +654,7 @@ window.APP_DATA.push({
     },
     {
       q: "Kako se prema propisu osigurava veza ziđa i vertikalnih serklaža načinom gradnje?",
+      exam: true,
       options: [
         "Umetanjem armaturne mreže u svaku sljubnicu",
         "Sidrenjem čeličnih ankera Φ12 u svaki red",
@@ -640,6 +668,7 @@ window.APP_DATA.push({
     },
     {
       q: "Po čemu se sustav klimatizacije razlikuje od sustava djelomične klimatizacije?",
+      exam: true,
       options: [
         "Klimatizacija radi samo s vanjskim zrakom, a djelomična samo s optočnim",
         "Klimatizacija je centralni, a djelomična lokalni sustav",
@@ -653,6 +682,7 @@ window.APP_DATA.push({
     },
     {
       q: "Koja vrsta sustava s obzirom na kvalitetu zraka postoji samo kod djelomične klimatizacije, a ne kod klimatizacije?",
+      exam: true,
       options: [
         "Sustav za rad bez vanjskog zraka (bez funkcije ventilacije)",
         "Sustav za rad samo s vanjskim zrakom",
@@ -666,6 +696,7 @@ window.APP_DATA.push({
     },
     {
       q: "Što svaka zemlja članica mora izraditi uz eurokodove i što se time uređuje?",
+      exam: true,
       options: [
         "Nacionalni tehnički propis koji zamjenjuje eurokodove",
         "Prijevod eurokodova bez ikakvih izmjena",
@@ -679,6 +710,7 @@ window.APP_DATA.push({
     },
     {
       q: "Koji eurokod uređuje projektiranje zidanih konstrukcija?",
+      exam: true,
       options: [
         "EC4",
         "EC5",
@@ -692,6 +724,7 @@ window.APP_DATA.push({
     },
     {
       q: "Za koju se od navedenih zgrada energetski certifikat NE izdaje?",
+      exam: true,
       options: [
         "Slobodnostojeću zgradu s ukupnom korisnom površinom manjom od 50 m2",
         "Stambenu zgradu koja se koristi 6 mjeseci godišnje",
@@ -705,6 +738,7 @@ window.APP_DATA.push({
     },
     {
       q: "Na temelju čega se izrađuje energetski certifikat za NOVU zgradu?",
+      exam: true,
       options: [
         "Energetskog pregleda i mjerenja potrošnje u prvoj godini uporabe",
         "Podataka iz glavnog projekta u odnosu na racionalnu uporabu energije, pisane izjave izvođača o izvedenim radovima, vizualnog pregleda i završnog izvješća nadzornog inženjera",
@@ -718,6 +752,7 @@ window.APP_DATA.push({
     },
     {
       q: "Po čemu se sadržaj energetskog certifikata postojeće zgrade razlikuje od certifikata nove zgrade?",
+      exam: true,
       options: [
         "Certifikat postojeće zgrade nema energetski razred",
         "Certifikat postojeće zgrade vrijedi 5 godina, nove 10 godina",
@@ -757,6 +792,7 @@ window.APP_DATA.push({
     },
     {
       q: "Kako se izražava energetsko svojstvo zgrade u svrhu izdavanja energetskog certifikata?",
+      exam: true,
       options: [
         "Koeficijentom prolaska topline ovojnice U u W/(m2·K)",
         "Faktorom oblika f0 u m-1",
@@ -809,6 +845,7 @@ window.APP_DATA.push({
     },
     {
       q: "U POS stambenoj zgradi s 8 ili više katova mora biti izgrađen prostor za ugradnju:",
+      exam: true,
       options: [
         "1 dizala",
         "1 dizala i evakuacijskog stubišta",
@@ -822,6 +859,7 @@ window.APP_DATA.push({
     },
     {
       q: "Koja od navedenih tvrdnji o POS stanovima je točna?",
+      exam: true,
       options: [
         "Svijetla visina stambenih prostorija najmanje 2,40 m",
         "Svi prozori s parapetom nižim od 1,20 m moraju imati zaštitnu ogradu",
@@ -835,6 +873,7 @@ window.APP_DATA.push({
     },
     {
       q: "Koji dio temeljnog zahtjeva sigurnosti u slučaju požara ispunjava se građevinskom konstrukcijom prema Tehničkom propisu za građevinske konstrukcije?",
+      exam: true,
       options: [
         "Očuvanje nosivosti građevinske konstrukcije u slučaju požara tijekom određenog vremena",
         "Ograničenje širenja požara na susjedne građevine",
@@ -848,6 +887,7 @@ window.APP_DATA.push({
     },
     {
       q: "Na koje se elemente građevine primjenjuje Tehnički propis za građevinske konstrukcije i što se za njih dokazuje?",
+      exam: true,
       options: [
         "Samo na konstrukcijske elemente – dokazuje se otpornost",
         "Na konstrukcijske i nekonstrukcijske elemente – dokazuju se otpornost, uporabljivost, trajnost i požarna otpornost u skladu s namjenom u konstrukciji",
@@ -861,6 +901,7 @@ window.APP_DATA.push({
     },
     {
       q: "Koje je ziđe ono u kojem su unutarnja tlačna naprezanja namjerno izazvana napetom armaturom?",
+      exam: true,
       options: [
         "Armirano ziđe",
         "Omeđeno ziđe",
@@ -874,6 +915,7 @@ window.APP_DATA.push({
     },
     {
       q: "Koji od navedenih NIJE zidni element prema tehničkom propisu za zidane konstrukcije?",
+      exam: true,
       options: [
         "Vapnenosilikatni zidni element",
         "Porasti beton",
@@ -887,6 +929,7 @@ window.APP_DATA.push({
     },
     {
       q: "Što je projektant rekonstrukcije dužan učiniti prije izrade projekta rekonstrukcije?",
+      exam: true,
       options: [
         "Zatražiti kontrolu projekta od revidenta bez obzira na složenost konstrukcije",
         "Ocijeniti primjerenost građevine za rekonstrukciju i odrediti opseg prethodnih istraživanja; zatečeno stanje utvrđuje se očevidom, uvidom u dokumentaciju, ispitivanjem uzoraka, proračunima ili na drugi primjeren način",
@@ -900,6 +943,7 @@ window.APP_DATA.push({
     },
     {
       q: "Kakva tehnička svojstva mora imati konstrukcija nakon rekonstrukcije kojom se bitno ne utječe na tehnička svojstva građevinske konstrukcije?",
+      exam: true,
       options: [
         "Svojstva nZEB zgrade",
         "Svojstva propisana za nove građevine, bez iznimke",
@@ -926,6 +970,7 @@ window.APP_DATA.push({
     },
     {
       q: "Na što se Tehnički propis za prozore i vrata NE primjenjuje?",
+      exam: true,
       options: [
         "Rotirajuća vrata, vrata s mehaničkim pogonom, vrata i stijene u potpunosti od stakla, ovješene fasade, garažna i industrijska vrata i vrata skloništa",
         "Unutarnja vrata između prostorija različitih požarnih sektora",
@@ -939,6 +984,7 @@ window.APP_DATA.push({
     },
     {
       q: "Za koje se prozore i vrata projektom obvezno određuje svojstvo propusnosti zraka?",
+      exam: true,
       options: [
         "Za sve prozore okrenute prema jugu",
         "Za prozore i vrata u prostorima koji moraju ispunjavati uvjete izmjene zraka i/ili toplinskih gubitaka provjetravanjem (kuhinje, kupaonice, radne i pomoćne prostorije)",
@@ -952,6 +998,7 @@ window.APP_DATA.push({
     },
     {
       q: "Za koje zgrade se tijekom uporabe primjenjuju zahtjevi Tehničkog propisa o racionalnoj uporabi energije i toplinskoj zaštiti u zgradama?",
+      exam: true,
       options: [
         "Sve zgrade bez obzira na grijanje",
         "Zgrade koje se griju na temperaturu višu od 18 °C",
@@ -965,6 +1012,7 @@ window.APP_DATA.push({
     },
     {
       q: "Na koju se od navedenih zgrada primjenjuje Tehnički propis o racionalnoj uporabi energije i toplinskoj zaštiti u zgradama?",
+      exam: true,
       options: [
         "Staklenik u poljoprivredi",
         "Uredska zgrada grijana na 21 °C",
@@ -990,6 +1038,7 @@ window.APP_DATA.push({
     },
     {
       q: "Što označava oznaka betona C 25/30?",
+      exam: true,
       options: [
         "Razred izloženosti 25 i konzistenciju 30",
         "Vlačnu čvrstoću 25 N/mm2 i modul elastičnosti 30 GPa",
@@ -1002,6 +1051,7 @@ window.APP_DATA.push({
     },
     {
       q: "Što znače oznake u B500B?",
+      exam: true,
       options: [
         "B – beton, 500 – gustoća kg/m3, B – klasa konzistencije",
         "B – blok, 500 – tlačna čvrstoća, B – razred požarne otpornosti",
@@ -1014,6 +1064,7 @@ window.APP_DATA.push({
     },
     {
       q: "U kojem se rasponu kreće tlačna čvrstoća opeke i koja je uobičajena čvrstoća zidnih elemenata okomito na horizontalne sljubnice?",
+      exam: true,
       options: [
         "2–20 N/mm2; uobičajeno 10 N/mm2 (okomito na vertikalne sljubnice 2 N/mm2)",
         "5–50 N/mm2; uobičajeno 25 N/mm2",
@@ -1038,6 +1089,7 @@ window.APP_DATA.push({
     },
     {
       q: "Koji razred izloženosti betona označava koroziju armature kloridima iz mora?",
+      exam: true,
       options: [
         "XD",
         "XC",
@@ -1050,6 +1102,7 @@ window.APP_DATA.push({
     },
     {
       q: "U koju geotehničku kategoriju prema Eurokodu 7 spada temeljenje na mekom tlu, klizišta, tuneli, visoke nasute brane i nuklearne elektrane?",
+      exam: true,
       options: [
         "1. kategorija – male i jednostavne konstrukcije",
         "2. kategorija – rutinski geotehnički zahvati",
@@ -1062,55 +1115,55 @@ window.APP_DATA.push({
     }
   ],
   flashcards: [
-    { front: "Što su obvezni elementi pristupačnosti i što ako za građevinu nisu određeni?", back: "Elementi projektiranja i građenja (veličina, svojstva, instalacije, uređaji, oprema) radi pristupa, kretanja, boravka i rada osoba s invaliditetom i smanjene pokretljivosti na jednakoj razini kao ostali. Ako nisu određeni – tehničko rješenje mora udovoljavati uvjetima uporabe pomagala (kolica; štap, štake, hodalice; bijeli štap i pas vodič).", freq: 2 },
-    { front: "Kada se može odstupiti od propisanih elemenata pristupačnosti?", back: "Iznimno pri rekonstrukciji u urbanističkoj cjelini upisanoj u Registar kulturnih dobara RH, ako se ne mogu osigurati bez narušavanja spomeničkog svojstva – uz suglasnost ministarstva nadležnog za graditeljstvo i mišljenje tijela za zaštitu kulturnih dobara. U zaštićenoj prirodi – ne primjenjuje se ako ugrožava ciljeve zaštite, ali se obvezno koriste montažno-demontažni i drugi uređaji.", freq: 2 },
-    { front: "Nabroji obvezne elemente pristupačnosti (3 skupine).", back: "1) Za svladavanje visinskih razlika: rampa, stubište, dizalo, vertikalno podizna platforma, koso podizna sklopiva platforma. 2) Neovisnog življenja: ulazni prostor, komunikacije, WC, kupaonica, kuhinja, soba, učionica, radni prostor, stan, kavana/restoran, kabina za presvlačenje, tuš, ulaz u vodu, mjesto u gledalištu, telefon/tekstofon/faks/bankomat, električne instalacije, kvake, šalter, pult, induktivna petlja, oglasni pano, orijentacijski plan. 3) Javnog prometa: stajalište i peron, parkirališno mjesto, javna pješačka površina, semafor, pješački prijelaz, pješački otok, raskrižje.", freq: 1 },
-    { front: "U kojim se građevinama primjenjuju obvezni elementi pristupačnosti?", back: "Javne i poslovne namjene (trgovačke, ugostiteljsko-turističke, poštanske, financijske, upravne, zdravstvene i socijalne, odgojno-obrazovne, kulturne, prometne, sportske, zabavne, vjerske, zatvori, javne površine, sajmovi, javni WC, mrtvačnice, skloništa) te stambene i stambeno-poslovne zgrade s 10 i više stanova. Obiteljske kuće i jednostavne građevine ne moraju.", freq: 1 },
-    { front: "Rampa kao element pristupačnosti – uvjeti?", back: "Visinska razlika do uključivo 120 cm (iznimno vani i više); nagib do 1:20 (5 %), iznimno 1:12 (8,3 %) za razlike do 76 cm; širina ≥ 120 cm vani / 90 cm unutra; odmorišni podest ≥ 150 cm na svakih 6 m; protuklizna površina; ograda s rukohvatima Φ4 cm na 60 i 90 cm, produženi 30 cm, zaobljeni; vani materijal neosjetljiv na termičke promjene; staklena ispuna obilježena; oznake pristupačnosti.", freq: 2 },
-    { front: "Dizalo kao element pristupačnosti – kad je obvezno i uvjeti?", back: "Obvezno za visinsku razliku veću od 120 cm. Kabina ≥ 110 x 140 cm; vrata svijetlog otvora ≥ 90 cm, posmična ili prema van; pozivna/upravljačka ploča 90–120 cm, kontrastna, reljefni brojevi i Braille; rukohvat na 90 cm; vizualno-svjetlosna i zvučna najava katova; taktilna crta vođenja od ulaza do dizala širine ≥ 40 cm.", freq: 2 },
-    { front: "Stubište kao element pristupačnosti – uvjeti?", back: "Visina stube ≤ 15 cm; nastupna ploha ≥ 33 cm; širina kraka ≥ 110 cm unutra / 120 cm vani; rub stube protuklizno i kontrastno ≥ 2 cm; kontinuirani rukohvati produženi 30 cm, obuhvatljivi dlanom; središnji rukohvat kod kraka ≥ 250 cm; ispod početnog kraka ograda 70 cm do podgleda 210 cm ili denivelacija ≥ 3 cm; taktilno polje upozorenja ≥ 40 cm pred prvom i iza posljednje stube.", freq: 1 },
-    { front: "Ulaz u zgradu kao element pristupačnosti – uvjeti?", back: "Jednokrilna vrata ≥ 110/210 cm ili dvokrilna 2 x 90/210 cm; otvaranje van ili posmično; pristupačna kvaka; prag ≤ 2 cm; strugač/otirač u razini poda; uz kružna vrata i zaokretna/posmična ≥ 90 cm; klizna 90/210 + prostor 150 x 150 cm; oznaka smjera otvaranja; staklo > 1,5 m2 bez prečki – oznaka 90–160 cm; vjetrobran 240 cm ili toplinski zastor; zaokretna ograda ≥ 90 cm; 200 luxa.", freq: 1 },
-    { front: "Taktilna površina – kako se izvodi i gdje je obvezna?", back: "Reljefna obrada visine do 5 mm, ne otežava kolica, prepoznatljiva stopalom/bijelim štapom, ne zadržava vodu i snijeg, lako se održava. Obvezna: stubište (pred prvom i iza posljednje stube), od ulaza do dizala, javnog WC-a, telefona/bankomata, šaltera, pulta, orijentacijskog plana; stajalište/peron; semafor na prijelazu s više od 2 trake u smjeru; pješački prijelaz; otok u razini kolnika; raskrižje.", freq: 2 },
-    { front: "Jednostavno prilagodljiv stan – što je, koliko ih mora biti, uvjeti?", back: "Stan koji se po potrebi može prilagoditi u pristupačni bez utjecaja na temeljne zahtjeve i lokacijske uvjete; rješenje u projektu. 1 na svakih 10 stanova; pristup s javne površine kroz glavni ulaz, od garaže pristupačne komunikacije; u pravilu prizemlje (nije obveza). Ulazna vrata ≥ 110 cm, ostala ≥ 80 cm, hodnici ≥ 120 cm, pragovi ≤ 2 cm; kada ≤ 50 cm i/ili tuš 90 x 90; kuhinjska ploha ≤ 85 cm, viseći elementi na 120 cm; utičnice 90–120 cm; kvake na vratima 90 cm, prozori 90–120 cm.", freq: 2 },
-    { front: "Tehnički propis za dimnjake – što propisuje, vrste dimnjaka, materijali, projekti?", back: "Tehnička svojstva dimnjaka, zahtjeve za projektiranje, izvođenje, uporabljivost, održavanje te svojstva građevnih proizvoda za dimnjake. Vrste prema izvođenju: montažni, predgotovljeni (sistemski), zidani. Proizvodi: glineni/keramički, metalni, betonski, sistemski dimnjaci. Rješenje: arhitektonski i/ili građevinski + strojarski projekt.", freq: 2 },
-    { front: "Post-potresna obnova: ruši se dimnjak, ugrađuje kondenzacijski bojler – koji projekti?", back: "Arhitektonski, građevinski i strojarski projekt.", freq: 2 },
-    { front: "Mort – definicija, vrste, smije li se raditi na gradilištu, oznaka M20?", back: "Mješavina anorganskih veziva, agregata, vode i dodataka za zidanje/fugiranje; tvornički projektirani ili zadanog sastava. Vrste: opće namjene, lagani (1300 kg/m3), tankoslojni (zrno ≤ 2 mm). Na gradilištu samo za obiteljske kuće/jednostavne građevine ako je čvrstoća ≤ 5 N/mm2 prema glavnom projektu s omjerima. M20 = tlačna čvrstoća 20 N/mm2 nakon 28 dana. Min. M1 nearmirano, M5 armirano, tankoslojni, lakoagregatni.", freq: 2 },
-    { front: "Dodaci mortu – kemijski i mineralni?", back: "Kemijski: aerant/plastifikator, usporivač vezivanja (odgođeno vezivanje), aerant, plastifikator, zadržavanje vode, odbijanje vode, ubrzivač, usporivač, poboljšanje prionljivosti, snižavanje točke zamrzavanja. Mineralni: vlakna, fileri, leteći pepeo, kamena prašina, pucolani, pigmenti.", freq: 2 },
-    { front: "Vertikalni i horizontalni serklaži – gdje, razmaci, presjek, armatura, redoslijed?", back: "Presjek ≥ 0,02 m2, min. izmjera 150 mm. Vertikalni: slobodni rubovi nosivih zidova, sjecišta, uz otvore > 1,5 m2, razmak ≤ 5 m; betoniraju se nakon ziđa etaže. Horizontalni: na svakoj razini stropa, razmak ≤ 4 m; betoniraju se sa stropom. Armatura ≥ 1 % presjeka, ≥ 300 mm2 (4Φ10); vilice ≥ Φ6 na ≤ 150 mm. Veza sa ziđem: istaci svakog drugog reda ≥ 0,4 h elementa, ≥ 4 cm.", freq: 2 },
-    { front: "Kako se u praksi armira vertikalni serklaž?", back: "Min. 4Φ14 s vilicama Φ6/25 cm, preklop vertikalne armature u stupu ≥ 80 cm za sljedeću etažu; inače Aa > 2,4 cm2; presjek ≥ 15 x 15 cm; preklop šipki ≥ 60 cm; razmak horizontalnih serklaža ≤ 4 m; za prizemnicu dovoljno Φ10." },
-    { front: "Klimatizacija vs. djelomična klimatizacija vs. ventilacija?", back: "Ventilacija: dovod vanjskog i odvod onečišćenog zraka (prirodna – prozori, otvori, kanali; prisilna – ventilator). Klimatizacija: temperatura, vlažnost, kvaliteta zraka + prisilna izmjena – sva 4 postupka dorade (grijanje, hlađenje, ovlaživanje, odvlaživanje); s vanjskim zrakom ili mješavinom. Djelomična: 2 ili 3 postupka; s vanjskim, bez vanjskog (bez ventilacije) ili s mješavinom zraka.", freq: 2 },
-    { front: "Eurokodovi – što su i nabroji ih.", back: "Usklađene europske norme za proračun konstrukcija; jedinstven sustav proračuna u Europi; obvezni nacionalni dodaci (potresne zone, vjetar, snijeg). EC0 osnove projektiranja, EC1 djelovanja, EC2 betonske, EC3 čelične, EC4 spregnute čelik-beton, EC5 drvene, EC6 zidane, EC7 geotehničko, EC8 potresna otpornost, EC9 aluminijske.", freq: 2 },
-    { front: "Energetski certifikat – što je, za koje zgrade se NE izdaje, koliko vrijedi?", back: "Certifikat iz kojeg je vidljivo energetsko svojstvo zgrade/samostalne uporabne cjeline prema Metodologiji energetskog pregleda; elektronički putem IEC-a; vrijedi 10 godina. Ne izdaje se za: vjerske zgrade; privremene ≤ 2 g., industrijska postrojenja, radionice, nestambene poljoprivredne s malim potrebama; stambene korištene < 4 mjeseca godišnje; slobodnostojeće < 50 m2.", freq: 2 },
-    { front: "Energetski certifikat – razlika nove i postojeće zgrade?", back: "Nova (akt za građenje nakon 1. 10. 2007., prije početka uporabe): na temelju glavnog projekta, izjave izvođača, vizualnog pregleda i završnog izvješća nadzornog inženjera; sadrži preporuke za korištenje. Postojeća: energetski pregled + proračuni (QH,nd, QC,nd, isporučena, primarna energija, CO2) i energetski razred; sadrži prijedlog mjera troškovno optimalnog/učinkovitog poboljšanja.", freq: 2 },
+    { front: "Što su obvezni elementi pristupačnosti i što ako za građevinu nisu određeni?", exam: true, back: "Elementi projektiranja i građenja (veličina, svojstva, instalacije, uređaji, oprema) radi pristupa, kretanja, boravka i rada osoba s invaliditetom i smanjene pokretljivosti na jednakoj razini kao ostali. Ako nisu određeni – tehničko rješenje mora udovoljavati uvjetima uporabe pomagala (kolica; štap, štake, hodalice; bijeli štap i pas vodič).", freq: 2 },
+    { front: "Kada se može odstupiti od propisanih elemenata pristupačnosti?", exam: true, back: "Iznimno pri rekonstrukciji u urbanističkoj cjelini upisanoj u Registar kulturnih dobara RH, ako se ne mogu osigurati bez narušavanja spomeničkog svojstva – uz suglasnost ministarstva nadležnog za graditeljstvo i mišljenje tijela za zaštitu kulturnih dobara. U zaštićenoj prirodi – ne primjenjuje se ako ugrožava ciljeve zaštite, ali se obvezno koriste montažno-demontažni i drugi uređaji.", freq: 2 },
+    { front: "Nabroji obvezne elemente pristupačnosti (3 skupine).", exam: true, back: "1) Za svladavanje visinskih razlika: rampa, stubište, dizalo, vertikalno podizna platforma, koso podizna sklopiva platforma. 2) Neovisnog življenja: ulazni prostor, komunikacije, WC, kupaonica, kuhinja, soba, učionica, radni prostor, stan, kavana/restoran, kabina za presvlačenje, tuš, ulaz u vodu, mjesto u gledalištu, telefon/tekstofon/faks/bankomat, električne instalacije, kvake, šalter, pult, induktivna petlja, oglasni pano, orijentacijski plan. 3) Javnog prometa: stajalište i peron, parkirališno mjesto, javna pješačka površina, semafor, pješački prijelaz, pješački otok, raskrižje.", freq: 1 },
+    { front: "U kojim se građevinama primjenjuju obvezni elementi pristupačnosti?", exam: true, back: "Javne i poslovne namjene (trgovačke, ugostiteljsko-turističke, poštanske, financijske, upravne, zdravstvene i socijalne, odgojno-obrazovne, kulturne, prometne, sportske, zabavne, vjerske, zatvori, javne površine, sajmovi, javni WC, mrtvačnice, skloništa) te stambene i stambeno-poslovne zgrade s 10 i više stanova. Obiteljske kuće i jednostavne građevine ne moraju.", freq: 1 },
+    { front: "Rampa kao element pristupačnosti – uvjeti?", exam: true, back: "Visinska razlika do uključivo 120 cm (iznimno vani i više); nagib do 1:20 (5 %), iznimno 1:12 (8,3 %) za razlike do 76 cm; širina ≥ 120 cm vani / 90 cm unutra; odmorišni podest ≥ 150 cm na svakih 6 m; protuklizna površina; ograda s rukohvatima Φ4 cm na 60 i 90 cm, produženi 30 cm, zaobljeni; vani materijal neosjetljiv na termičke promjene; staklena ispuna obilježena; oznake pristupačnosti.", freq: 2 },
+    { front: "Dizalo kao element pristupačnosti – kad je obvezno i uvjeti?", exam: true, back: "Obvezno za visinsku razliku veću od 120 cm. Kabina ≥ 110 x 140 cm; vrata svijetlog otvora ≥ 90 cm, posmična ili prema van; pozivna/upravljačka ploča 90–120 cm, kontrastna, reljefni brojevi i Braille; rukohvat na 90 cm; vizualno-svjetlosna i zvučna najava katova; taktilna crta vođenja od ulaza do dizala širine ≥ 40 cm.", freq: 2 },
+    { front: "Stubište kao element pristupačnosti – uvjeti?", exam: true, back: "Visina stube ≤ 15 cm; nastupna ploha ≥ 33 cm; širina kraka ≥ 110 cm unutra / 120 cm vani; rub stube protuklizno i kontrastno ≥ 2 cm; kontinuirani rukohvati produženi 30 cm, obuhvatljivi dlanom; središnji rukohvat kod kraka ≥ 250 cm; ispod početnog kraka ograda 70 cm do podgleda 210 cm ili denivelacija ≥ 3 cm; taktilno polje upozorenja ≥ 40 cm pred prvom i iza posljednje stube.", freq: 1 },
+    { front: "Ulaz u zgradu kao element pristupačnosti – uvjeti?", exam: true, back: "Jednokrilna vrata ≥ 110/210 cm ili dvokrilna 2 x 90/210 cm; otvaranje van ili posmično; pristupačna kvaka; prag ≤ 2 cm; strugač/otirač u razini poda; uz kružna vrata i zaokretna/posmična ≥ 90 cm; klizna 90/210 + prostor 150 x 150 cm; oznaka smjera otvaranja; staklo > 1,5 m2 bez prečki – oznaka 90–160 cm; vjetrobran 240 cm ili toplinski zastor; zaokretna ograda ≥ 90 cm; 200 luxa.", freq: 1 },
+    { front: "Taktilna površina – kako se izvodi i gdje je obvezna?", exam: true, back: "Reljefna obrada visine do 5 mm, ne otežava kolica, prepoznatljiva stopalom/bijelim štapom, ne zadržava vodu i snijeg, lako se održava. Obvezna: stubište (pred prvom i iza posljednje stube), od ulaza do dizala, javnog WC-a, telefona/bankomata, šaltera, pulta, orijentacijskog plana; stajalište/peron; semafor na prijelazu s više od 2 trake u smjeru; pješački prijelaz; otok u razini kolnika; raskrižje.", freq: 2 },
+    { front: "Jednostavno prilagodljiv stan – što je, koliko ih mora biti, uvjeti?", exam: true, back: "Stan koji se po potrebi može prilagoditi u pristupačni bez utjecaja na temeljne zahtjeve i lokacijske uvjete; rješenje u projektu. 1 na svakih 10 stanova; pristup s javne površine kroz glavni ulaz, od garaže pristupačne komunikacije; u pravilu prizemlje (nije obveza). Ulazna vrata ≥ 110 cm, ostala ≥ 80 cm, hodnici ≥ 120 cm, pragovi ≤ 2 cm; kada ≤ 50 cm i/ili tuš 90 x 90; kuhinjska ploha ≤ 85 cm, viseći elementi na 120 cm; utičnice 90–120 cm; kvake na vratima 90 cm, prozori 90–120 cm.", freq: 2 },
+    { front: "Tehnički propis za dimnjake – što propisuje, vrste dimnjaka, materijali, projekti?", exam: true, back: "Tehnička svojstva dimnjaka, zahtjeve za projektiranje, izvođenje, uporabljivost, održavanje te svojstva građevnih proizvoda za dimnjake. Vrste prema izvođenju: montažni, predgotovljeni (sistemski), zidani. Proizvodi: glineni/keramički, metalni, betonski, sistemski dimnjaci. Rješenje: arhitektonski i/ili građevinski + strojarski projekt.", freq: 2 },
+    { front: "Post-potresna obnova: ruši se dimnjak, ugrađuje kondenzacijski bojler – koji projekti?", exam: true, back: "Arhitektonski, građevinski i strojarski projekt.", freq: 2 },
+    { front: "Mort – definicija, vrste, smije li se raditi na gradilištu, oznaka M20?", exam: true, back: "Mješavina anorganskih veziva, agregata, vode i dodataka za zidanje/fugiranje; tvornički projektirani ili zadanog sastava. Vrste: opće namjene, lagani (1300 kg/m3), tankoslojni (zrno ≤ 2 mm). Na gradilištu samo za obiteljske kuće/jednostavne građevine ako je čvrstoća ≤ 5 N/mm2 prema glavnom projektu s omjerima. M20 = tlačna čvrstoća 20 N/mm2 nakon 28 dana. Min. M1 nearmirano, M5 armirano, tankoslojni, lakoagregatni.", freq: 2 },
+    { front: "Dodaci mortu – kemijski i mineralni?", exam: true, back: "Kemijski: aerant/plastifikator, usporivač vezivanja (odgođeno vezivanje), aerant, plastifikator, zadržavanje vode, odbijanje vode, ubrzivač, usporivač, poboljšanje prionljivosti, snižavanje točke zamrzavanja. Mineralni: vlakna, fileri, leteći pepeo, kamena prašina, pucolani, pigmenti.", freq: 2 },
+    { front: "Vertikalni i horizontalni serklaži – gdje, razmaci, presjek, armatura, redoslijed?", exam: true, back: "Presjek ≥ 0,02 m2, min. izmjera 150 mm. Vertikalni: slobodni rubovi nosivih zidova, sjecišta, uz otvore > 1,5 m2, razmak ≤ 5 m; betoniraju se nakon ziđa etaže. Horizontalni: na svakoj razini stropa, razmak ≤ 4 m; betoniraju se sa stropom. Armatura ≥ 1 % presjeka, ≥ 300 mm2 (4Φ10); vilice ≥ Φ6 na ≤ 150 mm. Veza sa ziđem: istaci svakog drugog reda ≥ 0,4 h elementa, ≥ 4 cm.", freq: 2 },
+    { front: "Kako se u praksi armira vertikalni serklaž?", exam: true, back: "Min. 4Φ14 s vilicama Φ6/25 cm, preklop vertikalne armature u stupu ≥ 80 cm za sljedeću etažu; inače Aa > 2,4 cm2; presjek ≥ 15 x 15 cm; preklop šipki ≥ 60 cm; razmak horizontalnih serklaža ≤ 4 m; za prizemnicu dovoljno Φ10." },
+    { front: "Klimatizacija vs. djelomična klimatizacija vs. ventilacija?", exam: true, back: "Ventilacija: dovod vanjskog i odvod onečišćenog zraka (prirodna – prozori, otvori, kanali; prisilna – ventilator). Klimatizacija: temperatura, vlažnost, kvaliteta zraka + prisilna izmjena – sva 4 postupka dorade (grijanje, hlađenje, ovlaživanje, odvlaživanje); s vanjskim zrakom ili mješavinom. Djelomična: 2 ili 3 postupka; s vanjskim, bez vanjskog (bez ventilacije) ili s mješavinom zraka.", freq: 2 },
+    { front: "Eurokodovi – što su i nabroji ih.", exam: true, back: "Usklađene europske norme za proračun konstrukcija; jedinstven sustav proračuna u Europi; obvezni nacionalni dodaci (potresne zone, vjetar, snijeg). EC0 osnove projektiranja, EC1 djelovanja, EC2 betonske, EC3 čelične, EC4 spregnute čelik-beton, EC5 drvene, EC6 zidane, EC7 geotehničko, EC8 potresna otpornost, EC9 aluminijske.", freq: 2 },
+    { front: "Energetski certifikat – što je, za koje zgrade se NE izdaje, koliko vrijedi?", exam: true, back: "Certifikat iz kojeg je vidljivo energetsko svojstvo zgrade/samostalne uporabne cjeline prema Metodologiji energetskog pregleda; elektronički putem IEC-a; vrijedi 10 godina. Ne izdaje se za: vjerske zgrade; privremene ≤ 2 g., industrijska postrojenja, radionice, nestambene poljoprivredne s malim potrebama; stambene korištene < 4 mjeseca godišnje; slobodnostojeće < 50 m2.", freq: 2 },
+    { front: "Energetski certifikat – razlika nove i postojeće zgrade?", exam: true, back: "Nova (akt za građenje nakon 1. 10. 2007., prije početka uporabe): na temelju glavnog projekta, izjave izvođača, vizualnog pregleda i završnog izvješća nadzornog inženjera; sadrži preporuke za korištenje. Postojeća: energetski pregled + proračuni (QH,nd, QC,nd, isporučena, primarna energija, CO2) i energetski razred; sadrži prijedlog mjera troškovno optimalnog/učinkovitog poboljšanja.", freq: 2 },
     { front: "Što je primarna energija? Što je isporučena energija?", back: "Primarna: energija iz obnovljivih i neobnovljivih izvora koja nije podvrgnuta nijednom postupku pretvorbe. Isporučena: energija po nositelju koja se dovodi u tehnički sustav kroz granicu sustava za grijanje, hlađenje, ventilaciju, toplu vodu i rasvjetu – energija na mjernom satu.", freq: 1 },
     { front: "Godišnja potrebna toplinska energija za grijanje – što je, jedinica?", back: "QH,nd [kWh/a] – računski određena toplina koju sustav grijanja tijekom godine dovodi u zgradu za održavanje unutarnje projektne temperature u razdoblju grijanja. Po jedinici korisne površine grijanog dijela: Q''H,nd [kWh/(m2·a)].", freq: 1 },
     { front: "Energetsko svojstvo zgrade – definicija i jedinica?", back: "Izračunata ili izmjerena energija za karakterističnu uporabu zgrade (grijanje, hlađenje, ventilacija, topla voda, rasvjeta); izražava se brojčanim pokazateljem korištenja primarne energije u kWh/(m2·a) za certifikat i usklađenost s minimalnim zahtjevima.", freq: 1 },
     { front: "Faktor oblika – što je, jedinica, kakav je povoljniji i zašto?", back: "f0 = A/Ve [m-1] – količnik oplošja A (m2) i obujma Ve (m3) grijanog dijela zgrade. Manji je povoljniji: nerazvedene zgrade imaju manju površinu pročelja koja generira toplinske gubitke.", freq: 1 },
     { front: "Geotehnički (geomehanički) elaborat – što je, zašto je bitan?", back: "Skup podataka iz geotehničkih istražnih radova (tlo, stijena, podzemna voda). Već u idejnom rješenju: način temeljenja, osiguranje građevne jame, rizici. Utječe na vrstu temelja, poboljšanje tla, potporne konstrukcije, položaj i dubinu gradnje; podloga za projektiranje po EC7.", freq: 2 },
-    { front: "POS stanovi – visina, površine soba, dizala, WC, parapet?", back: "Soba ≥ 18 m2; spavaća ≥ 10 m2, dodatna ≥ 8 m2; svijetla visina ≥ 2,60 m; 4–7 katova prostor za 1 dizalo, 8+ za ≥ 2 dizala; parapet < 0,90 m (osim prizemlje, balkoni) – ograda s gornjim rubom ≥ 1 m; 2,5-sobni i veći – dodatni nužnik ≥ 0,80 x 1,40 m.", freq: 1 },
-    { front: "Tehnički propis za građevinske konstrukcije – što piše u njemu?", back: "Tehnička svojstva konstrukcija, zahtjevi za projektiranje, izvođenje, održavanje, uklanjanje i svojstva građevnih proizvoda za konstrukcije. Primjenjuje se na konstrukcijske i nekonstrukcijske elemente (otpornost, uporabljivost, trajnost, požarna otpornost). Ispunjava temeljni zahtjev mehaničke otpornosti i stabilnosti te dio sigurnosti u požaru – očuvanje nosivosti tijekom određenog vremena. NN 17/17, 75/20, 7/22.", freq: 2 },
-    { front: "Postupak izvedbe omeđenog ziđa?", back: "Omeđeno ziđe ima vertikalne i horizontalne AB ili armirane zidane serklaže. Vertikalni serklaži etaže betoniraju se nakon izvedbe ziđa te etaže; horizontalni serklaži u razini stropa betoniraju se zajedno sa stropnom konstrukcijom.", freq: 2 },
-    { front: "Vrste ziđa i vrste zidnih elemenata?", back: "Ziđe = zidni elementi položeni na određen način i povezani mortom. Vrste: nearmirano, omeđeno, armirano, prednapeto; nosivo/nenosivo; jednostruko/dvostruko (sa zračnim slojem, s izolacijom); fasadno, obložno, pregradno, vezno, ispunsko, protupožarno. Zidni elementi: prirodni kamen, umjetni kamen, opeka, betonski blokovi, porasti beton, vapnenosilikatni.", freq: 2 },
-    { front: "Rekonstrukcija – što se mora provjeriti prije?", back: "Utvrditi zatečeno stvarno izvedeno stanje (očevid, dokumentacija, uzorci i ispitivanja, proračuni). Projektant ocjenjuje primjerenost za rekonstrukciju i opseg prethodnih istraživanja. Nakon rekonstrukcije svojstva po TPGK; iznimno, ako se bitno ne utječe na konstrukciju, najmanje svojstva prije rekonstrukcije.", freq: 1 },
-    { front: "Tehnički propis za betonske konstrukcije – čega je dio, zahtjevi?", back: "Prestao važiti stupanjem na snagu TPGK (NN 17/17, 75/20, 7/22); sada Posebna pravila za betonske konstrukcije unutar TPGK: projektiranje, svojstva betona, čelika i predgotovljenih elemenata, izvođenje, dokazivanje uporabljivosti proizvoda, održavanje. Materijali: beton, čelik za armiranje, čelik za prednapinjanje, uređaji za prednapinjanje, predgotovljeni elementi." },
+    { front: "POS stanovi – visina, površine soba, dizala, WC, parapet?", exam: true, back: "Soba ≥ 18 m2; spavaća ≥ 10 m2, dodatna ≥ 8 m2; svijetla visina ≥ 2,60 m; 4–7 katova prostor za 1 dizalo, 8+ za ≥ 2 dizala; parapet < 0,90 m (osim prizemlje, balkoni) – ograda s gornjim rubom ≥ 1 m; 2,5-sobni i veći – dodatni nužnik ≥ 0,80 x 1,40 m.", freq: 1 },
+    { front: "Tehnički propis za građevinske konstrukcije – što piše u njemu?", exam: true, back: "Tehnička svojstva konstrukcija, zahtjevi za projektiranje, izvođenje, održavanje, uklanjanje i svojstva građevnih proizvoda za konstrukcije. Primjenjuje se na konstrukcijske i nekonstrukcijske elemente (otpornost, uporabljivost, trajnost, požarna otpornost). Ispunjava temeljni zahtjev mehaničke otpornosti i stabilnosti te dio sigurnosti u požaru – očuvanje nosivosti tijekom određenog vremena. NN 17/17, 75/20, 7/22.", freq: 2 },
+    { front: "Postupak izvedbe omeđenog ziđa?", exam: true, back: "Omeđeno ziđe ima vertikalne i horizontalne AB ili armirane zidane serklaže. Vertikalni serklaži etaže betoniraju se nakon izvedbe ziđa te etaže; horizontalni serklaži u razini stropa betoniraju se zajedno sa stropnom konstrukcijom.", freq: 2 },
+    { front: "Vrste ziđa i vrste zidnih elemenata?", exam: true, back: "Ziđe = zidni elementi položeni na određen način i povezani mortom. Vrste: nearmirano, omeđeno, armirano, prednapeto; nosivo/nenosivo; jednostruko/dvostruko (sa zračnim slojem, s izolacijom); fasadno, obložno, pregradno, vezno, ispunsko, protupožarno. Zidni elementi: prirodni kamen, umjetni kamen, opeka, betonski blokovi, porasti beton, vapnenosilikatni.", freq: 2 },
+    { front: "Rekonstrukcija – što se mora provjeriti prije?", exam: true, back: "Utvrditi zatečeno stvarno izvedeno stanje (očevid, dokumentacija, uzorci i ispitivanja, proračuni). Projektant ocjenjuje primjerenost za rekonstrukciju i opseg prethodnih istraživanja. Nakon rekonstrukcije svojstva po TPGK; iznimno, ako se bitno ne utječe na konstrukciju, najmanje svojstva prije rekonstrukcije.", freq: 1 },
+    { front: "Tehnički propis za betonske konstrukcije – čega je dio, zahtjevi?", exam: true, back: "Prestao važiti stupanjem na snagu TPGK (NN 17/17, 75/20, 7/22); sada Posebna pravila za betonske konstrukcije unutar TPGK: projektiranje, svojstva betona, čelika i predgotovljenih elemenata, izvođenje, dokazivanje uporabljivosti proizvoda, održavanje. Materijali: beton, čelik za armiranje, čelik za prednapinjanje, uređaji za prednapinjanje, predgotovljeni elementi." },
     { front: "Dodaci za beton?", back: "Kemijski (modificiraju svježi/očvrsnuli beton): plastifikator, superplastifikator, zadržavanje vode, aerant, ubrzivač vezivanja/očvršćivanja, usporivač, vodonepropusnost, kombinacije, dodaci za mlazni beton, betoniranje pri niskim temperaturama. Mineralni: fileri, pigmenti, leteći pepeo, silicijska prašina." },
     { front: "Vrste nosivih konstrukcija?", back: "Betonska, čelična, spregnuta čelik-beton, drvena, zidana, aluminijska, staklena, geotehnička konstrukcija." },
-    { front: "Složene konstrukcije i kontrola projekta?", back: "Statički složene građevine su one za koje je propisana kontrola projekta glede mehaničke otpornosti i stabilnosti. Kod konstrukcije iz više područja (npr. čelično krovište + AB zidovi) revident ovlašten za pretežito područje izrađuje izvješće o kontroli cjelokupne konstrukcije." },
+    { front: "Složene konstrukcije i kontrola projekta?", exam: true, back: "Statički složene građevine su one za koje je propisana kontrola projekta glede mehaničke otpornosti i stabilnosti. Kod konstrukcije iz više područja (npr. čelično krovište + AB zidovi) revident ovlašten za pretežito područje izrađuje izvješće o kontroli cjelokupne konstrukcije." },
     { front: "Plivajući pod?", back: "Kruti podni sloj – estrih (glazura) – koji »pliva« na mekanom elastičnom sloju (najčešće elastični EPS), bez i najmanje krute veze s nosivom međukatnom konstrukcijom; EPS i bočno uz zidove. Služi zvučnoj izolaciji od udarnog zvuka.", freq: 1 },
-    { front: "Tehnički propis za prozore i vrata – na što se odnosi, a na što NE?", back: "Vanjski prozori/vrata i ostali na koje se odnose zahtjevi: vjetar, vodonepropusnost, propusnost zraka, prolazak topline, zvučna izolacija, požar i dim; i stijene slične prozorima. NE: vrata/stijene u potpunosti od stakla, rotirajuća vrata, vrata s mehaničkim pogonom, ostakljene krovne konstrukcije, ovješene fasade, garažna, industrijska i vrata skloništa. Ako se rade po projektu – program kontrole kvalitete s zahtjevima i dokazivanjem uporabljivosti.", freq: 2 },
+    { front: "Tehnički propis za prozore i vrata – na što se odnosi, a na što NE?", exam: true, back: "Vanjski prozori/vrata i ostali na koje se odnose zahtjevi: vjetar, vodonepropusnost, propusnost zraka, prolazak topline, zvučna izolacija, požar i dim; i stijene slične prozorima. NE: vrata/stijene u potpunosti od stakla, rotirajuća vrata, vrata s mehaničkim pogonom, ostakljene krovne konstrukcije, ovješene fasade, garažna, industrijska i vrata skloništa. Ako se rade po projektu – program kontrole kvalitete s zahtjevima i dokazivanjem uporabljivosti.", freq: 2 },
     { front: "TP o racionalnoj uporabi energije i toplinskoj zaštiti – na što se odnosi, a na što ne?", back: "Nove zgrade i zgrade grijane iznad 12 °C: toplinska zaštita, tehnički sustavi, izračun energetskog svojstva, udio OIE, nZEB, minimalni zahtjevi za nove i rekonstruirane, sadržaj projekta i Iskaznice, održavanje. Negrijane/do 12 °C: ljetna zaštita, kondenzacija, rasvjeta. NE: privremene ≤ 2 g., industrijska postrojenja, poljoprivredne (staklenici, staje), hale otvorene > pola radnog vremena bez zračnih zavjesa, jednostavne građevine, vjerske zgrade.", freq: 1 },
     { front: "nZEB?", back: "Nearly zero-energy building – zgrada gotovo nulte energije s vrlo visokim energetskim svojstvima; gotovo nulta potreba pokriva se u vrlo značajnoj mjeri iz obnovljivih izvora – minimalno 30 % godišnje isporučene energije za tehničke sustave, uključujući OIE na zgradi ili u blizini." },
-    { front: "Temeljni zahtjev – gospodarenje energijom i očuvanje topline?", back: "Građevine i instalacije za grijanje, hlađenje, osvjetljenje i provjetravanje projektiraju se i grade tako da potrebna energija ostane na niskoj razini uzimajući u obzir korisnike i klimu; energetski učinkovite i tijekom građenja i razgradnje." },
-    { front: "Nabroji završne radove.", back: "Teracerski, fasaderski, gipsarski, keramičarski, ličilački, soboslikarski, tapetarski, kamenorezački, podopolagački, parketarski, izolaterski, bravarski, limarski, stolarski, roletarski, staklorezački, antikorozijska zaštita, spušteni stropovi i lake pregrade.", freq: 2 },
+    { front: "Temeljni zahtjev – gospodarenje energijom i očuvanje topline?", exam: true, back: "Građevine i instalacije za grijanje, hlađenje, osvjetljenje i provjetravanje projektiraju se i grade tako da potrebna energija ostane na niskoj razini uzimajući u obzir korisnike i klimu; energetski učinkovite i tijekom građenja i razgradnje." },
+    { front: "Nabroji završne radove.", exam: true, back: "Teracerski, fasaderski, gipsarski, keramičarski, ličilački, soboslikarski, tapetarski, kamenorezački, podopolagački, parketarski, izolaterski, bravarski, limarski, stolarski, roletarski, staklorezački, antikorozijska zaštita, spušteni stropovi i lake pregrade.", freq: 2 },
     { front: "Što je buka i zone buke (NN 143/21, čl. 4., Tablica 1.)?", back: "Buka okoliša – neželjen/štetan zvuk vani od ljudske aktivnosti (promet, postrojenja); fizikalna štetnost. Zone (dan/večer/noć/Lden dB(A)): 1. zaštićena tiha područja 50/45/40/50; 2. stanovanje 55/55/40/56; 3. mješovita pretežito stambena 55/55/45/57; 4. mješovita pretežito poslovna 65/65/50/66; 5. gospodarska zanatska/uslužna/turistička/sport 65/65/55/67; 6. industrija – na granici sa zonom 1–4 ne smije prijeći njihove razine." },
-    { front: "Oznake C 25/30 i B500B?", back: "C 25/30 – razred tlačne čvrstoće betona nakon 28 dana: 25 N/mm2 na valjku, 30 N/mm2 na kocki. B500B – čelik za armiranje (Betonstahl), 500 = karakteristična granica popuštanja N/mm2, B = razred duktilnosti (C > B > A)." },
+    { front: "Oznake C 25/30 i B500B?", exam: true, back: "C 25/30 – razred tlačne čvrstoće betona nakon 28 dana: 25 N/mm2 na valjku, 30 N/mm2 na kocki. B500B – čelik za armiranje (Betonstahl), 500 = karakteristična granica popuštanja N/mm2, B = razred duktilnosti (C > B > A)." },
     { front: "Vrste opeke i čvrstoća?", back: "Puna opeka, šuplja opeka i opečni blokovi (blok opeka), puna fasadna opeka. Čvrstoća 2–20 N/mm2; uobičajeno 10 N/mm2 okomito na horizontalne sljubnice, 2 N/mm2 okomito na vertikalne. Najmanja debljina nosivog zida 20 cm." },
     { front: "Beton – sastav, gustoća, težina konstrukcije; vrste cementa?", back: "Cement + agregat + dodaci + voda; gustoća oko 2,4 t/m3; AB konstrukcija 25 kN/m3 (težina ploče = volumen x 25). Cementi: opće namjene, opće namjene niske topline hidratacije, vrlo niske topline hidratacije, bijeli, sulfatno otporni, sa zgurom niskih početnih čvrstoća, aluminatni." },
     { front: "Oznake armature – Q i R mreža, preklopi?", back: "Q mreža nosiva u oba smjera, R u jednom smjeru. Preklop mreže 3 polja ili 40 cm; preklop šipki 20 cm ili 15Φ. Balkon armiran u gornjoj zoni; ploča na dva zida donja zona u polju, gornja nad ležajem." },
     { front: "Toplinski most?", back: "Manje područje u omotaču grijanog dijela zgrade s povećanim toplinskim tokom zbog promjene materijala, debljine ili geometrije. Uočava se termokamerom; uzrokuje gubitke topline i kondenzaciju u konstrukciji; uklanja se pravilnim projektiranjem i izvedbom detalja." },
-    { front: "Prilozi Tehničkog propisa za zidane konstrukcije?", back: "A ziđe, B zidni elementi, C mort, D veziva, E dodaci mortu, F agregat/voda/čelik za armiranje i prednapinjanje/beton/sustavi zaštite, G pomoćni dijelovi (spone, trake, vješaljke, nadvoji), H predgotovljeno ziđe, I projektiranje, J izvođenje i održavanje. Dokazuju se mehanička otpornost i stabilnost te sigurnost u požaru." },
-    { front: "Koeficijenti sigurnosti za opterećenja i razredi izloženosti betona?", back: "GSN: 1,35 stalno, 1,5 korisno; GSU: 1,0. Razredi izloženosti: X0 bez rizika, XC karbonatizacija, XD kloridi ne iz mora, XS kloridi iz mora, XF smrzavanje/odmrzavanje, XA kemijsko djelovanje, XM habanje." },
-    { front: "Eurokod 8 – što uređuje, nacionalni dodatak, obilježja konstrukcije?", back: "Potresna otpornost konstrukcija; nacionalni dodatak – karta potresnih zona prema ubrzanju tla. Izoseiste – linije jednake jačine potresa. Obilježja: jednostavnost, ujednačenost, simetrija i višestruka statička neodređenost, dvosmjerna otpornost i krutost, torzijska otpornost i krutost, djelotvorni stropovi i krov, odgovarajuće temeljenje." },
-    { front: "Eurokod 7 – geotehničke kategorije?", back: "1. male i jednostavne konstrukcije (temelji jednokatnica, niski zidovi, nasipi) – pregled terena, iskustvo; 2. rutinski zahvati (plitki temelji, ploče, piloti, potporne konstrukcije, iskopi, upornjaci, sidra, tuneli u tvrdoj stijeni) – prema HRN EN 1997; 3. vrlo složeni/velikog rizika (meko tlo, jame uz postojeće objekte, klizišta, tuneli, visoke brane, nuklearke, jaka seizmičnost) – rigorozniji postupci, geotehničar specijalist." }
+    { front: "Prilozi Tehničkog propisa za zidane konstrukcije?", exam: true, back: "A ziđe, B zidni elementi, C mort, D veziva, E dodaci mortu, F agregat/voda/čelik za armiranje i prednapinjanje/beton/sustavi zaštite, G pomoćni dijelovi (spone, trake, vješaljke, nadvoji), H predgotovljeno ziđe, I projektiranje, J izvođenje i održavanje. Dokazuju se mehanička otpornost i stabilnost te sigurnost u požaru." },
+    { front: "Koeficijenti sigurnosti za opterećenja i razredi izloženosti betona?", exam: true, back: "GSN: 1,35 stalno, 1,5 korisno; GSU: 1,0. Razredi izloženosti: X0 bez rizika, XC karbonatizacija, XD kloridi ne iz mora, XS kloridi iz mora, XF smrzavanje/odmrzavanje, XA kemijsko djelovanje, XM habanje." },
+    { front: "Eurokod 8 – što uređuje, nacionalni dodatak, obilježja konstrukcije?", exam: true, back: "Potresna otpornost konstrukcija; nacionalni dodatak – karta potresnih zona prema ubrzanju tla. Izoseiste – linije jednake jačine potresa. Obilježja: jednostavnost, ujednačenost, simetrija i višestruka statička neodređenost, dvosmjerna otpornost i krutost, torzijska otpornost i krutost, djelotvorni stropovi i krov, odgovarajuće temeljenje." },
+    { front: "Eurokod 7 – geotehničke kategorije?", exam: true, back: "1. male i jednostavne konstrukcije (temelji jednokatnica, niski zidovi, nasipi) – pregled terena, iskustvo; 2. rutinski zahvati (plitki temelji, ploče, piloti, potporne konstrukcije, iskopi, upornjaci, sidra, tuneli u tvrdoj stijeni) – prema HRN EN 1997; 3. vrlo složeni/velikog rizika (meko tlo, jame uz postojeće objekte, klizišta, tuneli, visoke brane, nuklearke, jaka seizmičnost) – rigorozniji postupci, geotehničar specijalist." }
   ]
 });

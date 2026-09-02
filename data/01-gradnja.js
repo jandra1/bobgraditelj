@@ -103,6 +103,7 @@ window.APP_DATA.push({
   questions: [
     {
       q: "Koliko temeljnih zahtjeva za građevinu propisuje Zakon o gradnji (NN 155/25)?",
+      exam: true,
       options: ["Sedam", "Osam", "Šest", "Deset"],
       correct: 1,
       explanation: "Novi Zakon o gradnji propisuje osam temeljnih zahtjeva — uz dosadašnjih sedam dodana je 'otpornost na prolaz zvuka i akustična svojstva' odvojeno od zaštite od buke, odnosno novi popis: mehanička otpornost i stabilnost, sigurnost u slučaju požara, higijena i zdravlje, sigurnost i pristupačnost, akustična svojstva, energetska učinkovitost, emisije u vanjsko okruženje te održiva uporaba prirodnih izvora.",
@@ -110,6 +111,7 @@ window.APP_DATA.push({
     },
     {
       q: "Koji od navedenih zahtjeva NIJE temeljni zahtjev za građevinu prema Zakonu o gradnji?",
+      exam: true,
       options: ["Sigurnost i pristupačnost građevine", "Održiva uporaba prirodnih izvora", "Ekonomičnost građenja i uporabe građevine", "Emisije u vanjsko okruženje građevine"],
       correct: 2,
       explanation: "Ekonomičnost nije među temeljnim zahtjevima. Temeljni zahtjevi su: mehanička otpornost i stabilnost, sigurnost u slučaju požara, higijena i zdravlje, sigurnost i pristupačnost, otpornost na prolaz zvuka i akustična svojstva, energetska učinkovitost i toplinska svojstva, emisije u vanjsko okruženje te održiva uporaba prirodnih izvora.",
@@ -117,6 +119,7 @@ window.APP_DATA.push({
     },
     {
       q: "Što je rekonstrukcija građevine prema Zakonu o gradnji?",
+      exam: true,
       options: [
         "Izvedba radova na postojećoj građevini kojima se utječe na ispunjavanje temeljnih zahtjeva ili mijenja usklađenost s lokacijskim uvjetima (dograđivanje, nadograđivanje, promjena namjene i sl.)",
         "Izvedba radova radi očuvanja temeljnih zahtjeva tijekom trajanja građevine",
@@ -153,6 +156,7 @@ window.APP_DATA.push({
     },
     {
       q: "Tko su sudionici u gradnji prema Zakonu o gradnji?",
+      exam: true,
       options: [
         "Investitor, projektant, izvođač i građevinski inspektor",
         "Investitor, projektant, revident i voditelj projekta",
@@ -189,6 +193,7 @@ window.APP_DATA.push({
     },
     {
       q: "Za što je odgovoran glavni projektant?",
+      exam: true,
       options: [
         "Za provedbu stručnog nadzora nad svim radovima",
         "Za cjelovitost i međusobnu usklađenost projekata, što potvrđuje kvalificiranim elektroničkim potpisom",
@@ -201,6 +206,7 @@ window.APP_DATA.push({
     },
     {
       q: "Koja je od navedenih obveza IZVOĐAČA prema Zakonu o gradnji?",
+      exam: true,
       options: [
         "Sastaviti pisanu izjavu o izvedenim radovima i ovjeriti je kvalificiranim elektroničkim potpisom",
         "Sastaviti završno izvješće o izvedbi građevine",
@@ -225,6 +231,7 @@ window.APP_DATA.push({
     },
     {
       q: "Koja od tvrdnji o nadzornom inženjeru je TOČNA?",
+      exam: true,
       options: [
         "Nadzorni inženjer može biti zaposlenik izvođača ako je to ugovoreno",
         "Nadzornog inženjera imenuje izvođač",
@@ -237,6 +244,7 @@ window.APP_DATA.push({
     },
     {
       q: "Tko sastavlja završno izvješće o cjelovitosti i međusobnoj usklađenosti stručnog nadzora građenja kada nadzor provodi više nadzornih inženjera?",
+      exam: true,
       options: [
         "Najstariji nadzorni inženjer po stažu",
         "Glavni nadzorni inženjer, kojeg pisanim ugovorom određuje investitor",
@@ -261,6 +269,7 @@ window.APP_DATA.push({
     },
     {
       q: "U pogledu čega se obvezno provodi kontrola projekta (revizija)?",
+      exam: true,
       options: [
         "U pogledu zaštite od požara",
         "U pogledu energetske učinkovitosti",
@@ -273,6 +282,7 @@ window.APP_DATA.push({
     },
     {
       q: "Koja od tvrdnji o revidentu je TOČNA?",
+      exam: true,
       options: [
         "Revident može kontrolirati projekt koji je sam izradio ako je upisan u komoru",
         "Revident je pravna osoba registrirana za kontrolu projekata",
@@ -297,6 +307,7 @@ window.APP_DATA.push({
     },
     {
       q: "Za koje se građevine obvezno izrađuje izvedbeni projekt?",
+      exam: true,
       options: [
         "Za sve građevine, osim za manje složene zgrade te građevine i radove za koje nije potrebna građevinska dozvola",
         "Samo za građevine za koje dozvolu izdaje Ministarstvo",
@@ -309,6 +320,7 @@ window.APP_DATA.push({
     },
     {
       q: "Koliko najdulje važi tipski projekt koji nije sastavni dio glavnog projekta, računajući od pravomoćnosti rješenja o tipskom projektu?",
+      exam: true,
       options: ["Dvije godine", "Pet godina", "Osam godina", "Deset godina"],
       correct: 2,
       explanation: "Tipski projekt daje tehničko rješenje za predgotovljene dijelove građevine, o čemu Ministarstvo izdaje rješenje. Tipski projekt koji nije sastavni dio glavnog projekta važi najdulje osam godina od dana pravomoćnosti rješenja o tipskom projektu i ne može se rabiti ako se promijeni propis prema kojem je izrađen.",
@@ -328,6 +340,7 @@ window.APP_DATA.push({
     },
     {
       q: "U kojem roku građevinska dozvola prestaje važiti ako investitor ne pristupi građenju?",
+      exam: true,
       options: [
         "U roku od tri godine od pravomoćnosti dozvole",
         "U roku od šest godina od pravomoćnosti dozvole, odnosno osam godina ako dozvolu izdaje Ministarstvo",
@@ -340,6 +353,7 @@ window.APP_DATA.push({
     },
     {
       q: "U kojem roku od prijave početka građenja manje složena zgrada mora biti dovršena u pogledu vanjskog izgleda i uređenja građevne čestice?",
+      exam: true,
       options: ["U roku od pet godina", "U roku od tri godine", "U roku od deset godina", "U roku od sedam godina"],
       correct: 0,
       explanation: "Rokovi dovršenja zgrade računaju se od prijave početka građenja: manje složena zgrada 5 godina, ostale zgrade 7 godina, a zgrade za koje dozvolu izdaje Ministarstvo 10 godina. Rokovi se ne odnose na pojedinačno zaštićena kulturna dobra.",
@@ -407,6 +421,7 @@ window.APP_DATA.push({
     },
     {
       q: "U kojem se roku izdaje uporabna dozvola nakon obavljenog tehničkog pregleda ako su ispunjeni propisani uvjeti?",
+      exam: true,
       options: ["U roku od 8 dana", "U roku od 30 dana", "U roku od 60 dana", "U roku od 15 dana"],
       correct: 0,
       explanation: "Uporabna dozvola izdaje se u roku od 8 dana od obavljenog tehničkog pregleda ako je priložena propisana dokumentacija, građevina izgrađena u skladu s dozvolom, priključena na infrastrukturu, a privremene građevine i otpad uklonjeni te zemljište dovedeno u uredno stanje.",
@@ -426,6 +441,7 @@ window.APP_DATA.push({
     },
     {
       q: "Kada se prema Pravilniku o održavanju građevina provodi IZVANREDNI pregled građevine?",
+      exam: true,
       options: [
         "Svake godine, prema planu održavanja",
         "Prije svake promjene vlasnika građevine",
@@ -444,6 +460,7 @@ window.APP_DATA.push({
     },
     {
       front: "Nabroji temeljne zahtjeve za građevinu (NN 155/25).",
+      exam: true,
       back: "1. mehanička otpornost i stabilnost, 2. sigurnost u slučaju požara, 3. higijena i zdravlje, 4. sigurnost i pristupačnost, 5. otpornost na prolaz zvuka i akustična svojstva, 6. energetska učinkovitost i toplinska svojstva, 7. emisije u vanjsko okruženje, 8. održiva uporaba prirodnih izvora — ukupno OSAM zahtjeva (čl. 5.)."
     },
     {
@@ -456,6 +473,7 @@ window.APP_DATA.push({
     },
     {
       front: "Definicija: rekonstrukcija građevine",
+      exam: true,
       back: "Radovi na postojećoj građevini kojima se utječe na ispunjavanje temeljnih zahtjeva ili mijenja usklađenost s lokacijskim uvjetima (dograđivanje, nadograđivanje, promjena namjene...). Pri rekonstrukciji zgrade ne smiju se ukloniti najmanje temelji i dio najniže etaže."
     },
     {
@@ -464,22 +482,27 @@ window.APP_DATA.push({
     },
     {
       front: "Glavne obveze investitora",
+      exam: true,
       back: "Pisanim ugovorom povjerava projektiranje, kontrolu projekata, građenje i nadzor ovlaštenim osobama; dužan je osigurati stručni nadzor; ako je ujedno izvođač — nadzor povjerava drugoj osobi; određuje glavnog nadzornog inženjera i glavnog izvođača (čl. 18., 23., 24.)."
     },
     {
       front: "Za što odgovara projektant, a za što glavni projektant?",
+      exam: true,
       back: "Projektant: da projekt zadovoljava propisane uvjete i da građevina ispunjava temeljne zahtjeve te da je u skladu s lokacijskom dozvolom/prostornim planom. Glavni projektant: za cjelovitost i međusobnu usklađenost svih projekata (čl. 19. i 20.)."
     },
     {
       front: "Nabroji glavne obveze izvođača.",
+      exam: true,
       back: "Graditi u skladu s dozvolom, Zakonom i tehničkim propisima; povjeriti radove ovlaštenim osobama; ugrađivati propisane proizvode i čuvati dokaze o njihovim svojstvima; gospodariti građevnim otpadom; sastaviti pisanu izjavu o izvedenim radovima; izraditi program održavanja; imenovati inženjera gradilišta/voditelja radova (čl. 22. i 23.)."
     },
     {
       front: "Nabroji glavne obveze nadzornog inženjera.",
+      exam: true,
       back: "Nadzirati usklađenost građenja s dozvolom i glavnim projektom; provjeriti ispunjava li izvođač uvjete i je li iskolčenje obavio ovlašteni inženjer geodezije; nadzirati kontrolna ispitivanja; biti prisutan na gradilištu i ovjeravati građevinski dnevnik; upozoriti na nedostatke; sastaviti završno izvješće (čl. 25.)."
     },
     {
       front: "Revident — tko je i što radi?",
+      exam: true,
       back: "Fizička osoba ovlaštena za kontrolu projekta u pogledu mehaničke otpornosti i stabilnosti. Ne smije kontrolirati projekt u čijoj je izradi sudjelovao; sastavlja pisano izvješće i ovjerava projekt; može zahtijevati pregled radova u određenoj fazi građenja (čl. 27., 28., 44.)."
     },
     {
@@ -488,10 +511,12 @@ window.APP_DATA.push({
     },
     {
       front: "Koliko važi građevinska dozvola?",
+      exam: true,
       back: "Prestaje važiti ako se građenju ne pristupi u roku 6 godina od pravomoćnosti (8 godina za dozvole koje izdaje Ministarstvo). Smatra se da je građenju pristupljeno danom prijave početka građenja (čl. 79.)."
     },
     {
       front: "Prijava početka građenja — kome, kada, što se prilaže?",
+      exam: true,
       back: "Elektronički, tijelu graditeljstva koje je izdalo dozvolu i građevinskoj inspekciji, najkasnije 5 dana prije početka građenja; navodi se izvođač i nadzorni inženjer, prilaže se ovjereni elaborat iskolčenja (za manje složenu zgradu i glavni projekt) — čl. 89."
     },
     {
@@ -504,6 +529,7 @@ window.APP_DATA.push({
     },
     {
       front: "Tehnički pregled i uporabna dozvola — postupak i rokovi",
+      exam: true,
       back: "Građevina se smije koristiti tek nakon uporabne dozvole (čl. 94.). Tehnički pregled obavlja se u roku 30 odnosno 15 dana od urednog zahtjeva; o pregledu se sastavlja zapisnik; uporabna dozvola izdaje se u roku 8 dana od pregleda ako su ispunjeni uvjeti (čl. 98.–102.)."
     },
     {

@@ -140,6 +140,7 @@ window.APP_DATA.push({
     },
     {
       q: "Koja od navedenih djelatnosti spada u komunalne djelatnosti kojima se osigurava održavanje komunalne infrastrukture?",
+      exam: true,
       options: [
         "Usluge parkiranja na uređenim javnim površinama",
         "Obavljanje dimnjačarskih poslova",
@@ -229,6 +230,7 @@ window.APP_DATA.push({
     },
     {
       q: "Čija je obveza građenje i održavanje komunalne infrastrukture?",
+      exam: true,
       options: [
         "Republike Hrvatske putem nadležnog ministarstva",
         "Županije na čijem se području infrastruktura nalazi",
@@ -242,6 +244,7 @@ window.APP_DATA.push({
     },
     {
       q: "Koji od navedenih izvora NIJE naveden kao izvor financiranja građenja i održavanja komunalne infrastrukture?",
+      exam: true,
       options: [
         "Naknada za koncesiju",
         "Fondovi Europske unije",
@@ -267,6 +270,7 @@ window.APP_DATA.push({
     },
     {
       q: "Plaća li se komunalni doprinos za građevine koje se izvode bez građevinske dozvole?",
+      exam: true,
       options: [
         "Ne, jer nema građevinske dozvole na temelju koje bi se donijelo rješenje",
         "Da, komunalni doprinos plaća se i za takve građevine (ozakonjenje)",
@@ -291,6 +295,7 @@ window.APP_DATA.push({
     },
     {
       q: "Kod rekonstrukcije zgrade radi povećanja energetske učinkovitosti, kako se u obračunu komunalnog doprinosa tretira nova toplinska izolacija?",
+      exam: true,
       options: [
         "Obračunava se u cijelosti kao povećanje obujma",
         "Obračunava se samo završni sloj fasade",
@@ -351,6 +356,7 @@ window.APP_DATA.push({
     },
     {
       q: "Za što se, uz održavanje i građenje komunalne infrastrukture, na temelju odluke predstavničkog tijela JLS mogu koristiti sredstva komunalne naknade?",
+      exam: true,
       options: [
         "Za financiranje građenja i održavanja objekata predškolskog, školskog, zdravstvenog i socijalnog sadržaja, javnih sportskih i kulturnih građevina te energetske učinkovitosti zgrada JLS",
         "Za isplatu plaća službenika JLS",
@@ -645,6 +651,7 @@ window.APP_DATA.push({
     },
     {
       q: "Koje građevine smiju graditi inozemni izvođači u Republici Hrvatskoj?",
+      exam: true,
       options: [
         "One građevine za koje imaju ovlaštenje u svojoj matičnoj državi",
         "Samo građevine koje nisu od interesa za RH",
@@ -705,6 +712,7 @@ window.APP_DATA.push({
     },
     {
       q: "Tko donosi tehničke propise i gdje se objavljuju?",
+      exam: true,
       options: [
         "Hrvatski zavod za norme; objavljuju se u Glasilu HZN-a",
         "Komora; objavljuju se na mrežnim stranicama Komore",
@@ -718,6 +726,7 @@ window.APP_DATA.push({
     },
     {
       q: "Što se određuje tehničkim propisima?",
+      exam: true,
       options: [
         "Uvjeti za izdavanje lokacijske dozvole",
         "Visina komunalnog doprinosa za pojedine vrste građevina",
@@ -731,6 +740,7 @@ window.APP_DATA.push({
     },
     {
       q: "Za razliku od normi, tehnički propisi su:",
+      exam: true,
       options: [
         "Neobvezujuće preporuke struke",
         "Obvezni samo ako su navedeni u glavnom projektu",
@@ -744,6 +754,7 @@ window.APP_DATA.push({
     },
     {
       q: "Koji od navedenih NIJE primjer tehničkog propisa?",
+      exam: true,
       options: [
         "Tehnički propis za građevinske konstrukcije",
         "Tehnički propis za dimnjake u građevinama",
@@ -857,7 +868,7 @@ window.APP_DATA.push({
     { front: "Što uređuje Zakon o komunalnom gospodarstvu?", back: "Načela komunalnog gospodarstva, obavljanje i financiranje komunalnih djelatnosti, građenje i održavanje komunalne infrastrukture, plaćanje komunalnog doprinosa i komunalne naknade, održavanje komunalnog reda i druga pitanja važna za komunalno gospodarstvo (ZKG NN 68/18).", freq: 1 },
     { front: "Nabrojite načela komunalnog gospodarstva.", back: "16 načela: zaštita javnog interesa, razmjerna korist, solidarnost, javna služba, neprofitnost, supsidijarnost, univerzalnost i jednakost pristupa, prilagodljivost, kontinuitet, kakvoća, ekonomičnost i učinkovitost, zaštita korisnika/prostora/okoliša/kulturnih dobara, sigurnost, javnost, prihvatljivost cijene, zaštita ugroženih kategorija građana.", freq: 1 },
     { front: "Što su komunalne djelatnosti?", back: "Djelatnosti kojima se osigurava građenje i/ili održavanje komunalne infrastrukture u stanju funkcionalne ispravnosti te djelatnosti kojima se pojedinačnim korisnicima pružaju usluge nužne za svakodnevni život i rad na području JLS.", freq: 1 },
-    { front: "Koje su komunalne djelatnosti održavanja komunalne infrastrukture?", back: "Održavanje: nerazvrstanih cesta, javnih površina bez motornog prometa, građevina javne odvodnje oborinskih voda, javnih zelenih površina, građevina/uređaja/predmeta javne namjene, groblja i krematorija, čistoće javnih površina, javne rasvjete (8 djelatnosti).", freq: 1 },
+    { front: "Koje su komunalne djelatnosti održavanja komunalne infrastrukture?", exam: true, back: "Održavanje: nerazvrstanih cesta, javnih površina bez motornog prometa, građevina javne odvodnje oborinskih voda, javnih zelenih površina, građevina/uređaja/predmeta javne namjene, groblja i krematorija, čistoće javnih površina, javne rasvjete (8 djelatnosti).", freq: 1 },
     { front: "Koje su uslužne komunalne djelatnosti?", back: "Usluge parkiranja na uređenim javnim površinama i u javnim garažama, javne tržnice na malo, ukop i kremiranje pokojnika u krematoriju unutar groblja, komunalni linijski prijevoz putnika, dimnjačarski poslovi (5 djelatnosti).", freq: 1 },
     { front: "Tko određuje cijenu komunalne usluge i iz čega se financiraju uslužne komunalne djelatnosti?", back: "Cijenu određuje isporučitelj komunalne usluge. Financiranje: iz cijene komunalne usluge, proračuna JLS, prihoda po posebnim zakonima i ostalih prihoda." },
     { front: "Što je komunalna infrastruktura? Tko financira njezinu izgradnju?", back: "Javno dobro u općoj uporabi u vlasništvu/suvlasništvu JLS i/ili osobe koja obavlja komunalnu djelatnost. Građenje i održavanje obveza je JLS; financira se iz komunalnog doprinosa, komunalne naknade, cijene usluge, naknade za koncesiju, proračuna JLS, fondova EU, ugovora po posebnom zakonu i donacija.", freq: 1 },
@@ -880,14 +891,14 @@ window.APP_DATA.push({
     { front: "Što je predmet normizacije?", back: "Proizvod, proces ili usluga koju treba normirati. Svaka norma ima svoje porijeklo, razvoj i potrebu za promjenom.", freq: 2 },
     { front: "Kakav zakonski status može imati norma?", back: "Ovisno o prihvaćanju: nacionalni, regionalni ili svjetski (međunarodni). Norme same po sebi nisu obvezne.", freq: 2 },
     { front: "Što znate o hrvatskim normama?", back: "Donosi ih Hrvatski zavod za norme (HZN), nose oznaku HRN." },
-    { front: "Rad inozemnih izvođača u Hrvatskoj — koje građevine smiju graditi?", back: "One građevine za koje imaju ovlaštenje u svojoj matičnoj državi, odnosno poslove koje su ovlašteni obavljati prema propisima države sjedišta." },
+    { front: "Rad inozemnih izvođača u Hrvatskoj — koje građevine smiju graditi?", exam: true, back: "One građevine za koje imaju ovlaštenje u svojoj matičnoj državi, odnosno poslove koje su ovlašteni obavljati prema propisima države sjedišta." },
     { front: "Uvjeti za stranu pravnu osobu iz EGP-a koja privremeno/povremeno obavlja djelatnost građenja u RH", back: "Obavlja poslove za koje je ovlaštena u državi sjedišta; prethodno pisanom izjavom obavijesti Ministarstvo; priloži isprave o pravu obavljanja djelatnosti u državi sjedišta; osigurana od odgovornosti za štetu investitoru i drugim osobama." },
-    { front: "Ovlaštena fizička osoba iz EGP-a kao voditelj građenja / voditelj radova u RH", back: "Smije povremeno ili privremeno obavljati te poslove pod strukovnim nazivom RH ako prije prvog posla izjavom izvijesti odgovarajuću Komoru; Komora provodi provjeru inozemne stručne kvalifikacije." },
+    { front: "Ovlaštena fizička osoba iz EGP-a kao voditelj građenja / voditelj radova u RH", exam: true, back: "Smije povremeno ili privremeno obavljati te poslove pod strukovnim nazivom RH ako prije prvog posla izjavom izvijesti odgovarajuću Komoru; Komora provodi provjeru inozemne stručne kvalifikacije." },
     { front: "Uvjeti za trajno obavljanje djelatnosti građenja u RH", back: "Registracija za djelatnost građenja odnosno pojedine radove + zaposlen voditelj građenja i/ili voditelj radova upisan u registar Komore ili s priznatom inozemnom stručnom kvalifikacijom (ZPDPUG)." },
-    { front: "Što je tehnički propis? Tko ga donosi?", back: "Propis kojim se razrađuju temeljni zahtjevi za građevinu, tehnička svojstva građevnih proizvoda i drugi tehnički zahtjevi u vezi s građevinama i građenjem, u skladu s europskim usklađivanjem tehničkog zakonodavstva. Donosi ga ministar, objavljuje se u NN, OBVEZAN je.", freq: 1 },
-    { front: "Navedite primjere tehničkih propisa.", back: "Tehnički propis za građevinske konstrukcije (zidane, drvene, čelične, spregnute čelik-beton, betonske, aluminijske) i proizvode; za dimnjake u građevinama; o racionalnoj uporabi energije i toplinskoj zaštiti u zgradama.", freq: 1 },
+    { front: "Što je tehnički propis? Tko ga donosi?", exam: true, back: "Propis kojim se razrađuju temeljni zahtjevi za građevinu, tehnička svojstva građevnih proizvoda i drugi tehnički zahtjevi u vezi s građevinama i građenjem, u skladu s europskim usklađivanjem tehničkog zakonodavstva. Donosi ga ministar, objavljuje se u NN, OBVEZAN je.", freq: 1 },
+    { front: "Navedite primjere tehničkih propisa.", exam: true, back: "Tehnički propis za građevinske konstrukcije (zidane, drvene, čelične, spregnute čelik-beton, betonske, aluminijske) i proizvode; za dimnjake u građevinama; o racionalnoj uporabi energije i toplinskoj zaštiti u zgradama.", freq: 1 },
     { front: "Što je ugovor o građenju i u kojem obliku se sklapa?", back: "Ugovor kojim se izvođač obvezuje prema određenom projektu u ugovorenom roku izgraditi određenu građevinu na određenom zemljištu ili izvesti druge građevinske radove, a naručitelj isplatiti cijenu. Obvezno u pisanom obliku (ZOO). Dio obvezne dokumentacije na gradilištu i pri tehničkom pregledu." },
-    { front: "Obveze izvođača prema naručitelju glede nadzora i odstupanja od projekta (ZOO)", back: "Omogućiti naručitelju stalan nadzor nad radovima i kontrolu količine, kakvoće i sukladnosti ugrađenih proizvoda; za svako odstupanje od projekta/ugovorenih radova imati pisanu suglasnost naručitelja." },
+    { front: "Obveze izvođača prema naručitelju glede nadzora i odstupanja od projekta (ZOO)", exam: true, back: "Omogućiti naručitelju stalan nadzor nad radovima i kontrolu količine, kakvoće i sukladnosti ugrađenih proizvoda; za svako odstupanje od projekta/ugovorenih radova imati pisanu suglasnost naručitelja." },
     { front: "Kako se određuje cijena radova u ugovoru o građenju?", back: "Po jedinici mjere ugovorenih radova (jedinična cijena) ili u ukupnom iznosu za cijelu građevinu (ukupno ugovorena cijena)." },
     { front: "Dijelovi ugovora o građenju", back: "Predmet i cijena; rokovi izvođenja; plaćanje; odgovornost izvoditelja; nadzor; primopredaja radova; jamstva; jamstveni rokovi; nepredviđeni, vantroškovnički radovi i više radnje; ugovorna kazna; ostale odredbe; raskid; viša sila; rješavanje sporova; sastavni dijelovi (projektna dokumentacija); završne odredbe.", freq: 1 },
     { front: "Načini obračuna izvedenih radova", back: "Po stvarno izvedenim količinama, po fazama, paušalno, fiksni mjesečni iznosi." },

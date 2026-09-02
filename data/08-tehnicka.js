@@ -95,6 +95,7 @@ window.APP_DATA.push({
     },
     {
       q: "Što proizvođač sastavlja prije stavljanja na tržište građevnog proizvoda obuhvaćenog harmoniziranom tehničkom specifikacijom?",
+      exam: true,
       options: [
         "Izjavu o svojstvima (prema Uredbi 2024/3110: izjavu o svojstvima i sukladnosti)",
         "Zahtjev za izdavanje uporabne dozvole",
@@ -107,6 +108,7 @@ window.APP_DATA.push({
     },
     {
       q: "Što proizvođač potvrđuje stavljanjem oznake CE na građevni proizvod?",
+      exam: true,
       options: [
         "Da je proizvod proizveden u Europskoj uniji",
         "Da je proizvod najviše kvalitete u svojoj skupini proizvoda",
@@ -131,6 +133,7 @@ window.APP_DATA.push({
     },
     {
       q: "Koju značajnu novost u pogledu informacija o proizvodu uvodi Uredba (EU) 2024/3110?",
+      exam: true,
       options: [
         "Ukida obvezu CE označavanja građevnih proizvoda",
         "Uvodi obvezno nacionalno atestiranje svih proizvoda u svakoj državi članici",
@@ -155,6 +158,7 @@ window.APP_DATA.push({
     },
     {
       q: "Kako se dokazuju svojstva građevnog proizvoda u neusklađenom području (proizvod nije obuhvaćen harmoniziranom normom niti izdanom ETA-om)?",
+      exam: true,
       options: [
         "Proizvod se ne smije ugraditi u građevinu",
         "Slobodnom izjavom uvoznika bez ikakvih ispitivanja",
@@ -179,6 +183,7 @@ window.APP_DATA.push({
     },
     {
       q: "Koje je nacionalno akreditacijsko tijelo u Republici Hrvatskoj i što ono radi?",
+      exam: true,
       options: [
         "Hrvatski zavod za norme — donosi hrvatske norme",
         "Državni zavod za mjeriteljstvo — ovjerava mjerila",
@@ -227,6 +232,7 @@ window.APP_DATA.push({
     },
     {
       q: "Što uređuje Tehnički propis za građevinske konstrukcije?",
+      exam: true,
       options: [
         "Uvjete za upis u imenik ovlaštenih inženjera građevinarstva",
         "Sadržaj prostornih planova za područja gradnje",
@@ -239,6 +245,7 @@ window.APP_DATA.push({
     },
     {
       q: "Primjenom kojih se normi projektiraju građevinske konstrukcije prema Tehničkom propisu za građevinske konstrukcije?",
+      exam: true,
       options: [
         "Hrvatskih normi nizova HRN EN 1990 do HRN EN 1999 (Eurokodovi) s pripadajućim nacionalnim dodacima",
         "Normi niza HRN EN ISO 9001",
@@ -251,6 +258,7 @@ window.APP_DATA.push({
     },
     {
       q: "Što uređuje norma HRN EN 1990 (Eurokod 0)?",
+      exam: true,
       options: [
         "Projektiranje betonskih konstrukcija",
         "Djelovanja vjetra na konstrukcije",
@@ -263,6 +271,7 @@ window.APP_DATA.push({
     },
     {
       q: "Koji Eurokod uređuje projektiranje konstrukcija otpornih na potres?",
+      exam: true,
       options: [
         "HRN EN 1991",
         "HRN EN 1998",
@@ -287,6 +296,7 @@ window.APP_DATA.push({
     },
     {
       q: "Što je betonska konstrukcija prema čl. 28. Tehničkog propisa za građevinske konstrukcije?",
+      exam: true,
       options: [
         "Konstrukcija izvedena od nearmiranog, armiranog ili prednapetog betona, uz materijale i proizvode prema HRN EN 1992-1-1",
         "Isključivo konstrukcija od predgotovljenih betonskih elemenata",
@@ -311,6 +321,7 @@ window.APP_DATA.push({
     },
     {
       q: "Što je spregnuta konstrukcija prema Tehničkom propisu za građevinske konstrukcije (čl. 52.–53.)?",
+      exam: true,
       options: [
         "Konstrukcija od dva različita razreda betona",
         "Konstrukcija s elementima od betona i čelika povezanima posmičnim spojem, projektirana prema HRN EN 1994",
@@ -323,6 +334,7 @@ window.APP_DATA.push({
     },
     {
       q: "Od kojih se materijala izvode drvene konstrukcije prema Tehničkom propisu za građevinske konstrukcije (čl. 63.–65.)?",
+      exam: true,
       options: [
         "Isključivo od punog drva četinjača",
         "Samo od lijepljenog lameliranog drva",
@@ -335,6 +347,7 @@ window.APP_DATA.push({
     },
     {
       q: "Koje vrste ziđa obuhvaćaju zidane konstrukcije prema Tehničkom propisu za građevinske konstrukcije (čl. 76.–77.)?",
+      exam: true,
       options: [
         "Nearmirano, omeđeno, armirano i prednapeto ziđe",
         "Samo nearmirano i armirano ziđe",
@@ -347,6 +360,7 @@ window.APP_DATA.push({
     },
     {
       q: "Na što se primjenjuje Tehnički propis o racionalnoj uporabi energije i toplinskoj zaštiti u zgradama?",
+      exam: true,
       options: [
         "Samo na zgrade javne namjene",
         "Na projektiranje i građenje novih zgrada te rekonstrukciju postojećih zgrada koje se griju na propisanu unutarnju temperaturu",
@@ -371,6 +385,7 @@ window.APP_DATA.push({
     },
     {
       q: "Koji elementi pristupačnosti služe za svladavanje visinskih razlika prema Tehničkom propisu o osiguranju pristupačnosti građevina osobama s invaliditetom?",
+      exam: true,
       options: [
         "Taktilne staze i zvučna signalizacija",
         "Pristupačan parkirališni prostor i pristupačan WC",
@@ -383,6 +398,7 @@ window.APP_DATA.push({
     },
     {
       q: "Za koje građevine postoji obveza primjene elemenata pristupačnosti?",
+      exam: true,
       options: [
         "Osobito za građevine javne i poslovne namjene te višestambene zgrade, prema uvjetima iz propisa",
         "Samo za bolnice i domove zdravlja",
@@ -395,6 +411,7 @@ window.APP_DATA.push({
     },
     {
       q: "Koliko vrijedi energetski certifikat zgrade?",
+      exam: true,
       options: [
         "5 godina",
         "10 godina",
@@ -407,6 +424,7 @@ window.APP_DATA.push({
     },
     {
       q: "Kako se razvrstavaju javne ceste prema Zakonu o cestama?",
+      exam: true,
       options: [
         "Na brze ceste, gradske avenije i poljske putove",
         "Na ceste I., II. i III. reda",
@@ -419,6 +437,7 @@ window.APP_DATA.push({
     },
     {
       q: "Kakav je pravni status javnih cesta?",
+      exam: true,
       options: [
         "Javne ceste su u vlasništvu koncesionara koji njima upravlja",
         "Javne ceste su u suvlasništvu jedinica lokalne samouprave i države",
@@ -431,6 +450,7 @@ window.APP_DATA.push({
     },
     {
       q: "Koji su vodopravni akti prema Zakonu o vodama?",
+      exam: true,
       options: [
         "Vodopravni uvjeti, vodopravne potvrde i vodopravne dozvole",
         "Vodna suglasnost, vodni list i vodna iskaznica",
@@ -445,18 +465,22 @@ window.APP_DATA.push({
   flashcards: [
     {
       front: "Uredba (EU) 2024/3110",
+      exam: true,
       back: "Nova uredba o građevnim proizvodima (donesena 27. 11. 2024., na snazi od 7. 1. 2025.); zamjenjuje Uredbu (EU) br. 305/2011 uz prijelazna razdoblja. Novosti: izjava o svojstvima i sukladnosti, digitalna putovnica proizvoda, okolišna održivost."
     },
     {
       front: "Izjava o svojstvima",
+      exam: true,
       back: "Isprava koju proizvođač sastavlja za građevni proizvod obuhvaćen harmoniziranim tehničkim specifikacijama; njome preuzima odgovornost za objavljena svojstva bitnih značajki. Uvjet za stavljanje oznake CE."
     },
     {
       front: "Oznaka CE na građevnom proizvodu",
+      exam: true,
       back: "Stavlja se na proizvod za koji je sastavljena izjava o svojstvima; označava sukladnost s objavljenim svojstvima i primjenjivim zahtjevima EU zakonodavstva — ne označava podrijetlo ni razinu kvalitete."
     },
     {
       front: "Harmonizirane tehničke specifikacije",
+      exam: true,
       back: "Harmonizirane norme i europski dokumenti za ocjenjivanje (EAD) na temelju kojih se izdaje europska tehnička ocjena (ETA)."
     },
     {
@@ -465,6 +489,7 @@ window.APP_DATA.push({
     },
     {
       front: "Neusklađeno područje građevnih proizvoda",
+      exam: true,
       back: "Proizvodi izvan harmoniziranih specifikacija: uporabljivost se dokazuje prema hrvatskim tehničkim specifikacijama — hrvatskim normama iz tehničkih propisa ili hrvatskom tehničkom ocjenom (Tehnički propis o građevnim proizvodima, NN 35/18+)."
     },
     {
@@ -481,6 +506,7 @@ window.APP_DATA.push({
     },
     {
       front: "Eurokodovi (pregled)",
+      exam: true,
       back: "EN 1990 osnove proračuna; 1991 djelovanja; 1992 beton; 1993 čelik; 1994 spregnute; 1995 drvo; 1996 ziđe; 1997 geotehnika; 1998 potres; 1999 aluminij. Primjenjuju se s nacionalnim dodacima."
     },
     {
@@ -497,6 +523,7 @@ window.APP_DATA.push({
     },
     {
       front: "Zidane konstrukcije — vrste ziđa",
+      exam: true,
       back: "Nearmirano, omeđeno (vertikalnim i horizontalnim serklažima), armirano i prednapeto ziđe; projektiranje prema HRN EN 1996 (Eurokod 6)."
     },
     {
@@ -505,14 +532,17 @@ window.APP_DATA.push({
     },
     {
       front: "Elementi pristupačnosti (NN 12/23)",
+      exam: true,
       back: "Tri skupine: za svladavanje visinskih razlika (rampa, stubište, dizalo, vertikalna podizna platforma, koso podizna sklopiva platforma), za neovisno življenje (pristupačan WC, kupaonica i dr.) i za javni promet."
     },
     {
       front: "Razvrstavanje javnih cesta",
+      exam: true,
       back: "Autoceste, državne ceste, županijske ceste i lokalne ceste. Javna cesta je javno dobro u općoj uporabi u vlasništvu RH i ne može se otuđiti. Nerazvrstanim cestama upravljaju JLS."
     },
     {
       front: "Vodopravni akti i vodne građevine",
+      exam: true,
       back: "Vodopravni akti: vodopravni uvjeti, vodopravne potvrde, vodopravne dozvole. Vodne građevine: regulacijske i zaštitne, melioracijske te komunalne (javna vodoopskrba i javna odvodnja)."
     }
   ]

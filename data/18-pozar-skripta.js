@@ -191,6 +191,7 @@ window.APP_DATA.push({
     },
     {
       q: "Što je požar prema Zakonu o zaštiti od požara?",
+      exam: true,
       options: ["Samopodržavajući proces gorenja koji se nekontrolirano širi u prostoru", "Brza kemijska reakcija tvari s kisikom uz oslobađanje topline", "Vjerojatnost nastanka gorenja u danim procesima", "Kontrolirano izgaranje goriva u ložištu"],
       correct: 0,
       explanation: "Požar je samopodržavajući proces gorenja koji se nekontrolirano širi u prostoru; gorenje je kemijska reakcija, a požarni rizik je vjerojatnost.",
@@ -199,6 +200,7 @@ window.APP_DATA.push({
     },
     {
       q: "Kako se definira gorenje?",
+      exam: true,
       options: ["Nekontrolirano širenje plamena u prostoru", "Doprinos materijala razvoju požara uslijed vlastite razgradnje", "Brza kemijska reakcija tvari s oksidansom (najčešće kisikom) u kojoj nastaju produkti gorenja te se oslobađa toplina, plamen i svjetlost", "Spora oksidacija tvari bez pojave plamena"],
       correct: 2,
       explanation: "Gorenje je brza kemijska reakcija neke tvari s oksidansom, najčešće kisikom iz zraka, uz oslobađanje topline, plamena i svjetlosti.",
@@ -207,6 +209,7 @@ window.APP_DATA.push({
     },
     {
       q: "U čemu je bitna razlika između reakcije na požar i otpornosti na požar?",
+      exam: true,
       options: ["Reakcija se odnosi na konstrukciju, a otpornost na materijal", "Reakcija na požar je svojstvo materijala (goriv/negoriv), a otpornost na požar svojstvo konstrukcije ili elementa da kroz vrijeme zadrži R, E i/ili I", "Oba pojma opisuju isto svojstvo, ali u različitim jedinicama", "Reakcija se dokazuje proračunom, a otpornost samo ispitivanjem"],
       correct: 1,
       explanation: "Reakcija na požar je doprinos materijala razvoju požara (dokazuje se ispitivanjem), dok je otpornost na požar svojstvo konstrukcije/elementa, a ne materijala, da 30, 60, 90 min... ispunjava nosivost, cjelovitost i/ili toplinsku izolaciju.",
@@ -215,6 +218,7 @@ window.APP_DATA.push({
     },
     {
       q: "Što od navedenog NIJE uvjet za ispunjenje temeljnog zahtjeva zaštite od požara pri projektiranju i građenju?",
+      exam: true,
       options: ["Obvezna ugradnja sprinkler sustava u svaku građevinu", "Očuvanje nosivosti konstrukcije tijekom određenog vremena", "Sprječavanje širenja vatre na susjedne građevine", "Omogućavanje zaštite spasilačkog tima"],
       correct: 0,
       explanation: "Temeljni zahtjev traži očuvanje nosivosti, sprječavanje širenja vatre i dima unutar građevine i na susjedne građevine, mogućnost napuštanja/spašavanja korisnika i zaštitu spasilačkog tima. Sprinkler nije opći uvjet.",
@@ -223,6 +227,7 @@ window.APP_DATA.push({
     },
     {
       q: "Uz koje se uvjete pri rekonstrukciji građevine upisane u Registar kulturnih dobara može odstupiti od temeljnog zahtjeva zaštite od požara?",
+      exam: true,
       options: ["Bez posebnih uvjeta, jer se kulturna dobra izuzimaju iz propisa", "Samo uz suglasnost konzervatorskog odjela", "Uz suglasnost Ministarstva i prethodno pribavljeno mišljenje MUP-a, ako bi se inače narušila bitna spomenička svojstva", "Uz odluku jedinice lokalne samouprave"],
       correct: 2,
       explanation: "Odstupanje je moguće uz suglasnost Ministarstva i prethodno pribavljeno mišljenje MUP-a, ako bi ispunjenje zahtjeva narušilo spomenička svojstva; isto vrijedi i za rekonstrukcije radi pristupačnosti osoba smanjene pokretljivosti.",
@@ -230,6 +235,7 @@ window.APP_DATA.push({
     },
     {
       q: "Kada se smatra da je temeljni zahtjev zaštite od požara ispunjen?",
+      exam: true,
       options: ["Kada je građevina osigurana kod osiguravajućeg društva", "Kada građevina udovoljava minimalnim tehničkim zahtjevima iz posebnih propisa, dokumenata prostornog uređenja i posebnih uvjeta ZOP-a, a može se dokazivati i priznatim metodama proračuna i modelima", "Isključivo kada je izrađen elaborat zaštite od požara", "Kada vatrogasna postrojba izda potvrdu o pregledu"],
       correct: 1,
       explanation: "Temeljni zahtjev je ispunjen ako građevina udovoljava minimalnim tehničkim zahtjevima ZOP utvrđenim posebnim propisima, odlukama, procjenama utjecaja na okoliš, dokumentima prostornog uređenja i posebnim uvjetima; dokazuje se i priznatim metodama proračuna.",
@@ -238,6 +244,7 @@ window.APP_DATA.push({
     },
     {
       q: "Što glede zaštite od požara mora sadržavati prva mapa glavnog projekta?",
+      exam: true,
       options: ["Prikaz svih primijenjenih mjera zaštite od požara", "Cjeloviti elaborat zaštite od požara", "Procjenu ugroženosti od požara", "Plan zaštite od požara jedinice lokalne samouprave"],
       correct: 0,
       explanation: "Elaborat ZOP se ne prilaže uz zahtjev za građevinsku dozvolu, već prva mapa glavnog projekta mora sadržavati prikaz svih primijenjenih mjera zaštite od požara.",
@@ -246,6 +253,7 @@ window.APP_DATA.push({
     },
     {
       q: "Što se, među ostalim, utvrđuje Zakonom o zapaljivim tekućinama i plinovima?",
+      exam: true,
       options: ["Uvjeti za proizvodnju i promet oružja", "Kategorije ugroženosti građevina od požara", "Uvjeti za izgradnju građevina i postrojenja za držanje, skladištenje i promet zapaljivih tekućina i plinova", "Uvjeti za vatrogasne pristupe"],
       correct: 2,
       explanation: "Zakon utvrđuje uvjete za izgradnju građevina i postrojenja za držanje, skladištenje i promet zapaljivih tekućina i plinova, uvjete držanja/skladištenja/prometa, uvjete za obavljanje poslova skladištenja te načela mjera ZOP-a i eksplozija i nadzor.",
@@ -254,6 +262,7 @@ window.APP_DATA.push({
     },
     {
       q: "Koji je tlak pare pri 50 °C granični kriterij za zapaljive tekućine?",
+      exam: true,
       options: ["Manji od 100 kPa (1 bar)", "Manji od 300 kPa (3 bara)", "Veći od 300 kPa (3 bara)", "Manji od 1000 kPa (10 bara)"],
       correct: 1,
       explanation: "Zapaljive tekućine su tvari s penetracijom većom od 300 jedinica (1/10 mm) prema normi za bitumen i tlakom pare na 50 °C manjim od 300 kPa (3 bara).",
@@ -262,6 +271,7 @@ window.APP_DATA.push({
     },
     {
       q: "Koje tekućine pripadaju podskupini I.A zapaljivih tekućina?",
+      exam: true,
       options: ["Plamište od 23 °C do 38 °C", "Plamište niže od 23 °C, a vrelište iznad 38 °C", "Plamište niže od 23 °C, a vrelište ispod 38 °C", "Plamište od 38 °C do 60 °C"],
       correct: 2,
       explanation: "I.A: plamište < 23 °C i vrelište < 38 °C; I.B: plamište < 23 °C i vrelište > 38 °C; I.C: plamište 23–38 °C.",
@@ -270,6 +280,7 @@ window.APP_DATA.push({
     },
     {
       q: "Koji raspon temperature plamišta obuhvaća II. skupina zapaljivih tekućina?",
+      exam: true,
       options: ["Do 23 °C", "Od 38 °C do 60 °C", "Od 60 °C do 93 °C", "Od 93 °C do 100 °C"],
       correct: 1,
       explanation: "II. skupina su tekućine s temperaturom plamišta od 38 °C do 60 °C.",
@@ -278,6 +289,7 @@ window.APP_DATA.push({
     },
     {
       q: "Koje tekućine pripadaju podskupini III.B zapaljivih tekućina?",
+      exam: true,
       options: ["Plamište od 38 °C do 60 °C", "Plamište od 60 °C do 93 °C", "Plamište iznad 100 °C", "Plamište više od 93 °C, ali ne više od 100 °C"],
       correct: 3,
       explanation: "III. skupina obuhvaća plamište 60–100 °C: III.A od 60 °C do 93 °C, III.B više od 93 °C do 100 °C.",
@@ -286,6 +298,7 @@ window.APP_DATA.push({
     },
     {
       q: "Što je sigurnosna udaljenost prema Zakonu o zapaljivim tekućinama i plinovima?",
+      exam: true,
       options: ["Razdaljina u građevini ili oko nje preko koje se u slučaju požara ili eksplozije ne očekuje ugrožavanje susjednih dijelova građevine, drugih građevina i okoliša", "Udaljenost između dva vanjska hidranta", "Najmanja udaljenost vatrogasnog vozila od vanjskog zida", "Duljina zajedničkog dijela evakuacijskog puta"],
       correct: 0,
       explanation: "Sigurnosna udaljenost određuje se ovisno o vrsti, količini i načinu uporabe zapaljivih tekućina/plinova, tipu građevine i mjerama zaštite, na temelju propisa, hrvatskih normi ili pravila tehničke prakse.",
@@ -294,6 +307,7 @@ window.APP_DATA.push({
     },
     {
       q: "Tko izdaje odobrenje za skladištenje zapaljivih tekućina i plinova kada se prema propisima o gradnji ne izdaje lokacijska dozvola ni drugi akt o pravu građenja?",
+      exam: true,
       options: ["Ministarstvo graditeljstva", "Nadležna policijska uprava", "Jedinica lokalne samouprave", "Hrvatska vatrogasna zajednica"],
       correct: 1,
       explanation: "Nadležna policijska uprava izdaje odobrenje kad utvrdi da su ispunjeni uvjeti sigurnosnih udaljenosti i provedene mjere ZOP-a i eksplozija, na temelju uvida u dokumentaciju, dokaze kakvoće, ispitivanja i uvida na licu mjesta.",
@@ -309,6 +323,7 @@ window.APP_DATA.push({
     },
     {
       q: "Koliko iznosi srednje specifično požarno opterećenje?",
+      exam: true,
       options: ["Manje od 1 GJ/m²", "Veće od 2 GJ/m²", "Od 0,5 do 1 GJ/m²", "Od 1 do 2 GJ/m²"],
       correct: 3,
       explanation: "Specifično požarno opterećenje dijeli se na nisko (< 1 GJ/m²), srednje (1–2 GJ/m²) i visoko (> 2 GJ/m²).",
@@ -317,6 +332,7 @@ window.APP_DATA.push({
     },
     {
       q: "U kojim se jedinicama iskazuje ukupno, a u kojima specifično požarno opterećenje?",
+      exam: true,
       options: ["Ukupno u MJ, specifično u MJ/m²", "Ukupno u kW, specifično u kW/m²", "Ukupno u MJ/m², specifično u MJ", "Oboje u MJ/m³"],
       correct: 0,
       explanation: "Ukupno požarno opterećenje je ukupna toplina svega gorivog materijala u prostoru (MJ), a specifično je prosječni iznos po jedinici površine (MJ/m²). Obuhvaća pokretno (sadržaj) i stalno (konstrukcija) opterećenje.",
@@ -325,6 +341,7 @@ window.APP_DATA.push({
     },
     {
       q: "Što označava slovo M u oznaci REI-M 90 požarnog zida?",
+      exam: true,
       options: ["Materijal razreda A1", "Maksimalno vrijeme evakuacije", "Očuvanje svojstava i pri mehaničkim udarima zbog padanja okolnih konstrukcija", "Minimalnu debljinu zida"],
       correct: 2,
       explanation: "Požarni zid mora tražena REI svojstva osigurati i u slučaju mehaničkih udara (M) zbog eventualnog padanja okolnih konstrukcija; min. otpornost je REI-M 90 uz negorive proizvode (min. A2).",
@@ -332,6 +349,7 @@ window.APP_DATA.push({
     },
     {
       q: "U kojem se slučaju obvezno mora graditi požarni zid?",
+      exam: true,
       options: ["Kod svih građevina dužih od 30 m", "Kod građevina kod kojih je zabatni zid udaljen manje od 3 m od susjedne građevine", "Kod svih građevina s više od 4 etaže", "Kod građevina s više od 100 korisnika"],
       correct: 1,
       explanation: "Požarni zidovi grade se kad je završni (zabatni) zid udaljen manje od 3 m od susjedne građevine, kod građevina i nizova duljine veće od 60 m, kod građevina različite visine spojenih preko različitih odjeljaka te različite namjene.",
@@ -339,6 +357,7 @@ window.APP_DATA.push({
     },
     {
       q: "Što je dimni odjeljak?",
+      exam: true,
       options: ["Dio građevine u kojem je ugrađen sustav odvodnje dima", "Prostor u kojem je dopušteno pušenje", "Dio evakuacijskog puta sa sustavom nadtlaka", "Dio građevine odijeljen od ostalih dijelova pregradnom konstrukcijom i elementima određene propusnosti dima"],
       correct: 3,
       explanation: "Dimni odjeljak je dio građevine odijeljen konstrukcijom određene propusnosti dima; požarni odjeljak je odijeljen konstrukcijom određene otpornosti na požar.",
@@ -347,6 +366,7 @@ window.APP_DATA.push({
     },
     {
       q: "Koje su značajke zgrade podskupine ZPS1?",
+      exam: true,
       options: ["Slobodnostojeća, dostupna vatrogascima s najmanje 3 strane, do 3 etaže, kota poda zadnje etaže do 7 m, 1 stan/poslovna jedinica do 400 m², do 50 korisnika", "Zgrada u nizu do 3 etaže s 3 stana do 400 m² i do 100 korisnika", "Zgrada do 4 etaže s kotom poda do 11 m i do 300 korisnika", "Zgrada s kotom poda zadnje etaže do 22 m i više od 300 korisnika"],
       correct: 0,
       explanation: "ZPS1: slobodnostojeća, dostupna s najmanje 3 strane, 3 etaže, kota do 7 m, 1 stan ili 1 poslovna jedinica bruto do 400 m², max 50 korisnika. ZPS2 ima 3 stana i 100 korisnika.",
@@ -355,6 +375,7 @@ window.APP_DATA.push({
     },
     {
       q: "Do koje kote poda zadnje etaže i koliko etaža obuhvaća zgrada podskupine ZPS4?",
+      exam: true,
       options: ["3 etaže, do 7 m", "5 etaža, do 15 m", "4 etaže, do 11 m", "Neograničeno, do 22 m"],
       correct: 2,
       explanation: "ZPS4: 4 etaže, kota poda zadnje etaže do 11 m, 1 stan neograničene površine ili više stanova pojedinačne bruto površine do 400 m², max 300 korisnika.",
@@ -363,6 +384,7 @@ window.APP_DATA.push({
     },
     {
       q: "Koje zgrade pripadaju podskupini ZPS5?",
+      exam: true,
       options: ["Sve zgrade s kotom poda zadnje etaže iznad 22 m", "Zgrade do 22 m koje nisu obuhvaćene ZPS1–4, zgrade pretežno s podzemnim etažama, u kojima borave nepokretne osobe ili s prostorima za više od 300 osoba", "Isključivo bolnice i domovi za starije", "Zgrade u nizu s do 3 stana"],
       correct: 1,
       explanation: "ZPS5: zgrade neobuhvaćene ZPS1–4 do 22 m, zgrade s pretežno podzemnim etažama, zgrade u kojima borave nepokretne osobe, osobe smanjene pokretljivosti ili ograničenog kretanja te zgrade s pojedinačnim prostorima za više od 300 osoba. Iznad 22 m su visoke zgrade.",
@@ -371,6 +393,7 @@ window.APP_DATA.push({
     },
     {
       q: "Kako se dokazuje otpornost na požar nosive AB konstrukcije?",
+      exam: true,
       options: ["Proračunom nosivosti i uporabljivosti za predviđena djelovanja u glavnom projektu, u okviru proračuna mehaničke otpornosti i stabilnosti, ili ispitivanjem u ovlaštenom laboratoriju", "Isključivo mjerenjem na gradilištu nakon izvedbe", "Izjavom izvođača o izvedenim radovima", "Uvidom u certifikat cementa"],
       correct: 0,
       explanation: "Otpornost na požar nosivih konstrukcija dokazuje se proračunom u glavnom projektu u okviru mehaničke otpornosti i stabilnosti; može se dokazivati i ispitivanjem u ovlaštenom laboratoriju prema hrvatskim normama.",
@@ -378,6 +401,7 @@ window.APP_DATA.push({
     },
     {
       q: "Koji je najmanji dozvoljeni razred reakcije na požar građevnog proizvoda koji se ugrađuje u građevinu?",
+      exam: true,
       options: ["Razred D", "Razred F", "Razred E", "Razred C"],
       correct: 2,
       explanation: "Sustav euro-razreda ima 7 razreda (A1, A2, B, C, D, E, F); najmanji dozvoljeni razred ugrađenog proizvoda je E, dok F ne ispunjava zahtjeve.",
@@ -386,6 +410,7 @@ window.APP_DATA.push({
     },
     {
       q: "Za koliko se stupnjeva može smanjiti zahtijevana reakcija na požar građevnog proizvoda u unutarnjem prostoru ako je ugrađen sprinkler sustav?",
+      exam: true,
       options: ["Ne može se smanjiti", "Za 1 stupanj", "Za 2 stupnja", "Za 3 stupnja"],
       correct: 1,
       explanation: "Reakcija na požar građevnog proizvoda u unutarnjem prostoru može se smanjiti za 1 stupanj kada je u građevini ugrađen sustav za automatsko gašenje požara (sprinkler).",
@@ -409,6 +434,7 @@ window.APP_DATA.push({
     },
     {
       q: "Koliko unutarnji požarni zid mora biti izveden iznad krovne plohe s gorivim pokrovom?",
+      exam: true,
       options: ["Min. 0,3 m", "Min. 1,0 m", "Nije potrebno izvoditi iznad krova", "Min. 0,5 m"],
       correct: 3,
       explanation: "Unutarnji požarni zidovi grade se min. 0,3 m iznad krovne plohe s negorivim pokrovom (A1 ili A2-s1d0) i min. 0,5 m iznad krova s gorivim pokrovom (E–B). Alternativa je dvostrana konzola širine 0,5 m sa svake strane.",
@@ -430,6 +456,7 @@ window.APP_DATA.push({
     },
     {
       q: "Gdje se ugrađuju zaklopke za zaštitu od požara u ventilacijskim i klimatizacijskim kanalima?",
+      exam: true,
       options: ["Na svakoj etaži u sredini kanala", "Samo na ulazu zraka u strojarnicu", "Na granicama požarnih odjeljaka, odnosno na prodorima kanala kroz požarne zidove", "Na završecima kanala na krovu"],
       correct: 2,
       explanation: "Zaklopke automatski zatvaraju protok zraka pri nastanku požara i ugrađuju se na granicama požarnih odjeljaka, tj. na prodorima ventilacijskih kanala kroz požarne zidove.",
@@ -437,6 +464,7 @@ window.APP_DATA.push({
     },
     {
       q: "Kako se određuje sigurnosna udaljenost između susjednih građevina kad jedna od njih ima požarno opterećenje 1000 MJ/m² ili veće?",
+      exam: true,
       options: ["Fiksno 3 m", "Proračunom prema NFPA 80A", "Prema tablicama Pravilnika", "Fiksno 5 m"],
       correct: 1,
       explanation: "Kod udaljenosti manje od 3 m i malog opterećenja (< 1000 MJ/m²) otpornost zidova i krovova određuje se prema tablicama; ako jedna građevina ima ≥ 1000 MJ/m², udaljenost se određuje proračunom NFPA 80A.",
@@ -445,6 +473,7 @@ window.APP_DATA.push({
     },
     {
       q: "Koliko najmanje evakuacijskih putova mora imati građevina s 500 do 1000 korisnika?",
+      exam: true,
       options: ["1", "2", "4", "3"],
       correct: 3,
       explanation: "Broj evakuacijskih putova: min. 2 za manje od 500 korisnika, min. 3 za 500–1000 korisnika, min. 4 za više od 1000 korisnika; vode u različitim smjerovima i ne završavaju u istom odjeljku.",
@@ -453,6 +482,7 @@ window.APP_DATA.push({
     },
     {
       q: "Pod kojim uvjetima prodajno-uslužni prostor iznimno može imati samo jedan evakuacijski put?",
+      exam: true,
       options: ["Manje od 50 korisnika, površina manja od 280 m², požarno opterećenje manje od 1000 MJ/m² i zajednički dio puta kraći od 23 m (30 m sa sustavom dojave i gašenja)", "Manje od 100 korisnika i površina do 400 m²", "Ako je ugrađena vatrodojava, bez ograničenja površine", "Ako se nalazi u prizemlju"],
       correct: 0,
       explanation: "Jedan evakuacijski put dopušten je samo za prodajno-uslužne prostore s manje od 50 korisnika, površine < 280 m², opterećenja < 1000 MJ/m² i zajedničkim dijelom puta < 23 m, odnosno < 30 m s automatskom dojavom i gašenjem.",
@@ -467,6 +497,7 @@ window.APP_DATA.push({
     },
     {
       q: "Kolika je najveća duljina zajedničkog dijela evakuacijskog puta u građevini bez sustava automatske dojave i gašenja požara?",
+      exam: true,
       options: ["15 m", "23 m", "30 m", "40 m"],
       correct: 1,
       explanation: "Zajednički dio (od najudaljenije točke do mjesta izbora 2 smjera): max 23 m bez sustava, 30 m sa sustavom; u podzemnim garažama i industrijskim građevinama max 15 m.",
@@ -481,6 +512,7 @@ window.APP_DATA.push({
     },
     {
       q: "Kolika mora biti najmanja svijetla širina vrata na evakuacijskom putu?",
+      exam: true,
       options: ["0,90 m, odnosno 0,80 m u prostorima s manje od 50 osoba", "1,10 m u svim slučajevima", "0,70 m", "1,25 m u visokim zgradama"],
       correct: 0,
       explanation: "Svijetla širina vrata na evakuacijskom putu min. 0,90 m, a u prostorima gdje se okuplja manje od 50 osoba min. 0,80 m. Vrata (osim stambenih i < 50 osoba) imaju protupanik okove i otvaraju se u smjeru izlaza.",
@@ -488,6 +520,7 @@ window.APP_DATA.push({
     },
     {
       q: "U kojim se slučajevima iznimno može odstupiti od uvjeta za vatrogasne pristupe?",
+      exam: true,
       options: ["Kod svih stambenih zgrada do 3 etaže", "Kod građevina sa sprinkler sustavom bez dodatnih uvjeta", "Kod građevina unutar zaštićenih kulturnih dobara i građevina izvan građevinskog područja bez javnih prometnica, uz dodatne mjere i pozitivno mišljenje nadležne vatrogasne postrojbe", "Kod građevina javne namjene"],
       correct: 2,
       explanation: "Odstupanje je moguće samo iznimno kod građenja/rekonstrukcije unutar zaštićenih kulturnih dobara te građevina izvan građevinskog područja (planinarski domovi i sl.), uz dodatne mjere (sprinkler, 2 sigurna puta) i mišljenje vatrogasne postrojbe.",
@@ -496,6 +529,7 @@ window.APP_DATA.push({
     },
     {
       q: "Koliki osovinski pritisak mora podnijeti vatrogasni pristup?",
+      exam: true,
       options: ["50 kN", "150 kN", "200 kN", "100 kN"],
       correct: 3,
       explanation: "Nosivost vatrogasnog pristupa mora biti takva da podnese osovinski pritisak od 100 kN.",
@@ -503,6 +537,7 @@ window.APP_DATA.push({
     },
     {
       q: "Kod kojih građevina vatrogasni pristup mora biti osiguran najmanje s 2 (duže) strane?",
+      exam: true,
       options: ["Kod stambenih građevina s više od 4 kata, bolnica, hotela, škola, industrijskih građevina i prostora s više od 100 osoba", "Kod prizemnih i jednokatnih stambenih građevina", "Kod skladišta većih od 6000 m² i silosa", "Kod svih građevina bez iznimke"],
       correct: 0,
       explanation: "S 2 strane: javni skupovi, odgoj i obrazovanje, bolnice, hoteli, trgovački, industrijski i visoki objekti, jednostrano orijentirani stanovi, stambene > 4 kata i prostori s > 100 osoba. S 1 strane niska stambena; s 3 strane skladišta > 6000 m², silosi i visokoregalna skladišta.",
@@ -510,6 +545,7 @@ window.APP_DATA.push({
     },
     {
       q: "Kod kojih građevina vatrogasni pristup ne mora biti osiguran?",
+      exam: true,
       options: ["Kod svih građevina do 3 etaže", "Kod građevina sa sprinklerom bez obzira na visinu", "Kod građevina kod kojih visina poda najviše etaže za boravak ljudi nije veća od 4 m, uz udaljenost bilo koje točke građevine od vatrogasnog prilaza do 100 m", "Kod građevina s 2 evakuacijska puta bez obzira na visinu"],
       correct: 2,
       explanation: "VP ne mora biti osiguran ako pod najviše etaže nije viši od 4 m; kod rekonstrukcije do 8 m uz 2 puta za izlaženje iz svake prostorije, odnosno do 12 m uz 2 puta i sprinkler — a udaljenost od vatrogasnog prilaza ne smije prelaziti 100 m.",
@@ -517,6 +553,7 @@ window.APP_DATA.push({
     },
     {
       q: "Koliku najmanju otpornost na požar mora imati nosiva konstrukcija ugostiteljskog objekta višeg od 3 kata koji nije visoki objekt?",
+      exam: true,
       options: ["30 min", "90 min", "60 min", "120 min"],
       correct: 2,
       explanation: "UO do 3 kata: nosiva konstrukcija min. 30 min; UO viši od 3 kata (nije visoki objekt): min. 60 min. Visoki UO tretiraju se prema propisima za visoke objekte.",
@@ -525,6 +562,7 @@ window.APP_DATA.push({
     },
     {
       q: "Kolika je najveća veličina požarnog sektora u ugostiteljskom objektu s više od 3 kata (koji nije visoki objekt)?",
+      exam: true,
       options: ["1500 m², najviše 2 kata, dulja strana do 60 m", "1000 m², najviše 1 kat", "3000 m², najviše 3 kata", "6000 m², bez ograničenja katova"],
       correct: 0,
       explanation: "Požarni sektor u UO s više od 3 kata: max 1500 m², može obuhvaćati max 2 kata, dulja strana max 60 m; vrata na granici mogu biti do 30 min manje otpornosti (min. 30 min).",
@@ -546,6 +584,7 @@ window.APP_DATA.push({
     },
     {
       q: "Kako u pravilu mora biti izgrađena hidrantska mreža za gašenje požara?",
+      exam: true,
       options: ["Kao suha hidrantska mreža", "Kao kombinirana mreža", "Prema izboru investitora", "Kao mokra hidrantska mreža, a suha samo iznimno uz odobrenje tijela nadležnog za ZOP"],
       correct: 3,
       explanation: "HM u pravilu mora biti mokra (stalno ispunjena vodom pod tlakom do ventila na svakom hidrantu); iznimno zbog smrzavanja ili posebnosti procesa/građevine može biti suha po odobrenju nadležnog tijela za ZOP (MUP/PU).",
@@ -568,6 +607,7 @@ window.APP_DATA.push({
     },
     {
       q: "Koliki najveći statički tlak smije biti u vanjskoj hidrantskoj mreži za gašenje požara?",
+      exam: true,
       options: ["0,25 MPa", "1,2 MPa", "1,6 MPa", "2,4 MPa"],
       correct: 1,
       explanation: "Statički tlak u VHM max 1,2 MPa; kod ispitnog tlaka 1,6 MPa ne smije propuštati, kod 2,4 MPa ne smije puknuti; najmanji izlazni tlak na hidrantu 0,25 MPa; naselja min. 600 l/min.",
@@ -575,6 +615,7 @@ window.APP_DATA.push({
     },
     {
       q: "Koje se građevine izuzimaju od obveze zaštite hidrantskom mrežom?",
+      exam: true,
       options: ["Sve stambene zgrade do 400 m²", "Građevine sa sprinkler sustavom", "Sve građevine skupine 1", "Prostori u kojima bi voda izazvala eksploziju ili požar te požarni sektori otpornosti 90 min, tlocrta manjeg od 100 m² i specifičnog opterećenja manjeg od 100 MJ/m²"],
       correct: 3,
       explanation: "Odredbe se ne odnose na prostore gdje voda može izazvati eksploziju, zapaljivi plin ili požar, ni na građevine izvedene kao požarni sektori min. 90 min s tlocrtom < 100 m² i opterećenjem < 100 MJ/m².",
@@ -582,6 +623,7 @@ window.APP_DATA.push({
     },
     {
       q: "Kolika je površina požarnog sektora srednjeg skladišta?",
+      exam: true,
       options: ["Do 1000 m²", "Od 3000 do 6000 m²", "Iznad 6000 m²", "Od 1000 do 3000 m²"],
       correct: 3,
       explanation: "Skladišta prema površini požarnog sektora: mala do 1000 m², srednja 1000–3000 m², velika 3000–6000 m² i skladišta iznad 6000 m² (samo samostojeća, VP s 3 strane).",
@@ -590,6 +632,7 @@ window.APP_DATA.push({
     },
     {
       q: "Kojim požarnim zidom mora biti odvojen prostor skladišta smješten u objektu druge namjene?",
+      exam: true,
       options: ["Požarnim zidom min. otpornosti 90 min", "Zidom min. otpornosti 30 min", "Zidom min. otpornosti 60 min", "Nije potreban požarni zid ako postoji sprinkler"],
       correct: 0,
       explanation: "Skladište mora biti zaseban požarni sektor, a u objektu druge namjene odvojeno požarnim zidom min. otpornosti 90 min; obuhvaća max 1 etažu (iznimno 2, ukupno do 6000 m²).",
@@ -634,6 +677,7 @@ window.APP_DATA.push({
     },
     {
       q: "Što od navedenog spada u opći dio tekstualnog dijela elaborata zaštite od požara?",
+      exam: true,
       options: ["Posebni uvjeti zaštite od požara", "Značajke susjednih građevina", "Mjere zaštite od požara kod građenja", "Podaci o naručitelju, o osobama koje su izradile elaborat, o građevini, naslov, datum, ovjera i broj ovlaštenja"],
       correct: 3,
       explanation: "Opći dio sadrži podatke o naručitelju, izrađivačima, građevini, naslov, mjesto i datum, ovjeru, broj i datum ovlaštenja, rješenje o imenovanju i sadržaj; stručni dio sadrži posebne uvjete ZOP, opis građevine, zahtjeve i ograničenja za projektiranje.",
@@ -698,52 +742,52 @@ window.APP_DATA.push({
   ],
   flashcards: [
     { front: "Čime se uređuje sustav zaštite od požara i tko provodi nadzor?", back: "Zakon o zaštiti od požara (NN 92/10) uređuje sustav ZOP (planiranje, propisivanje mjera, ustrojavanje subjekata, provođenje mjera, financiranje, osposobljavanje i ovlašćivanje). Upravni nadzor provodi MUP, inspekcijski nadzor inspektori MUP-a.", freq: 2 },
-    { front: "Što je požar?", back: "Samopodržavajući proces gorenja koji se nekontrolirano širi u prostoru (Zakon o ZOP, NN 92/10).", freq: 2 },
-    { front: "Što je gorenje?", back: "Brza kemijska reakcija neke tvari s oksidansom (najčešće kisikom iz zraka) u kojoj nastaju produkti gorenja te se oslobađa toplina, plamen i svjetlost.", freq: 2 },
-    { front: "Objasni razliku između otpornosti i reakcije na požar.", back: "Reakcija na požar = svojstvo materijala da doprinese razvoju požara (goriv/negoriv), dokazuje se ispitivanjem. Otpornost na požar = svojstvo konstrukcije ili elementa (ne materijala) da kroz određeno vrijeme (30, 60, 90 min…) zadrži nosivost R, cjelovitost E i/ili toplinsku izolaciju I.", freq: 2 },
-    { front: "Što mora biti zadovoljeno da bi se ispunio temeljni zahtjev zaštite od požara?", back: "U slučaju požara: očuvati nosivost konstrukcije tijekom određenog vremena; spriječiti širenje vatre i dima unutar građevine; spriječiti širenje vatre na susjedne građevine; omogućiti korisnicima napuštanje ili spašavanje; omogućiti zaštitu spasilačkog tima.", freq: 2 },
-    { front: "Kako se dokazuje temeljni zahtjev zaštite od požara?", back: "Smatra se ispunjenim ako građevina udovoljava minimalnim tehničkim zahtjevima ZOP iz posebnih propisa i odluka, procjena utjecaja na okoliš, dokumenata prostornog uređenja i posebnih uvjeta ZOP; može se dokazivati i priznatim metodama proračuna i modelima.", freq: 1 },
-    { front: "Tko izdaje posebne uvjete zaštite od požara i tko ih traži?", back: "Nadležno tijelo MUP-a (područni ured civilne zaštite) u postupku izdavanja posebnih uvjeta i uvjeta priključenja za idejni/glavni projekt; traži ih projektant putem upravnog tijela nadležnog za lokacijsku odnosno građevinsku dozvolu." },
-    { front: "Elaborat zaštite od požara — kome služi, prilaže li se uz zahtjev za građevinsku dozvolu?", back: "Podloga za izradu glavnog projekta; NE prilaže se uz zahtjev za GD, već prva mapa GP sadrži prikaz svih primijenjenih mjera ZOP. Izrađuje ga ovlaštena osoba; MUP ga može posebno tražiti u posebnim uvjetima i tada ide s GP na potvrdu u MUP.", freq: 2 },
-    { front: "Što utvrđuje Zakon o zapaljivim tekućinama i plinovima?", back: "Uvjete za izgradnju građevina i postrojenja za držanje, skladištenje i promet zapaljivih tekućina i plinova; uvjete držanja, skladištenja i prometa; uvjete za obavljanje poslova skladištenja; načela mjera zaštite od požara i eksplozija i provedbu nadzora (NN 108/95, 56/10, 144/22).", freq: 1 },
-    { front: "Definiraj zapaljive tekućine i njihovu podjelu prema plamištu.", back: "Tekućine s penetracijom > 300 jedinica (1/10 mm) i tlakom pare na 50 °C < 300 kPa (3 bara). Upaljive (lako zapaljive): plamište ≤ 38 °C (benzin); gorive: plamište > 38 °C (kerozin).", freq: 2 },
-    { front: "Držanje vs. skladištenje zapaljivih tekućina i plinova — granice?", back: "Držanje: manje od 2000 l gorivih tekućina, 20 l lako zapaljivih tekućina i 30 kg zapaljivih plinova. Skladištenje: trajno ili povremeno smještanje u posude/spremnike iznad tih količina." },
-    { front: "Skupine zapaljivih tekućina prema plamištu (I.A, I.B, I.C, II, III.A, III.B)?", back: "I.A: plamište < 23 °C, vrelište < 38 °C; I.B: plamište < 23 °C, vrelište > 38 °C; I.C: plamište 23–38 °C. II: 38–60 °C. III.A: 60–93 °C; III.B: > 93 do 100 °C.", freq: 1 },
-    { front: "Što je sigurnosna udaljenost?", back: "Razdaljina u građevini ili oko nje preko koje se u slučaju požara ili eksplozije (ovisno o vrsti, količini i uporabi zapaljivih tvari, tipu građevine i mjerama zaštite) ne očekuje ugrožavanje susjednih dijelova građevine, drugih građevina i okoliša; određuje se prema propisima, HRN ili pravilima tehničke prakse.", freq: 1 },
+    { front: "Što je požar?", exam: true, back: "Samopodržavajući proces gorenja koji se nekontrolirano širi u prostoru (Zakon o ZOP, NN 92/10).", freq: 2 },
+    { front: "Što je gorenje?", exam: true, back: "Brza kemijska reakcija neke tvari s oksidansom (najčešće kisikom iz zraka) u kojoj nastaju produkti gorenja te se oslobađa toplina, plamen i svjetlost.", freq: 2 },
+    { front: "Objasni razliku između otpornosti i reakcije na požar.", exam: true, back: "Reakcija na požar = svojstvo materijala da doprinese razvoju požara (goriv/negoriv), dokazuje se ispitivanjem. Otpornost na požar = svojstvo konstrukcije ili elementa (ne materijala) da kroz određeno vrijeme (30, 60, 90 min…) zadrži nosivost R, cjelovitost E i/ili toplinsku izolaciju I.", freq: 2 },
+    { front: "Što mora biti zadovoljeno da bi se ispunio temeljni zahtjev zaštite od požara?", exam: true, back: "U slučaju požara: očuvati nosivost konstrukcije tijekom određenog vremena; spriječiti širenje vatre i dima unutar građevine; spriječiti širenje vatre na susjedne građevine; omogućiti korisnicima napuštanje ili spašavanje; omogućiti zaštitu spasilačkog tima.", freq: 2 },
+    { front: "Kako se dokazuje temeljni zahtjev zaštite od požara?", exam: true, back: "Smatra se ispunjenim ako građevina udovoljava minimalnim tehničkim zahtjevima ZOP iz posebnih propisa i odluka, procjena utjecaja na okoliš, dokumenata prostornog uređenja i posebnih uvjeta ZOP; može se dokazivati i priznatim metodama proračuna i modelima.", freq: 1 },
+    { front: "Tko izdaje posebne uvjete zaštite od požara i tko ih traži?", exam: true, back: "Nadležno tijelo MUP-a (područni ured civilne zaštite) u postupku izdavanja posebnih uvjeta i uvjeta priključenja za idejni/glavni projekt; traži ih projektant putem upravnog tijela nadležnog za lokacijsku odnosno građevinsku dozvolu." },
+    { front: "Elaborat zaštite od požara — kome služi, prilaže li se uz zahtjev za građevinsku dozvolu?", exam: true, back: "Podloga za izradu glavnog projekta; NE prilaže se uz zahtjev za GD, već prva mapa GP sadrži prikaz svih primijenjenih mjera ZOP. Izrađuje ga ovlaštena osoba; MUP ga može posebno tražiti u posebnim uvjetima i tada ide s GP na potvrdu u MUP.", freq: 2 },
+    { front: "Što utvrđuje Zakon o zapaljivim tekućinama i plinovima?", exam: true, back: "Uvjete za izgradnju građevina i postrojenja za držanje, skladištenje i promet zapaljivih tekućina i plinova; uvjete držanja, skladištenja i prometa; uvjete za obavljanje poslova skladištenja; načela mjera zaštite od požara i eksplozija i provedbu nadzora (NN 108/95, 56/10, 144/22).", freq: 1 },
+    { front: "Definiraj zapaljive tekućine i njihovu podjelu prema plamištu.", exam: true, back: "Tekućine s penetracijom > 300 jedinica (1/10 mm) i tlakom pare na 50 °C < 300 kPa (3 bara). Upaljive (lako zapaljive): plamište ≤ 38 °C (benzin); gorive: plamište > 38 °C (kerozin).", freq: 2 },
+    { front: "Držanje vs. skladištenje zapaljivih tekućina i plinova — granice?", exam: true, back: "Držanje: manje od 2000 l gorivih tekućina, 20 l lako zapaljivih tekućina i 30 kg zapaljivih plinova. Skladištenje: trajno ili povremeno smještanje u posude/spremnike iznad tih količina." },
+    { front: "Skupine zapaljivih tekućina prema plamištu (I.A, I.B, I.C, II, III.A, III.B)?", exam: true, back: "I.A: plamište < 23 °C, vrelište < 38 °C; I.B: plamište < 23 °C, vrelište > 38 °C; I.C: plamište 23–38 °C. II: 38–60 °C. III.A: 60–93 °C; III.B: > 93 do 100 °C.", freq: 1 },
+    { front: "Što je sigurnosna udaljenost?", exam: true, back: "Razdaljina u građevini ili oko nje preko koje se u slučaju požara ili eksplozije (ovisno o vrsti, količini i uporabi zapaljivih tvari, tipu građevine i mjerama zaštite) ne očekuje ugrožavanje susjednih dijelova građevine, drugih građevina i okoliša; određuje se prema propisima, HRN ili pravilima tehničke prakse.", freq: 1 },
     { front: "Što je zona opasnosti i koje zone postoje?", back: "Ugroženi prostor gdje je prisutna ili se može očekivati zapaljiva smjesa para/plinova. Zona 0: smjesa stalno i trajno (unutrašnjost nadzemnih spremnika); zona 1: povremeno (cilindar R × 3 m oko otvora za odzračivanje, sabirni prostor do 0,8 m); zona 2: incidentno (cilindar 2R). Prašine: zone 2.0, 2.1, 2.2.", freq: 1 },
     { front: "Dužnosti osobe koja skladišti eksplozivne tvari?", back: "Izraditi elaborat o skladištenju (vrste, količine, način, mjere zaštite), plan intervencije u zaštiti okoliša, provjeravati električne uređaje, donijeti pravilnik o sigurnom rukovanju, izraditi program i održavati vježbe. Mjesto eksplozije = punjenje + krug 15 m (NN 26/09)." },
-    { front: "Požarno opterećenje — ukupno i specifično?", back: "Količina toplinske energije koja se može razviti u prostoru (pokretno = sadržaj + stalno = konstrukcija). Ukupno u MJ; specifično u MJ/m² po jedinici površine: nisko < 1 GJ/m², srednje 1–2 GJ/m², visoko > 2 GJ/m².", freq: 2 },
-    { front: "Požarni zid — definicija i tumačenje oznake REI-M 90.", back: "Pregradna konstrukcija min. REI-M 90 od negorivih proizvoda (min. A2, u zidu A2-s1d0), presijeca građevinu od temelja do krova s krovnim završetkom koji onemogućuje prijenos požara. R nosivost, E cjelovitost, I toplinska izolacija, M očuvanje svojstava pri mehaničkim udarima, 90 = minute." },
-    { front: "Kada se moraju graditi požarni zidovi?", back: "Zabatni zid udaljen manje od 3 m od susjedne građevine; građevine velike duljine i nizovi duži od 60 m (osim gdje funkcionalno nemoguće); građevine različite visine spojene preko različitih odjeljaka; građevine različite namjene." },
-    { front: "Što je požarni, a što dimni odjeljak?", back: "Požarni odjeljak: dio građevine odijeljen pregradnom konstrukcijom i elementima određene otpornosti na požar. Dimni odjeljak: dio građevine odijeljen konstrukcijom određene propusnosti dima.", freq: 2 },
+    { front: "Požarno opterećenje — ukupno i specifično?", exam: true, back: "Količina toplinske energije koja se može razviti u prostoru (pokretno = sadržaj + stalno = konstrukcija). Ukupno u MJ; specifično u MJ/m² po jedinici površine: nisko < 1 GJ/m², srednje 1–2 GJ/m², visoko > 2 GJ/m².", freq: 2 },
+    { front: "Požarni zid — definicija i tumačenje oznake REI-M 90.", exam: true, back: "Pregradna konstrukcija min. REI-M 90 od negorivih proizvoda (min. A2, u zidu A2-s1d0), presijeca građevinu od temelja do krova s krovnim završetkom koji onemogućuje prijenos požara. R nosivost, E cjelovitost, I toplinska izolacija, M očuvanje svojstava pri mehaničkim udarima, 90 = minute." },
+    { front: "Kada se moraju graditi požarni zidovi?", exam: true, back: "Zabatni zid udaljen manje od 3 m od susjedne građevine; građevine velike duljine i nizovi duži od 60 m (osim gdje funkcionalno nemoguće); građevine različite visine spojene preko različitih odjeljaka; građevine različite namjene." },
+    { front: "Što je požarni, a što dimni odjeljak?", exam: true, back: "Požarni odjeljak: dio građevine odijeljen pregradnom konstrukcijom i elementima određene otpornosti na požar. Dimni odjeljak: dio građevine odijeljen konstrukcijom određene propusnosti dima.", freq: 2 },
     { front: "Što su visoke zgrade?", back: "Zgrade s kotom poda najviše etaže za boravak ljudi iznad 22 m mjereno od kote terena s kojeg je moguća intervencija vatrogasaca odnosno evakuacija auto-mehaničkim ljestvama, teleskopskom košarom ili zglobnom platformom.", freq: 2 },
-    { front: "Podskupine zgrada ZPS1–ZPS5 prema zahtjevnosti ZOP?", back: "ZPS1: slobodnostojeća, dostupna s 3 strane, 3 etaže, do 7 m, 1 stan/jedinica do 400 m², 50 korisnika. ZPS2: slobodnostojeće i u nizu, 3 etaže, do 7 m, 3 stana do 400 m², 100 korisnika. ZPS3: ostale do 3 etaže/7 m, 300 korisnika. ZPS4: 4 etaže, do 11 m, 300 korisnika. ZPS5: ostale do 22 m, nepokretne osobe, podzemne, > 300 osoba. Visoke: > 22 m.", freq: 2 },
-    { front: "Razredi reakcije na požar građevnih proizvoda?", back: "7 razreda: A1, A2 (bez doprinosa), B (vrlo ograničen), C (ograničen), D (neograničen), E (vrlo visok), F (ne ispunjava). Dim s1/s2/s3, kapljice d0/d1/d2. Podovi: indeks fl, samo s1/s2; obloge cijevi: indeks L. Najmanji dozvoljeni razred = E. Uz sprinkler smanjenje za 1 stupanj.", freq: 2 },
+    { front: "Podskupine zgrada ZPS1–ZPS5 prema zahtjevnosti ZOP?", exam: true, back: "ZPS1: slobodnostojeća, dostupna s 3 strane, 3 etaže, do 7 m, 1 stan/jedinica do 400 m², 50 korisnika. ZPS2: slobodnostojeće i u nizu, 3 etaže, do 7 m, 3 stana do 400 m², 100 korisnika. ZPS3: ostale do 3 etaže/7 m, 300 korisnika. ZPS4: 4 etaže, do 11 m, 300 korisnika. ZPS5: ostale do 22 m, nepokretne osobe, podzemne, > 300 osoba. Visoke: > 22 m.", freq: 2 },
+    { front: "Razredi reakcije na požar građevnih proizvoda?", exam: true, back: "7 razreda: A1, A2 (bez doprinosa), B (vrlo ograničen), C (ograničen), D (neograničen), E (vrlo visok), F (ne ispunjava). Dim s1/s2/s3, kapljice d0/d1/d2. Podovi: indeks fl, samo s1/s2; obloge cijevi: indeks L. Najmanji dozvoljeni razred = E. Uz sprinkler smanjenje za 1 stupanj.", freq: 2 },
     { front: "Koji su dokazi da materijal nije goriv?", back: "Izjava o svojstvima i certifikat o stalnosti svojstava — jamče da proizvod ima požarna svojstva definirana tehničkom specifikacijom." },
-    { front: "Od čega se gradi evakuacijski put i mora li biti poseban požarni odjeljak?", back: "Gradi se od proizvoda otpornih na požar; ne mora nužno biti poseban požarni odjeljak (npr. skladišta). Podjelom na odjeljke obuhvaćeni su evakuacijski putovi, atriji, vertikalni instalacijski kanali i okna dizala.", freq: 2 },
-    { front: "Najveće veličine požarnih odjeljaka?", back: "Nadzemne etaže: stambene max 1200 m² neto, uredske max 1600 m², dužina max 60 m, najviše 4 nadzemne etaže. Podzemne etaže stambene/uredske: max 800 m²; garaže i skladišta prema posebnom propisu.", freq: 2 },
+    { front: "Od čega se gradi evakuacijski put i mora li biti poseban požarni odjeljak?", exam: true, back: "Gradi se od proizvoda otpornih na požar; ne mora nužno biti poseban požarni odjeljak (npr. skladišta). Podjelom na odjeljke obuhvaćeni su evakuacijski putovi, atriji, vertikalni instalacijski kanali i okna dizala.", freq: 2 },
+    { front: "Najveće veličine požarnih odjeljaka?", exam: true, back: "Nadzemne etaže: stambene max 1200 m² neto, uredske max 1600 m², dužina max 60 m, najviše 4 nadzemne etaže. Podzemne etaže stambene/uredske: max 800 m²; garaže i skladišta prema posebnom propisu.", freq: 2 },
     { front: "Sprječavanje širenja požara preko otvora u fasadi — horizontalno i vertikalno?", back: "Horizontalno: zidovi iste otpornosti min. 1 m lijevo i desno od granice odjeljka (ukupno 2 m; ZPS2–4 ukupno 1 m) ili produžetak zida 0,5 m izvan pročelja. Kutni spoj ≤ 135°: zidovi min. 5 m. Vertikalno: parapet min. 1,2 m. Uz automatsku dojavu i gašenje otpornost može biti 30 min manja." },
     { front: "Kako spriječiti da se požar proširi instalacijama? Gdje se postavljaju zaklopke?", back: "Zaklopke na granicama požarnih odjeljaka / prodorima kanala kroz požarne zidove. Prodori cjevovoda: obujmice/barijere iste otpornosti ili jedan stupanj manje (ne manje od E15), obloga iste otpornosti ili polaganje u okna. Obloge cijevi negorive A1/A2-s1d0 (iznimno C-s3d2 uz sprinkler). Pokretni elementi u otvorima: jedan stupanj manje, ne manje od E30, do 20 % površine." },
     { front: "Kako se sprječava širenje požara na susjedne građevine?", back: "Sigurnosne udaljenosti (planovi, lokacija), požarni zidovi min. REI-M 90, vanjski zidovi određene otpornosti s oblogama A1/A2-s1d0, ograničenje nezaštićenih otvora, sustavi dojave i gašenja. Udaljenost < 3 m uz < 1000 MJ/m² → tablice; ≥ 1000 MJ/m² → proračun NFPA 80A.", freq: 1 },
     { front: "Kojim se mjerama osigurava sigurno napuštanje zgrade u slučaju požara?", back: "Raspored i broj evakuacijskih putova i izlaza; odvajanje elemenata otpornima na požar i dim; obloge odgovarajuće reakcije na požar; odvodnja dima i topline; nadtlak u evakuacijskim putovima; rano otkrivanje i gašenje; uzbunjivanje; nužna rasvjeta i znakovi; protupanik kvake, šipke i ploče.", freq: 1 },
-    { front: "Koliko evakuacijskih putova mora imati građevina?", back: "Najmanje 2 u različitim smjerovima koji ne završavaju u istom odjeljku: min. 2 (< 500 korisnika), 3 (500–1000), 4 (> 1000). Iznimno 1 za prodajno-uslužne prostore: < 50 korisnika, < 280 m², < 1000 MJ/m², zajednički dio < 23 m (30 m sa sustavom).", freq: 2 },
-    { front: "Najveća ukupna duljina evakuacijskog puta i njegovih dijelova?", back: "Ukupno: 40 m bez / 60 m s automatskom dojavom i gašenjem. Zajednički dio: 23 m bez / 30 m sa sustavom; 15 m u podzemnim garažama i industriji. Slijepi hodnik: 6 m bez / 15 m sa sustavom (stambene s evakuacijskim prozorima izuzete, inače do 10 m). Prostor udaljavanja od izlaza do sigurnog mjesta.", freq: 1 },
-    { front: "Prozor za spašavanje kao evakuacijski put — uvjeti?", back: "Min. 0,80 × 1,20 m, parapet 0,90–1,20 m, najmanje 1 po stanu/poslovnoj jedinici na svakom katu, dohvatljiv vatrogasnoj tehnici, dolazak postrojbe unutar 15 min. Ne za ZPS5 s nepokretnim osobama, podzemne zgrade i prostore > 300 osoba." },
-    { front: "Vatrogasni pristupi — definicija, nosivost, oblikovanje?", back: "Čvrste površine (širina, radijus, nosivost) za dolazak vatrogasnih vozila do građevine i svih otvora na vanjskom zidu; osovinski pritisak 100 kN; vožnja unaprijed (oko visokih građevina isključivo); slijepi pristupi > 100 m imaju okretište. Sastoje se od vatrogasnih prilaza i površina za operativni rad.", freq: 1 },
-    { front: "S koliko strana mora biti osiguran vatrogasni pristup?", back: "1 strana: niska stambena (prizemne, jednokatne), obostrano orijentirani stanovi do 4 kata. 2 strane: javni skupovi, škole, bolnice, hoteli, trgovački, industrijski, visoke, jednostrano orijentirani stanovi, stambene > 4 kata, > 100 osoba. 3 strane: skladišta > 6000 m², silosi, visokoregalna skladišta." },
-    { front: "Vatrogasni prilaz i površine za operativni rad — dimenzije?", back: "Prilaz: širina ≥ 3 m (trake 1,1 m + 0,8 m), prolaz kroz građevinu profil 3 × 4 m, nagib max 12 %, vertikalna krivina R ≥ 15 m, stepenica max 8 cm na ≥ 10 m. PzOR: paralelno 5,5 m (do 40 m) / 7 m (> 40 m); okomito 5,5 × 11 m; nagib max 10 %; razmak od zida max 12 m (do 16 m) / 6 m (> 16 m)." },
+    { front: "Koliko evakuacijskih putova mora imati građevina?", exam: true, back: "Najmanje 2 u različitim smjerovima koji ne završavaju u istom odjeljku: min. 2 (< 500 korisnika), 3 (500–1000), 4 (> 1000). Iznimno 1 za prodajno-uslužne prostore: < 50 korisnika, < 280 m², < 1000 MJ/m², zajednički dio < 23 m (30 m sa sustavom).", freq: 2 },
+    { front: "Najveća ukupna duljina evakuacijskog puta i njegovih dijelova?", exam: true, back: "Ukupno: 40 m bez / 60 m s automatskom dojavom i gašenjem. Zajednički dio: 23 m bez / 30 m sa sustavom; 15 m u podzemnim garažama i industriji. Slijepi hodnik: 6 m bez / 15 m sa sustavom (stambene s evakuacijskim prozorima izuzete, inače do 10 m). Prostor udaljavanja od izlaza do sigurnog mjesta.", freq: 1 },
+    { front: "Prozor za spašavanje kao evakuacijski put — uvjeti?", exam: true, back: "Min. 0,80 × 1,20 m, parapet 0,90–1,20 m, najmanje 1 po stanu/poslovnoj jedinici na svakom katu, dohvatljiv vatrogasnoj tehnici, dolazak postrojbe unutar 15 min. Ne za ZPS5 s nepokretnim osobama, podzemne zgrade i prostore > 300 osoba." },
+    { front: "Vatrogasni pristupi — definicija, nosivost, oblikovanje?", exam: true, back: "Čvrste površine (širina, radijus, nosivost) za dolazak vatrogasnih vozila do građevine i svih otvora na vanjskom zidu; osovinski pritisak 100 kN; vožnja unaprijed (oko visokih građevina isključivo); slijepi pristupi > 100 m imaju okretište. Sastoje se od vatrogasnih prilaza i površina za operativni rad.", freq: 1 },
+    { front: "S koliko strana mora biti osiguran vatrogasni pristup?", exam: true, back: "1 strana: niska stambena (prizemne, jednokatne), obostrano orijentirani stanovi do 4 kata. 2 strane: javni skupovi, škole, bolnice, hoteli, trgovački, industrijski, visoke, jednostrano orijentirani stanovi, stambene > 4 kata, > 100 osoba. 3 strane: skladišta > 6000 m², silosi, visokoregalna skladišta." },
+    { front: "Vatrogasni prilaz i površine za operativni rad — dimenzije?", exam: true, back: "Prilaz: širina ≥ 3 m (trake 1,1 m + 0,8 m), prolaz kroz građevinu profil 3 × 4 m, nagib max 12 %, vertikalna krivina R ≥ 15 m, stepenica max 8 cm na ≥ 10 m. PzOR: paralelno 5,5 m (do 40 m) / 7 m (> 40 m); okomito 5,5 × 11 m; nagib max 10 %; razmak od zida max 12 m (do 16 m) / 6 m (> 16 m)." },
     { front: "Zaštita od požara u ugostiteljskim objektima — osnovni zahtjevi?", back: "Podjela na požarne sektore, vanjski požarni zid prema susjednim građevinama; nosiva konstrukcija do 3 kata 30 min, > 3 kata 60 min; sektor > 3 kata max 1500 m², 2 kata, 60 m; tavan zaseban sektor 60 min (30 uz vatrodojavu); rasvjeta 1 luks 2 h; zaklopke 30/60/90 min; pristupni prostor 35 m (55 sa sprinklerom); slijepi hodnik 10 m (15 sa sprinklerom); > 2 kata izlaz u 2 smjera; > 3 kata sigurnosno stubište. Ne odnosi se na starogradske jezgre i spomenike kulture.", freq: 1 },
-    { front: "Što je hidrantska mreža i koje vrste postoje?", back: "Skup cjevovoda, uređaja i opreme kojima se voda od sigurnog izvora dovodi do štićenih prostora. Unutarnja (završava bubnjem s crijevom i mlaznicom), vanjska (nadzemni ili podzemni hidrant); mokra (stalno pod tlakom) — pravilo; suha — iznimno uz odobrenje MUP-a." },
-    { front: "Što se mora štititi vanjskom hidrantskom mrežom?", back: "Građevine tražene posebnim propisima, posebnim uvjetima ZOP ili prostornim planom; naseljena mjesta s vodoopskrbnim sustavom; građevine I., II. ili III. kategorije ugroženosti (osim zaštićenih šuma — prema procjeni ugroženosti).", freq: 1 },
-    { front: "Siguran izvor vode za hidrantsku mrežu — trajanje?", back: "Unutarnja HM: propisana protočna količina za sektor s najvećim specifičnim opterećenjem uz propisani tlak min. 60 min. Vanjska HM: min. 120 min. Iscrpivi spremnik min. 1 m³; pumpa s potopljenim rotorom ako nije samousisna ili potopna.", freq: 1 },
-    { front: "Vanjska hidrantska mreža — udaljenosti, tlakovi, protok?", back: "U pravilu nadzemni hidranti; ormarić s opremom ≤ 10 m; hidrant 5–80 m od građevine; između hidranata max 150 m (300 m u naseljima obiteljskih kuća); statički tlak max 1,2 MPa; ispitni 1,6 MPa bez propuštanja, 2,4 MPa bez pucanja; izlazni tlak min. 0,25 MPa; naselja min. 600 l/min." },
-    { front: "Unutarnja hidrantska mreža — izvedba?", back: "Zidni hidranti u crvenim ormarićima s oznakom; tlak na mlaznici min. 0,25 MPa; potpuno prekrivanje prostora najmanje jednim mlazom (crijevo + max 5 m mlaza); svaki kat požarnog sektora štiti se zasebnim hidrantom. Uređaj za povišenje tlaka: pričuvna crpka, zaseban požarni sektor, obilazni cjevovod." },
+    { front: "Što je hidrantska mreža i koje vrste postoje?", exam: true, back: "Skup cjevovoda, uređaja i opreme kojima se voda od sigurnog izvora dovodi do štićenih prostora. Unutarnja (završava bubnjem s crijevom i mlaznicom), vanjska (nadzemni ili podzemni hidrant); mokra (stalno pod tlakom) — pravilo; suha — iznimno uz odobrenje MUP-a." },
+    { front: "Što se mora štititi vanjskom hidrantskom mrežom?", exam: true, back: "Građevine tražene posebnim propisima, posebnim uvjetima ZOP ili prostornim planom; naseljena mjesta s vodoopskrbnim sustavom; građevine I., II. ili III. kategorije ugroženosti (osim zaštićenih šuma — prema procjeni ugroženosti).", freq: 1 },
+    { front: "Siguran izvor vode za hidrantsku mrežu — trajanje?", exam: true, back: "Unutarnja HM: propisana protočna količina za sektor s najvećim specifičnim opterećenjem uz propisani tlak min. 60 min. Vanjska HM: min. 120 min. Iscrpivi spremnik min. 1 m³; pumpa s potopljenim rotorom ako nije samousisna ili potopna.", freq: 1 },
+    { front: "Vanjska hidrantska mreža — udaljenosti, tlakovi, protok?", exam: true, back: "U pravilu nadzemni hidranti; ormarić s opremom ≤ 10 m; hidrant 5–80 m od građevine; između hidranata max 150 m (300 m u naseljima obiteljskih kuća); statički tlak max 1,2 MPa; ispitni 1,6 MPa bez propuštanja, 2,4 MPa bez pucanja; izlazni tlak min. 0,25 MPa; naselja min. 600 l/min." },
+    { front: "Unutarnja hidrantska mreža — izvedba?", exam: true, back: "Zidni hidranti u crvenim ormarićima s oznakom; tlak na mlaznici min. 0,25 MPa; potpuno prekrivanje prostora najmanje jednim mlazom (crijevo + max 5 m mlaza); svaki kat požarnog sektora štiti se zasebnim hidrantom. Uređaj za povišenje tlaka: pričuvna crpka, zaseban požarni sektor, obilazni cjevovod." },
     { front: "Skladište — definicija i podjela?", back: "Građevine ili prostori u kojima se skladišti goriva roba ili negoriva roba u gorivoj ambalaži. Po površini sektora: mala do 1000 m², srednja 1000–3000, velika 3000–6000, iznad 6000 m². Po načinu: klasična (do 9 m), visokoregalna (> 9 m), silosi, hladnjače.", freq: 1 },
     { front: "Osnovni zahtjevi ZOP za skladišta?", back: "Zaseban požarni sektor, max 1 etaža (izn. 2, ukupno 6000 m²); u objektu druge namjene požarni zid 90 min; tipkalo za isključenje struje uz ulaz; protupanična rasvjeta 1 h; nosiva konstrukcija 30 min (čelik: dokaz na 500 °C); pregrade 30/60/90 min po opterećenju; unutarnja i vanjska HM + aparati (silosi i hladnjače samo vanjska); evakuacija 0,8 m, 40/60 m, 1 izlaz do 300 m² ili 1000 MJ/m², inače 2. VP: mala 1 strana, srednja i velika 2, > 6000 m²/silosi/visokoregalna 3." },
     { front: "Kako bi organizirao gradilište uzimajući u obzir zaštitu od požara?", back: "Kontrola ulaza/izlaza (ograda, čuvari), ograničenje kretanja, zabrana unošenja opasnih tvari i opasnih radnji (pušenje), označavanje i informiranje, osposobljenost osoba, smještaj osoba min. 5 m od drugih objekata, skladištenje zapaljivih tvari na sigurnosnoj udaljenosti, mjere kod zavarivanja/rezanja/brušenja, sredstva i oprema za početne požare (voda, pijesak, aparati, hidranti), pristup vatrogascima, uklanjanje otpada, zaštita od munje, način uzbunjivanja (112, 193, 192, 194).", freq: 1 },
     { front: "Gdje na gradilištu može doći do požara?", back: "Mjesta skladištenja zapaljivih/eksplozivnih tvari, skladišta plinskih boca, prostori s otapalima, deponij otpada, ambalaža, peći i privremene instalacije, uporaba ljepila, otvoreni plamen (vrenje ljepenke, pušenje), alati koji iskre, spaljivanje, rušenja i demontaže, puštanje u rad instalacija plina i struje.", freq: 1 },
-    { front: "Elaborat ZOP — tko ga izrađuje i za koje građevine?", back: "Samo za građevine skupine 2; skup podataka (zahtjeva i ograničenja) o sustavnoj ZOP građevine, podloga za GP; tekstualni dio (opći + stručni) i grafički prilozi. Izrađuje ga osoba ovlaštena rješenjem MUP-a: VSS tehničkog smjera + stručni ispit + 5 g. iskustva na projektiranju/nadzoru ZOP (ili 2 g. + studij požarnog inženjerstva ≥ 60 ECTS), ili državni stručni ispit + 5 g. inspekcijskog nadzora ZOP (NN 51/12).", freq: 2 },
-    { front: "Za koje zahvate tijelo nadležno za ZOP ne sudjeluje u izdavanju lokacijske dozvole?", back: "Stambene zgrade s 1–2 stana ≤ 400 m² i nizovi s jedinicama ≤ 400 m²; poljoprivredne gospodarske zgrade; vjerski objekti < 50 osoba; praonice, javni WC; ceste bez pratećih objekata, mostova i tunela; sport i rekreacija na otvorenom; vojne utvrde, bunkeri, stražarnice (NN 115/11)." },
+    { front: "Elaborat ZOP — tko ga izrađuje i za koje građevine?", exam: true, back: "Samo za građevine skupine 2; skup podataka (zahtjeva i ograničenja) o sustavnoj ZOP građevine, podloga za GP; tekstualni dio (opći + stručni) i grafički prilozi. Izrađuje ga osoba ovlaštena rješenjem MUP-a: VSS tehničkog smjera + stručni ispit + 5 g. iskustva na projektiranju/nadzoru ZOP (ili 2 g. + studij požarnog inženjerstva ≥ 60 ECTS), ili državni stručni ispit + 5 g. inspekcijskog nadzora ZOP (NN 51/12).", freq: 2 },
+    { front: "Za koje zahvate tijelo nadležno za ZOP ne sudjeluje u izdavanju lokacijske dozvole?", exam: true, back: "Stambene zgrade s 1–2 stana ≤ 400 m² i nizovi s jedinicama ≤ 400 m²; poljoprivredne gospodarske zgrade; vjerski objekti < 50 osoba; praonice, javni WC; ceste bez pratećih objekata, mostova i tunela; sport i rekreacija na otvorenom; vojne utvrde, bunkeri, stražarnice (NN 115/11)." },
     { front: "Pasivne, pasivne organizacijske i aktivne mjere ZOP?", back: "Pasivne: građevinske (elaborat, materijali otporni na požar, požarni zidovi, odjeljci, evakuacijski putovi, sigurna mjesta) i tehničko-tehnološke. Pasivne organizacijske: planovi ZOP, kategorije ugroženosti, evidencije, nadzor, osposobljavanje, vježbe. Aktivne: kontrola izvedenosti i projekata, tehnički pregled, periodični pregledi aparata i stabilnih sustava, osposobljavanje." },
     { front: "Sustavi za gašenje s automatskim i neautomatskim radom?", back: "Automatski: sprinkler (ampula puca, samo mlaznice u zoni požara), drencher (sve prskalice otvorene), CO2, plinski, bacači pjene i vode. Neautomatski: unutarnja HM, vanjska HM, uređaji za vodu i pjenu s vatrogasnim vozilom. Ispituju ih prvim i periodičnim ispitivanjem pravne osobe ovlaštene od MUP-a." },
     { front: "Sigurnosna, pomoćna i panik rasvjeta?", back: "Sigurnosna rasvjeta = pomoćna (osvjetljava prostor propisanim osvjetljenjem kroz propisano vrijeme) + panik (označava najkraći put na siguran otvoreni prostor); automatski se uključuje pri prekidu napajanja; autonomija min. 90 min, baterije u svakoj svjetiljci. Mjesta: izlazna vrata, stubišta, promjene smjera/nivoa, WC > 8 m², oznake izlaza, oprema za ZOP." }

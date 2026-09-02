@@ -117,6 +117,7 @@ window.APP_DATA.push({
     },
     {
       q: "Što od navedenog spada u komunalne vodne građevine za javnu odvodnju?",
+      exam: true,
       options: [
         "Vodospreme, kaptaže i glavni dovodni cjevovodi",
         "Nasipi, odteretni kanali i ustave",
@@ -167,6 +168,7 @@ window.APP_DATA.push({
     },
     {
       q: "Koji je od vodopravnih akata upravni akt?",
+      exam: true,
       options: [
         "Vodopravni uvjeti izdani kao posebni uvjeti u postupku građevinske dozvole",
         "Mišljenje na uvjete okolišne dozvole",
@@ -180,6 +182,7 @@ window.APP_DATA.push({
     },
     {
       q: "Tko izdaje vodopravne uvjete i kada se izdaju kao posebni uvjeti?",
+      exam: true,
       options: [
         "Hrvatske vode; kad propisi o prostornom uređenju, gradnji ili rudarstvu upućuju na izdavanje posebnih uvjeta za zahvate koji utječu na ciljeve upravljanja vodama",
         "Javni isporučitelj vodne usluge; za svaki priključak na vodovod",
@@ -192,6 +195,7 @@ window.APP_DATA.push({
     },
     {
       q: "Za koje zahvate vodopravni uvjeti u pravilu NISU potrebni?",
+      exam: true,
       options: [
         "Za građevine u uređenom inundacijskom području",
         "Za građevine koje koriste vodu iz javne vodoopskrbe i ispuštaju sanitarne otpadne vode u građevine za javnu odvodnju",
@@ -204,6 +208,7 @@ window.APP_DATA.push({
     },
     {
       q: "U kojem se slučaju vodopravni uvjeti neće izdati?",
+      exam: true,
       options: [
         "Ako investitor nije vlasnik zemljišta",
         "Ako je zahvat udaljen više od 100 m od vodotoka",
@@ -228,6 +233,7 @@ window.APP_DATA.push({
     },
     {
       q: "Kako se izdaje vodopravna potvrda u postupku gradnje?",
+      exam: true,
       options: [
         "Kao suglasnost na lokacijsku dozvolu",
         "Kao potvrda o priključenju na vodovod",
@@ -240,6 +246,7 @@ window.APP_DATA.push({
     },
     {
       q: "Kada vodopravna dozvola za ispuštanje otpadnih voda NIJE potrebna?",
+      exam: true,
       options: [
         "Za ispuštanje industrijskih otpadnih voda u vodotok",
         "Za ispuštanje oborinskih voda i za sanitarne otpadne vode do 50 ES koje se individualnim sustavom ispuštaju u prirodni prijamnik",
@@ -264,6 +271,7 @@ window.APP_DATA.push({
     },
     {
       q: "Tko izdaje posebne uvjete priključenja na komunalne vodne građevine i potvrdu o sukladnosti glavnog projekta s njima?",
+      exam: true,
       options: [
         "Javni isporučitelj vodne usluge",
         "Hrvatske vode",
@@ -276,6 +284,7 @@ window.APP_DATA.push({
     },
     {
       q: "Tko izdaje posebne uvjete priključenja na građevine urbane oborinske odvodnje?",
+      exam: true,
       options: [
         "Hrvatske vode u postupku vodopravnih uvjeta",
         "Državni inspektorat",
@@ -301,14 +310,14 @@ window.APP_DATA.push({
   ],
   flashcards: [
     { front: "Što uređuje Zakon o vodama i što ne uređuje?", back: "Pravni status voda, vodnog dobra i vodnih građevina, upravljanje kakvoćom i količinom voda, zaštitu od štetnog djelovanja voda, detaljnu melioracijsku odvodnju i navodnjavanje, vodne djelatnosti, pristup vodi za ljudsku potrošnju, rizike za slivove vodozahvata. NE uređuje radiološka onečišćenja voda. Granicu kopnenih voda i mora utvrđuje Vlada RH." },
-    { front: "Vodopravni akti — koji su i tko ih izdaje?", back: "1) vodopravni uvjeti (Hrvatske vode; neupravni akt, osim za vađenje mineralnih sirovina iz obnovljivih ležišta, vodoistražne i druge radove — upravni), 2) mišljenje na uvjete okolišne dozvole (HV), 3) vodopravna potvrda (HV), 4) vodopravna dozvola — upravni akt (HV), 5) posebni uvjeti priključenja (javni isporučitelj), 6) potvrda o sukladnosti s posebnim uvjetima priključenja (javni isporučitelj).", freq: 1 },
-    { front: "Vodopravni uvjeti — što su i kada se izdaju?", back: "Utvrđuju uvjete za zahvate u prostoru radi usklađenja sa ZOV; izdaju Hrvatske vode kao posebni uvjeti kad propisi o prostornom uređenju, gradnji ili rudarstvu to traže, za zahvate koji utječu na ciljeve upravljanja vodama: zahvaćanje voda, ispuštanje otpadnih voda, izvođenje na vodnom dobru, prijelaz voda, vodne građevine, plutajući objekti, poplavna područja, zone sanitarne zaštite, plinovodi, farme." },
-    { front: "Kada vodopravni uvjeti nisu potrebni i kada se neće izdati?", back: "Nisu potrebni za građevine koje koriste vodu iz javne vodoopskrbe i ispuštaju sanitarne vode u javnu odvodnju (osim u inundacijskom području). Neće se izdati: zahvat zabranjen u zoni sanitarne zaštite; javna odvodnja bez odluke o odvodnji; nedopušteno ispuštanje; bez PUO / ocjene za ekološku mrežu; protivno čl. 141. i 146. ZOV; idejni projekt neusklađen sa ZOV." },
+    { front: "Vodopravni akti — koji su i tko ih izdaje?", exam: true, back: "1) vodopravni uvjeti (Hrvatske vode; neupravni akt, osim za vađenje mineralnih sirovina iz obnovljivih ležišta, vodoistražne i druge radove — upravni), 2) mišljenje na uvjete okolišne dozvole (HV), 3) vodopravna potvrda (HV), 4) vodopravna dozvola — upravni akt (HV), 5) posebni uvjeti priključenja (javni isporučitelj), 6) potvrda o sukladnosti s posebnim uvjetima priključenja (javni isporučitelj).", freq: 1 },
+    { front: "Vodopravni uvjeti — što su i kada se izdaju?", exam: true, back: "Utvrđuju uvjete za zahvate u prostoru radi usklađenja sa ZOV; izdaju Hrvatske vode kao posebni uvjeti kad propisi o prostornom uređenju, gradnji ili rudarstvu to traže, za zahvate koji utječu na ciljeve upravljanja vodama: zahvaćanje voda, ispuštanje otpadnih voda, izvođenje na vodnom dobru, prijelaz voda, vodne građevine, plutajući objekti, poplavna područja, zone sanitarne zaštite, plinovodi, farme." },
+    { front: "Kada vodopravni uvjeti nisu potrebni i kada se neće izdati?", exam: true, back: "Nisu potrebni za građevine koje koriste vodu iz javne vodoopskrbe i ispuštaju sanitarne vode u javnu odvodnju (osim u inundacijskom području). Neće se izdati: zahvat zabranjen u zoni sanitarne zaštite; javna odvodnja bez odluke o odvodnji; nedopušteno ispuštanje; bez PUO / ocjene za ekološku mrežu; protivno čl. 141. i 146. ZOV; idejni projekt neusklađen sa ZOV." },
     { front: "Mišljenje na uvjete okolišne dozvole?", back: "Izdaju Hrvatske vode kad to uređuju propisi o zaštiti okoliša; sadrži ocjenu sukladnosti uvjeta iz zahtjeva operatera glede korištenja voda i ispuštanja otpadnih voda; mogu se predložiti i druge mjere. Potvrdu na utvrđene uvjete okolišne dozvole također izdaju Hrvatske vode. Kad se izdaje ovo mišljenje, vodopravna dozvola za ispuštanje nije potrebna." },
-    { front: "Vodopravna potvrda — kada se izdaje?", back: "Izdaju Hrvatske vode: 1) potvrda glavnog projekta sukladnog vodopravnim uvjetima, 2) za promjenu namjene i uporabu građevine, 3) za nezakonito izgrađenu zgradu u koridoru/površini vodnih građevina, 4) elaborat vađenja — izvedeno stanje, 5) elaborat vodoistražnih radova, 6) snimka izvedenog stanja drugih radova, 7) drugi slučajevi iz Pravilnika. Ne izdaje se za akvakulturu i istraživanje neobnovljivih mineralnih sirovina." },
-    { front: "Vodopravna dozvola za ispuštanje otpadnih voda — kada je potrebna, kada nije, što sadrži?", back: "Potrebna za svako ispuštanje s propisanim GVE. Nije potrebna: oborinske vode; kad se izdaje mišljenje na okolišnu dozvolu; sanitarne vode do 50 ES individualnim sustavom u prirodni prijamnik (osim 10–50 ES u zaštićenom području). Sadrži: dopuštene količine, GVE, obvezu uzorkovanja i ispitivanja. Razdoblje prilagodbe za postojeće građevine je jednokratno." },
-    { front: "Kada vodopravna dozvola za korištenje voda nije potrebna?", back: "Opće i slobodno korištenje; voda iz javne vodoopskrbe; gradnja i održavanje vodnih građevina; unutarnja plovidba; akvakultura; splavarenje/rafting/kanu osim gospodarski; plutajući objekti osim za ugostiteljstvo/gospodarstvo. U NP/parku prirode za te aktivnosti — koncesijsko odobrenje po propisima o zaštiti prirode." },
-    { front: "Posebni uvjeti priključenja na komunalne vodne građevine i potvrda o sukladnosti?", back: "Tehnički zahtjevi da bi interni vodovodni i odvodni sustavi građevine bili priključeni na komunalne vodne građevine te uvjeti za vodomjere i mjerače protoka. Izdaje javni isporučitelj vodne usluge kad propisi o prostornom uređenju i gradnji upućuju na posebne uvjete; on izdaje i potvrdu da je glavni projekt sukladan uvjetima. Za urbanu oborinsku odvodnju — JLS prema odluci o odvodnji." },
+    { front: "Vodopravna potvrda — kada se izdaje?", exam: true, back: "Izdaju Hrvatske vode: 1) potvrda glavnog projekta sukladnog vodopravnim uvjetima, 2) za promjenu namjene i uporabu građevine, 3) za nezakonito izgrađenu zgradu u koridoru/površini vodnih građevina, 4) elaborat vađenja — izvedeno stanje, 5) elaborat vodoistražnih radova, 6) snimka izvedenog stanja drugih radova, 7) drugi slučajevi iz Pravilnika. Ne izdaje se za akvakulturu i istraživanje neobnovljivih mineralnih sirovina." },
+    { front: "Vodopravna dozvola za ispuštanje otpadnih voda — kada je potrebna, kada nije, što sadrži?", exam: true, back: "Potrebna za svako ispuštanje s propisanim GVE. Nije potrebna: oborinske vode; kad se izdaje mišljenje na okolišnu dozvolu; sanitarne vode do 50 ES individualnim sustavom u prirodni prijamnik (osim 10–50 ES u zaštićenom području). Sadrži: dopuštene količine, GVE, obvezu uzorkovanja i ispitivanja. Razdoblje prilagodbe za postojeće građevine je jednokratno." },
+    { front: "Kada vodopravna dozvola za korištenje voda nije potrebna?", exam: true, back: "Opće i slobodno korištenje; voda iz javne vodoopskrbe; gradnja i održavanje vodnih građevina; unutarnja plovidba; akvakultura; splavarenje/rafting/kanu osim gospodarski; plutajući objekti osim za ugostiteljstvo/gospodarstvo. U NP/parku prirode za te aktivnosti — koncesijsko odobrenje po propisima o zaštiti prirode." },
+    { front: "Posebni uvjeti priključenja na komunalne vodne građevine i potvrda o sukladnosti?", exam: true, back: "Tehnički zahtjevi da bi interni vodovodni i odvodni sustavi građevine bili priključeni na komunalne vodne građevine te uvjeti za vodomjere i mjerače protoka. Izdaje javni isporučitelj vodne usluge kad propisi o prostornom uređenju i gradnji upućuju na posebne uvjete; on izdaje i potvrdu da je glavni projekt sukladan uvjetima. Za urbanu oborinsku odvodnju — JLS prema odluci o odvodnji." },
     { front: "Vrste vodnih građevina i vlasništvo?", back: "a) regulacijske i zaštitne (nasipi, obaloutvrde, brane, ustave, retencije) — RH, upravljaju HV; b) komunalne (javna vodoopskrba, javna odvodnja) — javni isporučitelj; c) melioracijske — osnovna odvodnja RH, ostale županije (upravljaju HV, navodnjavanje županije); d) za proizvodnju el. energije — investitor; e) za unutarnju plovidbu — RH." },
     { front: "Planski dokumenti upravljanja vodama?", back: "Strategija upravljanja vodama (donosi Hrvatski sabor), Plan upravljanja vodnim područjima, višegodišnji programi gradnje, financijski plan Hrvatskih voda, Plan upravljanja vodama i detaljni planovi uređeni ZOV-om.", freq: 1 },
     { front: "Obrana od poplava — vrste i nositelj?", back: "Poplava = privremena pokrivenost vodom zemljišta (rijeke, bujice, jezera, led, more, podzemne vode); ne obuhvaća poplave iz javne odvodnje. Preventivna (radovi održavanja voda), redovita i izvanredna (pred, tijekom i nakon opasnosti) — hitna služba. Hrvatske vode planiraju, organiziraju, financiraju i provode; provedbu ustupaju ponuditelju okvirnim sporazumom na 4 godine.", freq: 1 },

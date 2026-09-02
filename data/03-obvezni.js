@@ -380,6 +380,7 @@ window.APP_DATA.push({
     },
     {
       q: "Koliko dugo izvođač (i projektant) odgovaraju za nedostatke građevine koji se tiču ispunjavanja zakonom određenih bitnih zahtjeva za građevinu (solidnost građevine)?",
+      exam: true,
       options: [
         "2 godine od primopredaje radova",
         "5 godina od sklapanja ugovora",
@@ -392,6 +393,7 @@ window.APP_DATA.push({
     },
     {
       q: "U kojem je roku naručitelj dužan obavijestiti izvođača i projektanta o nedostatku koji se tiče solidnosti građevine?",
+      exam: true,
       options: [
         "U roku od 30 dana od primopredaje",
         "U roku od šest mjeseci otkad je nedostatak utvrdio, inače gubi pravo pozvati se na njega",
@@ -470,6 +472,7 @@ window.APP_DATA.push({
     },
     {
       front: "Komunalni doprinos kod rekonstrukcije",
+      exam: true,
       back: "Ako se rekonstrukcijom povećava obujam (odnosno tlocrtna površina otvorene građevine), doprinos se plaća samo na razliku u odnosu na prijašnje stanje."
     },
     {

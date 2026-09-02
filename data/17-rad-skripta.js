@@ -251,6 +251,7 @@ window.APP_DATA.push({
     },
     {
       q: "Što od navedenog Zakon o zaštiti na radu ubraja u radnu opremu?",
+      exam: true,
       options: [
         "Građevine namijenjene za rad s pripadajućim prostorijama",
         "Fizikalne, kemijske i biološke čimbenike na mjestu rada",
@@ -301,6 +302,7 @@ window.APP_DATA.push({
     },
     {
       q: "Za koje je poslove dovoljno provesti samo teoretsko osposobljavanje za rad na siguran način?",
+      exam: true,
       options: [
         "Za poslove s posebnim uvjetima rada",
         "Za sve uredske poslove neovisno o riziku",
@@ -337,6 +339,7 @@ window.APP_DATA.push({
     },
     {
       q: "Za koje je građevine investitor obvezan osigurati izradu elaborata zaštite na radu?",
+      exam: true,
       options: [
         "Za sve građevine za koje se izdaje građevinska dozvola",
         "Za građevine na kojima radove izvode dva ili više izvođača",
@@ -350,6 +353,7 @@ window.APP_DATA.push({
     },
     {
       q: "Kakav je odnos elaborata zaštite na radu i glavnog projekta?",
+      exam: true,
       options: [
         "Elaborat se izrađuje nakon glavnog projekta kao njegova provjera",
         "Elaborat je sastavni dio izvedbenog projekta",
@@ -363,6 +367,7 @@ window.APP_DATA.push({
     },
     {
       q: "Je li za projektiranje ceste potreban elaborat zaštite na radu?",
+      exam: true,
       options: [
         "Ne, jer cesta nije građevina namijenjena za rad",
         "Da, za sve ceste neovisno o razredu",
@@ -375,6 +380,7 @@ window.APP_DATA.push({
     },
     {
       q: "Tko odlučuje tko će izraditi elaborat zaštite na radu?",
+      exam: true,
       options: [
         "Koordinator zaštite na radu tijekom izrade projekta",
         "Glavni projektant – može ga izraditi sam ili to prepustiti drugome (stručnjaku ZNR, ovlaštenom društvu)",
@@ -388,6 +394,7 @@ window.APP_DATA.push({
     },
     {
       q: "Koja je bitna razlika između elaborata zaštite na radu i plana izvođenja radova?",
+      exam: true,
       options: [
         "Elaborat se izrađuje za sve građevine, a plan samo za građevine namijenjene za rad",
         "Elaborat izrađuje koordinator II, a plan koordinator I",
@@ -400,6 +407,7 @@ window.APP_DATA.push({
     },
     {
       q: "Tko je prema Zakonu o zaštiti na radu obvezan imenovati koordinatora zaštite na radu?",
+      exam: true,
       options: [
         "Glavni projektant ili glavni inženjer gradilišta",
         "Nadzorni inženjer u ime investitora",
@@ -413,6 +421,7 @@ window.APP_DATA.push({
     },
     {
       q: "Koje uvjete mora ispunjavati koordinator zaštite na radu (I i II)?",
+      exam: true,
       options: [
         "Najmanje preddiplomski studij arhitekture, građevinarstva, elektrotehnike ili strojarstva, položen stručni ispit iz graditeljstva (najmanje program za prvostupnika) i stručni ispit za koordinatora ZNR",
         "Završen studij sigurnosti i zaštite te najmanje 5 godina radnog iskustva na gradilištu",
@@ -425,6 +434,7 @@ window.APP_DATA.push({
     },
     {
       q: "Može li ista osoba biti koordinator I i koordinator II?",
+      exam: true,
       options: [
         "Ne, Zakon izričito traži dvije različite osobe",
         "Koordinator I može obavljati i poslove koordinatora II, ali ne obratno ako osoba ima položen ispit samo za koordinatora II",
@@ -437,6 +447,7 @@ window.APP_DATA.push({
     },
     {
       q: "Za što koordinator zaštite na radu prekršajno odgovara?",
+      exam: true,
       options: [
         "Ako ne prijavi gradilište inspekciji rada",
         "Ako ne osigura izradu elaborata zaštite na radu",
@@ -449,6 +460,7 @@ window.APP_DATA.push({
     },
     {
       q: "Tko izrađuje ili daje izraditi plan izvođenja radova?",
+      exam: true,
       options: [
         "Glavni inženjer gradilišta",
         "Nadzorni inženjer",
@@ -461,6 +473,7 @@ window.APP_DATA.push({
     },
     {
       q: "Je li obvezna izrada plana izvođenja radova kada radove na gradilištu od početka do završetka izvode radnici samo jednog izvođača?",
+      exam: true,
       options: [
         "Nije obvezna, jer obveza proizlazi iz obveze imenovanja koordinatora (2 ili više izvođača); plan se može, ali ne mora izraditi",
         "Obvezna je za sve građevine bez iznimke",
@@ -474,6 +487,7 @@ window.APP_DATA.push({
     },
     {
       q: "Što od navedenog NIJE propisani sadržaj plana izvođenja radova?",
+      exam: true,
       options: [
         "Određivanje granica gradilišta prema okolini – opis i shema",
         "Zapisnici o pregledu i ispitivanju radne opreme svih izvođača",
@@ -486,6 +500,7 @@ window.APP_DATA.push({
     },
     {
       q: "U kojim je slučajevima investitor obvezan ažurirati prijavu gradilišta?",
+      exam: true,
       options: [
         "Samo pri promjeni nadzornog inženjera",
         "Pri svakoj promjeni broja radnika na gradilištu",
@@ -499,6 +514,7 @@ window.APP_DATA.push({
     },
     {
       q: "Tko se prekršajno kažnjava ako prijava gradilišta nije vidno izvješena na gradilištu ili nije ažurirana?",
+      exam: true,
       options: [
         "Glavni izvođač",
         "Koordinator zaštite na radu tijekom građenja",
@@ -525,6 +541,7 @@ window.APP_DATA.push({
     },
     {
       q: "Što tijelo graditeljstva čini u roku od 5 dana od primitka prijave početka građenja?",
+      exam: true,
       options: [
         "Izdaje rješenje o odobrenju početka radova",
         "Putem elektroničke oglasne ploče obavještava MUP, građevinsku inspekciju i inspekciju rada te im omogućuje uvid u dozvolu i glavni projekt",
@@ -550,6 +567,7 @@ window.APP_DATA.push({
     },
     {
       q: "Koji podatak NIJE propisani sadržaj prijave gradilišta inspekciji rada?",
+      exam: true,
       options: [
         "Procjena troškova provođenja zaštite na radu na gradilištu",
         "Točna lokacija gradilišta (adresa ili katastarska čestica)",
@@ -562,6 +580,7 @@ window.APP_DATA.push({
     },
     {
       q: "Na radilištu koje ukupno traje kraće od koliko dana procjena rizika, dokazi o osposobljenosti i zapisnici o ispitivanjima ne moraju biti fizički na radilištu?",
+      exam: true,
       options: [
         "10 dana",
         "60 dana",
@@ -673,6 +692,7 @@ window.APP_DATA.push({
     },
     {
       q: "Od koje se visine rad na visini smatra poslom s posebnim uvjetima rada?",
+      exam: true,
       options: [
         "Od 1 m",
         "Od 2 m",
@@ -709,6 +729,7 @@ window.APP_DATA.push({
     },
     {
       q: "Kolika smije biti najveća duljina konopca zaštitnog pojasa kojim je radnik privezan pri kratkotrajnim radovima na otvorenim rubovima katova bez zaštitne ograde?",
+      exam: true,
       options: [
         "300 cm",
         "150 cm",
@@ -721,6 +742,7 @@ window.APP_DATA.push({
     },
     {
       q: "Od koliko se najmanje užadi mora sastojati sustav radne opreme s užetom za povremeni rad na visini?",
+      exam: true,
       options: [
         "Jednog užeta s dvostrukim sidrištem",
         "Tri užeta – radnog, zaštitnog i signalnog",
@@ -733,6 +755,7 @@ window.APP_DATA.push({
     },
     {
       q: "Što mora imati radna skela za povremeni rad na visini?",
+      exam: true,
       options: [
         "Atest inspekcije rada izdan za svako gradilište",
         "Uvjerenje o zdravstvenoj sposobnosti montera",
@@ -745,6 +768,7 @@ window.APP_DATA.push({
     },
     {
       q: "Od koje dubine iskopa moraju se poduzeti zaštitne mjere protiv rušenja zemljanih naslaga s bočnih strana?",
+      exam: true,
       options: [
         "Na dubini većoj od 100 cm",
         "Na dubini većoj od 200 cm",
@@ -757,6 +781,7 @@ window.APP_DATA.push({
     },
     {
       q: "Koliko najmanje ljestve za silaženje radnika u iskop moraju prelaziti iznad ruba iskopa?",
+      exam: true,
       options: [
         "20 cm",
         "75 cm",
@@ -769,6 +794,7 @@ window.APP_DATA.push({
     },
     {
       q: "Kolika mora biti najmanja čista širina rova ili kanala dubljeg od 100 cm nakon izvršenog razupiranja?",
+      exam: true,
       options: [
         "40 cm",
         "80 cm",
@@ -781,6 +807,7 @@ window.APP_DATA.push({
     },
     {
       q: "Koliko najmanje oplata za podupiranje bočnih strana iskopa mora izlaziti iznad ruba iskopa?",
+      exam: true,
       options: [
         "5 cm",
         "10 cm",
@@ -793,6 +820,7 @@ window.APP_DATA.push({
     },
     {
       q: "Kada se pri izbacivanju zemlje iz iskopa moraju upotrebljavati međupodovi položeni na posebne podupirače?",
+      exam: true,
       options: [
         "Pri izbacivanju s dubine preko 2 m",
         "Pri izbacivanju s dubine preko 1 m",
@@ -805,6 +833,7 @@ window.APP_DATA.push({
     },
     {
       q: "Na kojoj se najmanjoj visini od dna iskopa mora postaviti zaštitna nadstrešnica za radnike koji rade na dnu bunara, šahta ili jame?",
+      exam: true,
       options: [
         "1 m",
         "2 m",
@@ -817,6 +846,7 @@ window.APP_DATA.push({
     },
     {
       q: "Kako se postupa ako se tijekom iskopa naiđe na instalacije (plin, struja, voda)?",
+      exam: true,
       options: [
         "Radovi se nastavljaju ručno bez strojeva",
         "Instalacija se privremeno isključuje i radovi nastavljaju",
@@ -877,6 +907,7 @@ window.APP_DATA.push({
     },
     {
       q: "Što obuhvaćaju mikroklimatski uvjeti na mjestu rada?",
+      exam: true,
       options: [
         "Osvijetljenost, buku i vibracije",
         "Koncentraciju plinova, para i prašina",
@@ -915,6 +946,7 @@ window.APP_DATA.push({
     },
     {
       q: "Kolika je najmanja svijetla visina radne prostorije u kojoj su tijekom rada prisutne fizikalne, kemijske ili biološke štetnosti?",
+      exam: true,
       options: [
         "2,5 m",
         "2,8 m",
@@ -941,6 +973,7 @@ window.APP_DATA.push({
     },
     {
       q: "Od koje visine vertikalne ljestve (vertikalni prilazi) moraju imati čvrstu leđnu zaštitu i od koje visine iznad poda ona počinje?",
+      exam: true,
       options: [
         "Ljestve više od 3,0 m, leđna zaštita počevši od 2 m od poda",
         "Ljestve više od 5,0 m, leđna zaštita počevši od 3 m od poda",
@@ -954,6 +987,7 @@ window.APP_DATA.push({
     },
     {
       q: "Pod kojim se kutom nagiba prema horizontali postavljaju čvrste metalne ljestve kao vertikalni prilazi na radne platforme, galerije i krovove?",
+      exam: true,
       options: [
         "Većim od 45°",
         "Većim od 75°",
@@ -967,6 +1001,7 @@ window.APP_DATA.push({
     },
     {
       q: "Na kojim se udaljenostima moraju ugraditi odmorišta (podesti) na vertikalnim ljestvama visine veće od 20 m?",
+      exam: true,
       options: [
         "Svakih 3 m",
         "Svakih 10–12 m",
@@ -1017,6 +1052,7 @@ window.APP_DATA.push({
     },
     {
       q: "Koliko horizontalno opterećenje mora izdržati zaštitna ograda na mjestima rada na visini?",
+      exam: true,
       options: [
         "Najmanje 300 N/m",
         "Najmanje 500 N/m",
@@ -1065,6 +1101,7 @@ window.APP_DATA.push({
     },
     {
       q: "Kolika je najmanja dopuštena širina prolaza u izlaznim vratima na evakuacijskom putu?",
+      exam: true,
       options: [
         "0,9 m",
         "1,1 m",
@@ -1077,6 +1114,7 @@ window.APP_DATA.push({
     },
     {
       q: "Što je poslodavac dužan osigurati svakodnevno prije korištenja radne opreme?",
+      exam: true,
       options: [
         "Ispitivanje ovlaštene osobe s izdavanjem zapisnika",
         "Provjeru alkotestom svih rukovatelja",
@@ -1125,6 +1163,7 @@ window.APP_DATA.push({
     },
     {
       q: "Koje pravilo poslodavac mora primijeniti PRVO pri radu s opasnim kemikalijama?",
+      exam: true,
       options: [
         "Osigurati radnicima osobnu zaštitnu opremu",
         "Ograničiti broj izloženih radnika i vrijeme izlaganja",
@@ -1149,6 +1188,7 @@ window.APP_DATA.push({
     },
     {
       q: "Što se prilaže uz zahtjev za izdavanje lokacijske, građevinske i uporabne dozvole za nuklearno postrojenje?",
+      exam: true,
       options: [
         "Suglasnost ministra zdravstva",
         "Suglasnost ministra unutarnjih poslova",
@@ -1181,6 +1221,7 @@ window.APP_DATA.push({
     },
     {
       front: "Definirajte: mjesto rada, radni okoliš, radna oprema, radilište.",
+      exam: true,
       back: "Mjesto rada – svako mjesto gdje radnici moraju biti/ići/imaju pristup tijekom rada te prostor pod nadzorom poslodavca. Radni okoliš – fizikalni, kemijski i biološki čimbenici na mjestu rada. Radna oprema – strojevi, uređaji, postrojenja, sredstva za prijenos tereta, alati, skele i sredstva za povremeni rad na visini. Radilište – privremeno ili pokretno mjesto rada (gradilište, šumarsko radilište, gradnja broda...) (čl. 3.)."
     },
     {
@@ -1189,6 +1230,7 @@ window.APP_DATA.push({
     },
     {
       front: "Od čega se sastoji postupak procjenjivanja rizika?",
+      exam: true,
       back: "1) prikupljanje podataka na mjestu rada (poslovi, broj radnika, mjesta rada, radna oprema, izvori štetnosti, organizacija rada), 2) analiza i procjena (utvrđivanje i procjenjivanje opasnosti, štetnosti, napora te mjera), 3) plan mjera (rokovi, odgovorni ovlaštenici, način kontrole), 4) dokumentiranje procjene rizika (Pravilnik o izradi procjene rizika NN 112/14).",
       freq: 1
     },
@@ -1216,59 +1258,72 @@ window.APP_DATA.push({
     },
     {
       front: "Obveze investitora u fazi projektiranja u vezi zaštite na radu?",
+      exam: true,
       back: "1) Imenovati koordinatora ZNR tijekom izrade glavnog projekta kad će radove izvoditi 2 ili više izvođača; 2) osigurati izradu elaborata ZNR za građevine namijenjene za rad (podloga za glavni projekt). Investitor primjenjuje opća načela prevencije u svim fazama projektiranja (ZZNR čl. 73.)."
     },
     {
       front: "Obveze investitora prije početka građenja i tijekom građenja u vezi ZNR?",
+      exam: true,
       back: "Prije građenja: osigurati plan izvođenja radova (za sve građevine), imenovati koordinatora II kod 2+ izvođača, prijaviti gradilište inspekciji rada (ako podaci nisu u prijavi tijelu graditeljstva), izložiti presliku prijave na vidljivom mjestu. Tijekom građenja: ažurirati prijavu (rok, novi izvođač, obustava), uvažavati upute koordinatora."
     },
     {
       front: "Kada je potreban koordinator zaštite na radu i tko ga imenuje?",
+      exam: true,
       back: "Investitor, vlasnik građevine, koncesionar ili druga osoba za koju se izrađuje glavni projekt mora imenovati jednog ili više koordinatora ZNR tijekom izrade projekta i tijekom građenja kada radove izvode ili je predviđeno da ih izvode dva ili više izvođača (ZZNR čl. 73. st. 4.). Imenovanje ne oslobađa investitora ni sudionike odgovornosti.",
       freq: 2
     },
     {
       front: "Elaborat zaštite na radu – tko, kada, za što, sadržaj?",
+      exam: true,
       back: "Investitor osigurava izradu pri projektiranju građevina namijenjenih za rad; prethodi glavnom projektu i podloga je za sve mape glavnog projekta (Zakon o gradnji čl. 69.). Sadrži: opasnosti iz procesa rada i način otklanjanja, primijenjene propise ZNR, broj radnika po spolu, ergonomsku prilagodbu i pristup za osobe s invaliditetom, opasne tvari, opis instalacija, zaštite od požara, konstrukcije, osvjetljenja, zaštite od buke, popis propisa. Nije potreban za ceste. Tko izrađuje odlučuje glavni projektant.",
       freq: 2
     },
     {
       front: "Razlika između elaborata zaštite na radu i plana izvođenja radova?",
+      exam: true,
       back: "Elaborat ZNR: faza projektiranja, samo građevine namijenjene za rad, odnosi se na cijeli životni vijek građevine (korištenje). Plan izvođenja radova: neposredno prije izvođenja, za sve građevine (kod 2+ izvođača), odnosi se samo na vrijeme građenja; izrađuje ga ili daje izraditi koordinator I."
     },
     {
       front: "Što sadrži plan izvođenja radova (Dodatak IV. Pravilnika NN 48/18)?",
+      exam: true,
       back: "Granice gradilišta (opis i shema); popis poslova s naznakom posebno opasnih radova; pravila ZNR i mjere za posebno opasne radove te zajedničke mjere; postupke za svaku opasnu fazu (tehničke/organizacijske mjere, minimalni broj radnika); sredstva rada i provjera ispravnosti, popis opasnih kemikalija; vremenski plan; obveze izvođača o međusobnom izvješćivanju; procjenu troškova uređenja gradilišta i zajedničkih mjera ZNR."
     },
     {
       front: "Za koje radove se radi plan izvođenja radova?",
+      exam: true,
       back: "Obveza izrade plana odnosi se na gradilišta na kojima radove izvode dva ili više izvođača (jer tada postoji obveza imenovanja koordinatora). Kad radove od početka do kraja izvode radnici jednog izvođača, plan nije obvezan, ali se može izraditi. Plan se mora nalaziti na gradilištu.",
       freq: 1
     },
     {
       front: "Koje su zadaće koordinatora II (tijekom građenja)?",
+      exam: true,
       back: "Koordinira primjenu općih načela prevencije kod odluka o rokovima i fazama rada; koordinira postupke da izvođači primjenjuju načela i rade po planu izvođenja radova; izrađuje/daje izraditi usklađenja plana s promjenama; osigurava suradnju i uzajamno obavješćivanje izvođača; provjerava provode li se radni postupci sigurno; organizira da pristup gradilištu imaju samo zaposleni i osobe s dozvolom (ZZNR čl. 77.)."
     },
     {
       front: "Uvjeti za koordinatora zaštite na radu I i II?",
+      exam: true,
       back: "Najmanje preddiplomski studij arhitekture, građevinarstva, elektrotehnike ili strojarstva (prvostupnik), položen stručni ispit po propisu o stručnom ispitu u graditeljstvu (najmanje program za prvostupnika) i položen stručni ispit za koordinatora ZNR (Pravilnik NN 142/21). Koordinator I može raditi i kao II, ali ne obratno ako ima ispit samo za II. Stručnjak ZNR (opći i posebni dio) s navedenim studijem i ispitom ima status koordinatora I i II."
     },
     {
       front: "Prijava gradilišta – rokovi i tijela?",
+      exam: true,
       back: "Investitor pisano prijavljuje početak građenja tijelu graditeljstva najkasnije 8 dana prije; tijelo graditeljstva u 5 dana putem e-oglasne ploče obavještava MUP, građevinsku inspekciju i inspekciju rada. Ako podaci iz Pravilnika NN 48/18 nisu navedeni, posebna prijava inspekciji rada (posebno opasni radovi ili radovi dulji od 10 dana): jedan izvođač – izvođač sam; 2+ izvođača – investitor; najkasnije 1 dan prije početka radova.",
       freq: 2
     },
     {
       front: "Što sadrži prijava gradilišta inspekciji rada?",
+      exam: true,
       back: "Točnu lokaciju (adresa ili k.č.), podatke o investitoru, naziv projekta/vrstu radova, podatke o glavnom izvođaču, izvođačima, glavnom inženjeru gradilišta i voditeljima radova, koordinatorima ZNR (projektiranje/građenje), datum početka i trajanje radova, predviđeni broj radnika, planirani broj ugovornih izvođača i nazive već odabranih izvođača."
     },
     {
       front: "U vezi s čim se ažurira prijava gradilišta?",
+      exam: true,
       back: "Investitor (vlasnik, koncesionar, druga osoba za koju se izvode radovi) ažurira prijavu u slučaju promjena koje utječu na rok dovršenja radova, uvođenja novog izvođača ili privremene obustave radova.",
       freq: 1
     },
     {
       front: "Tko dobiva kaznu ako prijava gradilišta nije vidno izvješena ili ažurirana?",
+      exam: true,
       back: "Investitor (čl. 96. Zakona o zaštiti na radu). Prekršaji investitora: ne osigura elaborat ZNR, ne imenuje koordinatora, ne prijavi gradilište, nema plan izvođenja radova ili plan nema propisani sadržaj.",
       freq: 2
     },
@@ -1296,6 +1351,7 @@ window.APP_DATA.push({
     },
     {
       front: "Što su poslovi s posebnim uvjetima rada i kako se dokazuju uvjeti?",
+      exam: true,
       back: "Poslovi koje mogu obavljati samo osobe koje uz opće uvjete ispunjavaju posebne uvjete u pogledu dobi, spola, stručnih sposobnosti, zdravstvenog stanja i psihičke sposobnosti. Dob i spol – osobna isprava; stručna sposobnost – svjedodžba/certifikat; zdravstveno i psihičko stanje – specijalist medicine rada. Primjeri: rad na visini >3 m, podizanje skela i oplata, dizalice, signalisti, miniranje, ronjenje. Ne mogu se obavljati na izdvojenom mjestu rada."
     },
     {
@@ -1304,14 +1360,17 @@ window.APP_DATA.push({
     },
     {
       front: "Rad na visini – ključne brojke iz Pravilnika o ZNR u građevinarstvu?",
+      exam: true,
       back: "Rad na visini >3 m = posebni uvjeti rada. Do 450 cm iznad terena/poda: pomoćne skele ili ljestve uz vezivanje; iznad 450 cm: odgovarajuće skele ili drugi siguran način. Zaštitne nadstrešnice tako da visina pada ne prelazi 300 cm. Na otvorenim rubovima bez ograde: zaštitni pojas s konopcem duljine najviše 150 cm."
     },
     {
       front: "Zahtjevi za radnu opremu s užetom za rad na visini?",
+      exam: true,
       back: "Najmanje dva odvojena, na oba kraja usidrena užeta: radno (penjanje, silazak, oslonac) i zaštitno (zaštita od pada); zaštitni pojasevi vezani na zaštitno uže; radno uže sa samozaustavnim uređajem, zaštitno sa zahvatnim uređajem koji slijedi kretanje; alat pričvršćen za pojas; rad planiran i nadziran radi brzog spašavanja. Koristi se samo kad sigurnija oprema nije opravdana (NN 18/17)."
     },
     {
       front: "Mjere ZNR kod zemljanih radova i kopanja rovova?",
+      exam: true,
       back: "Dubina >100 cm: zaštita bočnih strana, rad pod kontrolom određene osobe, postupno osiguranje strana; ručni iskop odozgo naniže, potkopavanje zabranjeno. Razupiranje nije potrebno kod prirodnog nagiba tla. Čista širina rova nakon razupiranja min 60 cm; oplata min 20 cm iznad ruba; ljestve min 75 cm iznad ruba; međupodovi za izbacivanje s dubine >2 m (rubna zaštita 20 cm). Nailazak na instalacije = obustava do nadzora stručne osobe; provjera CO/plinova prije iskopa; pregled nakon nevremena i mraza."
     },
     {
@@ -1333,16 +1392,19 @@ window.APP_DATA.push({
     },
     {
       front: "Mikroklimatski uvjeti – što su i koje su vrijednosti?",
+      exam: true,
       back: "Temperatura, vlažnost i brzina strujanja zraka. Zimi: bez naprezanja 20–25 °C, laki rad 16–22 °C, teški rad 10–19 °C. Klimatizacija: rel. vlažnost 40–60 %, razlika vani/unutra ljeti do 7 °C. Brzina zraka max 0,5 m/s (vanjska do 10 °C), 0,6 m/s (10–27 °C), 0,8 m/s (>27 °C). Prostorije s boravkom >2 h griju se. Ispitivanje radnog okoliša periodički najdulje svake 3 godine.",
       freq: 2
     },
     {
       front: "Vertikalni prilazi (fiksne ljestve) – zahtjevi?",
+      exam: true,
       back: "Čvrste metalne ljestve pod kutom >75°; prečke od okruglog željeza Ø min 1,6 cm, razmak max 30 cm, duljina min 40 cm; ljestve >3 m od 2 m imaju leđnu zaštitu (kavez r = 70–80 cm, lukovi max 1,4 m, vertikale max 25 cm); vezane za građevinu svaka 3 m; bez leđobrana razmak od zida 70–80 cm; od zida min 16 cm; >20 m odmorišta svakih 6–8 m; rukohvati min 0,75 m i leđna zaštita min 1,0 m iznad prilazne površine.",
       freq: 2
     },
     {
       front: "Stepeništa – propisane dimenzije (NN 105/20)?",
+      exam: true,
       back: "Korisna širina kraka min 1,1 m; krak 3–18 stepenica; visina stepenice 13–19 cm, gazište 25–37 cm, odstupanja max 0,5 cm; odmorište najmanje širine kraka, duljine min 1,1 m; zavojito stepenište samo do 20 osoba (gazište na najužem dijelu min 13 cm); vanjsko stepenište ograda min 1,2 m; pokretne stepenice ne smiju biti jedini evakuacijski izlaz ni prelaziti 1 etažu bez prekida.",
       freq: 2
     },
@@ -1356,6 +1418,7 @@ window.APP_DATA.push({
     },
     {
       front: "Kada je poslodavac dužan osigurati pregled i ispitivanje radne opreme?",
+      exam: true,
       back: "Prije početka korištenja na novom mjestu rada (ako je oprema premještena i ponovno sastavljena); u iznimnim okolnostima (promjena načina rada, oštećenja, nedostaci, ozljede); na temelju rješenja inspektora rada; u rokovima proizvođača ili posebnog propisa; periodički najdulje svake 3 godine. Svakodnevno prije korištenja – vizualni pregled. O ispitivanju se sastavlja zapisnik (NN 16/16)."
     },
     {
@@ -1364,6 +1427,7 @@ window.APP_DATA.push({
     },
     {
       front: "Redoslijed primjene pravila ZNR pri radu s opasnim kemikalijama?",
+      exam: true,
       back: "1) zatvoreni sustavi ako je moguće; 2) odvođenje opasnih plinova, para, prašina i aerosola s mjesta nastanka; 3) ograničenje na najmanju mjeru količine kemikalije, broja izloženih radnika i vremena izlaganja; 4) propisana OZO ako se prethodnim ne postiže zadovoljavajuća zaštita. Opasne kemikalije samo ako se isti rezultat ne može postići bezopasnima (ZZNR čl. 46.–49.)."
     },
     {

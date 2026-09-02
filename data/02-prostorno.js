@@ -109,6 +109,7 @@ window.APP_DATA.push({
   questions: [
     {
       q: "Na kojim se razinama donose prostorni planovi prema Zakonu o prostornom uređenju (NN 155/25)?",
+      exam: true,
       options: [
         "Na državnoj, područnoj (regionalnoj) i lokalnoj razini",
         "Na europskoj, državnoj i općinskoj razini",
@@ -121,6 +122,7 @@ window.APP_DATA.push({
     },
     {
       q: "Koji od navedenih planova pripada prostornim planovima DRŽAVNE razine?",
+      exam: true,
       options: [
         "Generalni urbanistički plan",
         "Prostorni plan županije",
@@ -133,6 +135,7 @@ window.APP_DATA.push({
     },
     {
       q: "Koji planovi pripadaju prostornim planovima LOKALNE razine?",
+      exam: true,
       options: [
         "Prostorni plan županije, GUP i UPU",
         "Prostorni plan uređenja grada odnosno općine, generalni urbanistički plan i urbanistički plan uređenja",
@@ -157,6 +160,7 @@ window.APP_DATA.push({
     },
     {
       q: "Kakav odnos usklađenosti mora postojati među prostornim planovima?",
+      exam: true,
       options: [
         "Plan više razine mora se uskladiti s planom niže razine",
         "Prostorni plan niže razine mora biti usklađen s prostornim planom više razine, a plan užeg područja s planom šireg područja iste razine",
@@ -169,6 +173,7 @@ window.APP_DATA.push({
     },
     {
       q: "Koja od tvrdnji o lokacijskoj informaciji je TOČNA?",
+      exam: true,
       options: [
         "Služi upoznavanju s namjenom prostora i uvjetima provedbe zahvata, ali se na temelju nje ne može pristupiti provedbi zahvata ni izradi projekata",
         "Na temelju lokacijske informacije može se pristupiti građenju jednostavnih građevina",
@@ -181,6 +186,7 @@ window.APP_DATA.push({
     },
     {
       q: "Za koji se od navedenih slučajeva izdaje lokacijska dozvola?",
+      exam: true,
       options: [
         "Za građenje svake obiteljske kuće",
         "Za sve zgrade javne namjene bez iznimke",
@@ -193,6 +199,7 @@ window.APP_DATA.push({
     },
     {
       q: "Kada lokacijska dozvola prestaje važiti?",
+      exam: true,
       options: [
         "Dvije godine od izdavanja, bez mogućnosti drugačijeg roka",
         "Deset godina od pravomoćnosti u svim slučajevima",
@@ -205,6 +212,7 @@ window.APP_DATA.push({
     },
     {
       q: "Što se od navedenog određuje lokacijskim uvjetima u lokacijskoj dozvoli?",
+      exam: true,
       options: [
         "Cijena građenja i rokovi plaćanja izvođaču",
         "Namjena građevine, oblik i veličina građevne čestice, veličina građevine (gabariti i etaže) te način priključenja na infrastrukturu",
@@ -217,6 +225,7 @@ window.APP_DATA.push({
     },
     {
       q: "Koliko traje javni uvid u prijedlog prostornog plana u javnoj raspravi?",
+      exam: true,
       options: [
         "30 dana, a za izmjene i dopune najmanje 15, a najviše 30 dana",
         "8 dana za sve planove",
@@ -229,6 +238,7 @@ window.APP_DATA.push({
     },
     {
       q: "Koja od tvrdnji o parcelaciji građevinskog zemljišta je TOČNA?",
+      exam: true,
       options: [
         "Parcelacija je slobodna i ne ovisi o aktima prostornog uređenja",
         "Parcelacija se provodi isključivo na temelju građevinske dozvole",
@@ -253,6 +263,7 @@ window.APP_DATA.push({
     },
     {
       q: "Tko može obavljati poslove projektiranja u svojstvu odgovorne osobe (projektanta)?",
+      exam: true,
       options: [
         "Svaka osoba sa završenim građevinskim fakultetom",
         "Ovlašteni arhitekt ili ovlašteni inženjer, u okviru zadaća svoje struke",
@@ -265,6 +276,7 @@ window.APP_DATA.push({
     },
     {
       q: "Koje uvjete mora ispunjavati osoba da bi bila imenovana voditeljem radova?",
+      exam: true,
       options: [
         "Najmanje prvostupnik (baccalaureus) inženjer odgovarajuće struke sa 180 ECTS i položenim stručnim ispitom, ili upis u imenik voditelja radova komore",
         "Isključivo magistar inženjer s 300 ECTS bodova",
@@ -471,34 +483,42 @@ window.APP_DATA.push({
   flashcards: [
     {
       front: "Nabroji razine prostornih planova i planove svake razine.",
+      exam: true,
       back: "Državna: Državni plan prostornog razvoja, prostorni planovi područja posebnih obilježja, UPU državnog značaja. Područna (regionalna): prostorni plan županije, PP Grada Zagreba, UPU županijskog značaja. Lokalna: PPUG/PPUO, GUP, UPU (ZPU NN 155/25, čl. 84.)."
     },
     {
       front: "Tko donosi pojedine prostorne planove?",
+      exam: true,
       back: "Hrvatski sabor: DPPR i planove područja posebnih obilježja; Vlada: UPU državnog značaja; županijska skupština (skupština Grada Zagreba): planove regionalne razine; gradsko/općinsko vijeće: PPUG/O, GUP i UPU lokalnog značaja (čl. 132.)."
     },
     {
       front: "Načelo usklađenosti prostornih planova",
+      exam: true,
       back: "Plan niže razine mora biti usklađen s planom više razine; plan užeg područja s planom šireg područja iste razine; planovi iste razine međusobno. Plan užeg područja smije propisati strože uvjete — to nije neusklađenost (čl. 85.)."
     },
     {
       front: "Lokacijska informacija — što je i što NE omogućuje?",
+      exam: true,
       back: "Informacija o namjeni prostora i uvjetima provedbe zahvata iz prostornih planova; izdaje se u roku 15 dana. Na temelju nje se NE može pristupiti provedbi zahvata ni izradi projekata — nije upravni akt (čl. 37.)."
     },
     {
       front: "Za što se izdaje lokacijska dozvola? (primjeri)",
+      exam: true,
       back: "Eksploatacijska polja mineralnih sirovina; vojne lokacije; zahvati koji se ne smatraju građenjem; etapno/fazno građenje; složeni zahvati, složene građevine i složeni investicijski zahvati; građenje uz izvlaštenje; pomorsko dobro s koncesijom; građevine za proizvodnju/skladištenje električne energije; te kad god stranka zatraži (čl. 154.)."
     },
     {
       front: "Koliko važi lokacijska dozvola?",
+      exam: true,
       back: "Prestaje važiti ako se u roku 4 godine od pravomoćnosti ne podnese zahtjev za građevinsku dozvolu (barem za jednu fazu/etapu) odnosno ne pristupi zahvatu; za dozvole koje izdaje Ministarstvo rok je 6 godina. LD u skladu s kojom je izdana GD važi dok važi GD (čl. 182.)."
     },
     {
       front: "Javna rasprava o prijedlogu prostornog plana",
+      exam: true,
       back: "Sastoji se od javnog uvida i javnih izlaganja; sudjelovati može svatko. Javni uvid traje 30 dana (izmjene i dopune 15–30 dana). O javnom izlaganju vodi se zapisnik, a nakon rasprave izrađuje se izvješće o javnoj raspravi (čl. 122.–127.)."
     },
     {
       front: "U skladu s čime se provodi parcelacija građevinskog zemljišta?",
+      exam: true,
       back: "S lokacijskom dozvolom, urbanističkim ili infrastrukturnim projektom, rješenjem o utvrđivanju građevne čestice, građevinskom dozvolom, prostornim planom koji određuje oblik/veličinu čestice, granicom građevinskog područja ili sudskom odlukom. Zabranjena je parcelacija izvan građevinskog područja radi povećanja čestice unutar njega (čl. 202.)."
     },
     {
@@ -511,6 +531,7 @@ window.APP_DATA.push({
     },
     {
       front: "Uvjeti za inženjera gradilišta / voditelja radova",
+      exam: true,
       back: "Odgovarajuća struka (arhitektura, građevinarstvo, strojarstvo, elektrotehnika), najmanje prvostupnik sa 180 ECTS + položen stručni ispit, ili upis u imenik komore. Manje složene radove vodi tehničar s 5 godina iskustva i stručnim ispitom ili majstor (čl. 24., 25., 25.a)."
     },
     {
@@ -519,6 +540,7 @@ window.APP_DATA.push({
     },
     {
       front: "Revident — uvjeti za upis u razred revidenata",
+      exam: true,
       back: "Ovlašteni inženjer građevinarstva s najmanje 10 godina radnog iskustva u projektiranju statički složenih konstrukcija; rješenje o upisu donosi Hrvatska komora inženjera građevinarstva, žalba se podnosi Ministarstvu (čl. 27.a)."
     },
     {

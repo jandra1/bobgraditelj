@@ -117,6 +117,7 @@ window.APP_DATA.push({
   questions: [
     {
       q: "Kako se razvrstavaju javne ceste u Republici Hrvatskoj?",
+      exam: true,
       options: [
         "Na brze ceste, gradske ceste i seoske puteve",
         "Na autoceste, državne, županijske i lokalne ceste",
@@ -129,6 +130,7 @@ window.APP_DATA.push({
     },
     {
       q: "Kakav je pravni status javne ceste?",
+      exam: true,
       options: [
         "Vlasništvo upravitelja ceste koji je može prodati",
         "Opće dobro u općoj uporabi u vlasništvu RH — ne može se otuđiti niti se na njoj stječu stvarna prava (uz propisane iznimke)",
@@ -141,6 +143,7 @@ window.APP_DATA.push({
     },
     {
       q: "Koliki je najmanji zaštitni pojas državne ceste, mjeren od vanjskog ruba zemljišnog pojasa?",
+      exam: true,
       options: ["10 m", "15 m", "25 m", "40 m"],
       correct: 2,
       explanation: "Zaštitni pojasi: autoceste i brze ceste 40 m, državne 25 m, županijske 15 m, lokalne 10 m sa svake strane.",
@@ -148,6 +151,7 @@ window.APP_DATA.push({
     },
     {
       q: "Tko upravlja državnim cestama u RH?",
+      exam: true,
       options: ["Hrvatske autoceste d.o.o.", "Hrvatske ceste d.o.o.", "Županijske uprave za ceste", "Ministarstvo mora, prometa i infrastrukture"],
       correct: 1,
       explanation: "Državnim cestama upravljaju Hrvatske ceste, autocestama Hrvatske autoceste (i koncesionari), a županijskim i lokalnim cestama županijske uprave za ceste.",
@@ -155,6 +159,7 @@ window.APP_DATA.push({
     },
     {
       q: "Što je uvjet za izvedbu priključka na javnu cestu?",
+      exam: true,
       options: [
         "Samo građevinska dozvola za građevinu koja se priključuje",
         "Suglasnost i uvjeti pravne osobe koja upravlja javnom cestom, uz poštivanje pravilnika o priključcima",
@@ -167,6 +172,7 @@ window.APP_DATA.push({
     },
     {
       q: "Što obuhvaća redovito održavanje ceste?",
+      exam: true,
       options: [
         "Obnovu kolnika u punoj debljini i rekonstrukciju mostova",
         "Ophodnju, manje popravke, održavanje odvodnje i vegetacije te zimsku službu",
@@ -191,6 +197,7 @@ window.APP_DATA.push({
     },
     {
       q: "Gdje se projektiraju autobusna stajališta na javnim cestama izvan naselja?",
+      exam: true,
       options: [
         "Na kolniku, uz rub vozne trake",
         "Izvan kolnika, kao ugibališta",
@@ -215,6 +222,7 @@ window.APP_DATA.push({
     },
     {
       q: "Što je zaštitni pružni pojas?",
+      exam: true,
       options: [
         "Zemljište ispod kolosijeka",
         "Pojas uz prugu u kojem je građenje ograničeno i moguće samo uz uvjete i suglasnost upravitelja infrastrukture",
@@ -227,6 +235,7 @@ window.APP_DATA.push({
     },
     {
       q: "Kako se u pravilu izvode nova križanja željezničke pruge i javne ceste?",
+      exam: true,
       options: [
         "U razini, sa svjetlosnim znakovima",
         "Izvan razine (denivelirano)",
@@ -251,6 +260,7 @@ window.APP_DATA.push({
     },
     {
       q: "Prema kojim se mjerilima javne ceste razvrstavaju u kategorije?",
+      exam: true,
       options: [
         "Prema broju vozila koja su registrirana u županiji",
         "Prema funkciji povezivanja (država, županije, naselja) i prometnoj funkciji",
@@ -402,6 +412,7 @@ window.APP_DATA.push({
     },
     {
       q: "Kako se osiguravaju željezničko-cestovni prijelazi u razini?",
+      exam: true,
       options: [
         "Ne osiguravaju se",
         "Aktivno (branici/polubranici, svjetlosni i zvučni signali) ili pasivno (prometni znakovi uz osiguranu preglednost)",
@@ -414,6 +425,7 @@ window.APP_DATA.push({
     },
     {
       q: "Kojim se oznakama označavaju kategorije javnih cesta?",
+      exam: true,
       options: [
         "AC, BC, CC i DC",
         "A (autoceste), DC (državne), ŽC (županijske) i LC (lokalne ceste)",
@@ -438,6 +450,7 @@ window.APP_DATA.push({
     },
     {
       q: "Tko izdaje suglasnost za radove ili zahvate u zaštitnom pružnom pojasu?",
+      exam: true,
       options: [
         "Ministarstvo turizma",
         "Upravitelj željezničke infrastrukture (HŽ Infrastruktura), prema propisanim uvjetima",
@@ -459,22 +472,87 @@ window.APP_DATA.push({
       correct: 1,
       explanation: "Klotoida osigurava postupni prirast bočnog ubrzanja (zakrivljenost raste linearno s duljinom) i prostor za vitoperenje kolnika — vožnja je sigurnija i udobnija.",
       source: "pravila projektiranja cesta"
+    },
+    {
+      q: "Koja je uloga bankine, a koja berme?",
+      exam: true,
+      options: [
+        "Obje služe isključivo parkiranju vozila",
+        "Bankina je rubni pojas uz kolnik (bočna potpora kolniku, prostor za znakove); berma je pojas uz jarak/na pokosu koji štiti od erozije i osigurava stabilnost",
+        "Bankina je dio mosta, berma dio tunela",
+        "To su dva naziva za isti element"
+      ],
+      correct: 1,
+      explanation: "Bankina bočno podupire rub kolničke konstrukcije i nosi stupove znakova i ograde; berma je polica između rigola/jarka i pokosa (ili na visokim pokosima) koja povećava stabilnost i zadržava materijal s pokosa.",
+      source: "pravila projektiranja cesta"
+    },
+    {
+      q: "Koja je razlika između raskrižja i križanja?",
+      exam: true,
+      options: [
+        "Nema razlike",
+        "Raskrižje je spajanje/presijecanje cesta u istoj razini s preplitanjem prometnih tokova; križanje je presijecanje u različitim razinama (ili s prugom) bez povezivanja tokova",
+        "Raskrižje je samo kružni tok",
+        "Križanje postoji samo u naseljima"
+      ],
+      correct: 1,
+      explanation: "Na raskrižju se prometni tokovi izmjenjuju i prepliću (u razini ili denivelirano s rampama); križanje je presijecanje prometnica u različitim razinama bez međusobne veze, odnosno presijecanje ceste i pruge.",
+      source: "pravila projektiranja cesta"
+    },
+    {
+      q: "Što je prometni, a što slobodni profil ceste?",
+      exam: true,
+      options: [
+        "Prometni profil je tlocrt ceste, a slobodni njezin uzdužni presjek",
+        "Prometni profil je prostor vozila s teretom u pokretu; slobodni profil je prometni profil uvećan za zaštitne širine i visine — mora biti bez ikakvih prepreka",
+        "Slobodni profil je dio ceste bez prometa",
+        "To su oznake iz voznog reda autobusa"
+      ],
+      correct: 1,
+      explanation: "U slobodni profil ne smiju zadirati znakovi, stupovi ni raslinje; najvažnija je svijetla visina slobodnog profila javne ceste — najmanje 4,5 m.",
+      source: "pravila projektiranja cesta; propisi o javnim cestama"
+    },
+    {
+      q: "Čemu služi ispitivanje modula stišljivosti (Ms) kod građenja cesta?",
+      exam: true,
+      options: [
+        "Mjerenju hrapavosti asfalta",
+        "Dokazivanju nosivosti i zbijenosti posteljice i nevezanih nosivih slojeva — ispituje se kružnom pločom",
+        "Mjerenju brzine vozila",
+        "Određivanju boje oznaka na kolniku"
+      ],
+      correct: 1,
+      explanation: "Modul stišljivosti određuje se statičkim opterećenjem kružne ploče (promjera 30 cm): iz odnosa opterećenja i slijeganja ocjenjuje se kvaliteta zbijenosti; tražene vrijednosti za posteljicu i slojeve propisuju se projektom.",
+      source: "pravila struke; kontrola kvalitete zemljanih radova"
+    },
+    {
+      q: "Ispravljanje krivine ceste — rekonstrukcija ili izvanredno održavanje?",
+      exam: true,
+      options: [
+        "Uvijek izvanredno održavanje",
+        "Ako zahvat mijenja lokacijske uvjete (izlazi iz postojeće građevne čestice/cestovnog zemljišta), riječ je o rekonstrukciji za koju treba dozvola; unutar postojeće čestice može biti izvanredno održavanje po glavnom projektu",
+        "Uvijek rekonstrukcija",
+        "Takav zahvat nije dopušten"
+      ],
+      correct: 1,
+      explanation: "Granica je utjecaj na lokacijske uvjete: izvanredno održavanje provodi se unutar postojeće građevne čestice na temelju glavnog projekta, a zahvat kojim se mijenjaju lokacijski uvjeti (nova trasa, proširenje izvan čestice) je rekonstrukcija.",
+      source: "Zakon o cestama; Zakon o gradnji"
     }
   ],
   flashcards: [
-    { front: "Razvrstavanje javnih cesta?", back: "Autoceste, državne, županijske i lokalne ceste. Nerazvrstane ceste NISU javne ceste (JLS, Zakon o komunalnom gospodarstvu)." },
-    { front: "Pravni status javne ceste?", back: "Opće dobro u općoj uporabi u vlasništvu RH; ne može se otuđiti niti se stječu stvarna prava (iznimke: služnost, pravo građenja za infrastrukturu)." },
-    { front: "Zaštitni pojasi javnih cesta (od vanjskog ruba zemljišnog pojasa)?", back: "Autocesta/brza cesta 40 m; državna 25 m; županijska 15 m; lokalna 10 m. U pojasu se gradi samo uz suglasnost upravitelja ceste." },
-    { front: "Tko upravlja kojim javnim cestama?", back: "Autoceste: Hrvatske autoceste (+koncesionari); državne: Hrvatske ceste; županijske i lokalne: županijske uprave za ceste." },
-    { front: "Redovito vs. izvanredno održavanje ceste?", back: "Redovito: ophodnja, manji popravci, odvodnja, vegetacija, zimska služba. Izvanredno: obnova i pojačanje kolnika, veće sanacije." },
+    { front: "Razvrstavanje javnih cesta?", exam: true, back: "Autoceste, državne, županijske i lokalne ceste. Nerazvrstane ceste NISU javne ceste (JLS, Zakon o komunalnom gospodarstvu)." },
+    { front: "Pravni status javne ceste?", exam: true, back: "Opće dobro u općoj uporabi u vlasništvu RH; ne može se otuđiti niti se stječu stvarna prava (iznimke: služnost, pravo građenja za infrastrukturu)." },
+    { front: "Zaštitni pojasi javnih cesta (od vanjskog ruba zemljišnog pojasa)?", exam: true, back: "Autocesta/brza cesta 40 m; državna 25 m; županijska 15 m; lokalna 10 m. U pojasu se gradi samo uz suglasnost upravitelja ceste." },
+    { front: "Tko upravlja kojim javnim cestama?", exam: true, back: "Autoceste: Hrvatske autoceste (+koncesionari); državne: Hrvatske ceste; županijske i lokalne: županijske uprave za ceste." },
+    { front: "Redovito vs. izvanredno održavanje ceste?", exam: true, back: "Redovito: ophodnja, manji popravci, odvodnja, vegetacija, zimska služba. Izvanredno: obnova i pojačanje kolnika, veće sanacije." },
     { front: "Slojevi kolničke konstrukcije?", back: "Posteljica → nosivi slojevi (nevezani/vezani) → asfaltni slojevi: nosivi, vezni, habajući." },
     { front: "Zahtjevi za habajući sloj?", back: "Ravnost, hvatljivost (otpor klizanju), otpornost na kolotraženje i habanje; štiti donje slojeve od vode (TP NN 48/21)." },
-    { front: "Priključak na javnu cestu?", back: "Uz suglasnost i uvjete upravitelja ceste (Pravilnik NN 95/14): preglednost, geometrija, razmaci priključaka." },
-    { front: "Autobusna stajališta izvan naselja?", back: "U pravilu izvan kolnika kao ugibališta, s propisanom geometrijom (Pravilnik NN 119/07)." },
-    { front: "Razvrstavanje željezničkih pruga?", back: "Prema značaju za promet: međunarodni, regionalni, lokalni (Uredba NN 84/21)." },
-    { front: "Pružni, infrastrukturni i zaštitni pružni pojas?", back: "Pružni: zemljište ispod i uz prugu za funkcioniranje. Infrastrukturni: pružni pojas + zračni prostor. Zaštitni: pojas ograničene gradnje uz suglasnost upravitelja (NN 5/23)." },
+    { front: "Priključak na javnu cestu?", exam: true, back: "Uz suglasnost i uvjete upravitelja ceste (Pravilnik NN 95/14): preglednost, geometrija, razmaci priključaka." },
+    { front: "Autobusna stajališta izvan naselja?", exam: true, back: "U pravilu izvan kolnika kao ugibališta, s propisanom geometrijom (Pravilnik NN 119/07)." },
+    { front: "Razvrstavanje željezničkih pruga?", exam: true, back: "Prema značaju za promet: međunarodni, regionalni, lokalni (Uredba NN 84/21)." },
+    { front: "Pružni, infrastrukturni i zaštitni pružni pojas?", exam: true, back: "Pružni: zemljište ispod i uz prugu za funkcioniranje. Infrastrukturni: pružni pojas + zračni prostor. Zaštitni: pojas ograničene gradnje uz suglasnost upravitelja (NN 5/23)." },
     { front: "Nova križanja pruge i ceste?", back: "U pravilu izvan razine (denivelirano); prijelazi u razini osiguravaju se uređajima, znakovima i preglednošću." },
-    { front: "Status i upravitelj željezničke infrastrukture?", back: "Javno dobro u općoj uporabi u vlasništvu RH; upravitelj HŽ Infrastruktura." },
+    { front: "Status i upravitelj željezničke infrastrukture?", exam: true, back: "Javno dobro u općoj uporabi u vlasništvu RH; upravitelj HŽ Infrastruktura." },
     { front: "Elementi poprečnog presjeka ceste?", back: "Vozne + rubne trake, bankine, odvodnja (rigol, jarak), berme, pokosi; ovise o kategoriji ceste i projektnoj brzini." },
     { front: "Projektna brzina?", back: "Računska brzina iz koje slijede min. polumjeri, max. nagibi i preglednosti; bira se prema kategoriji ceste i terenu." },
     { front: "Zaustavna preglednost?", back: "Duljina za uočavanje zapreke i zaustavljanje — mora biti osigurana na CIJELOJ trasi; ovisi o brzini i nagibu." },
@@ -486,7 +564,11 @@ window.APP_DATA.push({
     { front: "Izvanredni prijevoz?", back: "Prekoračenje masa/dimenzija — samo uz dozvolu (ruta, uvjeti, pratnja, naknada za izvanrednu uporabu ceste)." },
     { front: "Širina normalnog kolosijeka?", back: "1435 mm između unutarnjih rubova glava tračnica; pruge u RH su normalnog kolosijeka." },
     { front: "Gornji i donji ustroj pruge?", back: "Gornji: tračnice, pragovi, pribor, zastor. Donji: trup pruge (nasipi, usjeci), objekti i odvodnja." },
-    { front: "Osiguranje ŽCP-a u razini?", back: "Aktivno: branici/polubranici + svjetlosni i zvučni signali. Pasivno: prometni znakovi uz osiguran pregledni trokut." },
-    { front: "Oznake kategorija javnih cesta?", back: "A (autoceste), DC/D (državne), ŽC (županijske), LC (lokalne) + broj." }
+    { front: "Osiguranje ŽCP-a u razini?", exam: true, back: "Aktivno: branici/polubranici + svjetlosni i zvučni signali. Pasivno: prometni znakovi uz osiguran pregledni trokut." },
+    { front: "Oznake kategorija javnih cesta?", exam: true, back: "A (autoceste), DC/D (državne), ŽC (županijske), LC (lokalne) + broj." },
+    { front: "Bankina / berma / rubnjak / rubni trak?", exam: true, back: "Bankina: rubni pojas uz kolnik (potpora, znakovi). Berma: polica uz jarak ili na pokosu (stabilnost, erozija). Rubnjak: izdignuti rub kolnika (nogostup, odvodnja). Rubni trak: uski trak uz vozni trak (vođenje, zaštita ruba)." },
+    { front: "Raskrižje vs križanje?", exam: true, back: "Raskrižje: tokovi se izmjenjuju (u razini ili denivelirano s rampama). Križanje: presijecanje u različitim razinama bez veze tokova (i cesta–pruga)." },
+    { front: "Prometni i slobodni profil?", exam: true, back: "Prometni: prostor vozila s teretom. Slobodni: prometni + zaštitne širine/visine, bez prepreka; svijetla visina javne ceste min. 4,5 m." },
+    { front: "Modul stišljivosti (Ms)?", exam: true, back: "Ispitivanje nosivosti/zbijenosti posteljice i nevezanih slojeva kružnom pločom Ø 30 cm; kriteriji propisani projektom." }
   ]
 });

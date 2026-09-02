@@ -160,6 +160,7 @@ window.APP_DATA.push({
     },
     {
       q: "Koji su vodopravni akti?",
+      exam: true,
       options: [
         "Vodna dozvola, vodni list i vodna suglasnost",
         "Vodopravni uvjeti, vodopravna potvrda, vodopravna dozvola i posebni uvjeti priključenja",
@@ -172,6 +173,7 @@ window.APP_DATA.push({
     },
     {
       q: "Za što se izdaje vodopravna dozvola?",
+      exam: true,
       options: [
         "Za gradnju bilo koje građevine uz vodotok",
         "Za korištenje voda i za ispuštanje otpadnih voda",
@@ -208,6 +210,7 @@ window.APP_DATA.push({
     },
     {
       q: "Što je inundacijski pojas?",
+      exam: true,
       options: [
         "Pojas ceste uz nasip",
         "Prostor između korita vodotoka i nasipa (odnosno granice vodnog dobra) namijenjen protoku velikih voda",
@@ -335,6 +338,7 @@ window.APP_DATA.push({
     },
     {
       q: "Što je aglomeracija u smislu odvodnje otpadnih voda?",
+      exam: true,
       options: [
         "Skup kamenih blokova u koritu",
         "Područje na kojem su stanovništvo i djelatnosti dovoljno koncentrirani da se otpadne vode skupljaju i odvode na pročišćavanje",
@@ -347,6 +351,7 @@ window.APP_DATA.push({
     },
     {
       q: "Koja je razlika između razdjelnog i mješovitog sustava odvodnje?",
+      exam: true,
       options: [
         "Razdjelni odvodi samo oborinske vode",
         "Razdjelni ima odvojene cjevovode za otpadne i oborinske vode; mješoviti ih odvodi zajedničkim kolektorom (uz kišne preljeve)",
@@ -455,6 +460,7 @@ window.APP_DATA.push({
     },
     {
       q: "Smije li se graditi u neuređenom inundacijskom pojasu?",
+      exam: true,
       options: [
         "Da, bez ograničenja",
         "Gradnja i radnje koje smanjuju protočnost ili ugrožavaju stabilnost zaštitnih građevina zabranjene su odnosno strogo ograničene",
@@ -464,6 +470,45 @@ window.APP_DATA.push({
       correct: 1,
       explanation: "Inundacijski pojas mora ostati protočan za velike vode; dopuštene su samo radnje koje ne pogoršavaju protočnost i stabilnost, uz vodopravne uvjete odnosno suglasnost Hrvatskih voda.",
       source: "Zakon o vodama"
+    },
+    {
+      q: "Koji su dijelovi sustava javne odvodnje, od korisnika do recipijenta?",
+      exam: true,
+      options: [
+        "Samo cijev od kuće do rijeke",
+        "Kućni priključak → sekundarna (ulična) mreža → kolektori → crpne stanice → uređaj za pročišćavanje (UPOV) → ispust u recipijent; u mješovitom sustavu i kišni preljevi",
+        "Vodosprema, hidrofor i slavina",
+        "Kanali za navodnjavanje i ustave"
+      ],
+      correct: 1,
+      explanation: "Otpadna voda skuplja se priključcima u mrežu i kolektore, po potrebi precrpljuje, pročišćava na UPOV-u i ispušta u prijemnik (recipijent); kod mješovitog sustava kišni preljevi rasterećuju velike dotoke.",
+      source: "pravila struke; propisi o odvodnji"
+    },
+    {
+      q: "Kako se obrađuje mulj s uređaja za pročišćavanje otpadnih voda?",
+      exam: true,
+      options: [
+        "Izravno se ispušta u vodotok",
+        "Zgušnjavanje → stabilizacija (npr. anaerobna digestija) → dehidracija (centrifuge, filtar-preše) → konačno zbrinjavanje ili oporaba",
+        "Samo se suši na suncu bez ograničenja",
+        "Mulj se ne obrađuje"
+      ],
+      correct: 1,
+      explanation: "Mulj se prvo zgusne, zatim stabilizira (anaerobnom digestijom — uz bioplin — ili aerobno/vapnom), dehidrira radi smanjenja volumena te zbrine: energetska oporaba, kompostiranje/poljoprivreda uz propisane uvjete ili odlaganje.",
+      source: "pravila struke; propisi o otpadnim vodama"
+    },
+    {
+      q: "Što je uslužno područje prema Zakonu o vodnim uslugama?",
+      exam: true,
+      options: [
+        "Područje naplate parkiranja",
+        "Područje na kojem vodne usluge (javnu vodoopskrbu i odvodnju) pruža jedan javni isporučitelj — uspostavlja se radi okrupnjavanja i održivosti isporučitelja",
+        "Zona sanitarne zaštite izvorišta",
+        "Slivno područje rijeke"
+      ],
+      correct: 1,
+      explanation: "Uslužna područja definirana su Zakonom o vodnim uslugama i uredbom o uslužnim područjima: na jednom uslužnom području vodne usluge pruža jedan javni isporučitelj, radi ekonomske održivosti i priuštivosti usluga.",
+      source: "Zakon o vodnim uslugama"
     }
   ],
   flashcards: [
@@ -471,11 +516,11 @@ window.APP_DATA.push({
     { front: "Podjela voda?", back: "Površinske (kopnene i priobalne) i podzemne vode." },
     { front: "Vodna područja RH (čl. 34.)?", back: "Dva: vodno područje rijeke Dunav i jadransko vodno područje." },
     { front: "Tri skupine vodnih građevina?", back: "1. regulacijske i zaštitne (nasipi, obaloutvrde, ustave, brane, odteretni kanali); 2. komunalne (javna vodoopskrba i odvodnja s UPOV-ima); 3. za melioracije (odvodnja i navodnjavanje)." },
-    { front: "Vodopravni akti?", back: "Vodopravni uvjeti, vodopravna potvrda, vodopravna dozvola, posebni uvjeti priključenja (Pravilnik NN 9/20, 39/22)." },
-    { front: "Za što se izdaje vodopravna dozvola?", back: "Za korištenje voda i za ispuštanje otpadnih voda." },
+    { front: "Vodopravni akti?", exam: true, back: "Vodopravni uvjeti, vodopravna potvrda, vodopravna dozvola, posebni uvjeti priključenja (Pravilnik NN 9/20, 39/22)." },
+    { front: "Za što se izdaje vodopravna dozvola?", exam: true, back: "Za korištenje voda i za ispuštanje otpadnih voda." },
     { front: "Zone sanitarne zaštite izvorišta?", back: "Utvrđuju se odlukom o zaštiti izvorišta na temelju vodoistražnih radova; stupnjevani režimi, najstroža zona neposredne zaštite oko zahvata (NN 66/11, 47/13)." },
     { front: "Stupnjevi obrane od poplava?", back: "Pripremno stanje → redovna obrana (propisani vodostaji) → izvanredna obrana (prijeti izlijevanje/oštećenja); provode Hrvatske vode (Državni plan NN 84/10)." },
-    { front: "Inundacijski pojas?", back: "Prostor između korita i nasipa (granice vodnog dobra) za protok velikih voda; gradnja i radnje ograničene da se ne smanji protočnost." },
+    { front: "Inundacijski pojas?", exam: true, back: "Prostor između korita i nasipa (granice vodnog dobra) za protok velikih voda; gradnja i radnje ograničene da se ne smanji protočnost." },
     { front: "Vodne naknade (financiranje)?", back: "Vodni doprinos (investitor, na m3 građevine po zonama), naknada za uređenje voda, za korištenje voda, za zaštitu voda, naknade za melioracije." },
     { front: "Tko upravlja vodama, a tko komunalnim vodnim građevinama?", back: "Vodama upravljaju Hrvatske vode; komunalnim vodnim građevinama javni isporučitelji vodnih usluga." },
     { front: "Planski dokumenti upravljanja vodama (čl. 37.)?", back: "Plan upravljanja vodnim područjima (s Planom upravljanja rizicima od poplava), višegodišnji programi gradnje, financijski i detaljni planovi." },
@@ -484,14 +529,17 @@ window.APP_DATA.push({
     { front: "100-godišnja voda?", back: "Protok/vodostaj povratnog razdoblja 100 god. = vjerojatnost pojave 1 % SVAKE godine (ne 'jednom u 100 godina')." },
     { front: "Retencija vs akumulacija?", back: "Retencija (često suha) privremeno prihvaća vodni val i sasijeca vršni protok; akumulacija trajno pohranjuje vodu za korištenje." },
     { front: "Obaloutvrde i pera?", back: "Obaloutvrda štiti obalu od erozije (kamen, gabioni); pera (naperi) usmjeravaju matiču, odmiču tok od obale, potiču taloženje." },
-    { front: "Stupnjevi pročišćavanja otpadnih voda?", back: "1. mehanički (rešetke, pjeskolov, taložnik); 2. biološki; 3. uklanjanje dušika i fosfora (osjetljiva područja)." },
-    { front: "Aglomeracija (odvodnja)?", back: "Područje dovoljno koncentriranog opterećenja da se otpadne vode skupljaju i pročišćavaju; opterećenje u ES (ekvivalent stanovnik)." },
-    { front: "Razdjelni vs mješoviti sustav odvodnje?", back: "Razdjelni: odvojeni cjevovodi za otpadne i oborinske vode. Mješoviti: zajednički kolektor + kišni preljevi za rasterećenje." },
+    { front: "Stupnjevi pročišćavanja otpadnih voda?", exam: true, back: "1. mehanički (rešetke, pjeskolov, taložnik); 2. biološki; 3. uklanjanje dušika i fosfora (osjetljiva područja)." },
+    { front: "Aglomeracija (odvodnja)?", exam: true, back: "Područje dovoljno koncentriranog opterećenja da se otpadne vode skupljaju i pročišćavaju; opterećenje u ES (ekvivalent stanovnik)." },
+    { front: "Razdjelni vs mješoviti sustav odvodnje?", exam: true, back: "Razdjelni: odvojeni cjevovodi za otpadne i oborinske vode. Mješoviti: zajednički kolektor + kišni preljevi za rasterećenje." },
     { front: "Funkcije vodospreme?", back: "Izravnanje dnevne potrošnje, održavanje tlaka (visinski položaj) i rezerva — uključivo požarna." },
     { front: "Melioracijska odvodnja — vrste?", back: "Površinska (otvoreni kanali: detaljna + glavna mreža) i podzemna (cijevna drenaža); u nizinama crpne stanice za precrpljivanje." },
     { front: "Metode navodnjavanja?", back: "Površinsko natapanje, kišenje (raspršivači), kap po kap (vodno najučinkovitije)." },
     { front: "Koncesije na vodama?", back: "Za gospodarsko korištenje: hidroenergija, punjenje u boce, akvakultura...; javna vodoopskrba NIJE koncesija (javna služba)." },
-    { front: "Gradnja u inundacijskom pojasu?", back: "Zabranjeno/strogo ograničeno sve što smanjuje protočnost ili ugrožava zaštitne građevine; samo uz vodopravne uvjete Hrvatskih voda." },
-    { front: "Vodoistražni radovi?", back: "Bušotine, pokusna crpljenja, analize — utvrđuju izdašnost i ranjivost vodonosnika; podloga za zahvat i zone sanitarne zaštite." }
+    { front: "Gradnja u inundacijskom pojasu?", exam: true, back: "Zabranjeno/strogo ograničeno sve što smanjuje protočnost ili ugrožava zaštitne građevine; samo uz vodopravne uvjete Hrvatskih voda." },
+    { front: "Vodoistražni radovi?", back: "Bušotine, pokusna crpljenja, analize — utvrđuju izdašnost i ranjivost vodonosnika; podloga za zahvat i zone sanitarne zaštite." },
+    { front: "Sustav javne odvodnje — od korisnika do recipijenta?", exam: true, back: "Kućni priključak → ulična mreža → kolektori → crpne stanice → UPOV → ispust u recipijent (+ kišni preljevi u mješovitom sustavu)." },
+    { front: "Obrada mulja s UPOV-a?", exam: true, back: "Zgušnjavanje → stabilizacija (anaerobna digestija/bioplin, aerobna, vapno) → dehidracija (centrifuga, filtar-preša) → oporaba ili zbrinjavanje." },
+    { front: "Uslužno područje (vodne usluge)?", exam: true, back: "Područje na kojem vodne usluge pruža JEDAN javni isporučitelj (Zakon o vodnim uslugama) — okrupnjavanje radi održivosti i priuštivosti." }
   ]
 });

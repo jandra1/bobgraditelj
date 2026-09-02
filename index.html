@@ -21,6 +21,8 @@
   --good-soft: #E3F5E6;
   --bad: #D6336C;
   --bad-soft: #FBE3EC;
+  --exam: #2B5FB8;
+  --exam-soft: #E1EAFB;
   --shadow: 0 1px 3px rgba(35,37,31,0.07);
 }
 @media (prefers-color-scheme: dark) {
@@ -39,6 +41,8 @@
     --good-soft: #16301B;
     --bad: #F06595;
     --bad-soft: #38151F;
+    --exam: #7AA5F0;
+    --exam-soft: #17233C;
     --shadow: 0 1px 3px rgba(0,0,0,0.4);
   }
 }
@@ -57,6 +61,8 @@
   --good-soft: #16301B;
   --bad: #F06595;
   --bad-soft: #38151F;
+  --exam: #7AA5F0;
+  --exam-soft: #17233C;
   --shadow: 0 1px 3px rgba(0,0,0,0.4);
 }
 * { box-sizing: border-box; margin: 0; padding: 0; }
@@ -180,6 +186,7 @@ p.view-lead { color: var(--ink-soft); margin-bottom: 18px; font-size: 0.95rem; }
 .freq { display:inline-block; margin-left:8px; padding:2px 8px; border-radius:999px; font-size:.72rem; font-weight:600; letter-spacing:.01em; vertical-align:middle; }
 .freq.f2 { background:var(--good-soft); color:var(--good); }
 .freq.f1 { background:var(--accent-soft); color:var(--accent); }
+.freq.fe { background:var(--exam-soft); color:var(--exam); }
 .q-card .area-tag {
   font-family: "IBM Plex Mono", monospace; font-size: 0.65rem; color: var(--accent);
   text-transform: uppercase; letter-spacing: 0.07em; margin-bottom: 8px;
@@ -365,9 +372,11 @@ details.area-sum[open] summary::after { content: "−"; }
     return list.sort(function (a, b) { return a.order - b.order; });
   })();
   function freqBadge(o) {
-    if (o.freq === 2) return '<span class="freq f2" title="Vrlo često postavljano pitanje (statistika ispita)">★★ vrlo često na ispitu</span>';
-    if (o.freq === 1) return '<span class="freq f1" title="Češće postavljano pitanje (statistika ispita)">★ često na ispitu</span>';
-    return "";
+    var b = "";
+    if (o.freq === 2) b += '<span class="freq f2" title="Vrlo često postavljano pitanje (statistika ispita)">★★ vrlo često na ispitu</span>';
+    else if (o.freq === 1) b += '<span class="freq f1" title="Češće postavljano pitanje (statistika ispita)">★ često na ispitu</span>';
+    if (o.exam) b += '<span class="freq fe" title="Ovo gradivo zabilježeno je u iskustvima kandidata s ispitnih rokova 2025./2026.">🎯 pitano na ispitu</span>';
+    return b;
   }
   var view = document.getElementById("view");
   var tabs = document.getElementById("tabs");
@@ -519,7 +528,7 @@ details.area-sum[open] summary::after { content: "−"; }
   var setupSel = null;
   function renderQuizSetup(preselect) {
     if (!AREAS.length) { renderHome(); return; }
-    setupSel = { areas: preselect ? [preselect] : AREAS.map(function (a) { return a.id; }), count: 10, onlyWrong: false, onlyFreq: false };
+    setupSel = { areas: preselect ? [preselect] : AREAS.map(function (a) { return a.id; }), count: 10, onlyWrong: false, onlyFreq: false, onlyExam: false };
     var html =
       '<h2 class="view-title">Kviz</h2>' +
       '<p class="view-lead">Odaberi područja i broj pitanja. Odgovor odmah dobiva objašnjenje s izvorom.</p>' +
@@ -561,11 +570,14 @@ details.area-sum[open] summary::after { content: "−"; }
     var mAll = el('<button class="chip" data-m="all">Sva pitanja</button>');
     var mWrong = el('<button class="chip" data-m="wrong">Samo pogrešna / neodgovorena</button>');
     var mFreq = el('<button class="chip" data-m="freq">★ Samo česta ispitna pitanja</button>');
+    var mExam = el('<button class="chip" data-m="exam" title="Gradivo zabilježeno u iskustvima s ispitnih rokova 2025./2026.">🎯 Pitano na ispitu</button>');
     mAll.addEventListener("click", function () { setupSel.onlyWrong = false; refreshChips(); });
     mWrong.addEventListener("click", function () { setupSel.onlyWrong = true; refreshChips(); });
     mFreq.addEventListener("click", function () { setupSel.onlyFreq = !setupSel.onlyFreq; refreshChips(); });
+    mExam.addEventListener("click", function () { setupSel.onlyExam = !setupSel.onlyExam; refreshChips(); });
     chipsM.appendChild(mAll); chipsM.appendChild(mWrong);
     if (hasFreq()) chipsM.appendChild(mFreq);
+    if (hasExam()) chipsM.appendChild(mExam);
 
     function refreshChips() {
       var all = setupSel.areas.length === AREAS.length;
@@ -579,10 +591,11 @@ details.area-sum[open] summary::after { content: "−"; }
       mAll.classList.toggle("on", !setupSel.onlyWrong);
       mWrong.classList.toggle("on", setupSel.onlyWrong);
       mFreq.classList.toggle("on", setupSel.onlyFreq);
+      mExam.classList.toggle("on", setupSel.onlyExam);
     }
     refreshChips();
     view.querySelector("#btn-start").addEventListener("click", function () {
-      startQuiz(setupSel.areas, setupSel.count, setupSel.onlyWrong, setupSel.onlyFreq);
+      startQuiz(setupSel.areas, setupSel.count, setupSel.onlyWrong, setupSel.onlyFreq, setupSel.onlyExam);
     });
   }
 
@@ -590,13 +603,17 @@ details.area-sum[open] summary::after { content: "−"; }
   function hasFreq() {
     return AREAS.some(function (a) { return a.questions.some(function (q) { return q.freq; }); });
   }
-  function startQuiz(areaIds, count, onlyWrong, onlyFreq) {
+  function hasExam() {
+    return AREAS.some(function (a) { return a.questions.some(function (q) { return q.exam; }); });
+  }
+  function startQuiz(areaIds, count, onlyWrong, onlyFreq, onlyExam) {
     var pool = [];
     AREAS.forEach(function (a) {
       if (areaIds.indexOf(a.id) < 0) return;
       a.questions.forEach(function (q, i) {
         var s = qstats[qid(a, i)];
         if (onlyFreq && !q.freq) return;
+        if (onlyExam && !q.exam) return;
         if (onlyWrong && s && s.c > 0 && (!s.w || s.c > s.w)) return;
         pool.push({ area: a, q: q, idx: i });
       });
@@ -705,6 +722,7 @@ details.area-sum[open] summary::after { content: "−"; }
         '<button class="btn primary big" id="fc-due">Ponovi za danas</button>' +
         '<button class="btn big" id="fc-all">Sve kartice</button>' +
         '<button class="btn big" id="fc-freq" title="Samo kartice označene kao često postavljana ispitna pitanja">★ Samo česta pitanja</button>' +
+        '<button class="btn big" id="fc-exam" title="Gradivo zabilježeno u iskustvima s ispitnih rokova 2025./2026.">🎯 Pitano na ispitu</button>' +
       '</div>' +
       '<div class="setup-label">Napredak po područjima</div>' +
       '<div class="build-list" id="fc-build"></div>';
@@ -758,15 +776,17 @@ details.area-sum[open] summary::after { content: "−"; }
     view.querySelector("#fc-due").addEventListener("click", function () { startCards(sel, true); });
     view.querySelector("#fc-all").addEventListener("click", function () { startCards(sel, false); });
     view.querySelector("#fc-freq").addEventListener("click", function () { startCards(sel, false, true); });
+    view.querySelector("#fc-exam").addEventListener("click", function () { startCards(sel, false, false, true); });
   }
 
-  function startCards(areaIds, dueOnly, freqOnly) {
+  function startCards(areaIds, dueOnly, freqOnly, examOnly) {
     var deck = [], now = Date.now();
     AREAS.forEach(function (a) {
       if (areaIds.indexOf(a.id) < 0) return;
       a.flashcards.forEach(function (c, i) {
         var s = cstats[cid(a, i)];
         if (freqOnly && !c.freq) return;
+        if (examOnly && !c.exam) return;
         if (dueOnly && s && s.due > now) return;
         deck.push({ area: a, card: c, idx: i });
       });
