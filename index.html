@@ -3,7 +3,17 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Gradivo</title>
+<title>Bob Graditelj — priprema za stručni ispit iz građevinarstva</title>
+<meta name="description" content="Besplatna priprema za stručni ispit iz građevinarstva (poslovi sudionika u gradnji): 1000+ pitanja s objašnjenjima i izvorima, kartice za ponavljanje, sažeci propisa i simulacija usmenog ispita.">
+<meta name="theme-color" content="#23251F">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://bobgraditelj.org/">
+<meta property="og:title" content="Bob Graditelj — priprema za stručni ispit iz građevinarstva">
+<meta property="og:description" content="1000+ pitanja s objašnjenjima, kartice za ponavljanje, sažeci propisa i simulacija usmenog ispita — besplatno.">
+<meta property="og:image" content="https://bobgraditelj.org/og.png">
+<meta name="twitter:card" content="summary_large_image">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700;800&family=Source+Sans+3:ital,wght@0,400;0,600;1,400&family=IBM+Plex+Mono:wght@400;500;600&display=swap">
 <style>
 :root {
@@ -85,6 +95,8 @@ header.app {
   display: flex; align-items: baseline; gap: 10px;
   padding: 20px 0 4px;
 }
+.logo-hat { width: 34px; height: 24px; align-self: center; flex: 0 0 auto; }
+.brand-accent { color: var(--accent); }
 header.app h1 {
   font-family: "Archivo", "Arial Narrow", sans-serif;
   font-weight: 800; font-size: 1.7rem; letter-spacing: 0.01em;
@@ -331,6 +343,14 @@ details.area-sum[open] summary::after { content: "−"; }
 .s-more { text-align: center; color: var(--ink-soft); font-size: 0.85rem; padding: 8px; }
 mark { background: var(--accent-soft); color: inherit; border-radius: 3px; padding: 0 1px; }
 
+/* podnožje */
+.foot {
+  margin-top: 40px; padding: 16px 0 4px; border-top: 1px solid var(--line);
+  display: grid; gap: 6px;
+  font-size: 0.78rem; color: var(--ink-soft); line-height: 1.5;
+}
+.foot b { color: var(--ink); }
+
 .hidden { display: none !important; }
 @media (prefers-reduced-motion: reduce) {
   * { transition: none !important; }
@@ -344,7 +364,12 @@ mark { background: var(--accent-soft); color: inherit; border-radius: 3px; paddi
 <body>
 <div class="wrap">
   <header class="app">
-    <h1>Gradivo</h1>
+    <svg class="logo-hat" viewBox="0 0 64 44" aria-hidden="true">
+      <path d="M14 38a18 18 0 0 1 36 0z" fill="#F5C518"/>
+      <rect x="28" y="15" width="8" height="16" rx="4" fill="#F5C518" stroke="var(--bg)" stroke-width="2.5"/>
+      <rect x="8" y="37" width="48" height="7" rx="3.5" fill="#F5C518"/>
+    </svg>
+    <h1>Bob <span class="brand-accent">Graditelj</span></h1>
     <span class="sub">Stručni ispit · Poslovi sudionika u gradnji</span>
   </header>
 
@@ -357,6 +382,11 @@ mark { background: var(--accent-soft); color: inherit; border-radius: 3px; paddi
   </nav>
 
   <main id="view"></main>
+
+  <footer class="foot">
+    <span><b>Bob Graditelj</b> · bobgraditelj.org</span>
+    <span>Pitanja i sažeci izrađeni su kao pomoć pri učenju prema tekstovima propisa — nisu službena ispitna pitanja. Za konačnu provjeru mjerodavan je tekst propisa u Narodnim novinama.</span>
+  </footer>
 </div>
 
 <script src="data/01-gradnja.js"></script>

@@ -1,4 +1,4 @@
-# Gradivo — priprema za stručni ispit (građevinarstvo)
+# Bob Graditelj — priprema za stručni ispit (građevinarstvo)
 
 Aplikacija za pripremu stručnog ispita za poslove sudionika u gradnji (VSS, građevinarstvo), izrađena prema službenom popisu važeće građevno-tehničke regulative (u mapi `materijali/`).
 
