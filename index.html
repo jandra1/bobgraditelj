@@ -343,9 +343,40 @@ details.area-sum[open] summary::after { content: "−"; }
 .s-more { text-align: center; color: var(--ink-soft); font-size: 0.85rem; padding: 8px; }
 mark { background: var(--accent-soft); color: inherit; border-radius: 3px; padding: 0 1px; }
 
+/* donacije */
+.donate-box {
+  margin-top: 40px; padding: 18px;
+  background: var(--surface); border: 1px solid var(--line); border-radius: 10px;
+  box-shadow: var(--shadow);
+  display: flex; align-items: center; justify-content: center; gap: 26px; flex-wrap: wrap;
+}
+.donate-box .d-main { display: grid; gap: 12px; justify-items: center; text-align: center; }
+.donate-box p { font-size: 0.88rem; color: var(--ink-soft); max-width: 380px; }
+.donate-btn {
+  display: inline-flex; align-items: center; gap: 8px; width: fit-content;
+  font-family: "IBM Plex Mono", monospace; font-size: 0.75rem; font-weight: 600;
+  text-transform: uppercase; letter-spacing: 0.06em;
+  background: var(--accent); color: var(--accent-ink);
+  border: 1px solid var(--accent); border-radius: 7px;
+  padding: 10px 16px; text-decoration: none; box-shadow: var(--shadow);
+}
+.donate-btn:hover { filter: brightness(1.08); }
+.donate-btn .beer { font-size: 1.05rem; line-height: 1; }
+.d-qr { display: grid; gap: 6px; justify-items: center; }
+.donate-qr {
+  background: #fff; border: 1px solid var(--line); border-radius: 8px;
+  padding: 8px; width: 110px; height: 110px;
+}
+.donate-qr svg { display: block; width: 100%; height: 100%; }
+.d-qr small {
+  font-family: "IBM Plex Mono", monospace; font-size: 0.6rem; color: var(--ink-soft);
+  text-transform: uppercase; letter-spacing: 0.07em;
+}
+@media (max-width: 560px) { .d-qr { display: none; } }
+
 /* podnožje */
 .foot {
-  margin-top: 40px; padding: 16px 0 4px; border-top: 1px solid var(--line);
+  margin-top: 20px; padding: 16px 0 4px; border-top: 1px solid var(--line);
   display: grid; gap: 6px;
   font-size: 0.78rem; color: var(--ink-soft); line-height: 1.5;
 }
@@ -382,6 +413,19 @@ mark { background: var(--accent-soft); color: inherit; border-radius: 3px; paddi
   </nav>
 
   <main id="view"></main>
+
+  <div class="donate-box">
+    <div class="d-main">
+      <p>Aplikacija je besplatna i bez reklama. Ako ti pomaže u pripremi ispita, možeš počastiti autora.</p>
+      <a class="donate-btn" href="https://revolut.me/lukanim6y" target="_blank" rel="noopener">
+        <span class="beer">🍺</span> Počasti pivom
+      </a>
+    </div>
+    <div class="d-qr">
+      <div class="donate-qr"><svg viewBox="0 0 29 29" shape-rendering="crispEdges" aria-hidden="true"><path d="M0 0h7v1h-7zM10 0h2v1h-2zM15 0h4v1h-4zM22 0h7v1h-7zM0 1h1v1h-1zM6 1h1v1h-1zM8 1h1v1h-1zM11 1h4v1h-4zM16 1h1v1h-1zM18 1h1v1h-1zM20 1h1v1h-1zM22 1h1v1h-1zM28 1h1v1h-1zM0 2h1v1h-1zM2 2h3v1h-3zM6 2h1v1h-1zM8 2h3v1h-3zM13 2h1v1h-1zM15 2h1v1h-1zM19 2h1v1h-1zM22 2h1v1h-1zM24 2h3v1h-3zM28 2h1v1h-1zM0 3h1v1h-1zM2 3h3v1h-3zM6 3h1v1h-1zM8 3h1v1h-1zM10 3h1v1h-1zM12 3h1v1h-1zM16 3h2v1h-2zM19 3h2v1h-2zM22 3h1v1h-1zM24 3h3v1h-3zM28 3h1v1h-1zM0 4h1v1h-1zM2 4h3v1h-3zM6 4h1v1h-1zM9 4h2v1h-2zM15 4h6v1h-6zM22 4h1v1h-1zM24 4h3v1h-3zM28 4h1v1h-1zM0 5h1v1h-1zM6 5h1v1h-1zM10 5h3v1h-3zM15 5h1v1h-1zM17 5h1v1h-1zM20 5h1v1h-1zM22 5h1v1h-1zM28 5h1v1h-1zM0 6h7v1h-7zM8 6h1v1h-1zM10 6h1v1h-1zM12 6h1v1h-1zM14 6h1v1h-1zM16 6h1v1h-1zM18 6h1v1h-1zM20 6h1v1h-1zM22 6h7v1h-7zM8 7h1v1h-1zM10 7h1v1h-1zM12 7h1v1h-1zM14 7h3v1h-3zM18 7h1v1h-1zM20 7h1v1h-1zM0 8h1v1h-1zM6 8h1v1h-1zM8 8h1v1h-1zM10 8h3v1h-3zM16 8h2v1h-2zM20 8h3v1h-3zM25 8h3v1h-3zM1 9h5v1h-5zM8 9h2v1h-2zM13 9h1v1h-1zM16 9h4v1h-4zM23 9h2v1h-2zM26 9h2v1h-2zM4 10h1v1h-1zM6 10h1v1h-1zM8 10h1v1h-1zM11 10h1v1h-1zM13 10h4v1h-4zM18 10h1v1h-1zM22 10h2v1h-2zM0 11h1v1h-1zM2 11h2v1h-2zM9 11h1v1h-1zM11 11h3v1h-3zM20 11h1v1h-1zM23 11h1v1h-1zM25 11h1v1h-1zM1 12h2v1h-2zM4 12h3v1h-3zM9 12h1v1h-1zM13 12h1v1h-1zM15 12h2v1h-2zM20 12h1v1h-1zM22 12h2v1h-2zM28 12h1v1h-1zM1 13h1v1h-1zM3 13h3v1h-3zM8 13h3v1h-3zM16 13h9v1h-9zM27 13h2v1h-2zM1 14h2v1h-2zM6 14h2v1h-2zM9 14h2v1h-2zM12 14h1v1h-1zM20 14h1v1h-1zM25 14h2v1h-2zM0 15h5v1h-5zM7 15h3v1h-3zM12 15h1v1h-1zM15 15h1v1h-1zM19 15h1v1h-1zM21 15h4v1h-4zM26 15h1v1h-1zM28 15h1v1h-1zM1 16h1v1h-1zM6 16h2v1h-2zM12 16h1v1h-1zM16 16h4v1h-4zM23 16h1v1h-1zM25 16h2v1h-2zM0 17h3v1h-3zM4 17h2v1h-2zM10 17h5v1h-5zM19 17h1v1h-1zM21 17h4v1h-4zM26 17h3v1h-3zM0 18h2v1h-2zM6 18h4v1h-4zM11 18h2v1h-2zM15 18h1v1h-1zM19 18h1v1h-1zM22 18h1v1h-1zM24 18h2v1h-2zM28 18h1v1h-1zM0 19h1v1h-1zM4 19h1v1h-1zM7 19h4v1h-4zM12 19h2v1h-2zM18 19h1v1h-1zM20 19h1v1h-1zM23 19h2v1h-2zM0 20h1v1h-1zM3 20h1v1h-1zM5 20h5v1h-5zM12 20h1v1h-1zM14 20h2v1h-2zM17 20h1v1h-1zM20 20h5v1h-5zM26 20h3v1h-3zM8 21h1v1h-1zM10 21h1v1h-1zM12 21h1v1h-1zM14 21h1v1h-1zM17 21h1v1h-1zM20 21h1v1h-1zM24 21h2v1h-2zM0 22h7v1h-7zM9 22h2v1h-2zM18 22h3v1h-3zM22 22h1v1h-1zM24 22h3v1h-3zM0 23h1v1h-1zM6 23h1v1h-1zM9 23h3v1h-3zM14 23h3v1h-3zM19 23h2v1h-2zM24 23h1v1h-1zM0 24h1v1h-1zM2 24h3v1h-3zM6 24h1v1h-1zM11 24h4v1h-4zM17 24h9v1h-9zM0 25h1v1h-1zM2 25h3v1h-3zM6 25h1v1h-1zM9 25h1v1h-1zM12 25h3v1h-3zM17 25h3v1h-3zM25 25h3v1h-3zM0 26h1v1h-1zM2 26h3v1h-3zM6 26h1v1h-1zM10 26h1v1h-1zM14 26h4v1h-4zM19 26h9v1h-9zM0 27h1v1h-1zM6 27h1v1h-1zM9 27h1v1h-1zM13 27h2v1h-2zM16 27h3v1h-3zM21 27h1v1h-1zM25 27h2v1h-2zM28 27h1v1h-1zM0 28h7v1h-7zM8 28h4v1h-4zM13 28h1v1h-1zM15 28h1v1h-1zM19 28h1v1h-1zM21 28h2v1h-2zM24 28h3v1h-3z" fill="#23251F"/></svg></div>
+      <small>Skeniraj mobitelom</small>
+    </div>
+  </div>
 
   <footer class="foot">
     <span><b>Bob Graditelj</b> · bobgraditelj.org</span>
