@@ -514,6 +514,14 @@ mark { background: var(--accent-soft); color: inherit; border-radius: 3px; paddi
 <script src="data/25-elektro.js"></script>
 <script src="data/26-instalacije.js"></script>
 <script src="data/27-rokovi-2026.js"></script>
+<!-- uža područja struke prema službenim ispitnim programima (VSS) -->
+<script src="data/28-str-energetika.js"></script>
+<script src="data/29-str-tlacna.js"></script>
+<script src="data/30-str-konstrukcije.js"></script>
+<script src="data/31-ele-postrojenja.js"></script>
+<script src="data/32-ele-ex.js"></script>
+<script src="data/33-ele-komunikacije.js"></script>
+<script src="data/34-ele-mjerenje.js"></script>
 <script>
 (function () {
   "use strict";
@@ -544,12 +552,19 @@ mark { background: var(--accent-soft); color: inherit; border-radius: 3px; paddi
   // koja uža područja pripadaju kojoj struci (područja koja nisu ovdje navedena vide svi)
   var UZA_PODRUCJA = {
     zgrade: ["gra", "arh"],
-    betonske: ["gra"],
-    celicne: ["gra"],
+    betonske: ["gra", "arh"],
+    celicne: ["gra", "arh"],
     prometne: ["gra"],
     hidro: ["gra"],
+    "ele-postrojenja": ["ele"],
     elektro: ["ele"],
-    instalacije: ["str"]
+    "ele-ex": ["ele"],
+    "ele-komunikacije": ["ele"],
+    "ele-mjerenje": ["ele"],
+    energetika: ["str"],
+    tlacna: ["str"],
+    instalacije: ["str"],
+    "str-konstrukcije": ["str"]
   };
   function activeAreas() {
     return AREAS.filter(function (a) {

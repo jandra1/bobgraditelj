@@ -1,8 +1,8 @@
 window.APP_DATA = window.APP_DATA || [];
 window.APP_DATA.push({
   id: "instalacije",
-  order: 15,
-  title: "Uže područje struke – strojarske instalacije (grijanje, ventilacija, plin)",
+  order: 21,
+  title: "Uže područje struke – instalacije (strojarstvo)",
   icon: "⚙️",
   summary: [
     {
@@ -12,19 +12,10 @@ window.APP_DATA.push({
         "Tehnički propis o racionalnoj uporabi energije i toplinskoj zaštiti u zgradama.",
         "Tehnički propis o sustavima grijanja i hlađenja zgrada; Tehnički propis o sustavima ventilacije, djelomične klimatizacije i klimatizacije zgrada.",
         "Tehnički propis za dimnjake u građevinama; Zakon o zapaljivim tekućinama i plinovima.",
-        "Pravilnik o tlačnoj opremi (NN 79/16, direktiva PED 2014/68/EU), Pravilnik o jednostavnim tlačnim posudama (NN 27/16), Pravilnik o pokretnoj tlačnoj opremi (NN 91/13) i Pravilnik o pregledima i ispitivanju opreme pod tlakom (NN 75/20).",
+        "Zakon o vodi za ljudsku potrošnju (NN 30/23) i Uredba o tvarima koje oštećuju ozonski sloj i fluoriranim stakleničkim plinovima (NN 83/21).",
+        "Pravilnik o energetskom pregledu zgrade i energetskom certificiranju te Pravilnik o osobama ovlaštenima za energetsko certificiranje i redovite preglede sustava grijanja/hlađenja.",
         "Ključna norma: HRN EN 12831 — proračun projektnog toplinskog opterećenja (gubitaka) zgrade.",
-        "Na ispitu se odabire SAMO JEDNO uže područje struke. Za strojarstvo su to: 1) energetika, 2) tlačna oprema, 3) instalacije, 4) konstrukcije i procesna tehnologija."
-      ]
-    },
-    {
-      heading: "Energetika — ključni zakoni",
-      points: [
-        "Zakon o energiji — krovni zakon: energetske djelatnosti, energetski subjekti, opća pravila tržišta energije.",
-        "Zakon o regulaciji energetskih djelatnosti — regulator je HERA (Hrvatska energetska regulatorna agencija): izdaje dozvole za energetske djelatnosti i regulira mrežne djelatnosti.",
-        "Posebni zakoni o tržištima: električne energije, plina, toplinske energije te nafte i naftnih derivata.",
-        "Zakon o obnovljivim izvorima energije i visokoučinkovitoj kogeneraciji (NN 138/21) — poticanje OIE; Zakon o energetskoj učinkovitosti.",
-        "Zakon o zaštiti zraka (NN 127/19) s Uredbom o razinama onečišćujućih tvari u zraku — bitni za ložišta i emisije iz energetskih postrojenja."
+        "Na ispitu se odabire SAMO JEDNO uže područje struke. Za strojarstvo su to: 1) energetika, 2) tlačna oprema, 3) instalacije (OVO područje), 4) konstrukcije i procesna tehnologija."
       ]
     },
     {
@@ -59,16 +50,11 @@ window.APP_DATA.push({
       ]
     },
     {
-      heading: "Tlačna oprema",
+      heading: "Voda, radne tvari i energetski pregledi",
       points: [
-        "Pravilnik o tlačnoj opremi (PED): tlačna oprema su posude, cjevovodi, sigurnosni i tlačni pribor s najvećim dopuštenim tlakom PS > 0,5 bar.",
-        "Kategorije tlačne opreme I–IV određuju se prema tlaku, volumenu (PS·V) i skupini fluida — pomoću 9 dijagrama za kategorizaciju.",
-        "Fluidi se dijele u skupinu 1 (opasni: zapaljivi, eksplozivni, otrovni) i skupinu 2 (ostali, uključujući vodenu paru).",
-        "Ocjenjivanje sukladnosti provodi se po modulima (A do H) — što je kategorija viša, modul je zahtjevniji i veće je sudjelovanje prijavljenog tijela.",
-        "Oznake: CE za tlačnu opremu, π (pi) za pokretnu tlačnu opremu (TPED), '3' za aerosolne raspršivače.",
-        "Jednostavne tlačne posude: serijski proizvedene zavarene posude za zrak ili dušik, PS ≤ 30 bar, umnožak PS·V ≤ 10.000 bar·L.",
-        "Sigurnosni pribor: uređaji za zaštitu od prekoračenja dopuštenih granica (sigurnosni ventili, rasprskavajuće membrane, tlačne sklopke).",
-        "Periodični pregledi opreme pod tlakom provode se prema Pravilniku o pregledima i ispitivanju opreme pod tlakom; nadzor visokorizične opreme vodi Agencija za opremu pod tlakom (OPT)."
+        "Materijali i proizvodi u dodiru s vodom za ljudsku potrošnju moraju biti zdravstveno ispravni (Zakon o vodi za ljudsku potrošnju, NN 30/23).",
+        "Fluorirani staklenički plinovi (radne tvari dizalica topline i rashladnih sustava): rukovanje, provjere propuštanja i prikupljanje smiju obavljati samo certificirane osobe i servisi (Uredba NN 83/21).",
+        "Sustavi grijanja i klimatizacije podliježu redovitim pregledima ovlaštenih osoba prema propisima o energetskoj učinkovitosti zgrada."
       ]
     }
   ],
@@ -199,51 +185,30 @@ window.APP_DATA.push({
       source: "Pravila struke; TP o sustavima grijanja i hlađenja"
     },
     {
-      q: "Prema čemu se tlačna oprema razvrstava u kategorije I–IV?",
+      q: "Kakvi moraju biti materijali i proizvodi koji dolaze u dodir s vodom za ljudsku potrošnju?",
       exam: true,
       options: [
-        "Prema proizvođaču i godini proizvodnje",
-        "Prema najvećem dopuštenom tlaku, volumenu (PS·V) i skupini fluida — pomoću 9 dijagrama za kategorizaciju",
-        "Prema boji i obliku posude",
-        "Prema mjestu ugradnje"
+        "Bilo kakvi, bitno je samo da ne cure",
+        "Zdravstveno ispravni — ne smiju vodi mijenjati svojstva ni otpuštati štetne tvari",
+        "Isključivo bakreni",
+        "Isključivo plastični"
       ],
       correct: 1,
-      explanation: "Fluidi skupine 1 su opasni (zapaljivi, otrovni...), skupine 2 ostali (uključujući vodenu paru). Viša kategorija znači zahtjevniji modul ocjenjivanja sukladnosti i veće sudjelovanje prijavljenog tijela.",
-      source: "Pravilnik o tlačnoj opremi (PED 2014/68/EU)"
+      explanation: "Zakon o vodi za ljudsku potrošnju (NN 30/23) traži da cijevi, armature i spremnici u dodiru s pitkom vodom budu zdravstveno ispravni, što se dokazuje odgovarajućim potvrdama.",
+      source: "Zakon o vodi za ljudsku potrošnju (NN 30/23)"
     },
     {
-      q: "Kojom se oznakom označava pokretna tlačna oprema?",
-      exam: true,
-      options: ["Oznakom CE", "Oznakom π (pi)", "Oznakom M", "Oznakom Ex"],
-      correct: 1,
-      explanation: "Pokretna tlačna oprema (TPED) nosi oznaku π; 'obična' tlačna oprema nosi CE, a aerosolni raspršivači oznaku '3'.",
-      source: "Pravilnik o pokretnoj tlačnoj opremi (TPED)"
-    },
-    {
-      q: "Koje su granice za jednostavne tlačne posude?",
+      q: "Tko smije rukovati fluoriranim stakleničkim plinovima (radnim tvarima dizalica topline i rashladnih sustava)?",
       exam: true,
       options: [
-        "Bilo koji fluid, PS ≤ 100 bar",
-        "Zrak ili dušik, PS ≤ 30 bar i umnožak PS·V ≤ 10.000 bar·L",
-        "Samo vodena para, PS ≤ 0,5 bar",
-        "Zapaljivi plinovi, V ≤ 1000 L"
+        "Svatko tko posjeduje uređaj",
+        "Samo certificirane osobe i certificirani servisi, uz propisane provjere propuštanja i prikupljanje radne tvari",
+        "Samo proizvođač uređaja",
+        "Vatrogasci"
       ],
       correct: 1,
-      explanation: "Jednostavne tlačne posude su serijski proizvedene zavarene posude za zrak ili dušik, najvećeg dopuštenog tlaka do 30 bar i PS·V do 10.000 bar·L (direktiva SPVD).",
-      source: "Pravilnik o jednostavnim tlačnim posudama"
-    },
-    {
-      q: "Što spada u sigurnosni pribor tlačne opreme?",
-      exam: true,
-      options: [
-        "Manometri i termometri",
-        "Uređaji za zaštitu od prekoračenja dopuštenih granica: sigurnosni ventili, rasprskavajuće membrane, tlačne sklopke",
-        "Izolacija cjevovoda",
-        "Nosači i oslonci posuda"
-      ],
-      correct: 1,
-      explanation: "Sigurnosni pribor izravno štiti opremu od prekoračenja dopuštenih granica (tlaka, temperature); manometri i termometri su tlačni pribor s mjernom funkcijom.",
-      source: "Pravilnik o tlačnoj opremi"
+      explanation: "Uredba NN 83/21 (provedba EU pravila o F-plinovima) propisuje certificiranje osoba i servisa, evidencije, provjere propuštanja ovisno o punjenju te obvezno prikupljanje radne tvari pri servisu i rashodovanju.",
+      source: "Uredba o tvarima koje oštećuju ozonski sloj i F-plinovima (NN 83/21)"
     },
     {
       q: "Smiju li se protupožarne zaklopke ugrađivati u odsisne kanale kuhinjskih napa?",
@@ -270,19 +235,6 @@ window.APP_DATA.push({
       correct: 0,
       explanation: "Kandidat polaže poznavanje regulative samo iz jednog od četiri uža područja, prema poslu kojim se bavi.",
       source: "Popis važeće građevno-tehničke regulative za strukovno područje strojarstva"
-    },
-    {
-      q: "Tko u Hrvatskoj regulira energetske djelatnosti i izdaje dozvole za njihovo obavljanje?",
-      exam: true,
-      options: [
-        "Ministarstvo gospodarstva izravno",
-        "HERA — Hrvatska energetska regulatorna agencija",
-        "HEP",
-        "Hrvatska komora inženjera strojarstva"
-      ],
-      correct: 1,
-      explanation: "HERA je neovisni regulator prema Zakonu o regulaciji energetskih djelatnosti: izdaje dozvole za energetske djelatnosti, regulira mrežne djelatnosti i tarife.",
-      source: "Zakon o regulaciji energetskih djelatnosti"
     }
   ],
   flashcards: [
@@ -294,11 +246,9 @@ window.APP_DATA.push({
     { front: "Mjera za provjetravanje prostorije?", exam: true, back: "Broj izmjena zraka na sat (h⁻¹)." },
     { front: "Plinska rampa — sastav?", exam: true, back: "Zaporni ventil, filtar, regulator tlaka, sigurnosni ventili i presostati ispred plinskog trošila." },
     { front: "Osjetnik plina — visina ugradnje?", exam: true, back: "Prirodni plin: pri stropu (lakši od zraka); UNP: pri podu (teži od zraka)." },
-    { front: "Kategorije tlačne opreme?", exam: true, back: "I–IV prema tlaku, volumenu (PS·V) i skupini fluida — 9 dijagrama; viša kategorija = zahtjevniji modul ocjenjivanja." },
-    { front: "Oznake tlačne opreme?", exam: true, back: "CE — tlačna oprema; π — pokretna tlačna oprema (TPED); '3' — aerosolni raspršivači." },
-    { front: "Jednostavne tlačne posude — granice?", exam: true, back: "Zrak ili dušik, PS ≤ 30 bar, PS·V ≤ 10.000 bar·L (serijske zavarene posude)." },
     { front: "Kondenzacijski kotao — prednost?", exam: true, back: "Iskorištava toplinu kondenzacije vodene pare iz dimnih plinova → veća iskoristivost, niže temperature dimnih plinova." },
     { front: "Uža područja struke za strojarstvo?", exam: true, back: "Energetika, tlačna oprema, instalacije, konstrukcije i procesna tehnologija — polaže se SAMO JEDNO." },
-    { front: "Što je HERA?", exam: true, back: "Hrvatska energetska regulatorna agencija — neovisni regulator energetskih djelatnosti; izdaje dozvole i regulira mrežne djelatnosti i tarife." }
+    { front: "F-plinovi — tko smije rukovati?", exam: true, back: "Samo certificirane osobe i servisi; provjere propuštanja i prikupljanje radne tvari obvezni (Uredba NN 83/21)." },
+    { front: "Materijali u dodiru s pitkom vodom?", exam: true, back: "Moraju biti zdravstveno ispravni — Zakon o vodi za ljudsku potrošnju (NN 30/23)." }
   ]
 });

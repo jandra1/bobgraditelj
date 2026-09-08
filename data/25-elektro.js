@@ -1,8 +1,8 @@
 window.APP_DATA = window.APP_DATA || [];
 window.APP_DATA.push({
   id: "elektro",
-  order: 14,
-  title: "Uže područje struke – elektrotehničke instalacije i postrojenja",
+  order: 15,
+  title: "Uže područje struke – postrojenja i instalacije u industriji i zgradarstvu",
   icon: "⚡",
   summary: [
     {
@@ -75,13 +75,10 @@ window.APP_DATA.push({
       ]
     },
     {
-      heading: "Uža područja struke i elektroničke komunikacije",
+      heading: "Uža područja struke za elektrotehniku",
       points: [
-        "Na ispitu se odabire SAMO JEDNO uže područje struke. Za elektrotehniku su to: 1) postrojenja u elektroprivredi, 2) postrojenja i instalacije u industriji, zgradarstvu, prometu i dr., 3) oprema i instalacije u prostorima ugroženim od eksplozivne atmosfere, 4) elektroničke komunikacije (radijske komunikacije i telekomunikacije), 5) mjerenje, upravljanje i nadzor industrijskih procesa.",
-        "Zaštitu od požara elektroenergetskih postrojenja i uređaja uređuje poseban pravilnik (NN 146/05) — uz opće ZOP propise.",
-        "Elektroničke komunikacije: Zakon o elektroničkim komunikacijama (NN 76/22) — elektronička komunikacijska infrastruktura, pristup radiofrekvencijskom spektru, opće ovlaštenje.",
-        "Kabelska kanalizacija projektira se prema Pravilniku o tehničkim uvjetima za kabelsku kanalizaciju (NN 139/23); svjetlovodne distribucijske mreže prema Pravilniku o svjetlovodnim distribucijskim mrežama (NN 63/24).",
-        "Oko elektroničke komunikacijske infrastrukture određuju se zona infrastrukture, zaštitna zona i radijski koridor s obvezama operatora i investitora radova (NN 146/24, 58/25)."
+        "Na ispitu se odabire SAMO JEDNO uže područje struke. Za elektrotehniku su to: 1) postrojenja u elektroprivredi, 2) postrojenja i instalacije u industriji, zgradarstvu, prometu i dr. (OVO područje), 3) oprema i instalacije u prostorima ugroženim od eksplozivne atmosfere, 4) elektroničke komunikacije (radijske komunikacije i telekomunikacije), 5) mjerenje, upravljanje i nadzor industrijskih procesa.",
+        "Zaštitu od požara elektroenergetskih postrojenja i uređaja uređuje poseban pravilnik (NN 146/05) — uz opće ZOP propise."
       ]
     }
   ],
