@@ -358,6 +358,19 @@ window.APP_DATA.push({
       correct: 1,
       explanation: "Uz opće ZOP propise, za elektroenergetska postrojenja i uređaje (transformatorske stanice, rasklopna postrojenja...) vrijedi poseban pravilnik NN 146/05.",
       source: "Pravilnik NN 146/05"
+    },
+    {
+      q: "Od čega se sastoji razvodni ormar niskonaponske instalacije?",
+      exam: true,
+      options: [
+        "Samo od brojila električne energije",
+        "Od glavne sklopke, zaštitnih prekidača (osigurača), RCD sklopki, odvodnika prenapona, sabirnica i rednih stezaljki u kućištu odgovarajuće IP zaštite",
+        "Od transformatora i generatora",
+        "Od utičnica i prekidača rasvjete"
+      ],
+      correct: 1,
+      explanation: "Razvodni ormar raspodjeljuje energiju po strujnim krugovima i objedinjuje zaštite: nadstrujnu (zaštitni prekidači), diferencijsku (RCD) i prenaponsku (SPD); kućište mora imati IP zaštitu primjerenu prostoru.",
+      source: "HRN HD 60364; pravila struke"
     }
   ],
   flashcards: [
@@ -378,6 +391,7 @@ window.APP_DATA.push({
     { front: "Što ubija — struja ili napon?", exam: true, back: "Struja kroz tijelo; napon se ograničava (50 V AC) jer o njemu i otporu tijela ovisi struja (Ohmov zakon)." },
     { front: "IP oznaka — što znače znamenke?", back: "Prva: zaštita od krutih tijela i dodira; druga: zaštita od vode (npr. IP54)." },
     { front: "Uža područja struke za elektrotehniku?", exam: true, back: "Pet ih je: postrojenja u elektroprivredi; postrojenja i instalacije u industriji/zgradarstvu; Ex oprema; elektroničke komunikacije; mjerenje, upravljanje i nadzor. Polaže se SAMO JEDNO." },
-    { front: "ZOP elektroenergetskih postrojenja — koji propis?", exam: true, back: "Pravilnik o temeljnim zahtjevima za zaštitu od požara elektroenergetskih postrojenja i uređaja (NN 146/05)." }
+    { front: "ZOP elektroenergetskih postrojenja — koji propis?", exam: true, back: "Pravilnik o temeljnim zahtjevima za zaštitu od požara elektroenergetskih postrojenja i uređaja (NN 146/05)." },
+    { front: "Razvodni ormar — sastav?", exam: true, back: "Glavna sklopka, zaštitni prekidači, RCD sklopke, odvodnici prenapona (SPD), sabirnice, redne stezaljke; kućište s IP zaštitom." }
   ]
 });
