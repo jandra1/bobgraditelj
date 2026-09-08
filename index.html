@@ -92,9 +92,11 @@ body::before {
 }
 .wrap { max-width: 760px; margin: 0 auto; padding: 0 16px 90px; }
 header.app {
-  display: flex; align-items: baseline; gap: 10px;
+  display: flex; align-items: center; gap: 12px;
   padding: 20px 0 4px;
 }
+.head-text { display: grid; gap: 2px; min-width: 0; }
+.head-text h1 { line-height: 1.1; }
 .logo-hat { width: 34px; height: 24px; align-self: center; flex: 0 0 auto; }
 .brand-accent { color: var(--accent); }
 header.app h1 {
@@ -106,6 +108,20 @@ header.app .sub {
   font-family: "IBM Plex Mono", ui-monospace, monospace;
   font-size: 0.68rem; color: var(--ink-soft);
   text-transform: uppercase; letter-spacing: 0.08em;
+}
+.struka-badge {
+  margin-left: auto; flex: 0 0 auto; cursor: pointer;
+  font-family: "IBM Plex Mono", ui-monospace, monospace;
+  font-size: 0.65rem; font-weight: 600;
+  text-transform: uppercase; letter-spacing: 0.07em;
+  color: var(--accent); background: var(--accent-soft);
+  border: 1px solid var(--accent); border-radius: 999px;
+  padding: 4px 12px; white-space: nowrap;
+}
+.struka-badge:hover { background: var(--accent); color: var(--accent-ink); }
+@media (max-width: 560px) {
+  header.app { flex-wrap: wrap; }
+  .struka-badge { margin-left: 46px; }
 }
 nav.tabs {
   display: flex; gap: 4px; margin: 14px 0 22px;
@@ -388,7 +404,6 @@ mark { background: var(--accent-soft); color: inherit; border-radius: 3px; paddi
 }
 @media (max-width: 480px) {
   body { font-size: 16px; }
-  header.app { flex-direction: column; gap: 2px; }
 }
 </style>
 </head>
@@ -400,8 +415,11 @@ mark { background: var(--accent-soft); color: inherit; border-radius: 3px; paddi
       <rect x="28" y="15" width="8" height="16" rx="4" fill="#F5C518" stroke="var(--bg)" stroke-width="2.5"/>
       <rect x="8" y="37" width="48" height="7" rx="3.5" fill="#F5C518"/>
     </svg>
-    <h1>Bob <span class="brand-accent">Graditelj</span></h1>
-    <span class="sub">Stručni ispit · Poslovi sudionika u gradnji</span>
+    <div class="head-text">
+      <h1>Bob <span class="brand-accent">Graditelj</span></h1>
+      <span class="sub">Stručni ispit · Poslovi sudionika u gradnji</span>
+    </div>
+    <button class="struka-badge" id="struka-badge" title="Odabrana struka — klikni za promjenu na početnom ekranu"></button>
   </header>
 
   <nav class="tabs" id="tabs">
@@ -459,6 +477,10 @@ mark { background: var(--accent-soft); color: inherit; border-radius: 3px; paddi
 <script src="data/22-celicne.js"></script>
 <script src="data/23-prometne.js"></script>
 <script src="data/24-hidro.js"></script>
+<!-- nova uža područja (elektrotehnika, strojarstvo) i dopune s ispitnih rokova 2024.–2026. -->
+<script src="data/25-elektro.js"></script>
+<script src="data/26-instalacije.js"></script>
+<script src="data/27-rokovi-2026.js"></script>
 <script>
 (function () {
   "use strict";
@@ -478,6 +500,30 @@ mark { background: var(--accent-soft); color: inherit; border-radius: 3px; paddi
     });
     return list.sort(function (a, b) { return a.order - b.order; });
   })();
+
+  // struke: opća područja vide svi, uža područja samo odabrana struka
+  var STRUKE = [
+    { id: "gra", label: "Građevinarstvo" },
+    { id: "arh", label: "Arhitektura" },
+    { id: "str", label: "Strojarstvo" },
+    { id: "ele", label: "Elektrotehnika" }
+  ];
+  // koja uža područja pripadaju kojoj struci (područja koja nisu ovdje navedena vide svi)
+  var UZA_PODRUCJA = {
+    zgrade: ["gra", "arh"],
+    betonske: ["gra"],
+    celicne: ["gra"],
+    prometne: ["gra"],
+    hidro: ["gra"],
+    elektro: ["ele"],
+    instalacije: ["str"]
+  };
+  function activeAreas() {
+    return AREAS.filter(function (a) {
+      var s = UZA_PODRUCJA[a.id];
+      return !s || s.indexOf(struka) >= 0;
+    });
+  }
   function freqBadge(o) {
     var b = "";
     if (o.freq === 2) b += '<span class="freq f2" title="Vrlo često postavljano pitanje (statistika ispita)">★★ vrlo često na ispitu</span>';
@@ -498,6 +544,15 @@ mark { background: var(--accent-soft); color: inherit; border-radius: 3px; paddi
   }
   var qstats = load("gradivo.qstats.v1", {});   // qid -> {c, w}
   var cstats = load("gradivo.cstats.v1", {});   // cid -> {box, due}
+  var struka = load("gradivo.struka.v1", "gra"); // odabrana struka
+
+  var strukaBadge = document.getElementById("struka-badge");
+  function updateStrukaBadge() {
+    var s = STRUKE.filter(function (x) { return x.id === struka; })[0] || STRUKE[0];
+    strukaBadge.textContent = s.label;
+  }
+  strukaBadge.addEventListener("click", function () { go("home"); });
+  updateStrukaBadge();
 
   function qid(area, i) { return area.id + "#" + i; }
   function cid(area, i) { return area.id + "@" + i; }
@@ -586,8 +641,9 @@ mark { background: var(--accent-soft); color: inherit; border-radius: 3px; paddi
       view.appendChild(el('<div class="empty-note">Baza pitanja se još generira — datoteke u mapi <b>data/</b> nisu pronađene. Osvježi stranicu kasnije.</div>'));
       return;
     }
+    var ACT = activeAreas();
     var totalQ = 0, knownQ = 0, totalC = 0, masteredC = 0;
-    AREAS.forEach(function (a) {
+    ACT.forEach(function (a) {
       totalQ += a.questions.length;
       totalC += a.flashcards.length;
       masteredC += cardsMastered(a);
@@ -600,6 +656,8 @@ mark { background: var(--accent-soft); color: inherit; border-radius: 3px; paddi
     var html =
       '<h2 class="view-title">Tvoj napredak</h2>' +
       '<p class="view-lead">Pitanje se računa kao savladano kad ga barem jednom točno odgovoriš.</p>' +
+      '<div class="setup-label">Tvoja struka <span style="text-transform:none;letter-spacing:0">— određuje koja se uža područja prikazuju</span></div>' +
+      '<div class="chips" id="chips-struka"></div>' +
       '<div class="total-box">' +
         '<div class="nums">' +
           '<div class="num"><b>' + pct + '%</b><span>savladano</span></div>' +
@@ -614,8 +672,21 @@ mark { background: var(--accent-soft); color: inherit; border-radius: 3px; paddi
       '</div>' +
       '<div class="areas" id="area-list"></div>';
     view.innerHTML = html;
+    var chipsS = view.querySelector("#chips-struka");
+    STRUKE.forEach(function (s) {
+      var c = el('<button class="chip' + (s.id === struka ? " on" : "") + '">' + s.label + '</button>');
+      c.addEventListener("click", function () {
+        if (s.id === struka) return;
+        struka = s.id;
+        save("gradivo.struka.v1", struka);
+        searchIndex = null; // indeks pretrage ovisi o vidljivim područjima
+        updateStrukaBadge();
+        renderHome();
+      });
+      chipsS.appendChild(c);
+    });
     var list = view.querySelector("#area-list");
-    AREAS.forEach(function (a) {
+    ACT.forEach(function (a) {
       var p = areaProgress(a);
       var card = el(
         '<div class="area-card">' +
@@ -636,14 +707,15 @@ mark { background: var(--accent-soft); color: inherit; border-radius: 3px; paddi
       list.appendChild(card);
     });
     view.querySelector("#btn-sim").addEventListener("click", function () { startOral(30); });
-    view.querySelector("#btn-wrong").addEventListener("click", function () { startQuiz(AREAS.map(function (a) { return a.id; }), 0, true); });
+    view.querySelector("#btn-wrong").addEventListener("click", function () { startQuiz(activeAreas().map(function (a) { return a.id; }), 0, true); });
   }
 
   /* ---------- quiz setup ---------- */
   var setupSel = null;
   function renderQuizSetup(preselect) {
     if (!AREAS.length) { renderHome(); return; }
-    setupSel = { areas: preselect ? [preselect] : AREAS.map(function (a) { return a.id; }), count: 10, onlyWrong: false, onlyFreq: false, onlyExam: false };
+    var LIST = activeAreas();
+    setupSel = { areas: preselect ? [preselect] : LIST.map(function (a) { return a.id; }), count: 10, onlyWrong: false, onlyFreq: false, onlyExam: false };
     var html =
       '<h2 class="view-title">Kviz</h2>' +
       '<p class="view-lead">Odaberi područja i broj pitanja. Odgovor odmah dobiva objašnjenje s izvorom.</p>' +
@@ -660,13 +732,13 @@ mark { background: var(--accent-soft); color: inherit; border-radius: 3px; paddi
     var allChip = el('<button class="chip">Sva područja</button>');
     chipsA.appendChild(allChip);
     allChip.addEventListener("click", function () {
-      setupSel.areas = AREAS.map(function (a) { return a.id; });
+      setupSel.areas = LIST.map(function (a) { return a.id; });
       refreshChips();
     });
-    AREAS.forEach(function (a) {
+    LIST.forEach(function (a) {
       var c = el('<button class="chip" data-id="' + a.id + '">' + a.icon + " " + esc(a.title) + '</button>');
       c.addEventListener("click", function () {
-        if (setupSel.areas.length === AREAS.length) setupSel.areas = [a.id];
+        if (setupSel.areas.length === LIST.length) setupSel.areas = [a.id];
         else if (setupSel.areas.indexOf(a.id) >= 0) {
           setupSel.areas = setupSel.areas.filter(function (x) { return x !== a.id; });
           if (!setupSel.areas.length) setupSel.areas = [a.id];
@@ -695,7 +767,7 @@ mark { background: var(--accent-soft); color: inherit; border-radius: 3px; paddi
     if (hasExam()) chipsM.appendChild(mExam);
 
     function refreshChips() {
-      var all = setupSel.areas.length === AREAS.length;
+      var all = setupSel.areas.length === LIST.length;
       allChip.classList.toggle("on", all);
       Array.prototype.forEach.call(chipsA.querySelectorAll("[data-id]"), function (c) {
         c.classList.toggle("on", !all && setupSel.areas.indexOf(c.dataset.id) >= 0);
@@ -799,7 +871,7 @@ mark { background: var(--accent-soft); color: inherit; border-radius: 3px; paddi
   /* ---------- usmena simulacija ispita ---------- */
   function startOral(count) {
     var pool = [];
-    AREAS.forEach(function (a) {
+    activeAreas().forEach(function (a) {
       a.questions.forEach(function (q, i) { pool.push({ area: a, q: q, idx: i }); });
     });
     if (!pool.length) return;
@@ -893,15 +965,16 @@ mark { background: var(--accent-soft); color: inherit; border-radius: 3px; paddi
       '<div class="setup-label">Napredak po područjima</div>' +
       '<div class="build-list" id="fc-build"></div>';
     view.innerHTML = html;
-    var sel = preselect ? [preselect] : AREAS.map(function (a) { return a.id; });
+    var LIST = activeAreas();
+    var sel = preselect ? [preselect] : LIST.map(function (a) { return a.id; });
     var chips = view.querySelector("#fc-areas");
     var allChip = el('<button class="chip">Sva područja</button>');
     chips.appendChild(allChip);
-    allChip.addEventListener("click", function () { sel = AREAS.map(function (a) { return a.id; }); refresh(); });
-    AREAS.forEach(function (a) {
+    allChip.addEventListener("click", function () { sel = LIST.map(function (a) { return a.id; }); refresh(); });
+    LIST.forEach(function (a) {
       var c = el('<button class="chip" data-id="' + a.id + '">' + a.icon + " " + esc(a.title) + '</button>');
       c.addEventListener("click", function () {
-        if (sel.length === AREAS.length) sel = [a.id];
+        if (sel.length === LIST.length) sel = [a.id];
         else if (sel.indexOf(a.id) >= 0) { sel = sel.filter(function (x) { return x !== a.id; }); if (!sel.length) sel = [a.id]; }
         else sel.push(a.id);
         refresh();
@@ -909,7 +982,7 @@ mark { background: var(--accent-soft); color: inherit; border-radius: 3px; paddi
       chips.appendChild(c);
     });
     var buildList = view.querySelector("#fc-build");
-    AREAS.forEach(function (a) {
+    LIST.forEach(function (a) {
       var c = areaCardCounts(a);
       buildList.appendChild(el(
         '<div class="build-row">' +
@@ -918,13 +991,13 @@ mark { background: var(--accent-soft); color: inherit; border-radius: 3px; paddi
         '</div>'));
     });
     function refresh() {
-      var all = sel.length === AREAS.length;
+      var all = sel.length === LIST.length;
       allChip.classList.toggle("on", all);
       Array.prototype.forEach.call(chips.querySelectorAll("[data-id]"), function (c) {
         c.classList.toggle("on", !all && sel.indexOf(c.dataset.id) >= 0);
       });
       var t = { novo: 0, learn: 0, done: 0, due: 0, total: 0 };
-      AREAS.forEach(function (a) {
+      LIST.forEach(function (a) {
         if (sel.indexOf(a.id) < 0) return;
         var c = areaCardCounts(a);
         t.novo += c.novo; t.learn += c.learn; t.done += c.done; t.due += c.due; t.total += c.total;
@@ -1022,7 +1095,7 @@ mark { background: var(--accent-soft); color: inherit; border-radius: 3px; paddi
   var searchIndex = null;
   function buildSearchIndex() {
     searchIndex = [];
-    AREAS.forEach(function (a) {
+    activeAreas().forEach(function (a) {
       (a.summary || []).forEach(function (sec) {
         sec.points.forEach(function (p) {
           searchIndex.push({ type: "Sažetak", area: a, head: sec.heading, text: p, extra: "" });
@@ -1116,7 +1189,7 @@ mark { background: var(--accent-soft); color: inherit; border-radius: 3px; paddi
       '<div class="acc" id="acc"></div>';
     view.innerHTML = html;
     var acc = view.querySelector("#acc");
-    AREAS.forEach(function (a) {
+    activeAreas().forEach(function (a) {
       var d = document.createElement("details");
       d.className = "area-sum";
       if (a.id === openId) d.open = true;

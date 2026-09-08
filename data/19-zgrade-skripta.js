@@ -2,7 +2,7 @@ window.APP_DATA = window.APP_DATA || [];
 window.APP_DATA.push({
   id: "zgrade",
   order: 9,
-  title: "Uže područje struke – zgrade",
+  title: "Uže područje struke – zgrade i arhitektura",
   icon: "🏢",
   summary: [
     {
