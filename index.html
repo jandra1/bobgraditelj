@@ -93,7 +93,7 @@ body::before {
 .wrap { max-width: 760px; margin: 0 auto; padding: 0 16px 90px; }
 header.app {
   display: flex; align-items: center; gap: 12px;
-  padding: 20px 0 4px;
+  padding: 20px 0 4px; position: relative;
 }
 .head-text { display: grid; gap: 2px; min-width: 0; }
 .head-text h1 { line-height: 1.1; }
@@ -112,13 +112,46 @@ header.app .sub {
 .struka-badge {
   margin-left: auto; flex: 0 0 auto; cursor: pointer;
   font-family: "IBM Plex Mono", ui-monospace, monospace;
-  font-size: 0.65rem; font-weight: 600;
-  text-transform: uppercase; letter-spacing: 0.07em;
-  color: var(--accent); background: var(--accent-soft);
+  font-size: 0.78rem; font-weight: 700;
+  text-transform: uppercase; letter-spacing: 0.06em;
+  color: var(--accent-ink); background: var(--accent);
   border: 1px solid var(--accent); border-radius: 999px;
-  padding: 4px 12px; white-space: nowrap;
+  padding: 9px 16px; white-space: nowrap;
+  box-shadow: var(--shadow);
 }
-.struka-badge:hover { background: var(--accent); color: var(--accent-ink); }
+.struka-badge:hover { filter: brightness(1.08); }
+.struka-menu {
+  position: absolute; right: 0; top: 100%; z-index: 60;
+  background: var(--surface); border: 1px solid var(--line-strong); border-radius: 10px;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.18); padding: 5px; display: grid; gap: 2px; min-width: 190px;
+}
+.struka-menu button {
+  text-align: left; border: none; background: none; color: var(--ink); cursor: pointer;
+  font-family: "Source Sans 3", sans-serif; font-size: 0.92rem;
+  padding: 9px 12px; border-radius: 7px;
+}
+.struka-menu button:hover { background: var(--surface-2); }
+.struka-menu button.on { color: var(--accent); font-weight: 600; }
+.struka-menu button.on::after { content: " ✓"; }
+.struka-overlay {
+  position: fixed; inset: 0; z-index: 100;
+  background: rgba(20,20,18,0.6); backdrop-filter: blur(2px);
+  display: flex; align-items: center; justify-content: center; padding: 16px;
+}
+.struka-modal {
+  background: var(--surface); border: 1px solid var(--line); border-radius: 12px;
+  padding: 26px 24px; max-width: 430px; width: 100%; box-shadow: 0 10px 40px rgba(0,0,0,0.3);
+}
+.struka-modal h2 { font-family: "Archivo", sans-serif; font-size: 1.3rem; font-weight: 800; margin-bottom: 6px; }
+.struka-modal p { color: var(--ink-soft); font-size: 0.92rem; margin-bottom: 18px; }
+.struka-modal .s-opts { display: grid; gap: 8px; }
+.struka-modal .s-opt {
+  border: 1px solid var(--line-strong); background: var(--surface); color: var(--ink);
+  border-radius: 9px; padding: 13px 16px; cursor: pointer; text-align: left;
+  font-family: "Source Sans 3", sans-serif; font-size: 1rem; font-weight: 600;
+}
+.struka-modal .s-opt:hover { border-color: var(--accent); background: var(--accent-soft); }
+.struka-modal .hint { margin-top: 14px; margin-bottom: 0; font-size: 0.8rem; }
 @media (max-width: 560px) {
   header.app { flex-wrap: wrap; }
   .struka-badge { margin-left: 46px; }
@@ -549,10 +582,61 @@ mark { background: var(--accent-soft); color: inherit; border-radius: 3px; paddi
   var strukaBadge = document.getElementById("struka-badge");
   function updateStrukaBadge() {
     var s = STRUKE.filter(function (x) { return x.id === struka; })[0] || STRUKE[0];
-    strukaBadge.textContent = s.label;
+    strukaBadge.textContent = s.label + " ▾";
   }
-  strukaBadge.addEventListener("click", function () { go("home"); });
+  function setStruka(id) {
+    if (id === struka) return;
+    struka = id;
+    save("gradivo.struka.v1", struka);
+    searchIndex = null; // indeks pretrage ovisi o vidljivim područjima
+    updateStrukaBadge();
+    go(current);
+  }
+  // padajući izbornik struke uz bedž u zaglavlju
+  var strukaMenu = null;
+  function closeStrukaMenu() {
+    if (strukaMenu) { strukaMenu.remove(); strukaMenu = null; }
+  }
+  strukaBadge.addEventListener("click", function (e) {
+    e.stopPropagation();
+    if (strukaMenu) { closeStrukaMenu(); return; }
+    strukaMenu = el('<div class="struka-menu" role="menu"></div>');
+    STRUKE.forEach(function (s) {
+      var b = el('<button role="menuitem" class="' + (s.id === struka ? "on" : "") + '">' + s.label + '</button>');
+      b.addEventListener("click", function () { closeStrukaMenu(); setStruka(s.id); });
+      strukaMenu.appendChild(b);
+    });
+    strukaBadge.parentNode.appendChild(strukaMenu);
+  });
+  document.addEventListener("click", closeStrukaMenu);
   updateStrukaBadge();
+
+  // prvi posjet: odabir struke prije početka
+  function showStrukaOnboarding() {
+    var ov = el(
+      '<div class="struka-overlay">' +
+        '<div class="struka-modal">' +
+          '<h2>Koja je tvoja struka?</h2>' +
+          '<p>Opća ispitna područja ista su za sve, a prema struci se prikazuju uža područja struke.</p>' +
+          '<div class="s-opts"></div>' +
+          '<p class="hint">Struku kasnije mijenjaš klikom na oznaku u gornjem desnom kutu.</p>' +
+        '</div>' +
+      '</div>');
+    var opts = ov.querySelector(".s-opts");
+    STRUKE.forEach(function (s) {
+      var b = el('<button class="s-opt">' + s.label + '</button>');
+      b.addEventListener("click", function () {
+        struka = s.id;
+        save("gradivo.struka.v1", struka);
+        searchIndex = null;
+        updateStrukaBadge();
+        ov.remove();
+        go("home");
+      });
+      opts.appendChild(b);
+    });
+    document.body.appendChild(ov);
+  }
 
   function qid(area, i) { return area.id + "#" + i; }
   function cid(area, i) { return area.id + "@" + i; }
@@ -656,8 +740,6 @@ mark { background: var(--accent-soft); color: inherit; border-radius: 3px; paddi
     var html =
       '<h2 class="view-title">Tvoj napredak</h2>' +
       '<p class="view-lead">Pitanje se računa kao savladano kad ga barem jednom točno odgovoriš.</p>' +
-      '<div class="setup-label">Tvoja struka <span style="text-transform:none;letter-spacing:0">— određuje koja se uža područja prikazuju</span></div>' +
-      '<div class="chips" id="chips-struka"></div>' +
       '<div class="total-box">' +
         '<div class="nums">' +
           '<div class="num"><b>' + pct + '%</b><span>savladano</span></div>' +
@@ -672,19 +754,6 @@ mark { background: var(--accent-soft); color: inherit; border-radius: 3px; paddi
       '</div>' +
       '<div class="areas" id="area-list"></div>';
     view.innerHTML = html;
-    var chipsS = view.querySelector("#chips-struka");
-    STRUKE.forEach(function (s) {
-      var c = el('<button class="chip' + (s.id === struka ? " on" : "") + '">' + s.label + '</button>');
-      c.addEventListener("click", function () {
-        if (s.id === struka) return;
-        struka = s.id;
-        save("gradivo.struka.v1", struka);
-        searchIndex = null; // indeks pretrage ovisi o vidljivim područjima
-        updateStrukaBadge();
-        renderHome();
-      });
-      chipsS.appendChild(c);
-    });
     var list = view.querySelector("#area-list");
     ACT.forEach(function (a) {
       var p = areaProgress(a);
@@ -1204,6 +1273,9 @@ mark { background: var(--accent-soft); color: inherit; border-radius: 3px; paddi
   }
 
   go("home");
+  try {
+    if (localStorage.getItem("gradivo.struka.v1") === null) showStrukaOnboarding();
+  } catch (e) {}
 })();
 </script>
 </body>
