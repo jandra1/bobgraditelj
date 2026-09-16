@@ -8,7 +8,7 @@ window.APP_DATA.push({
     {
       heading: "Građevni proizvodi — EU okvir",
       points: [
-        "Uredba (EU) 2024/3110 o građevnim proizvodima donesena je 27. studenoga 2024., stupila na snagu 7. siječnja 2025. i zamjenjuje Uredbu (EU) br. 305/2011 (uz prijelazna razdoblja primjene).",
+        "Uredba (EU) 2024/3110 o građevnim proizvodima donesena je 27. studenoga 2024., stupila na snagu 7. siječnja 2025., primjenjuje se od 8. siječnja 2026. i zamjenjuje Uredbu (EU) br. 305/2011 (uz prijelazna razdoblja u kojima se stara uredba još primjenjuje).",
         "Proizvođač za proizvod obuhvaćen harmoniziranim tehničkim specifikacijama sastavlja izjavu o svojstvima (po novoj Uredbi: izjavu o svojstvima i sukladnosti).",
         "CE oznaka stavlja se na građevni proizvod za koji je proizvođač sastavio izjavu o svojstvima — njome proizvođač preuzima odgovornost za sukladnost proizvoda s objavljenim svojstvima.",
         "Bitne značajke su značajke građevnog proizvoda koje se odnose na temeljne zahtjeve za građevine.",
@@ -19,8 +19,8 @@ window.APP_DATA.push({
     {
       heading: "Nacionalni okvir za građevne proizvode",
       points: [
-        "Zakon o građevnim proizvodima (NN 76/13+) uređuje provedbu EU uredbe te sustav za neusklađeno područje (proizvodi izvan harmoniziranih specifikacija).",
-        "Tehnički propis o građevnim proizvodima (NN 35/18, 104/19, 103/24) propisuje tehnička svojstva i zahtjeve za proizvode u neusklađenom području te popise hrvatskih normi.",
+        "Zakon o građevnim proizvodima (NN 76/13, 30/14, 130/17, 39/19, 118/20, 48/26) uređuje provedbu EU uredbi 305/2011 i 2024/3110 (potonja od izmjena NN 48/26, na snazi 16. 5. 2026.) te sustav za neusklađeno područje (proizvodi izvan harmoniziranih specifikacija).",
+        "Tehnički propis o građevnim proizvodima (NN 35/18, 104/19, 103/24) propisuje tehnička svojstva i zahtjeve za proizvode u neusklađenom području te popise hrvatskih normi; za usklađeno područje popis usklađenih normi i EAD-ova daje novi Tehnički propis NN 97/26 (na snazi 10. 9. 2026.).",
         "U neusklađenom području svojstva se dokazuju prema hrvatskim tehničkim specifikacijama (hrvatske norme, hrvatska tehnička ocjena).",
         "Ocjenjivanje i provjeru stalnosti svojstava provode odobrena tijela (prijavljena tijela za usklađeno područje).",
         "Ugradnja: u građevinu se smiju ugraditi samo građevni proizvodi za koje je dokazana uporabljivost u skladu s propisima."
@@ -466,7 +466,7 @@ window.APP_DATA.push({
     {
       front: "Uredba (EU) 2024/3110",
       exam: true,
-      back: "Nova uredba o građevnim proizvodima (donesena 27. 11. 2024., na snazi od 7. 1. 2025.); zamjenjuje Uredbu (EU) br. 305/2011 uz prijelazna razdoblja. Novosti: izjava o svojstvima i sukladnosti, digitalna putovnica proizvoda, okolišna održivost."
+      back: "Nova uredba o građevnim proizvodima (donesena 27. 11. 2024., na snazi od 7. 1. 2025., primjena od 8. 1. 2026.); zamjenjuje Uredbu (EU) br. 305/2011 uz prijelazna razdoblja. Novosti: izjava o svojstvima i sukladnosti, digitalna putovnica proizvoda, sustav 3+ i okolišna održivost, obveze i za online platforme. U RH provedena izmjenama ZoGP-a NN 48/26."
     },
     {
       front: "Izjava o svojstvima",

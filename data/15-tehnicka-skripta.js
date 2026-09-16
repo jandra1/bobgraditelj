@@ -3,45 +3,61 @@ window.APP_DATA.push({
   id: "tehnicka",
   summary: [
     {
-      heading: "Usklađeno (CE) i neusklađeno (C) područje — ZoGP (NN 76/13, 30/14, 130/17, 39/19, 118/20)",
+      heading: "Usklađeno (CE) i neusklađeno (C) područje — ZoGP (NN 76/13, 30/14, 130/17, 39/19, 118/20, 48/26)",
       points: [
-        "Usklađeno područje = tržište EU; primjenjuju se Uredba (EU) 305/2011 i ZoGP; proizvodi obuhvaćeni usklađenim (EU) normama; oznaka CE.",
-        "Neusklađeno područje = tržište RH; regulirano ZoGP (Glava III.); proizvodi obuhvaćeni hrvatskim normama / tehničkim propisom; oznaka C.",
-        "Usklađena (harmonizirana) tehnička specifikacija: usklađena europska norma (HRN EN s prilogom ZA) ili europski dokument za ocjenjivanje (EAD).",
+        "ZoGP uređuje: sustave ocjenjivanja i provjere stalnosti svojstava GP, radnje proizvođača te prijavljenih i odobrenih tijela, dokumente ocjenjivanja, zahtjeve za prijavljena i odobrena tijela, postupak prijave i njihove obveze, obveze i zahtjeve za imenovanje TAB-ova te druga pitanja stavljanja na tržište; uređuje primjenu Uredbe 305/2011 i nove Uredbe (EU) 2024/3110 te usklađeno i neusklađeno područje.",
+        "Zadnja izmjena: ZID ZoGP NN 48/26 (objavljen 8. 5. 2026., na snazi od 16. 5. 2026.) — u zakon ugrađena provedba Uredbe (EU) 2024/3110; usklađeno područje sada = Uredba 305/2011 + Uredba 2024/3110 + ZoGP.",
+        "Usklađeno područje = tržište EU; primjenjuju se Uredba 305/2011 i Uredba 2024/3110 te ZoGP; proizvodi obuhvaćeni usklađenim tehničkim specifikacijama; oznaka CE.",
+        "Neusklađeno područje = tržište RH; proizvodi za koje se ne primjenjuje odgovarajuća usklađena tehnička specifikacija (ne odnose se na njih Uredba 305/2011 ni 2024/3110); regulirano ZoGP (Glava III.); hrvatske tehničke specifikacije; oznaka C.",
+        "Usklađena (harmonizirana) tehnička specifikacija: usklađena europska norma (HRN EN s prilogom ZA) ili europski dokument za ocjenjivanje (EAD) — kad za proizvod i njegovu namjenu nije primjenjiva usklađena tehnička specifikacija, a ispunjeni su uvjeti iz Uredbe; na temelju EAD-a TAB provodi tehničko ocjenjivanje i izdaje europsku tehničku ocjenu (ETA).",
+        "Popis usklađenih normi i EAD-ova u usklađenom području utvrđuje novi Tehnički propis kojim se utvrđuju tehničke specifikacije i europski dokumenti za ocjenjivanje za građevne proizvode u usklađenom području (NN 97/26; objavljen 2. 9. 2026., na snazi od 10. 9. 2026.; donesen na temelju Zakona o gradnji; zamijenio stari TP NN 4/15 … 142/23). Prilog 1 = usklađene norme, Prilog 2 = EAD-ovi, s datumima početka primjene i završetka razdoblja istodobnog postojanja.",
         "Hrvatska tehnička specifikacija: tehnički propis odnosno neusklađena (hrvatska) norma bez ZA dodatka na koju upućuje tehnički propis, ili hrvatski dokument za ocjenjivanje (HDO).",
         "Analogije: prijavljeno tijelo ↔ odobreno tijelo; TAB (imenovano tijelo, donosi EAD, izdaje ETA) ↔ HTTO (izrađuje HDO, izdaje HTO); CE ↔ C.",
         "Sustavi ocjenjivanja i izjave o svojstvima identični su u oba područja; proizvođač sam bira područje ovisno o tržištu koje želi pokriti.",
-        "Tijela u RH: prijavljena — IGH, Strojarski fakultet, SŠ Bedekovčina, Geo expert, Končar, Ascon, Alfa atest (popis u NANDO bazi EK); TAB i HTTO — IGH."
+        "Tijela u RH: prijavljena — IGH, Strojarski fakultet, SŠ Bedekovčina, Geo expert, Končar, Ascon, Alfa atest (popis u NANDO bazi EK); TAB i HTTO — IGH. Odobrena tijela rade na temelju rješenja Ministarstva (MPUGiDI — Ministarstvo prostornoga uređenja, graditeljstva i državne imovine; u starijim izvorima MGiPU)."
       ]
     },
     {
-      heading: "Uredba (EU) br. 305/2011 (CPR)",
+      heading: "Uredba (EU) br. 305/2011 (CPR) — »stara« uredba, još u prijelaznoj primjeni",
       points: [
-        "Utvrđuje usklađene uvjete za stavljanje na tržište građevnih proizvoda; stavlja izvan snage Direktivu 89/106/EEZ; stupila na snagu 1. 7. 2013., obvezna za sve članice.",
+        "Utvrđuje usklađene uvjete za stavljanje na tržište građevnih proizvoda; stavlja izvan snage Direktivu 89/106/EEZ; stupila na snagu 1. 7. 2013., obvezna za sve članice. Zamjenjuje ju Uredba (EU) 2024/3110 (izvan snage od 8. 1. 2026., čl. 94.), ali se 305/2011 još primjenjuje u prijelaznom razdoblju za proizvode obuhvaćene starim usklađenim normama i EAD-ovima dok ih ne zamijene nove specifikacije (čl. 95. nove Uredbe).",
         "Utvrđuje: sustave AVCP, obveze gospodarskih subjekata, usklađenu tehničku specifikaciju, zahtjeve i postupke za prijavljena tijela i TAB-ove.",
         "Prilog I — temeljni zahtjevi za građevine; Prilog II — postupak donošenja EAD-a; Prilog III — izjava o svojstvima (model); Prilog IV — područja proizvoda i zahtjevi za TAB-ove; Prilog V — sustavi AVCP (1+, 1, 2+, 3, 4).",
         "Uredba 568/2014 mijenja Prilog V (AVCP), Uredba 574/2014 mijenja Prilog III (sadržaj izjave o svojstvima).",
-        "Stavljanje na tržište = prvo stavljanje na raspolaganje",
+        "Stavljanje na tržište = prvo stavljanje na raspolaganje proizvoda na tržištu.",
         "Stavljanje na raspolaganje = svaka isporuka za distribuciju, potrošnju ili uporabu u okviru trgovačke djelatnosti, s plaćanjem ili bez.",
         "Gospodarski subjekt = proizvođač, uvoznik (iz treće zemlje na tržište Unije), distributer (u opskrbnom lancu, nije proizvođač ni uvoznik) ili ovlašteni predstavnik (pisano ovlaštenje proizvođača)."
       ]
     },
     {
-      heading: "Građevni proizvod, sklop i zahtjevi za stavljanje na tržište",
+      heading: "Uredba (EU) 2024/3110 — »nova« uredba o građevnim proizvodima",
       points: [
-        "Građevni proizvod: svaki proizvod ili sklop proizveden i stavljen na tržište radi trajne ugradnje u građevinu, čija svojstva utječu na svojstva građevine s obzirom na temeljne zahtjeve.",
-        "Sklop: građevni proizvod stavljen na tržište kao skupina od najmanje dvije zasebne komponente koje se postavljaju zajedno.",
-        "Oplata, skela, prozorska kupčica NISU građevni proizvodi — ne ugrađuju se trajno i nemaju utjecaj na temeljne zahtjeve.",
-        "Prije stavljanja na tržište GP mora biti sukladan tehničkoj specifikaciji, imati izjavu o svojstvima, CE ili C oznaku i tehničku uputu.",
-        "CE se postavlja vidljivo, čitljivo i neizbrisivo, prije stavljanja na tržište; bez izjave o svojstvima CE se ne smije postaviti. C oznaku smije staviti samo proizvođač ili ovlašteni zastupnik.",
-        "Sigurni proizvod: u normalnim ili razumno predvidljivim uvjetima uporabe ne predstavlja nikakav ili samo najmanji rizik spojiv s uporabom",
-        "Opasni proizvod = svaki koji nije siguran."
+        "Donesena 27. 11. 2024., objavljena u SL EU 18. 12. 2024., stupila na snagu 7. 1. 2025.; primjenjuje se od 8. 1. 2026. (čl. 96.; dio članaka i priloga od 7. 1. 2025.) uz prijelazne odredbe čl. 95. (Uredba 305/2011 vrijedi paralelno za proizvode pod starim usklađenim normama i EAD-ovima). Stavlja izvan snage Uredbu 305/2011 s učinkom od 8. 1. 2026. (čl. 94.).",
+        "Utvrđuje: usklađena tehnička pravila za GP; obveze proizvođača, uvoznika i distributera; ocjenjivanje i provjeru svojstava GP; izjavu o svojstvima i sukladnosti te CE oznaku; zahtjeve i postupke za prijavljena tijela i TAB-ove; EAD-ove i ETA-e; digitalnu putovnicu za građevni proizvod i druga digitalna rješenja; pravila za održivost i okolišne karakteristike GP.",
+        "305/2011 → 2024/3110: izjava o svojstvima (DoP) → izjava o svojstvima i sukladnosti (DoPC); CE oznaka ostaje; sustavi AVCP 1+, 1, 2+, 3, 4 → dodan sustav 3+ (okolišna održivost); nije bilo → digitalna putovnica proizvoda; fokus na svojstvima → i održivost, okoliš, kružno gospodarstvo; obveze proizvođača/uvoznika/distributera → detaljnije, i za online platforme te pružatelje usluga provođenja narudžbi; EAD/ETA ostaju, uklopljeni u novi sustav; stari hEN → nove usklađene tehničke specifikacije (nove harmonizirane norme + provedbeni akti).",
+        "Prilozi 2024/3110: I temeljni zahtjevi za građevine; II unaprijed određene okolišne bitne značajke; III zahtjevi za proizvode; IV opće informacije o proizvodu, upute za uporabu i informacije o sigurnosti; V izjava o svojstvima i sukladnosti; VI postupak za zahtjeve za ETA i donošenje EAD-a; VII popis porodica proizvoda; VIII zahtjevi za TAB-ove; IX sustavi ocjenjivanja i provjere; X bitne značajke horizontalne prirode (reakcija na požar, otpornost na požar, svojstva pri vanjskom požaru, apsorpcija buke, ispuštanje i sadržaj opasnih tvari, okolišna održivost); XI korelacijske tablice stare i nove uredbe.",
+        "Stavljanje na tržište (2024/3110) = prvo stavljanje na raspolaganje proizvoda na tržištu Unije ILI prvo stavljanje na raspolaganje na tržištu Unije rabljenog proizvoda nakon njegove demontaže.",
+        "Stavljanje na raspolaganje (2024/3110) = svaka isporuka proizvoda za distribuciju ili uporabu na tržištu Unije u okviru trgovačke djelatnosti, s plaćanjem ili bez, bez obzira na to provodi li se u okviru pružanja usluge.",
+        "Gospodarski subjekt (2024/3110) = proizvođač, ovlašteni zastupnik, uvoznik, distributer, pružatelj usluge provođenja narudžbi ili bilo koja druga osoba koja podliježe Uredbi u vezi s proizvodnjom ili ponovnom proizvodnjom (uključujući proizvode koji se ponovno upotrebljavaju) ili stavljanjem na raspolaganje. Proizvođač = osoba koja proizvodi proizvod ili za koju se proizvod projektira/proizvodi i stavlja ga na tržište pod svojim imenom ili znakom (definicija iz Uredbe (EU) 2019/1020). »Ovlašteni predstavnik« → »ovlašteni zastupnik«. Distributer uključuje i ponudu za prodaju, najam ili obročnu otplatu, izlaganje kupcima/instalaterima i prodaju na daljinu.",
+        "Bitne značajke (čl. 3. t. 7.) = značajke proizvoda koje se odnose na temeljne zahtjeve za građevine (Prilog I) te na unaprijed određene okolišne bitne značajke (Prilog II)."
       ]
     },
     {
-      heading: "Sustavi ocjenjivanja i provjere stalnosti svojstava (AVCP) — Prilog V Uredbe, Pravilnik NN 118/19",
+      heading: "Građevni proizvod, sklop i zahtjevi za stavljanje na tržište",
       points: [
-        "Pet sustava: 1+, 1, 2+, 3 i 4 (sustav 2 ukinut novim zakonom). Kontrolu tvorničke proizvodnje (KTP) u svim sustavima provodi proizvođač.",
+        "Građevni proizvod (305/2011): svaki proizvod ili sklop proizveden i stavljen na tržište radi trajne ugradnje u građevinu, čija svojstva utječu na svojstva građevine s obzirom na temeljne zahtjeve.",
+        "Građevni proizvod (2024/3110): svaki oblikovani ili neoblikovani fizički predmet, uključujući proizvode nastale trodimenzionalnim ispisom, ili sklop koji se stavlja na tržište (uključujući isporukom na gradilištu) za TRAJNU ugradnju u građevine ili njihove dijelove — osim predmeta koji se moraju ugraditi u sklop ili drugi GP prije trajne ugradnje. »Trajno« = namijenjeno da ostane u građevini nakon završetka izgradnje ili obnove. Nova definicija više ne spominje utjecaj na temeljne zahtjeve.",
+        "Sklop (305/2011): GP stavljen na tržište kao skupina od najmanje dvije zasebne komponente koje se postavljaju zajedno. Sklop (2024/3110): GP koji je na tržište stavio jedan gospodarski subjekt kao skup od najmanje dva odvojena predmeta (od kojih nijedan ne mora sam za sebe biti proizvod) koje treba zajedno ugraditi u građevinu.",
+        "Oplata i skela NISU građevni proizvodi — ne ugrađuju se trajno u građevinu. Prozorska klupčica: prema 305/2011 klasično se navodi da nije GP (nema utjecaj na temeljne zahtjeve); prema 2024/3110 definicija se veže samo uz trajnu ugradnju (klupčica ostaje ugrađena), ali se bitne značajke i dalje izvode iz temeljnih zahtjeva (Prilog I) — odgovor iz skripte ostaje NE, a na ispitu vrijedi navesti argumentaciju po obje uredbe.",
+        "Prije stavljanja na tržište GP mora biti sukladan tehničkoj specifikaciji, imati izjavu o svojstvima (2024/3110: izjavu o svojstvima i sukladnosti), CE ili C oznaku i tehničku uputu (2024/3110: opće informacije o proizvodu, upute za uporabu i informacije o sigurnosti — čl. 9. i Prilog IV).",
+        "CE se postavlja vidljivo, čitljivo i neizbrisivo, prije stavljanja na tržište; bez izjave o svojstvima CE se ne smije postaviti. Prema ZoGP čl. 22.a (2024/3110) izjava o svojstvima i sukladnosti i sadržaj CE oznake pišu se na hrvatskom jeziku latiničnim pismom (CE može biti i na drugim jezicima/pismima). C oznaku smije staviti samo proizvođač ili ovlašteni zastupnik.",
+        "Sigurni proizvod (Zakon o općoj sigurnosti proizvoda): u normalnim ili razumno predvidljivim uvjetima uporabe ne predstavlja nikakav ili samo najmanji rizik spojiv s uporabom. Opasni proizvod = svaki koji nije siguran."
+      ]
+    },
+    {
+      heading: "Sustavi ocjenjivanja i provjere stalnosti svojstava (AVCP) — Prilog V Uredbe 305/2011, Pravilnik NN 118/19",
+      points: [
+        "Pet sustava: 1+, 1, 2+, 3 i 4 (sustav 2 ukinut novim ZoGP-om usklađenim s Uredbom 305/2011; skripta to pripisuje zakonu iz 2020.). Kontrolu tvorničke proizvodnje (KTP) u svim sustavima provodi proizvođač.",
         "Sustav 1+: najviše odgovornosti za prijavljeno tijelo (tijelo za certificiranje proizvoda) — ocjenjivanje svojstava, početni pregled pogona i KTP, kontinuirani nadzor KTP, ispitivanje slučajnih uzoraka iz pogona/skladišta → certifikat o stalnosti svojstava.",
         "Sustav 1: kao 1+, ali bez ispitivanja slučajnih uzoraka (npr. proizvodi od lameliranog drva) → certifikat o stalnosti svojstava.",
         "Sustav 2+: prijavljeno tijelo je tijelo za certificiranje KTP (početni pregled + kontinuirani nadzor), ocjenjivanje svojstava radi proizvođač → certifikat o sukladnosti KTP. Najsloženiji za proizvođača.",
@@ -51,9 +67,22 @@ window.APP_DATA.push({
       ]
     },
     {
-      heading: "Izjava o svojstvima (Prilog III Uredbe, izmjena Uredbom 574/2014)",
+      heading: "Sustavi ocjenjivanja i provjere prema Uredbi 2024/3110 (Prilog IX) — ŠEST sustava: 1+, 1, 2+, 3+, 3, 4",
       points: [
-        "Izjava o svojstvima sadrži:",
+        "NOVOST: sustav 3+ — prijavljeno tijelo (tijelo za validaciju ocjenjivanja) validira proizvođačevo ocjenjivanje OKOLIŠNE ODRŽIVOSTI (ulazne vrijednosti, pretpostavke, postupak, ispravna uporaba softvera, početna inspekcija pogona za podatke specifične za društvo) → izvješće o validaciji. Proizvođač: prikupljanje podataka/modeliranje i KTP.",
+        "U svim sustavima proizvođač provodi KTP; u 1+, 1, 2+, 3 i 4 izrađuje i tehničku dokumentaciju s dokazom ispravne primjene Uredbe (ocjenjivanje svojstava) te dokazom sukladnosti sa zahtjevima za proizvode (Prilog III).",
+        "1+: tijelo za certificiranje proizvoda — potvrda ispravno određene vrste i kategorije proizvoda, ocjenjivanje svojstava (ispitivanje tipa, izračun tipa, tablične vrijednosti ili opisna dokumentacija), početna inspekcija pogona i KTP, kontinuirani nadzor s periodičnim inspekcijama, REVIZIJSKO ispitivanje uzoraka uzetih prije stavljanja na tržište, potpuna provjera tehničke dokumentacije proizvođača → potvrda (certifikat) o stalnosti svojstava i sukladnosti proizvoda.",
+        "1: kao 1+, ali bez revizijskog ispitivanja uzoraka → potvrda o stalnosti svojstava i sukladnosti proizvoda.",
+        "2+: proizvođač ocjenjuje svojstva; tijelo za certificiranje KTP — potvrda vrste/kategorije i ispravnosti ocjene (pregled dokumentacije), početna inspekcija pogona i KTP, kontinuirani nadzor, provjera tehničke dokumentacije → potvrda o sukladnosti kontrole tvorničke proizvodnje.",
+        "3: prijavljeni ispitni laboratorij ocjenjuje svojstva (na uzorcima koje uzima proizvođač) i potvrđuje vrstu i kategoriju proizvoda → potvrda (certifikat) o svojstvima i sukladnosti proizvoda (više nije samo izvještaj o ispitivanju).",
+        "4: samoprovjera i samopotvrda proizvođača — ocjenjivanje svojstava, određivanje vrste i kategorije, KTP, tehnička dokumentacija; prijavljeno tijelo nema zadataka.",
+        "Nazivi dokumenata po novoj Uredbi: 1+ i 1 → potvrda o stalnosti svojstava i sukladnosti proizvoda; 2+ → potvrda o sukladnosti kontrole tvorničke proizvodnje; 3+ → izvješće o validaciji; 3 → potvrda o svojstvima i sukladnosti proizvoda; 4 → nema prijavljenog tijela. (ZoGP čl. 13.d koristi riječ »certifikat«.)"
+      ]
+    },
+    {
+      heading: "Izjava o svojstvima (305/2011, Prilog III) i izjava o svojstvima i sukladnosti (2024/3110, Prilog V)",
+      points: [
+        "Izjava o svojstvima (305/2011, Prilog III, izmjena Uredbom 574/2014) sadrži:",
         "1. jedinstvenu identifikacijsku oznaku vrste proizvoda",
         "2. namjenu",
         "3. proizvođača",
@@ -65,8 +94,10 @@ window.APP_DATA.push({
         "Mora sadržavati svojstvo barem jedne bitne značajke; izdaje se pod isključivom odgovornošću proizvođača.",
         "Sastavljanjem izjave proizvođač preuzima odgovornost za sukladnost proizvoda s objavljenim svojstvima.",
         "Specifična tehnička dokumentacija: dokazuje da su metode iz sustava AVCP zamijenjene drugim metodama uz istovrijednost rezultata.",
-        "Iznimka (ZoGP čl. 27.): izjava nije obvezna za proizvod izrađen prema svojstvima iz glavnog projekta ako je: proizveden pojedinačno/po narudžbi u izvanserijskom postupku i ugrađen od proizvođača; izrađen na gradilištu; proizveden neindustrijski, tradicionalno ili za očuvanje baštine; pribavljen rušenjem za ponovnu uporabu.",
-        "Proizvođač koji je takav proizvod i ugradio preuzima odgovornost izjavom upisanom u građevinski dnevnik; specifikacije takvih proizvoda su u programu kontrole i osiguranja kvalitete glavnog projekta."
+        "IZJAVA O SVOJSTVIMA I SUKLADNOSTI (DoPC, 2024/3110 Prilog V) sadrži: naziv proizvođača; šifru izjave; broj i datum verzije; opis proizvoda (jedinstvena identifikacijska oznaka vrste, kategorija proizvoda, deklarirane uporabe, nominalne dimenzije ili granulacija, ključni dijelovi, procijenjeni prosječni i minimalni vijek uporabe, varijante, datum i mjesto posljednjeg uklanjanja ako je proizvod već bio ugrađen); trajne poveznice/nosače podataka (osim ako su u digitalnoj putovnici); podatke o proizvođaču, ovlaštenom zastupniku, prijavljenom tijelu i TAB-u; upućivanje na potvrde ili izvješća o validaciji; tehničke referentne dokumente (usklađena specifikacija ili EAD/ETA); deklarirana svojstva i karakteristike održivosti (popis bitnih značajki, deklarirana svojstva, okolišna održivost tijekom životnog ciklusa, verzija softvera Komisije); primjenjive zahtjeve za proizvode; izjave proizvođača da svojstva odgovaraju deklariranima, da su podaci o održivosti pravilno izračunani i da proizvod ispunjava zahtjeve.",
+        "ZoGP čl. 22.a (NN 48/26): izjava o svojstvima i sukladnosti sastavlja se prema čl. 13., 15. i 16. Uredbe 2024/3110 sa sadržajem na hrvatskom jeziku latiničnim pismom; dostupna je u digitalnoj putovnici proizvoda ili na internetskim stranicama (čl. 16. st. 2. Uredbe).",
+        "Iznimka (ZoGP čl. 27.): izjava nije obvezna za proizvod izrađen prema svojstvima iz glavnog projekta ako je: proizveden pojedinačno ili po posebnoj narudžbi u izvanserijskom postupku i ujedno ugrađen od proizvođača (pri čemu je odgovornost za proizvod i njegovu sigurnu ugradnju izjavom upisanom u građevinski dnevnik preuzeo proizvođač); izrađen na gradilištu; proizveden neindustrijski, na tradicionalan način ili na način primjeren očuvanju baštine (pri rekonstrukciji postojeće građevine ili drugim radovima na zaštićenim građevinama upisanima u Registar kulturnih dobara); pribavljen rušenjem za ponovnu uporabu.",
+        "Specifikacije takvih proizvoda su u programu kontrole i osiguranja kvalitete glavnog projekta."
       ]
     },
     {
@@ -75,6 +106,7 @@ window.APP_DATA.push({
         "Izvođač utvrđuje: je li proizvod namijenjen ugradnji u skladu s glavnim projektom; je li isporučen s valjanom dokumentacijom; jesu li svojstva i bitne značajke sukladne glavnom projektu; rok do kojeg se smije ugraditi. Upisuje se u građevinski dnevnik, dokumentacija se čuva na gradilištu.",
         "Valjana dokumentacija — usklađeno područje: izjava o svojstvima, oznaka CE, uputa i sigurnosne obavijesti.",
         "Valjana dokumentacija — neusklađeno područje: izjava o svojstvima, oznaka C i tehnička uputa.",
+        "Za proizvode stavljene na tržište prema Uredbi 2024/3110: izjava o svojstvima i sukladnosti, oznaka CE (sadržaj na hrvatskom latinicom), opće informacije o proizvodu, upute za uporabu i informacije o sigurnosti (ZoGP čl. 22.a i 22.b; Uredba čl. 9. i Prilog IV) te — kad se počne primjenjivati — digitalna putovnica proizvoda.",
         "Proizvod izrađen na gradilištu: izvještaj o ispitivanju odnosno drugi dokument kojim se dokazuje ispunjavanje zahtjeva iz projekta. Sve na hrvatskom jeziku latiničnim pismom.",
         "Bez dokumentacije → ne ugrađivati, vratiti proizvođaču. S C oznakom → smije se ugrađivati u RH. Već ugrađen bez dokumentacije → uzorak, ispitivanje; nastavak odobrava nadzorni inženjer.",
         "Proizvod prije ugradnje odobrava nadzorni inženjer.",
@@ -82,25 +114,42 @@ window.APP_DATA.push({
       ]
     },
     {
-      heading: "Obveze proizvođača (ZoGP čl. 30., Uredba čl. 11.) i proizvodi iz drugih država",
+      heading: "Obveze proizvođača (ZoGP čl. 30., Uredba 305/2011 čl. 11., Uredba 2024/3110 čl. 22.) i proizvodi iz drugih država",
       points: [
         "Sastavlja izjavu o svojstvima, postavlja CE/C, izrađuje tehničku dokumentaciju; čuva tehničku dokumentaciju i izjavu 10 godina nakon stavljanja na tržište.",
         "Osigurava da serijska proizvodnja zadržava objavljena svojstva; proizvod nosi broj tipa/šarže/serije te ime i adresu proizvođača; uz proizvod prilaže izjavu i tehničke upute na hrvatskom jeziku latiničnim pismom.",
         "Nesukladan proizvod: bez odgode popravne mjere, povlačenje ili opoziv; ako predstavlja rizik — obavijestiti Ministarstvo i Državni inspektorat.",
-        "Proizvod iz druge članice EU, Turske ili EFTA/EGP države na koji se ne odnosi Uredba 305/2011: uzajamno priznavanje po Uredbi (EU) 2019/515; gospodarski subjekt osigurava dokumentaciju na hrvatskom (namjeravana uporaba, značajke, sigurnosne obavijesti, upute).",
-        "Ako ne dostavi izjavu o uzajamnom priznavanju — dostavlja dokumentaciju prema čl. 5. st. 5. i 6. Uredbe 2019/515."
+        "Prema Uredbi 2024/3110 (čl. 22.) proizvođač uz to: određuje vrstu i kategoriju proizvoda; ocjenjuje svojstva u odnosu na obvezne bitne značajke i one koje deklarira; osigurava da je proizvod projektiran i izrađen prema zahtjevima za proizvode; sastavlja tehničku dokumentaciju prije izjave; prilaže opće informacije o proizvodu, upute za uporabu i informacije o sigurnosti (na hrvatskom latinicom); po potrebi označava »samo za profesionalnu uporabu«; stavlja na raspolaganje digitalnu putovnicu proizvoda (uz prijelazna razdoblja) i posebne rezervne dijelove; kod nesukladnosti/rizika poduzima korektivne mjere, povlači ili opoziva proizvod i obavještava Ministarstvo i Državni inspektorat.",
+        "Proizvod iz druge članice EU, Turske ili EFTA/EGP države na koji se ne odnosi Uredba 305/2011 (odnosno 2024/3110): uzajamno priznavanje po Uredbi (EU) 2019/515; gospodarski subjekt osigurava dokumentaciju na hrvatskom (namjeravana uporaba, značajke, sigurnosne obavijesti, upute).",
+        "Ako ne dostavi izjavu o uzajamnom priznavanju — dostavlja dokumentaciju prema čl. 5. st. 5. i 6. Uredbe 2019/515.",
+        "EFTA = Europsko udruženje za slobodnu trgovinu (Island, Lihtenštajn, Norveška, Švicarska); EGP = EU + Island, Lihtenštajn i Norveška."
       ]
     },
     {
-      heading: "Prijavljena tijela, TAB-ovi, odobrena tijela i Ministarstvo (ZoGP čl. 12., 16.)",
+      heading: "Prijavljena tijela, TAB-ovi, odobrena tijela i Ministarstvo (ZoGP čl. 5., 12.–13. i 16.–18.; prema Uredbi 2024/3110: čl. 13.b–13.d i 18.a–18.c)",
       points: [
-        "Ministarstvo je: kontaktna točka za građevne proizvode, upravno tijelo za prijavljivanje prijavljenih tijela, upravno tijelo za imenovanje TAB-ova, član Stalnog odbora za graditeljstvo.",
-        "Rješenje o ispunjavanju zahtjeva za prijavljeno tijelo donosi Ministarstvo po mišljenju Povjerenstva za građevne proizvode; zahtjevi se dokazuju potvrdom o akreditaciji nacionalnog akreditacijskog tijela; nakon pravomoćnosti prijava EK i članicama; privremeno rješenje ako je tijelo već prijavljeno, a akreditacija u tijeku.",
-        "Vrste prijavljenih tijela: laboratorij (sustav 3); laboratorij za reakciju/otpornost na požar, vanjski požar, akustiku, emisiju opasnih tvari; tijelo za certificiranje KTP (2+); tijelo za certificiranje proizvoda (1+, 1).",
-        "Zahtjevi za prijavljena tijela (Uredba): pravna osobnost, neovisna treća strana (ne projektant, proizvođač, dobavljač, instalater, kupac, vlasnik, korisnik...), naknade ne ovise o broju/rezultatu ocjenjivanja, osiguranje od odgovornosti, profesionalna tajna.",
-        "TAB: zahtjev Ministarstvu, provjera prema Tablici 2 Priloga IV Uredbe, rješenje po mišljenju Povjerenstva, podaci EK i članicama.",
-        "Tijelo koje prestane ispunjavati zahtjeve obavještava Ministarstvo najkasnije u 15 dana; slijedi rok za uklanjanje nedostataka ili povlačenje/ograničenje/obustava prijave odnosno imenovanja.",
+        "Nadležno tijelo za provedbu Uredbe 2024/3110 i ZoGP-a je Ministarstvo (MPUGiDI); »nadležna nacionalna tijela« = Ministarstvo i Državni inspektorat; »tijelo za nadzor tržišta« = Državni inspektorat (ZoGP čl. 3. i 4., NN 48/26).",
+        "Ministarstvo je u provedbi Uredbe 305/2011: kontaktna točka za građevne proizvode, upravno tijelo za prijavljivanje prijavljenih tijela, upravno tijelo za imenovanje TAB-ova, član Stalnog odbora za graditeljstvo. U provedbi Uredbe 2024/3110 (ZoGP čl. 5. st. 2.): kontaktna točka za građevne proizvode, tijelo koje podnosi prijavu, tijelo nadležno za imenovanje TAB-a, član Stručne skupine za pravnu stečevinu Uredbe o građevnim proizvodima (čl. 4. Uredbe) i član Odbora za građevne proizvode (čl. 90. Uredbe).",
+        "Rješenje o ispunjavanju zahtjeva za prijavljeno tijelo donosi Ministarstvo po mišljenju Povjerenstva za građevne proizvode; zahtjevi se dokazuju potvrdom o akreditaciji nacionalnog akreditacijskog tijela; nakon pravomoćnosti (305/2011) odnosno izvršnosti (2024/3110, čl. 15.a) rješenja prijava EK i članicama; privremeno rješenje ako je tijelo već prijavljeno EK, a akreditacija u tijeku. (305/2011: ZoGP čl. 12.–13., zahtjevi čl. 43. Uredbe; 2024/3110: ZoGP čl. 13.b–13.c, zahtjev prema čl. 50. i zahtjevi iz čl. 46. Uredbe.)",
+        "Vrste prijavljenih tijela — 305/2011 (čl. 12.): laboratorij; laboratorij za reakciju/otpornost na požar, vanjski požar, akustiku, emisiju opasnih tvari; tijelo za certificiranje KTP (2+); tijelo za certificiranje proizvoda (1+, 1). Prema 2024/3110 (čl. 13.c): ispitni laboratorij; ispitni laboratorij za reakciju/otpornost na požar, vanjski požar, apsorpciju buke, ispuštanje i sadržaj opasnih tvari odnosno okolišnu održivost (bitne značajke za koje nije potrebna uputa na usklađenu specifikaciju); NOVO tijelo za validaciju ocjenjivanja (sustav 3+); tijelo za certificiranje KTP; tijelo za certificiranje proizvoda.",
+        "Zahtjevi za prijavljena tijela (305/2011 čl. 43. / 2024/3110 čl. 46.): pravna osobnost po nacionalnom pravu; neovisna treća strana (ne projektant, proizvođač, dobavljač, uvoznik, distributer, instalater, kupac, vlasnik, korisnik ni održavatelj, bez konzultantskih usluga; odlučivanje se ne delegira podugovarateljima); najviši profesionalni integritet, bez pritisaka; kompetentno osoblje, opisani postupci, oprema; osoblje koje donosi odluke zaposleno u tijelu; nepristranost — naknade ne ovise o broju ni rezultatu ocjenjivanja; osiguranje od odgovornosti (osim ako odgovornost preuzme država); profesionalna tajna; sudjelovanje u normizaciji i koordinacijskoj skupini prijavljenih tijela.",
+        "TAB (305/2011): zahtjev Ministarstvu, provjera prema Tablici 2 Priloga IV Uredbe, rješenje po mišljenju Povjerenstva, podaci EK i članicama. TAB (2024/3110, ZoGP čl. 18.a–18.c): zahtjev za jedno ili više područja proizvoda iz Priloga VII, provjera zahtjeva iz Priloga VIII, rješenje po mišljenju Povjerenstva, podaci EK i članicama (čl. 39. Uredbe).",
+        "Prijavljena i imenovana tijela izvještavaju Ministarstvo jednom godišnje; tijelo koje prestane ispunjavati zahtjeve obavještava Ministarstvo bez odgode, najkasnije u 15 dana; slijedi rok za uklanjanje nedostataka ili povlačenje/ograničenje/obustava prijave odnosno imenovanja.",
         "Povjerenstvo za građevne proizvode: članove imenuje ministar; savjetuje kod prijavljivanja i ukidanja rješenja, surađuje u nadzoru, savjetuje glede Stalnog odbora."
+      ]
+    },
+    {
+      heading: "Što je novo u ZoGP-u nakon NN 48/26 (usporedba s NN 118/20)",
+      points: [
+        "NN 118/20 → sustav Uredbe 305/2011. NN 48/26 → postojeći sustav + provedba Uredbe 2024/3110 (Glava II. sada: provedba Uredbe 305/2011 i Uredbe 2024/3110 — usklađeno područje).",
+        "Izričito određeno: za provedbu Uredbe 2024/3110 nadležni su Ministarstvo i Državni inspektorat; Državni inspektorat je tijelo za nadzor tržišta.",
+        "Ministarstvo dobiva uloge prema 2024/3110: kontaktna točka za građevne proizvode, tijelo za prijavljivanje, tijelo za imenovanje TAB-ova, članstvo u Stručnoj skupini za pravnu stečevinu i Odboru za građevne proizvode (sudjelovanje u europskim tijelima).",
+        "Novi postupci za prijavljena tijela (čl. 13.b–13.d) i TAB-ove (čl. 18.a–18.c) prema 2024/3110; nova vrsta tijela — tijelo za validaciju ocjenjivanja; novi nazivi certifikata (o stalnosti svojstava i sukladnosti proizvoda; o svojstvima i sukladnosti proizvoda; izvješće o validaciji).",
+        "Izjava o svojstvima i sukladnosti (umjesto samo izjave o svojstvima) i sadržaj CE oznake — obvezno na hrvatskom jeziku latiničnim pismom (čl. 22.a); uz proizvod opće informacije o proizvodu, upute za uporabu i informacije o sigurnosti na hrvatskom latinicom (čl. 22.b).",
+        "Preuzeta provedba zahtjeva Uredbe o digitalnoj putovnici proizvoda (uz prijelazna razdoblja iz Uredbe).",
+        "Inspektor može naložiti internetskoj platformi za trgovanje da ukloni nezakoniti sadržaj o nesukladnom proizvodu, onemogući pristup ili prikaže upozorenje (čl. 61.); kod formalnih nesukladnosti (nema oznake, izjave, tehničke dokumentacije ili uputa) najprije nalaže korektivne mjere u primjerenom roku i ne podnosi optužni prijedlog ako se otklone.",
+        "Nove prekršajne odredbe: izjava o svojstvima i sukladnosti, CE oznaka, opće informacije o proizvodu, upute za uporabu, sigurnosne informacije, digitalna putovnica, skladištenje, pakiranje, prodaja na daljinu…; iznosi kazni preračunati iz kuna u eure.",
+        "Ministar u 90 dana usklađuje Pravilnik o tijelima, dokumentaciji i postupcima tržišta građevnih proizvoda (NN 118/19) i Pravilnik o Povjerenstvu za građevne proizvode (NN 38/24)."
       ]
     },
     {
@@ -118,14 +167,14 @@ window.APP_DATA.push({
       q: "Što, uz sustave ocjenjivanja i provjere stalnosti svojstava građevnih proizvoda, uređuje Zakon o građevnim proizvodima?",
       exam: true,
       options: [
-        "Zahtjeve za prijavljena i odobrena tijela, postupak prijave i njihove obveze te primjenu Uredbe 305/2011 u usklađenom i neusklađenom području",
+        "Zahtjeve za prijavljena i odobrena tijela, postupak prijave i njihove obveze, zahtjeve za imenovanje TAB-ova te primjenu uredbi 305/2011 i 2024/3110 u usklađenom i neusklađenom području",
         "Uvjete za obavljanje djelatnosti građenja i stručnog nadzora",
         "Sadržaj i obveznu opremu glavnog projekta",
         "Postupak tehničkog pregleda i izdavanja uporabne dozvole"
       ],
       correct: 0,
-      explanation: "ZoGP uređuje sustave ocjenjivanja i provjere stalnosti svojstava, radnje proizvođača i odobrenih tijela, dokumente ocjenjivanja, zahtjeve za prijavljena i odobrena tijela, postupak prijave i njihove obveze te primjenu Uredbe 305/2011 (usklađeno i neusklađeno područje).",
-      source: "Zakon o građevnim proizvodima (NN 76/13, 30/14, 130/17, 39/19, 118/20)",
+      explanation: "ZoGP uređuje sustave ocjenjivanja i provjere stalnosti svojstava, radnje proizvođača te prijavljenih i odobrenih tijela, dokumente ocjenjivanja, zahtjeve za prijavljena i odobrena tijela, postupak prijave i njihove obveze, obveze i zahtjeve za imenovanje TAB-ova te primjenu Uredbe 305/2011 i — od izmjena NN 48/26 — Uredbe (EU) 2024/3110 (usklađeno i neusklađeno područje).",
+      source: "Zakon o građevnim proizvodima (NN 76/13, 30/14, 130/17, 39/19, 118/20, 48/26), čl. 1.",
       freq: 2
     },
     {
@@ -138,7 +187,7 @@ window.APP_DATA.push({
         "Tržište svih članica Stalnog odbora za graditeljstvo"
       ],
       correct: 1,
-      explanation: "Usklađeno područje (CE) pokriva tržište EU, dok se neusklađeno područje (C) odnosi na proizvode koji se stavljaju na tržište unutar granica RH i regulirano je Zakonom o građevnim proizvodima.",
+      explanation: "Usklađeno područje (CE) pokriva tržište EU (Uredba 305/2011 i Uredba 2024/3110), dok se neusklađeno područje (C) odnosi na proizvode za koje se ne primjenjuje usklađena tehnička specifikacija i koji se stavljaju na tržište unutar granica RH; regulirano je Zakonom o građevnim proizvodima.",
       source: "Zakon o građevnim proizvodima, Glava III.",
       freq: 1
     },
@@ -152,8 +201,8 @@ window.APP_DATA.push({
         "Usklađenu europsku normu (HRN EN s prilogom ZA) ili europski dokument za ocjenjivanje (EAD)"
       ],
       correct: 3,
-      explanation: "Usklađena tehnička specifikacija je usklađena europska norma — HRN EN norma koja u prilogu ima ZA dodatak — ili europski dokument za ocjenjivanje (EAD) kada ne postoji primjenjiva norma.",
-      source: "Zakon o građevnim proizvodima; Uredba (EU) 305/2011",
+      explanation: "Usklađena tehnička specifikacija je usklađena europska norma — HRN EN norma koja u prilogu ima ZA dodatak — ili europski dokument za ocjenjivanje (EAD) kada za proizvod i njegovu namjenu nije primjenjiva usklađena norma; na temelju EAD-a TAB izdaje ETA. Popis usklađenih normi i EAD-ova utvrđuje Tehnički propis NN 97/26 (rujan 2026.).",
+      source: "Zakon o građevnim proizvodima; Uredba (EU) 305/2011 i 2024/3110; Tehnički propis NN 97/26",
       freq: 2
     },
     {
@@ -272,7 +321,7 @@ window.APP_DATA.push({
         "Europsku tehničku ocjenu"
       ],
       correct: 0,
-      explanation: "Na temelju usklađene tehničke specifikacije prijavljeno tijelo za certificiranje proizvoda izdaje certifikat o stalnosti svojstava (sustavi 1+ i 1); u sustavu 2+ izdaje se certifikat o sukladnosti KTP, a u sustavu 3 izvještaj o ispitivanju.",
+      explanation: "Na temelju usklađene tehničke specifikacije prijavljeno tijelo za certificiranje proizvoda izdaje certifikat o stalnosti svojstava (sustavi 1+ i 1); u sustavu 2+ izdaje se certifikat o sukladnosti KTP, a u sustavu 3 izvještaj o ispitivanju. Prema Uredbi 2024/3110 nazivi su: 1+ i 1 → potvrda o stalnosti svojstava i sukladnosti proizvoda; 2+ → potvrda o sukladnosti KTP; 3 → potvrda o svojstvima i sukladnosti proizvoda; 3+ → izvješće o validaciji.",
       source: "Uredba (EU) 305/2011, Prilog V; Zakon o građevnim proizvodima",
       freq: 1
     },
@@ -286,7 +335,7 @@ window.APP_DATA.push({
         "Hrvatsku tehničku ocjenu — HTTO"
       ],
       correct: 1,
-      explanation: "U sustavu 2+ prijavljeno (odnosno odobreno) tijelo za certificiranje kontrole tvorničke proizvodnje izdaje certifikat o sukladnosti kontrole tvorničke proizvodnje na temelju početnog pregleda pogona i kontinuiranog nadzora KTP.",
+      explanation: "U sustavu 2+ prijavljeno (odnosno odobreno) tijelo za certificiranje kontrole tvorničke proizvodnje izdaje certifikat o sukladnosti kontrole tvorničke proizvodnje na temelju početnog pregleda pogona i kontinuiranog nadzora KTP (prema 2024/3110 i na temelju potvrde vrste/kategorije proizvoda i provjere tehničke dokumentacije proizvođača).",
       source: "Uredba (EU) 305/2011, Prilog V; Pravilnik NN 118/19",
       freq: 1
     },
@@ -300,7 +349,7 @@ window.APP_DATA.push({
         "tijelo za tehničko ocjenjivanje koje izdaje ETA"
       ],
       correct: 2,
-      explanation: "U sustavu 3 prijavljeno tijelo je ispitni laboratorij koji ocjenjuje svojstva na dostavljenim uzorcima i izdaje izvještaj o ispitivanju; proizvođač provodi samo kontrolu tvorničke proizvodnje (npr. krovni pokrovi koji podliježu propisima o opasnim tvarima).",
+      explanation: "U sustavu 3 prijavljeno tijelo je ispitni laboratorij koji ocjenjuje svojstva na dostavljenim uzorcima i izdaje izvještaj o ispitivanju; proizvođač provodi samo kontrolu tvorničke proizvodnje (npr. krovni pokrovi koji podliježu propisima o opasnim tvarima). Prema Uredbi 2024/3110 laboratorij uz to potvrđuje vrstu i kategoriju proizvoda i izdaje potvrdu (certifikat) o svojstvima i sukladnosti proizvoda.",
       source: "Uredba (EU) 305/2011, Prilog V",
       freq: 2
     },
@@ -327,35 +376,35 @@ window.APP_DATA.push({
         "Tijelo za tehničko ocjenjivanje (TAB)"
       ],
       correct: 3,
-      explanation: "Rješenje o ispunjavanju zahtjeva za prijavljeno tijelo može se donijeti za laboratorij, laboratorij za požarne/akustične značajke i opasne tvari, tijelo za certificiranje KTP i tijelo za certificiranje proizvoda. TAB je imenovano tijelo (čl. 16.), ne prijavljeno.",
-      source: "Zakon o građevnim proizvodima, čl. 12. i 16."
+      explanation: "Rješenje o ispunjavanju zahtjeva za prijavljeno tijelo može se donijeti za laboratorij, laboratorij za požarne/akustične značajke i opasne tvari, tijelo za certificiranje KTP i tijelo za certificiranje proizvoda; prema Uredbi 2024/3110 (ZoGP čl. 13.c) još i za tijelo za validaciju ocjenjivanja te laboratorij za okolišnu održivost. TAB je imenovano tijelo (čl. 16., odnosno 18.a), ne prijavljeno.",
+      source: "Zakon o građevnim proizvodima, čl. 12., 13.c, 16. i 18.a"
     },
     {
       q: "Za koje bitne značajke laboratorij može biti prijavljen bez upute na odgovarajuću usklađenu tehničku specifikaciju?",
       options: [
-        "Reakcija na požar, otpornost na požar, svojstva pri vanjskom požaru, akustična svojstva i emisija opasnih tvari",
+        "Reakcija na požar, otpornost na požar, svojstva pri vanjskom požaru, akustična svojstva (apsorpcija buke), emisija (ispuštanje i sadržaj) opasnih tvari te — prema 2024/3110 — okolišna održivost",
         "Tlačna čvrstoća, vlačna čvrstoća i modul elastičnosti",
         "Toplinska provodljivost i vodonepropusnost",
         "Trajnost, otpornost na habanje i otpornost na smrzavanje"
       ],
       correct: 0,
-      explanation: "Rješenje se može donijeti za laboratorij za radnje ocjenjivanja u odnosu na bitne značajke: reakcije na požar, otpornosti na požar, svojstva prilikom vanjskog požara, akustična svojstva odnosno emisija opasnih tvari — to su primjeri kad nije potrebna uputa na usklađenu tehničku specifikaciju.",
-      source: "Zakon o građevnim proizvodima, čl. 12."
+      explanation: "Rješenje se može donijeti za (ispitni) laboratorij za radnje ocjenjivanja u odnosu na bitne značajke: reakcije na požar, otpornosti na požar, svojstva prilikom vanjskog požara, akustična svojstva (apsorpcija buke), emisija odnosno ispuštanje i sadržaj opasnih tvari te, prema Uredbi 2024/3110, okolišna održivost — to su bitne značajke horizontalne prirode (Prilog X) kad nije potrebna uputa na usklađenu tehničku specifikaciju.",
+      source: "Zakon o građevnim proizvodima, čl. 12. i 13.c (NN 48/26)"
     },
     {
       q: "Tko izdaje rješenje na temelju kojeg odobreno tijelo provodi zadaće treće strane u neusklađenom području?",
       options: [
         "Europska komisija",
-        "Ministarstvo nadležno za graditeljstvo (MGiPU)",
+        "Ministarstvo nadležno za graditeljstvo (MPUGiDI — Ministarstvo prostornoga uređenja, graditeljstva i državne imovine)",
         "Hrvatska akreditacijska agencija",
         "Hrvatski zavod za norme"
       ],
       correct: 1,
-      explanation: "Odobrena tijela su tijela koja na temelju rješenja Ministarstva graditeljstva provode zadaće treće strane u procesu ocjenjivanja i provjere stalnosti svojstava u neusklađenom području.",
+      explanation: "Odobrena tijela su tijela koja na temelju rješenja Ministarstva nadležnog za graditeljstvo (danas Ministarstvo prostornoga uređenja, graditeljstva i državne imovine) provode zadaće treće strane u procesu ocjenjivanja i provjere stalnosti svojstava u neusklađenom području.",
       source: "Zakon o građevnim proizvodima, Glava III."
     },
     {
-      q: "Što prema Uredbi 305/2011 znači »stavljanje na tržište« građevnog proizvoda?",
+      q: "Što prema uredbama 305/2011 i 2024/3110 znači »stavljanje na tržište« građevnog proizvoda?",
       exam: true,
       options: [
         "Svaka isporuka proizvoda distributeru",
@@ -364,8 +413,8 @@ window.APP_DATA.push({
         "Izdavanje izjave o svojstvima"
       ],
       correct: 2,
-      explanation: "Stavljanje na tržište je prvo stavljanje na raspolaganje proizvoda na tržištu, dok je stavljanje na raspolaganje svaka isporuka proizvoda za distribuiranje, potrošnju ili uporabu u okviru trgovačke djelatnosti.",
-      source: "Uredba (EU) 305/2011, čl. 2.",
+      explanation: "Stavljanje na tržište je prvo stavljanje na raspolaganje proizvoda na tržištu (Unije), dok je stavljanje na raspolaganje svaka isporuka proizvoda za distribuiranje, potrošnju ili uporabu u okviru trgovačke djelatnosti. Uredba 2024/3110 dodaje: i prvo stavljanje na raspolaganje na tržištu Unije rabljenog proizvoda nakon njegove demontaže.",
+      source: "Uredba (EU) 305/2011, čl. 2.; Uredba (EU) 2024/3110, čl. 3.",
       freq: 1
     },
     {
@@ -378,8 +427,8 @@ window.APP_DATA.push({
         "Svaka je isporuka za distribuiranje, potrošnju ili uporabu u okviru trgovačke djelatnosti, s plaćanjem ili bez plaćanja"
       ],
       correct: 3,
-      explanation: "Stavljanje na raspolaganje na tržištu je svaka isporuka proizvoda za distribuiranje, potrošnju ili uporabu na tržištu u okviru trgovačke djelatnosti, s plaćanjem ili bez plaćanja.",
-      source: "Uredba (EU) 305/2011, čl. 2.",
+      explanation: "Stavljanje na raspolaganje na tržištu je svaka isporuka proizvoda za distribuiranje, potrošnju ili uporabu na tržištu u okviru trgovačke djelatnosti, s plaćanjem ili bez plaćanja. Prema Uredbi 2024/3110: svaka isporuka za distribuciju ili uporabu na tržištu Unije u okviru trgovačke djelatnosti, s plaćanjem ili bez, bez obzira na to provodi li se u okviru pružanja usluge.",
+      source: "Uredba (EU) 305/2011, čl. 2.; Uredba (EU) 2024/3110, čl. 3.",
       freq: 1
     },
     {
@@ -392,8 +441,8 @@ window.APP_DATA.push({
         "Svaki proizvod za koji je izdana europska tehnička ocjena"
       ],
       correct: 0,
-      explanation: "Građevni proizvod je proizvod ili sklop proizveden i stavljen na tržište radi trajne ugradnje u građevinu ili njezine dijelove (postaje sastavni dio i ne može se odvojiti bez utjecaja na temeljne zahtjeve), čija svojstva imaju učinak na svojstva građevine s obzirom na temeljne zahtjeve.",
-      source: "Uredba (EU) 305/2011, čl. 2.",
+      explanation: "Prema 305/2011 građevni proizvod je proizvod ili sklop proizveden i stavljen na tržište radi trajne ugradnje u građevinu ili njezine dijelove, čija svojstva imaju učinak na svojstva građevine s obzirom na temeljne zahtjeve. Nova Uredba 2024/3110 definira ga šire: svaki oblikovani ili neoblikovani fizički predmet (uključujući 3D ispis) ili sklop koji se stavlja na tržište za trajnu ugradnju u građevine — bez uvjeta utjecaja na temeljne zahtjeve.",
+      source: "Uredba (EU) 305/2011, čl. 2.; Uredba (EU) 2024/3110, čl. 3.",
       freq: 2
     },
     {
@@ -406,8 +455,8 @@ window.APP_DATA.push({
         "Proizvod izrađen na gradilištu od više komponenti"
       ],
       correct: 1,
-      explanation: "Sklop je građevni proizvod koji je pojedini proizvođač stavio na tržište kao skupinu od najmanje dvije zasebne komponente koje je potrebno postaviti zajedno kako bi se ugradile u građevinu.",
-      source: "Uredba (EU) 305/2011, čl. 2.",
+      explanation: "Sklop je građevni proizvod koji je pojedini proizvođač stavio na tržište kao skupinu od najmanje dvije zasebne komponente koje je potrebno postaviti zajedno kako bi se ugradile u građevinu. Prema 2024/3110: GP koji je na tržište stavio jedan gospodarski subjekt kao skup od najmanje dva odvojena predmeta (nijedan ne mora sam biti proizvod) koje treba zajedno ugraditi.",
+      source: "Uredba (EU) 305/2011, čl. 2.; Uredba (EU) 2024/3110, čl. 3.",
       freq: 2
     },
     {
@@ -420,8 +469,8 @@ window.APP_DATA.push({
         "Samo skela je građevni proizvod, oplata nije"
       ],
       correct: 2,
-      explanation: "Oplata, skela i prozorska kupčica nisu građevni proizvodi jer se ne ugrađuju trajno u građevinu i nemaju utjecaj na ispunjavanje temeljnih zahtjeva za građevinu.",
-      source: "Uredba (EU) 305/2011, čl. 2. (definicija građevnog proizvoda)"
+      explanation: "Oplata i skela nisu građevni proizvodi jer se ne ugrađuju trajno u građevinu. Prozorska klupčica po 305/2011 klasično se navodi da nije GP (nema utjecaj na temeljne zahtjeve); po Uredbi 2024/3110 definicija se veže samo uz trajnu ugradnju (klupčica ostaje ugrađena), ali se bitne značajke i dalje izvode iz temeljnih zahtjeva (Prilog I), pa odgovor iz skripte ostaje NE uz argumentaciju po obje uredbe.",
+      source: "Uredba (EU) 305/2011, čl. 2.; Uredba (EU) 2024/3110, čl. 3. (definicija građevnog proizvoda)"
     },
     {
       q: "Koje zahtjeve mora ispunjavati građevni proizvod prije stavljanja na tržište?",
@@ -433,8 +482,8 @@ window.APP_DATA.push({
         "Mora biti sukladan tehničkoj specifikaciji, imati izjavu o svojstvima, CE ili C oznaku i tehničku uputu"
       ],
       correct: 3,
-      explanation: "Prije stavljanja na tržište građevni proizvod mora biti sukladan zahtjevima tehničke specifikacije, posjedovati izjavu o svojstvima izdanu od proizvođača, biti označen CE ili C oznakom i imati tehničku uputu.",
-      source: "Zakon o građevnim proizvodima; Uredba (EU) 305/2011",
+      explanation: "Prije stavljanja na tržište građevni proizvod mora biti sukladan zahtjevima tehničke specifikacije, posjedovati izjavu o svojstvima izdanu od proizvođača (prema 2024/3110: izjavu o svojstvima i sukladnosti), biti označen CE ili C oznakom i imati tehničku uputu (prema 2024/3110: opće informacije o proizvodu, upute za uporabu i informacije o sigurnosti).",
+      source: "Zakon o građevnim proizvodima; Uredba (EU) 305/2011; Uredba (EU) 2024/3110",
       freq: 2
     },
     {
@@ -485,7 +534,7 @@ window.APP_DATA.push({
         "Certifikat o stalnosti svojstava i europska tehnička ocjena"
       ],
       correct: 2,
-      explanation: "Za proizvod u usklađenom području valjana dokumentacija je izjava o svojstvima, oznaka CE, uputa i sigurnosne obavijesti; za neusklađeno područje izjava o svojstvima, C oznaka i tehnička uputa.",
+      explanation: "Za proizvod u usklađenom području valjana dokumentacija je izjava o svojstvima, oznaka CE, uputa i sigurnosne obavijesti; za neusklađeno područje izjava o svojstvima, C oznaka i tehnička uputa. Za proizvode prema Uredbi 2024/3110: izjava o svojstvima i sukladnosti, CE oznaka te opće informacije o proizvodu, upute za uporabu i informacije o sigurnosti — sve na hrvatskom latinicom (ZoGP čl. 22.a i 22.b).",
       source: "Tehnički propis o građevnim proizvodima, čl. 3. st. 2.",
       freq: 2
     },
@@ -597,7 +646,7 @@ window.APP_DATA.push({
       source: "Skripta — Tehnička regulativa; Uredba (EU) 305/2011, čl. 6."
     },
     {
-      q: "Koji je sustav ocjenjivanja sukladnosti ukinut novim Zakonom o građevnim proizvodima?",
+      q: "Koji je sustav ocjenjivanja sukladnosti ukinut novim Zakonom o građevnim proizvodima (provedba Uredbe 305/2011) u odnosu na raniji zakon?",
       exam: true,
       options: [
         "Sustav 1",
@@ -606,11 +655,11 @@ window.APP_DATA.push({
         "Sustav 4"
       ],
       correct: 1,
-      explanation: "Novim ZoGP-om osigurana je provedba Uredbe 305/2011, uvedena podjela na usklađeno i neusklađeno područje, novi pojmovi (izjava o svojstvima, certifikat o stalnosti svojstava, certifikat o sukladnosti KTP, bitne značajke) te je ukinut sustav ocjenjivanja 2. Ostalo je pet sustava: 1+, 1, 2+, 3 i 4.",
-      source: "Zakon o građevnim proizvodima"
+      explanation: "Novim ZoGP-om (skripta ga navodi kao zakon iz 2020., NN 118/20) osigurana je provedba Uredbe 305/2011, uvedena podjela na usklađeno i neusklađeno područje, novi pojmovi (izjava o svojstvima, certifikat o stalnosti svojstava, certifikat o sukladnosti KTP, bitne značajke) te je ukinut sustav ocjenjivanja 2. Ostalo je pet sustava: 1+, 1, 2+, 3 i 4. Izmjenama NN 48/26 preuzeta je Uredba 2024/3110, koja dodaje sustav 3+ (okolišna održivost).",
+      source: "Zakon o građevnim proizvodima (NN 118/20, 48/26)"
     },
     {
-      q: "Građevni proizvod na koji se ne odnosi Uredba 305/2011 zakonito je stavljen na tržište u drugoj državi članici EU ili Turskoj. Kako se tretira u RH?",
+      q: "Građevni proizvod na koji se ne odnosi Uredba 305/2011 (odnosno 2024/3110) zakonito je stavljen na tržište u drugoj državi članici EU ili Turskoj. Kako se tretira u RH?",
       exam: true,
       options: [
         "Mora proći postupak ocjenjivanja kod odobrenog tijela i dobiti oznaku C",
@@ -619,8 +668,8 @@ window.APP_DATA.push({
         "Mora imati CE oznaku izdanu od hrvatskog prijavljenog tijela"
       ],
       correct: 2,
-      explanation: "Takvi proizvodi (iz članice EU, Turske ili EFTA države stranke Sporazuma o EGP-u) smatraju se kompatibilnima prema Uredbi (EU) 2019/515 o uzajamnom priznavanju robe koja se zakonito stavlja na tržište u drugoj državi članici.",
-      source: "Zakon o građevnim proizvodima (NN 76/13 … 118/20)",
+      explanation: "Takvi proizvodi (iz članice EU, Turske ili države EFTA-e — Europskog udruženja za slobodnu trgovinu — koja je stranka Sporazuma o EGP-u) smatraju se kompatibilnima prema Uredbi (EU) 2019/515 o uzajamnom priznavanju robe koja se zakonito stavlja na tržište u drugoj državi članici.",
+      source: "Zakon o građevnim proizvodima (NN 76/13 … 118/20, 48/26)",
       freq: 1
     },
     {
@@ -684,8 +733,8 @@ window.APP_DATA.push({
         "1. 1. 2015., obvezna za članice i države EFTA-e"
       ],
       correct: 1,
-      explanation: "Uredba 305/2011 utvrđuje usklađene uvjete za stavljanje na tržište građevnih proizvoda, stavlja izvan snage Direktivu 89/106/EEZ, stupila je na snagu 1. 7. 2013. i obvezna je za sve države članice EU.",
-      source: "Uredba (EU) br. 305/2011",
+      explanation: "Uredba 305/2011 utvrđuje usklađene uvjete za stavljanje na tržište građevnih proizvoda, stavlja izvan snage Direktivu 89/106/EEZ, stupila je na snagu 1. 7. 2013. i obvezna je za sve države članice EU. Zamjenjuje ju Uredba (EU) 2024/3110 (na snazi od 7. 1. 2025., primjena od 8. 1. 2026. uz prijelazna razdoblja).",
+      source: "Uredba (EU) br. 305/2011; Uredba (EU) 2024/3110",
       freq: 2
     },
     {
@@ -698,8 +747,8 @@ window.APP_DATA.push({
         "Područja proizvoda i zahtjeve za tijela za tehničko ocjenjivanje"
       ],
       correct: 2,
-      explanation: "Prilog I — temeljni zahtjevi za građevine; Prilog II — postupak donošenja EAD-a; Prilog III — izjava o svojstvima; Prilog IV — područja proizvoda i zahtjevi za TAB-ove; Prilog V — ocjenjivanje i provjera stalnosti svojstava (1+, 1, 2+, 3, 4).",
-      source: "Uredba (EU) br. 305/2011, Prilog V",
+      explanation: "Prilog I — temeljni zahtjevi za građevine; Prilog II — postupak donošenja EAD-a; Prilog III — izjava o svojstvima; Prilog IV — područja proizvoda i zahtjevi za TAB-ove; Prilog V — ocjenjivanje i provjera stalnosti svojstava (1+, 1, 2+, 3, 4). U novoj Uredbi 2024/3110 sustavi ocjenjivanja i provjere su u Prilogu IX (dodan sustav 3+).",
+      source: "Uredba (EU) br. 305/2011, Prilog V; Uredba (EU) 2024/3110, Prilog IX",
       freq: 2
     },
     {
@@ -712,8 +761,8 @@ window.APP_DATA.push({
         "Prilog III"
       ],
       correct: 3,
-      explanation: "Izjavu o svojstvima potrebno je sastaviti koristeći model utvrđen u Prilogu III Uredbe 305/2011 (izmijenjen Uredbom 574/2014). Prilog I sadrži temeljne zahtjeve za građevine, Prilog IV područja proizvoda i zahtjeve za TAB-ove.",
-      source: "Uredba (EU) br. 305/2011, Prilog III; Uredba 574/2014",
+      explanation: "Izjavu o svojstvima potrebno je sastaviti koristeći model utvrđen u Prilogu III Uredbe 305/2011 (izmijenjen Uredbom 574/2014). Prilog I sadrži temeljne zahtjeve za građevine, Prilog IV područja proizvoda i zahtjeve za TAB-ove. U Uredbi 2024/3110 izjava o svojstvima i sukladnosti nalazi se u Prilogu V.",
+      source: "Uredba (EU) br. 305/2011, Prilog III; Uredba 574/2014; Uredba (EU) 2024/3110, Prilog V",
       freq: 2
     },
     {
@@ -739,8 +788,8 @@ window.APP_DATA.push({
         "Postavlja ju prijavljeno tijelo nakon izdavanja certifikata"
       ],
       correct: 2,
-      explanation: "CE (Conformité Européenne) postavlja se na proizvode za koje je proizvođač sastavio izjavu o svojstvima; bez izjave se ne smije postaviti. Postavlja se vidljivo, čitljivo i neizbrisivo na proizvod ili etiketu, prije stavljanja na tržište.",
-      source: "Uredba (EU) 305/2011, čl. 8. i 9.",
+      explanation: "CE (Conformité Européenne) postavlja se na proizvode za koje je proizvođač sastavio izjavu o svojstvima; bez izjave se ne smije postaviti. Postavlja se vidljivo, čitljivo i neizbrisivo na proizvod ili etiketu, prije stavljanja na tržište. Prema ZoGP čl. 22.a (NN 48/26) sadržaj CE oznake i izjava o svojstvima i sukladnosti pišu se na hrvatskom jeziku latiničnim pismom.",
+      source: "Uredba (EU) 305/2011, čl. 8. i 9.; Uredba (EU) 2024/3110, čl. 17. i 18.; ZoGP čl. 22.a",
       freq: 1
     },
     {
@@ -757,7 +806,7 @@ window.APP_DATA.push({
       freq: 1
     },
     {
-      q: "Koji od navedenih NIJE jedan od pet sustava ocjenjivanja i provjere stalnosti svojstava građevnih proizvoda?",
+      q: "Koji od navedenih NIJE jedan od sustava ocjenjivanja i provjere stalnosti svojstava građevnih proizvoda prema Uredbi 305/2011?",
       exam: true,
       options: [
         "Sustav 1+",
@@ -766,8 +815,8 @@ window.APP_DATA.push({
         "Sustav 4"
       ],
       correct: 2,
-      explanation: "Ocjenjivanje i provjera stalnosti svojstava provodi se u skladu s pet sustava: 1+, 1, 2+, 3 i 4. Sustav 2 je ukinut.",
-      source: "Uredba (EU) 305/2011, Prilog V; Pravilnik NN 118/19, prilog IX"
+      explanation: "Prema Uredbi 305/2011 ocjenjivanje i provjera stalnosti svojstava provodi se u skladu s pet sustava: 1+, 1, 2+, 3 i 4. Sustav 2 je ukinut. Nova Uredba 2024/3110 (Prilog IX) dodaje šesti sustav 3+ za okolišnu održivost.",
+      source: "Uredba (EU) 305/2011, Prilog V; Pravilnik NN 118/19, prilog IX; Uredba (EU) 2024/3110, Prilog IX"
     },
     {
       q: "Po čemu se sustav 1+ razlikuje od sustava 1?",
@@ -821,7 +870,7 @@ window.APP_DATA.push({
       source: "Uredba (EU) 305/2011, Prilog V"
     },
     {
-      q: "Koju radnju ocjenjivanja i provjere stalnosti svojstava proizvođač provodi u SVIH pet sustava?",
+      q: "Koju radnju ocjenjivanja i provjere stalnosti svojstava proizvođač provodi u SVIM sustavima (1+, 1, 2+, 3 i 4; prema 2024/3110 i 3+)?",
       options: [
         "Ispitivanje slučajnih uzoraka iz skladišta",
         "Kontrolu tvorničke proizvodnje",
@@ -829,8 +878,8 @@ window.APP_DATA.push({
         "Ocjenjivanje svojstava na temelju tabličnih vrijednosti"
       ],
       correct: 1,
-      explanation: "Kontrolu tvorničke proizvodnje proizvođač provodi u svim sustavima (1+, 1, 2+, 3 i 4). Ocjenjivanje svojstava provodi proizvođač u 2+ i 4, a tijelo u 1+, 1 i 3.",
-      source: "Uredba (EU) 305/2011, Prilog V; Pravilnik NN 118/19"
+      explanation: "Kontrolu tvorničke proizvodnje proizvođač provodi u svim sustavima (1+, 1, 2+, 3 i 4, a prema Uredbi 2024/3110 i u sustavu 3+). Ocjenjivanje svojstava provodi proizvođač u 2+ i 4, a tijelo u 1+, 1 i 3.",
+      source: "Uredba (EU) 305/2011, Prilog V; Pravilnik NN 118/19; Uredba (EU) 2024/3110, Prilog IX"
     },
     {
       q: "Kako postupaju prijavljena tijela i proizvođači u pogledu ocjenjivanja svojstava proizvoda za koji je izdana europska tehnička ocjena (ETA)?",
@@ -855,8 +904,8 @@ window.APP_DATA.push({
         "Osoba koja trguje proizvodom pod svojim imenom ili žigom"
       ],
       correct: 1,
-      explanation: "Uvoznik je osoba s poslovnim nastanom unutar Unije koja proizvod iz treće zemlje stavlja na tržište Unije; distributer je osoba u opskrbnom lancu (nije proizvođač ni uvoznik) koja stavlja proizvod na raspolaganje; ovlašteni predstavnik ima pisano ovlaštenje proizvođača.",
-      source: "Uredba (EU) 305/2011, čl. 2."
+      explanation: "Uvoznik je osoba s poslovnim nastanom unutar Unije koja proizvod iz treće zemlje stavlja na tržište Unije; distributer je osoba u opskrbnom lancu (nije proizvođač ni uvoznik) koja stavlja proizvod na raspolaganje; ovlašteni predstavnik (prema 2024/3110: ovlašteni zastupnik) ima pisano ovlaštenje proizvođača.",
+      source: "Uredba (EU) 305/2011, čl. 2.; Uredba (EU) 2024/3110, čl. 3."
     },
     {
       q: "Što je zajednički naziv za proizvođača, uvoznika, distributera i ovlaštenog predstavnika prema Uredbi 305/2011?",
@@ -868,8 +917,8 @@ window.APP_DATA.push({
         "Treća strana"
       ],
       correct: 0,
-      explanation: "Gospodarski subjekt znači proizvođač, uvoznik, distributer ili ovlašteni predstavnik.",
-      source: "Uredba (EU) 305/2011, čl. 2."
+      explanation: "Gospodarski subjekt prema 305/2011 znači proizvođač, uvoznik, distributer ili ovlašteni predstavnik. Uredba 2024/3110 pojam širi: proizvođač, ovlašteni zastupnik, uvoznik, distributer, pružatelj usluge provođenja narudžbi ili bilo koja druga osoba koja podliježe Uredbi u vezi s proizvodnjom, ponovnom proizvodnjom ili stavljanjem na raspolaganje (obveze i za internetske platforme).",
+      source: "Uredba (EU) 305/2011, čl. 2.; Uredba (EU) 2024/3110, čl. 3."
     },
     {
       q: "Koliko dugo proizvođač mora čuvati tehničku dokumentaciju i izjavu o svojstvima nakon stavljanja proizvoda na tržište?",
@@ -906,8 +955,8 @@ window.APP_DATA.push({
         "Nacionalno akreditacijsko tijelo koje izdaje potvrde o akreditaciji"
       ],
       correct: 3,
-      explanation: "Ministarstvo je kontaktna točka za građevne proizvode, upravno tijelo za prijavljivanje prijavljenih tijela, upravno tijelo za imenovanje TAB-ova i član Stalnog odbora za graditeljstvo. Akreditaciju izdaje nacionalno akreditacijsko tijelo, a njome prijavljena tijela dokazuju ispunjavanje zahtjeva.",
-      source: "Zakon o građevnim proizvodima, čl. 12."
+      explanation: "Ministarstvo je kontaktna točka za građevne proizvode, upravno tijelo za prijavljivanje prijavljenih tijela, upravno tijelo za imenovanje TAB-ova i član Stalnog odbora za graditeljstvo (305/2011); u provedbi Uredbe 2024/3110 (ZoGP čl. 5. st. 2., NN 48/26) uz to je član Stručne skupine za pravnu stečevinu Uredbe o građevnim proizvodima i član Odbora za građevne proizvode. Akreditaciju izdaje nacionalno akreditacijsko tijelo (HAA), a njome prijavljena tijela dokazuju ispunjavanje zahtjeva.",
+      source: "Zakon o građevnim proizvodima, čl. 5. i 12."
     },
     {
       q: "Čime prijavljena tijela dokazuju ispunjavanje zahtjeva Uredbe 305/2011 i tko donosi rješenje?",
@@ -919,8 +968,8 @@ window.APP_DATA.push({
         "Ugovorom s TAB-om; rješenje donosi Stalni odbor za graditeljstvo"
       ],
       correct: 0,
-      explanation: "Pravna osoba podnosi zahtjev Ministarstvu; ispunjavanje zahtjeva dokazuje potvrdom o akreditaciji nacionalnog akreditacijskog tijela. Rješenje donosi Ministarstvo po prethodno pribavljenom mišljenju Povjerenstva, a nakon pravomoćnosti podnosi prijavu Europskoj komisiji i članicama.",
-      source: "Zakon o građevnim proizvodima, čl. 12."
+      explanation: "Pravna osoba podnosi zahtjev Ministarstvu; ispunjavanje zahtjeva dokazuje potvrdom o akreditaciji nacionalnog akreditacijskog tijela. Rješenje donosi Ministarstvo po prethodno pribavljenom mišljenju Povjerenstva, a nakon pravomoćnosti (po 2024/3110: izvršnosti, čl. 15.a) podnosi prijavu Europskoj komisiji i članicama. Isti postupak vrijedi i prema Uredbi 2024/3110 (ZoGP čl. 13.b–13.c: zahtjev prema čl. 50., zahtjevi iz čl. 46. Uredbe).",
+      source: "Zakon o građevnim proizvodima, čl. 12.–13. i 13.b–13.c"
     },
     {
       q: "Kada Ministarstvo donosi privremeno rješenje za prijavljeno tijelo?",
@@ -932,11 +981,11 @@ window.APP_DATA.push({
         "Kada tijelo ima osiguranje od odgovornosti samo za dio djelatnosti"
       ],
       correct: 1,
-      explanation: "Ako se utvrdi da je riječ o podnositelju koji je već prijavljen Europskoj komisiji, a akreditacijski postupak prema građevnom proizvodu za koji se podnosi zahtjev je u tijeku, donosi se privremeno rješenje.",
-      source: "Zakon o građevnim proizvodima, čl. 12."
+      explanation: "Ako se utvrdi da je riječ o podnositelju koji je već prijavljen Europskoj komisiji, a akreditacijski postupak prema građevnom proizvodu za koji se podnosi zahtjev je u tijeku, donosi se privremeno rješenje (jednako i prema Uredbi 2024/3110, ZoGP čl. 13.c st. 4.).",
+      source: "Zakon o građevnim proizvodima, čl. 13. i 13.c"
     },
     {
-      q: "Koja tvrdnja o zahtjevima za prijavljena tijela prema Uredbi 305/2011 je točna?",
+      q: "Koja tvrdnja o zahtjevima za prijavljena tijela prema uredbama 305/2011 (čl. 43.) i 2024/3110 (čl. 46.) je točna?",
       exam: true,
       options: [
         "Naknade uprave i osoblja za ocjenjivanje mogu ovisiti o broju provedenih ocjenjivanja",
@@ -945,8 +994,8 @@ window.APP_DATA.push({
         "Osoblje prijavljenog tijela nije vezano profesionalnom tajnom"
       ],
       correct: 2,
-      explanation: "Prijavljeno tijelo ima pravnu osobnost, neovisna je treća strana (ne smije biti projektant, proizvođač, dobavljač, instalater, kupac, vlasnik, korisnik ni održavatelj), naknade ne ovise o broju ni rezultatu ocjenjivanja, ima osiguranje od odgovornosti (osim ako je odgovornost preuzela država) i osoblje čuva profesionalnu tajnu.",
-      source: "Uredba (EU) 305/2011, čl. 43."
+      explanation: "Prijavljeno tijelo ima pravnu osobnost, neovisna je treća strana (ne smije biti projektant, proizvođač, dobavljač, uvoznik, distributer, instalater, kupac, vlasnik, korisnik ni održavatelj; bez konzultantskih usluga), naknade ne ovise o broju ni rezultatu ocjenjivanja, ima osiguranje od odgovornosti (osim ako je odgovornost preuzela država), osoblje čuva profesionalnu tajnu, a osoblje koje donosi odluke zaposleno je u tijelu.",
+      source: "Uredba (EU) 305/2011, čl. 43.; Uredba (EU) 2024/3110, čl. 46."
     },
     {
       q: "Prema kojem dijelu Uredbe 305/2011 Ministarstvo provjerava zahtjeve za imenovanje tijela za tehničko ocjenjivanje (TAB)?",
@@ -958,8 +1007,8 @@ window.APP_DATA.push({
         "Prilog I"
       ],
       correct: 0,
-      explanation: "Za imenovanje TAB-om pravna osoba podnosi zahtjev Ministarstvu koje provjerava ispunjavanje zahtjeva iz Tablice 2 Priloga IV Uredbe; rješenje se donosi po mišljenju Povjerenstva za jedno ili više područja proizvoda, a podaci se dostavljaju EK i članicama.",
-      source: "Zakon o građevnim proizvodima, čl. 16.; Uredba (EU) 305/2011, Prilog IV"
+      explanation: "Za imenovanje TAB-om pravna osoba podnosi zahtjev Ministarstvu koje provjerava ispunjavanje zahtjeva iz Tablice 2 Priloga IV Uredbe 305/2011; rješenje se donosi po mišljenju Povjerenstva za jedno ili više područja proizvoda, a podaci se dostavljaju EK i članicama. Prema Uredbi 2024/3110 (ZoGP čl. 18.a–18.c) zahtjevi za TAB su u Prilogu VIII, a područja (porodice) proizvoda u Prilogu VII.",
+      source: "Zakon o građevnim proizvodima, čl. 16. i 18.a; Uredba (EU) 305/2011, Prilog IV; Uredba (EU) 2024/3110, Prilozi VII i VIII"
     },
     {
       q: "U kojem roku prijavljeno ili imenovano tijelo mora obavijestiti Ministarstvo da je prestalo ispunjavati zahtjeve na temelju kojih je doneseno rješenje?",
@@ -970,8 +1019,8 @@ window.APP_DATA.push({
         "Najkasnije 15 dana"
       ],
       correct: 3,
-      explanation: "Tijelo koje prestane ispunjavati zahtjeve dužno je obavijestiti Ministarstvo najkasnije u roku od 15 dana; nakon toga se pokreće provjera, pribavlja mišljenje Povjerenstva o ozbiljnosti nedostataka i daje rok za uklanjanje ili se provodi povlačenje, ograničenje ili obustava prijave odnosno imenovanja.",
-      source: "Zakon o građevnim proizvodima (postupak ukidanja ovlaštenja)"
+      explanation: "Tijelo koje prestane ispunjavati zahtjeve dužno je bez odgode obavijestiti Ministarstvo, a najkasnije u roku od 15 dana (ZoGP čl. 19., i nakon izmjena NN 48/26); nakon toga se pokreće provjera, pribavlja mišljenje Povjerenstva o ozbiljnosti nedostataka i daje rok za uklanjanje ili se provodi povlačenje, ograničenje ili obustava prijave odnosno imenovanja. Tijela uz to izvještavaju Ministarstvo jednom godišnje.",
+      source: "Zakon o građevnim proizvodima, čl. 19. (postupak ukidanja ovlaštenja)"
     },
     {
       q: "Tko imenuje članove Povjerenstva za građevne proizvode i koja mu je uloga?",
@@ -995,7 +1044,7 @@ window.APP_DATA.push({
         "Dokument TAB-a o ocjeni svojstava; izdaje se za sve sustave"
       ],
       correct: 2,
-      explanation: "Certifikat o stalnosti svojstava dokazuje da proizvod zadovoljava zahtjeve stalnosti svojstava propisane tehničkom specifikacijom; izdaje ga ovlaštena osoba na zahtjev proizvođača, ovlaštenog zastupnika ili uvoznika. Izdaje se za sustave 1+ i 1; za 2+ certifikat KTP, za 3 izvještaj o ispitivanju.",
+      explanation: "Certifikat o stalnosti svojstava dokazuje da proizvod zadovoljava zahtjeve stalnosti svojstava propisane tehničkom specifikacijom; izdaje ga ovlaštena osoba na zahtjev proizvođača, ovlaštenog zastupnika ili uvoznika. Izdaje se za sustave 1+ i 1; za 2+ certifikat KTP, za 3 izvještaj o ispitivanju. Prema Uredbi 2024/3110: 1+ i 1 → potvrda o stalnosti svojstava i sukladnosti proizvoda, 3 → potvrda o svojstvima i sukladnosti proizvoda, 3+ → izvješće o validaciji.",
       source: "Zakon o građevnim proizvodima; Uredba (EU) 305/2011, Prilog V",
       freq: 1
     },
@@ -1045,7 +1094,7 @@ window.APP_DATA.push({
         "Serijski proizvod iz trgovine (npr. opeka) obuhvaćen usklađenom normom"
       ],
       correct: 3,
-      explanation: "Iznimka vrijedi samo za proizvod izrađen prema svojstvima iz glavnog projekta ako je proizveden pojedinačno/po narudžbi u izvanserijskom postupku i ugrađen od proizvođača, izrađen na gradilištu, proizveden neindustrijski/tradicionalno/za baštinu ili pribavljen rušenjem. Serijska opeka iz trgovine mora imati izjavu o svojstvima, inače se ne smije ugraditi.",
+      explanation: "Iznimka vrijedi samo za proizvod izrađen prema svojstvima iz glavnog projekta ako je proizveden pojedinačno/po narudžbi u izvanserijskom postupku i ugrađen od proizvođača (koji odgovornost preuzima izjavom u građevinskom dnevniku), izrađen na gradilištu, proizveden neindustrijski/tradicionalno/za očuvanje baštine (pri rekonstrukciji postojeće ili radovima na zaštićenoj građevini upisanoj u Registar) ili pribavljen rušenjem. Serijska opeka iz trgovine mora imati izjavu o svojstvima, inače se ne smije ugraditi.",
       source: "Zakon o građevnim proizvodima, čl. 27.",
       freq: 2
     },
@@ -1087,7 +1136,7 @@ window.APP_DATA.push({
       ],
       correct: 1,
       explanation: "Sigurni proizvod u normalnim ili razumno predvidljivim uvjetima uporabe (uključujući trajanje, stavljanje u uporabu, ugradnju i održavanje) ne predstavlja nikakav ili samo najmanji rizik spojiv s uporabom. Opasni proizvod je svaki koji nije siguran.",
-      source: "Skripta — Tehnička regulativa (sigurni proizvod)",
+      source: "Zakon o općoj sigurnosti proizvoda (definicija sigurnog proizvoda); skripta — Tehnička regulativa",
       freq: 2
     },
     {
@@ -1113,8 +1162,8 @@ window.APP_DATA.push({
         "Cijena proizvoda i podaci o distributeru"
       ],
       correct: 3,
-      explanation: "Izjava sadrži: identifikacijsku oznaku vrste proizvoda, namjenu, proizvođača, ovlaštenog predstavnika, sustav AVCP, usklađenu normu + prijavljeno tijelo (6.a) ili EAD + ETA + TAB + prijavljeno tijelo (6.b), objavljena svojstva i odgovarajuću/specifičnu tehničku dokumentaciju. Izdaje se pod isključivom odgovornošću proizvođača.",
-      source: "Uredba (EU) 305/2011, Prilog III (Uredba 574/2014)",
+      explanation: "Izjava sadrži: identifikacijsku oznaku vrste proizvoda, namjenu, proizvođača, ovlaštenog predstavnika, sustav AVCP, usklađenu normu + prijavljeno tijelo (6.a) ili EAD + ETA + TAB + prijavljeno tijelo (6.b), objavljena svojstva i odgovarajuću/specifičnu tehničku dokumentaciju. Izdaje se pod isključivom odgovornošću proizvođača. Izjava o svojstvima i sukladnosti prema 2024/3110 (Prilog V) dodatno sadrži npr. kategoriju proizvoda, procijenjeni vijek uporabe, okolišnu održivost i verziju softvera Komisije — ni ona ne sadrži cijenu.",
+      source: "Uredba (EU) 305/2011, Prilog III (Uredba 574/2014); Uredba (EU) 2024/3110, Prilog V",
       freq: 2
     },
     {
@@ -1147,19 +1196,19 @@ window.APP_DATA.push({
   flashcards: [
     {
       front: "Što uređuje Zakon o građevnim proizvodima?",
-      back: "Sustave ocjenjivanja i provjere stalnosti svojstava GP, radnje proizvođača i odobrenih tijela, dokumente ocjenjivanja, zahtjeve za prijavljena i odobrena tijela, postupak prijave i njihove obveze te druga pitanja stavljanja na tržište; uređuje primjenu Uredbe 305/2011 te usklađeno i neusklađeno područje. (ZoGP NN 76/13, 30/14, 130/17, 39/19, 118/20)",
+      back: "Sustave ocjenjivanja i provjere stalnosti svojstava GP, radnje proizvođača te prijavljenih i odobrenih tijela, dokumente ocjenjivanja, zahtjeve za prijavljena i odobrena tijela, postupak prijave i njihove obveze, obveze i zahtjeve za imenovanje TAB-ova te druga pitanja stavljanja na tržište; uređuje primjenu Uredbe 305/2011 i nove Uredbe (EU) 2024/3110 te usklađeno i neusklađeno područje. (ZoGP NN 76/13, 30/14, 130/17, 39/19, 118/20, 48/26 — izmjene od 16. 5. 2026.)",
       freq: 2
     },
     {
       front: "Usklađeno i neusklađeno područje — što je razlika?",
       exam: true,
-      back: "Usklađeno (CE): tržište EU, Uredba 305/2011 + ZoGP, usklađene tehničke specifikacije (HRN EN sa ZA dodatkom ili EAD), prijavljena tijela, TAB izdaje ETA. Neusklađeno (C): tržište RH, ZoGP Glava III., hrvatske tehničke specifikacije (tehnički propis/hrvatska norma bez ZA ili HDO), odobrena tijela, HTTO izdaje HTO. Sustavi ocjenjivanja i izjave o svojstvima su identični.",
+      back: "Usklađeno (CE): tržište EU, Uredba 305/2011 + Uredba 2024/3110 + ZoGP, usklađene tehničke specifikacije (HRN EN sa ZA dodatkom ili EAD; popis u Tehničkom propisu NN 97/26), prijavljena tijela, TAB izdaje ETA. Neusklađeno (C): tržište RH, proizvodi bez primjenjive usklađene specifikacije, ZoGP Glava III., hrvatske tehničke specifikacije (tehnički propis/hrvatska norma bez ZA ili HDO), odobrena tijela, HTTO izdaje HTO. Sustavi ocjenjivanja i izjave o svojstvima su identični.",
       freq: 2
     },
     {
       front: "Što podrazumijeva usklađena (harmonizirana) tehnička specifikacija?",
       exam: true,
-      back: "1. usklađenu europsku normu (HRN EN norma koja u prilogu ima ZA dodatak); 2. europski dokument za ocjenjivanje (EAD) — kada nema primjenjive norme; na temelju njega TAB izdaje ETA.",
+      back: "1. usklađenu europsku normu (HRN EN norma koja u prilogu ima ZA dodatak); 2. europski dokument za ocjenjivanje (EAD) — kada za proizvod i namjenu nema primjenjive usklađene norme, a ispunjeni su uvjeti iz Uredbe; na temelju njega TAB provodi ocjenjivanje i izdaje ETA. Popis usklađenih normi i EAD-ova: Tehnički propis NN 97/26 (na snazi 10. 9. 2026.).",
       freq: 2
     },
     {
@@ -1191,7 +1240,7 @@ window.APP_DATA.push({
     {
       front: "Koje dokumente izdaju prijavljena/odobrena tijela po sustavima ocjenjivanja?",
       exam: true,
-      back: "Sustav 1+ i 1: tijelo za certificiranje proizvoda → certifikat o stalnosti svojstava. Sustav 2+: tijelo za certificiranje KTP → certifikat o sukladnosti kontrole tvorničke proizvodnje. Sustav 3: laboratorij → izvještaj o ispitivanju. Sustav 4: tijelo nema zadataka.",
+      back: "305/2011 — sustav 1+ i 1: tijelo za certificiranje proizvoda → certifikat o stalnosti svojstava. Sustav 2+: tijelo za certificiranje KTP → certifikat o sukladnosti kontrole tvorničke proizvodnje. Sustav 3: laboratorij → izvještaj o ispitivanju. Sustav 4: tijelo nema zadataka. 2024/3110 — 1+ i 1 → potvrda o stalnosti svojstava i sukladnosti proizvoda; 2+ → potvrda o sukladnosti KTP; 3+ → izvješće o validaciji (tijelo za validaciju ocjenjivanja); 3 → potvrda o svojstvima i sukladnosti proizvoda; 4 → nema prijavljenog tijela.",
       freq: 1
     },
     {
@@ -1200,25 +1249,25 @@ window.APP_DATA.push({
       back: "Prijavljena tijela: IGH, Strojarski fakultet, SŠ Bedekovčina, Geo expert, Končar, Ascon institut, Alfa atest... (lista u NANDO bazi EK). Imenovano tijelo TAB: IGH. Odobrena tijela: IGH, Strojarski fakultet, Geo expert, LTM, Zavod za ispitivanje kvalitete... HTTO: IGH."
     },
     {
-      front: "Što znači »stavljanje na tržište« i »stavljanje na raspolaganje na tržištu« (Uredba 305/2011)?",
+      front: "Što znači »stavljanje na tržište« i »stavljanje na raspolaganje na tržištu« (Uredba 305/2011 i 2024/3110)?",
       exam: true,
-      back: "Stavljanje na tržište = prvo stavljanje na raspolaganje proizvoda na tržištu. Stavljanje na raspolaganje = svaka isporuka proizvoda za distribuiranje, potrošnju ili uporabu na tržištu u okviru trgovačke djelatnosti, s plaćanjem ili bez plaćanja.",
+      back: "Stavljanje na tržište = prvo stavljanje na raspolaganje proizvoda na tržištu (Unije); prema 2024/3110 i prvo stavljanje na raspolaganje rabljenog proizvoda nakon njegove demontaže. Stavljanje na raspolaganje = svaka isporuka proizvoda za distribuiranje, potrošnju ili uporabu na tržištu u okviru trgovačke djelatnosti, s plaćanjem ili bez plaćanja (2024/3110: bez obzira na to provodi li se u okviru pružanja usluge).",
       freq: 1
     },
     {
-      front: "Definicija građevnog proizvoda i sklopa (Uredba 305/2011)",
+      front: "Definicija građevnog proizvoda i sklopa (Uredba 305/2011 i 2024/3110)",
       exam: true,
-      back: "Građevni proizvod: svaki proizvod ili sklop proizveden i stavljen na tržište radi trajne ugradnje u građevinu ili njezine dijelove, čija svojstva imaju učinak na svojstva građevine s obzirom na temeljne zahtjeve. Sklop: GP koji je proizvođač stavio na tržište kao skupinu od najmanje dvije zasebne komponente koje se postavljaju zajedno radi ugradnje.",
+      back: "305/2011 — građevni proizvod: svaki proizvod ili sklop proizveden i stavljen na tržište radi trajne ugradnje u građevinu ili njezine dijelove, čija svojstva imaju učinak na svojstva građevine s obzirom na temeljne zahtjeve; sklop: GP stavljen na tržište kao skupina od najmanje dvije zasebne komponente koje se postavljaju zajedno. 2024/3110 — GP: svaki oblikovani ili neoblikovani fizički predmet (i 3D ispis) ili sklop koji se stavlja na tržište (i isporukom na gradilištu) za TRAJNU ugradnju u građevine (»trajno« = ostaje u građevini nakon završetka izgradnje/obnove), bez uvjeta utjecaja na temeljne zahtjeve; sklop: skup od najmanje dva odvojena predmeta jednog gospodarskog subjekta koje treba zajedno ugraditi.",
       freq: 2
     },
     {
-      front: "Je li oplata građevni proizvod? A skela? A prozorska kupčica?",
-      back: "Ne — ne ugrađuju se trajno u građevinu i nemaju utjecaj na ispunjavanje temeljnih zahtjeva za građevinu."
+      front: "Je li oplata građevni proizvod? A skela? A prozorska klupčica?",
+      back: "Oplata i skela — ne: ne ugrađuju se trajno u građevinu. Prozorska klupčica — prema 305/2011 klasičan odgovor je ne (nema utjecaj na temeljne zahtjeve); prema Uredbi 2024/3110 definicija GP veže se samo uz trajnu ugradnju (klupčica ostaje ugrađena), ali se bitne značajke i dalje izvode iz temeljnih zahtjeva (Prilog I) — odgovor iz skripte ostaje NE, uz argumentaciju po obje uredbe."
     },
     {
       front: "Koje zahtjeve moraju ispunjavati građevni proizvodi prije stavljanja na tržište?",
       exam: true,
-      back: "Moraju biti sukladni zahtjevima tehničke specifikacije, imati izjavu o svojstvima bitnih značajki izdanu od proizvođača, biti označeni CE ili C oznakom i imati tehničku uputu.",
+      back: "Moraju biti sukladni zahtjevima tehničke specifikacije, imati izjavu o svojstvima bitnih značajki izdanu od proizvođača (2024/3110: izjavu o svojstvima i sukladnosti), biti označeni CE ili C oznakom i imati tehničku uputu (2024/3110: opće informacije o proizvodu, upute za uporabu i informacije o sigurnosti, Prilog IV; u RH na hrvatskom latinicom — ZoGP čl. 22.a i 22.b).",
       freq: 2
     },
     {
@@ -1232,7 +1281,7 @@ window.APP_DATA.push({
     },
     {
       front: "Što sve od dokumentacije trebaju imati proizvodi koji dođu na gradilište? (čl. 3. Tehničkog propisa o građevnim proizvodima)",
-      back: "Usklađeno područje: izjava o svojstvima, oznaka CE, uputa i sigurnosne obavijesti. Neusklađeno područje: izjava o svojstvima, C oznaka i tehnička uputa. Proizvod izrađen na gradilištu: izvještaj o ispitivanju odnosno drugi dokument kojim se dokazuje ispunjavanje zahtjeva iz projekta. Sve na hrvatskom jeziku latiničnim pismom.",
+      back: "Usklađeno područje: izjava o svojstvima, oznaka CE, uputa i sigurnosne obavijesti (prema 2024/3110: izjava o svojstvima i sukladnosti, CE, opće informacije o proizvodu, upute za uporabu i informacije o sigurnosti). Neusklađeno područje: izjava o svojstvima, C oznaka i tehnička uputa. Proizvod izrađen na gradilištu: izvještaj o ispitivanju odnosno drugi dokument kojim se dokazuje ispunjavanje zahtjeva iz projekta. Sve na hrvatskom jeziku latiničnim pismom.",
       freq: 2
     },
     {
@@ -1268,19 +1317,19 @@ window.APP_DATA.push({
       freq: 1
     },
     {
-      front: "Razlike novog i starog Zakona o građevnim proizvodima",
-      back: "Novi zakon osigurava provedbu Uredbe 305/2011: uvodi podjelu na usklađeno i neusklađeno područje, uređuje sustave ocjenjivanja i provjere stalnosti svojstava, uvodi nove pojmove (izjava o svojstvima, certifikat o stalnosti svojstava, certifikat o sukladnosti KTP, bitne značajke) i ukida sustav ocjenjivanja 2."
+      front: "Razlike novog i starog Zakona o građevnim proizvodima (NN 118/20 vs. raniji; NN 48/26 vs. NN 118/20)",
+      back: "Novi ZoGP (skripta: zakon iz 2020., NN 118/20) osigurava provedbu Uredbe 305/2011: uvodi podjelu na usklađeno i neusklađeno područje, uređuje sustave ocjenjivanja i provjere stalnosti svojstava, nove pojmove (izjava o svojstvima, certifikat o stalnosti svojstava, certifikat o sukladnosti KTP, bitne značajke) i ukida sustav 2. Izmjene NN 48/26 (na snazi 16. 5. 2026.): postojeći sustav + provedba Uredbe 2024/3110 — nadležni Ministarstvo i Državni inspektorat (DI = nadzor tržišta); nove uloge Ministarstva (kontaktna točka, tijelo za prijavljivanje, imenovanje TAB-ova, Stručna skupina i Odbor za građevne proizvode); novi postupci za prijavljena tijela (čl. 13.b–13.d) i TAB-ove (čl. 18.a–18.c); tijelo za validaciju ocjenjivanja; izjava o svojstvima i sukladnosti + CE na hrvatskom latinicom (čl. 22.a); opće informacije, upute za uporabu i informacije o sigurnosti (čl. 22.b); digitalna putovnica; ovlasti inspektora prema internetskim platformama; nove prekršajne odredbe u eurima."
     },
     {
       front: "Što ako proizvod nije ni u usklađenom ni u neusklađenom području, odnosno dolazi iz druge države članice EU (ili Turske, EFTA/EGP)?",
       exam: true,
-      back: "Proizvodi na koje se ne odnosi Uredba 305/2011, a zakonito su stavljeni na tržište u drugoj članici EU, Turskoj ili EFTA državi stranci EGP-a smatraju se kompatibilnima prema Uredbi (EU) 2019/515 o uzajamnom priznavanju. Gospodarski subjekt osigurava prateću dokumentaciju na hrvatskom (namjeravana uporaba, značajke, sigurnosne obavijesti, upute o rukovanju/skladištenju/ugradnji/odlaganju); bez izjave o uzajamnom priznavanju dostavlja dokumentaciju po čl. 5. st. 5. i 6. Uredbe 2019/515.",
+      back: "Proizvodi na koje se ne odnosi Uredba 305/2011 (odnosno 2024/3110), a zakonito su stavljeni na tržište u drugoj članici EU, Turskoj ili EFTA (Europsko udruženje za slobodnu trgovinu) državi stranci EGP-a smatraju se kompatibilnima prema Uredbi (EU) 2019/515 o uzajamnom priznavanju. Gospodarski subjekt osigurava prateću dokumentaciju na hrvatskom (namjeravana uporaba, značajke, sigurnosne obavijesti, upute o rukovanju/skladištenju/ugradnji/odlaganju); bez izjave o uzajamnom priznavanju dostavlja dokumentaciju po čl. 5. st. 5. i 6. Uredbe 2019/515.",
       freq: 1
     },
     {
       front: "Sve o Uredbi (EU) 305/2011",
       exam: true,
-      back: "Utvrđuje usklađene uvjete za stavljanje na tržište GP; stavlja izvan snage Direktivu 89/106/EEZ; na snazi od 1. 7. 2013., obvezna za sve članice. Utvrđuje: sustave AVCP, obveze gospodarskih subjekata, usklađenu tehničku specifikaciju, zahtjeve i postupke za prijavljena tijela i TAB-ove, ostala pitanja. Prilozi: I temeljni zahtjevi za građevine; II postupak donošenja EAD-a; III izjava o svojstvima; IV područja proizvoda i zahtjevi za TAB-ove; V sustavi AVCP (1+, 1, 2+, 3, 4).",
+      back: "Utvrđuje usklađene uvjete za stavljanje na tržište GP; stavlja izvan snage Direktivu 89/106/EEZ; na snazi od 1. 7. 2013., obvezna za sve članice. Utvrđuje: sustave AVCP, obveze gospodarskih subjekata, usklađenu tehničku specifikaciju, zahtjeve i postupke za prijavljena tijela i TAB-ove, ostala pitanja. Prilozi: I temeljni zahtjevi za građevine; II postupak donošenja EAD-a; III izjava o svojstvima; IV područja proizvoda i zahtjevi za TAB-ove; V sustavi AVCP (1+, 1, 2+, 3, 4). Zamjenjuje ju Uredba (EU) 2024/3110 (na snazi 7. 1. 2025., primjena od 8. 1. 2026.), ali 305/2011 još vrijedi u prijelaznom razdoblju.",
       freq: 2
     },
     {
@@ -1289,13 +1338,13 @@ window.APP_DATA.push({
     },
     {
       front: "C i CE oznake — tko ih stavlja, kada i kako?",
-      back: "CE: jedina oznaka sukladnosti s usklađenom normom ili ETA; stavlja se samo ako je sastavljena izjava o svojstvima, vidljivo, čitljivo i neizbrisivo na proizvod ili etiketu, prije stavljanja na tržište. C: jedina oznaka sukladnosti s hrvatskom tehničkom specifikacijom; smije ju staviti samo proizvođač ili ovlašteni zastupnik, na proizvode s izjavom o svojstvima prema ZoGP-u. Šefu gradilišta znače da bez njih ne smije ugrađivati proizvod.",
+      back: "CE: jedina oznaka sukladnosti s usklađenom normom ili ETA; stavlja se samo ako je sastavljena izjava o svojstvima (2024/3110: izjava o svojstvima i sukladnosti), vidljivo, čitljivo i neizbrisivo na proizvod ili etiketu, prije stavljanja na tržište; prema ZoGP čl. 22.a sadržaj CE oznake na hrvatskom latinicom (može i na drugim jezicima). C: jedina oznaka sukladnosti s hrvatskom tehničkom specifikacijom; smije ju staviti samo proizvođač ili ovlašteni zastupnik, na proizvode s izjavom o svojstvima prema ZoGP-u. Šefu gradilišta znače da bez njih ne smije ugrađivati proizvod.",
       freq: 1
     },
     {
-      front: "Nabroji pet sustava ocjenjivanja i provjere stalnosti svojstava i tko što radi.",
+      front: "Nabroji sustave ocjenjivanja i provjere stalnosti svojstava (pet po 305/2011, šest po 2024/3110) i tko što radi.",
       exam: true,
-      back: "1+ : tijelo za certificiranje proizvoda — ocjenjivanje svojstava, početni pregled pogona i KTP, kontinuirani nadzor KTP, ispitivanje slučajnih uzoraka; proizvođač KTP + ispitivanje uzoraka po planu. 1: isto bez slučajnih uzoraka. 2+: proizvođač KTP, ispitivanje uzoraka i ocjenjivanje svojstava; tijelo za certificiranje KTP — početni pregled i kontinuirani nadzor. 3: proizvođač KTP; laboratorij ocjenjuje svojstva na dostavljenim uzorcima. 4: proizvođač KTP i ocjenjivanje svojstava; tijelo nema zadataka. (Prilog V Uredbe; Pravilnik NN 118/19)",
+      back: "Po 2024/3110 (Prilog IX) dodan je sustav 3+ — tijelo za validaciju ocjenjivanja validira proizvođačevo ocjenjivanje okolišne održivosti → izvješće o validaciji. Po 305/2011: 1+ : tijelo za certificiranje proizvoda — ocjenjivanje svojstava, početni pregled pogona i KTP, kontinuirani nadzor KTP, ispitivanje slučajnih uzoraka; proizvođač KTP + ispitivanje uzoraka po planu. 1: isto bez slučajnih uzoraka. 2+: proizvođač KTP, ispitivanje uzoraka i ocjenjivanje svojstava; tijelo za certificiranje KTP — početni pregled i kontinuirani nadzor. 3: proizvođač KTP; laboratorij ocjenjuje svojstva na dostavljenim uzorcima. 4: proizvođač KTP i ocjenjivanje svojstava; tijelo nema zadataka. (Prilog V Uredbe; Pravilnik NN 118/19)",
       freq: 2
     },
     {
@@ -1315,32 +1364,32 @@ window.APP_DATA.push({
     },
     {
       front: "Pojmovi: gospodarski subjekt, proizvođač, distributer, uvoznik, ovlašteni predstavnik (Uredba 305/2011)",
-      back: "Gospodarski subjekt = proizvođač, uvoznik, distributer ili ovlašteni predstavnik. Proizvođač: proizvodi ili je osmislio/proizveo GP i trguje njime pod svojim imenom ili žigom. Distributer: osoba u opskrbnom lancu (nije proizvođač ni uvoznik) koja stavlja GP na raspolaganje. Uvoznik: osoba s nastanom u Uniji koja GP iz treće zemlje stavlja na tržište Unije. Ovlašteni predstavnik: osoba u Uniji s pisanim ovlaštenjem proizvođača."
+      back: "305/2011 — gospodarski subjekt = proizvođač, uvoznik, distributer ili ovlašteni predstavnik. Proizvođač: proizvodi ili je osmislio/proizveo GP i trguje njime pod svojim imenom ili žigom. Distributer: osoba u opskrbnom lancu (nije proizvođač ni uvoznik) koja stavlja GP na raspolaganje. Uvoznik: osoba s nastanom u Uniji koja GP iz treće zemlje stavlja na tržište Unije. Ovlašteni predstavnik: osoba u Uniji s pisanim ovlaštenjem proizvođača. 2024/3110 — gospodarski subjekt šire: + ovlašteni ZASTUPNIK (novi naziv), pružatelj usluge provođenja narudžbi i svaka druga osoba koja podliježe Uredbi (proizvodnja, ponovna proizvodnja/uporaba, stavljanje na raspolaganje); proizvođač po definiciji iz Uredbe (EU) 2019/1020 (proizvodi ili za njega se proizvod projektira/proizvodi, stavlja ga na tržište pod svojim imenom/znakom); distributer uključuje i najam, obročnu otplatu, izlaganje i prodaju na daljinu."
     },
     {
-      front: "Obveze proizvođača (ZoGP čl. 30., Uredba čl. 11.)",
+      front: "Obveze proizvođača (ZoGP čl. 30., Uredba 305/2011 čl. 11., Uredba 2024/3110 čl. 22.)",
       exam: true,
-      back: "Sastavlja izjavu o svojstvima i stavlja CE/C; izrađuje tehničku dokumentaciju; čuva tehničku dokumentaciju i izjavu 10 godina; osigurava da serijska proizvodnja zadržava svojstva; ispituje uzorke s tržišta, evidentira pritužbe i nesukladne proizvode; osigurava broj tipa/šarže/serije te svoje ime i adresu na proizvodu; prilaže izjavu i tehničke upute na hrvatskom latiničnim pismom; kod nesukladnosti popravne mjere, povlačenje ili opoziv; kod rizika obavještava Ministarstvo i Državni inspektorat."
+      back: "Sastavlja izjavu o svojstvima i stavlja CE/C; izrađuje tehničku dokumentaciju; čuva tehničku dokumentaciju i izjavu 10 godina; osigurava da serijska proizvodnja zadržava svojstva; ispituje uzorke s tržišta, evidentira pritužbe i nesukladne proizvode; osigurava broj tipa/šarže/serije te svoje ime i adresu na proizvodu; prilaže izjavu i tehničke upute na hrvatskom latiničnim pismom; kod nesukladnosti popravne mjere, povlačenje ili opoziv; kod rizika obavještava Ministarstvo i Državni inspektorat. Po 2024/3110 dodatno: određuje vrstu i kategoriju proizvoda, ocjenjuje obvezne i deklarirane bitne značajke, sastavlja izjavu o svojstvima i sukladnosti, prilaže opće informacije o proizvodu, upute za uporabu i informacije o sigurnosti, oznaka »samo za profesionalnu uporabu« po potrebi, digitalna putovnica proizvoda (uz prijelazna razdoblja), rezervni dijelovi."
     },
     {
-      front: "Uloge Ministarstva u provedbi Uredbe 305/2011 (ZoGP čl. 12.)",
+      front: "Uloge Ministarstva u provedbi Uredbe 305/2011 i Uredbe 2024/3110 (ZoGP čl. 5.)",
       exam: true,
-      back: "Kontaktna točka za građevne proizvode; upravno tijelo za prijavljivanje prijavljenih tijela; upravno tijelo za imenovanje TAB-ova; član Stalnog odbora za graditeljstvo."
+      back: "305/2011: kontaktna točka za građevne proizvode; upravno tijelo za prijavljivanje prijavljenih tijela; upravno tijelo za imenovanje TAB-ova; član Stalnog odbora za graditeljstvo. 2024/3110 (ZoGP čl. 5. st. 2., NN 48/26): kontaktna točka za građevne proizvode; tijelo koje podnosi prijavu; tijelo nadležno za imenovanje TAB-a; član Stručne skupine za pravnu stečevinu Uredbe o građevnim proizvodima (čl. 4. Uredbe); član Odbora za građevne proizvode (čl. 90. Uredbe). Nadležna nacionalna tijela = Ministarstvo i Državni inspektorat; tijelo za nadzor tržišta = Državni inspektorat."
     },
     {
-      front: "Postupak provjere ispunjavanja zahtjeva za prijavljena tijela (ZoGP čl. 12.)",
+      front: "Postupak provjere ispunjavanja zahtjeva za prijavljena tijela (ZoGP čl. 12.–13. po 305/2011; čl. 13.b–13.d po 2024/3110)",
       exam: true,
-      back: "Pravna osoba podnosi zahtjev Ministarstvu; zahtjeve Uredbe dokazuje potvrdom o akreditaciji nacionalnog akreditacijskog tijela. Rješenje donosi Ministarstvo po mišljenju Povjerenstva za građevne proizvode — za laboratorij, laboratorij za požar/akustiku/opasne tvari, tijelo za certificiranje KTP, tijelo za certificiranje proizvoda. Nakon pravomoćnosti prijava EK i članicama. Privremeno rješenje ako je tijelo već prijavljeno EK, a akreditacija je u tijeku."
+      back: "Pravna osoba podnosi zahtjev Ministarstvu (po 2024/3110 prema čl. 50. Uredbe); zahtjeve Uredbe (čl. 43. / čl. 46.) dokazuje potvrdom o akreditaciji nacionalnog akreditacijskog tijela. Rješenje donosi Ministarstvo po mišljenju Povjerenstva za građevne proizvode — za (ispitni) laboratorij, laboratorij za požar/akustiku (apsorpciju buke)/opasne tvari (po 2024/3110 i okolišnu održivost), po 2024/3110 NOVO tijelo za validaciju ocjenjivanja, tijelo za certificiranje KTP, tijelo za certificiranje proizvoda. Nakon pravomoćnosti (305/2011) odnosno izvršnosti (2024/3110, čl. 15.a) prijava EK i članicama. Privremeno rješenje ako je tijelo već prijavljeno EK, a akreditacija je u tijeku."
     },
     {
-      front: "Zahtjevi za prijavljena tijela (Uredba 305/2011)",
+      front: "Zahtjevi za prijavljena tijela (Uredba 305/2011 čl. 43. / Uredba 2024/3110 čl. 46.)",
       exam: true,
-      back: "Pravna osobnost po nacionalnom pravu; neovisna treća strana (ne smije biti projektant, proizvođač, dobavljač, instalater, kupac, vlasnik, korisnik ni održavatelj proizvoda niti njihov predstavnik; bez savjetodavnih usluga); stručno osoblje, postupci i oprema; nepristranost — naknade ne ovise o broju ni rezultatu ocjenjivanja; osiguranje od odgovornosti (osim ako odgovornost preuzme država); profesionalna tajna; sudjelovanje u koordinacijskoj skupini prijavljenih tijela."
+      back: "Pravna osobnost po nacionalnom pravu; neovisna treća strana (ne smije biti projektant, proizvođač, dobavljač, uvoznik, distributer, instalater, kupac, vlasnik, korisnik ni održavatelj proizvoda niti njihov zastupnik; bez konzultantskih usluga; odlučivanje se ne delegira podugovarateljima/društvima kćerima); najviši profesionalni integritet, bez pritisaka i poticaja; kompetentno osoblje, opisani postupci, politike razdvajanja djelatnosti, oprema; osoblje koje donosi odluke zaposleno u tijelu, bez sukoba interesa; nepristranost — naknade ne ovise o broju ni rezultatu ocjenjivanja; osiguranje od odgovornosti (osim ako odgovornost preuzme država); profesionalna tajna; praćenje normizacije i sudjelovanje u koordinacijskoj skupini prijavljenih tijela."
     },
     {
-      front: "Postupak imenovanja TAB-a (ZoGP čl. 16.) i postupak ukidanja ovlaštenja",
+      front: "Postupak imenovanja TAB-a (ZoGP čl. 16. po 305/2011; čl. 18.a–18.c po 2024/3110) i postupak ukidanja ovlaštenja",
       exam: true,
-      back: "Zahtjev Ministarstvu; provjera zahtjeva iz Tablice 2 Priloga IV Uredbe; dokumentaciju propisuje ministar pravilnikom; rješenje po mišljenju Povjerenstva za jedno ili više područja proizvoda; podaci EK i članicama. Ukidanje: tijelo koje prestane ispunjavati zahtjeve obavještava Ministarstvo u roku 15 dana; provjera, mišljenje Povjerenstva o ozbiljnosti nedostataka, rok za uklanjanje ili povlačenje/ograničenje/obustava prijave odnosno imenovanja."
+      back: "Zahtjev Ministarstvu; provjera zahtjeva iz Tablice 2 Priloga IV Uredbe 305/2011 (po 2024/3110: zahtjevi iz Priloga VIII, za jedno ili više područja/porodica proizvoda iz Priloga VII); dokumentaciju propisuje ministar pravilnikom; rješenje po mišljenju Povjerenstva; podaci EK i članicama. Ukidanje: tijelo koje prestane ispunjavati zahtjeve obavještava Ministarstvo bez odgode, najkasnije u roku 15 dana; provjera, mišljenje Povjerenstva o ozbiljnosti nedostataka, rok za uklanjanje ili Ministarstvo provodi povlačenje/ograničenje/obustavu prijave odnosno imenovanja. Tijela izvještavaju Ministarstvo jednom godišnje."
     },
     {
       front: "Povjerenstvo za građevne proizvode",
@@ -1349,7 +1398,7 @@ window.APP_DATA.push({
     {
       front: "Što je certifikat o stalnosti svojstava? Za koje sustave se izdaje?",
       exam: true,
-      back: "Dokument koji dokazuje da GP zadovoljava zahtjeve stalnosti svojstava propisane tehničkom specifikacijom; izdaje ga ovlaštena osoba na zahtjev proizvođača, ovlaštenog zastupnika ili uvoznika ako su provedene propisane radnje i stalnost dokazana. Izdaje se za sustave 1+ i 1. Za 2+ certifikat o sukladnosti KTP, za 3 izvještaj o ispitivanju.",
+      back: "Dokument koji dokazuje da GP zadovoljava zahtjeve stalnosti svojstava propisane tehničkom specifikacijom; izdaje ga ovlaštena osoba na zahtjev proizvođača, ovlaštenog zastupnika ili uvoznika ako su provedene propisane radnje i stalnost dokazana. Izdaje se za sustave 1+ i 1. Za 2+ certifikat o sukladnosti KTP, za 3 izvještaj o ispitivanju. Po Uredbi 2024/3110 naziv je »potvrda o stalnosti svojstava i sukladnosti proizvoda« (1+, 1); 3 → potvrda o svojstvima i sukladnosti proizvoda; 3+ → izvješće o validaciji.",
       freq: 1
     },
     {
@@ -1365,7 +1414,7 @@ window.APP_DATA.push({
     {
       front: "Za koji proizvod se ne izdaje izjava o svojstvima? (ZoGP čl. 27.)",
       exam: true,
-      back: "Iznimno, ako je proizvod izrađen prema svojstvima iz glavnog projekta i: proizveden pojedinačno ili po posebnoj narudžbi u izvanserijskom postupku i ujedno ugrađen od proizvođača; izrađen na gradilištu pojedinačne građevine; proizveden neindustrijski, tradicionalno ili za očuvanje baštine; pribavljen rušenjem građevine i pripremljen za ponovnu uporabu. Proizvođač koji ga je i ugradio preuzima odgovornost izjavom upisanom u građevinski dnevnik.",
+      back: "Iznimno, ako je proizvod izrađen prema svojstvima iz glavnog projekta i: proizveden pojedinačno ili po posebnoj narudžbi u izvanserijskom postupku i ujedno ugrađen od proizvođača (pri čemu je odgovornost za proizvod i sigurnu ugradnju izjavom upisanom u građevinski dnevnik preuzeo proizvođač); izrađen na gradilištu pojedinačne građevine; proizveden neindustrijski, tradicionalno ili za očuvanje baštine (pri rekonstrukciji postojeće građevine ili drugim radovima na zaštićenim građevinama upisanima u Registar kulturnih dobara); pribavljen rušenjem građevine i pripremljen za ponovnu uporabu.",
       freq: 2
     },
     {
@@ -1380,7 +1429,7 @@ window.APP_DATA.push({
       back: "Da, mora imati izjavu o svojstvima. Ako je nema, ne smije se ugraditi. Ako proizvod ne ispunjava svojstva ili je već ugrađen — proizvođač mora odmah poduzeti popravne mjere za usklađenje ili povlačenje i ponovno dokazivati svojstva."
     },
     {
-      front: "Sigurni proizvod / opasni proizvod",
+      front: "Sigurni proizvod / opasni proizvod (Zakon o općoj sigurnosti proizvoda)",
       back: "Sigurni proizvod: proizvod koji u normalnim ili razumno predvidljivim uvjetima uporabe (uključujući trajanje, stavljanje u uporabu, ugradnju i održavanje) ne predstavlja nikakav rizik ili samo najmanji rizik spojiv s uporabom, prihvatljiv uz visoku razinu zaštite sigurnosti i zdravlja ljudi. Opasni proizvod: svaki koji nije siguran.",
       freq: 2
     },
@@ -1390,9 +1439,9 @@ window.APP_DATA.push({
       freq: 1
     },
     {
-      front: "Sadržaj izjave o svojstvima (Prilog III Uredbe 305/2011, izmjena 574/2014)",
+      front: "Sadržaj izjave o svojstvima (Prilog III Uredbe 305/2011, izmjena 574/2014) i izjave o svojstvima i sukladnosti (Prilog V Uredbe 2024/3110)",
       exam: true,
-      back: "1. jedinstvena identifikacijska oznaka vrste proizvoda; 2. namjena; 3. proizvođač; 4. ovlašteni predstavnik; 5. sustav AVCP; 6.a usklađena norma (ref. broj + datum) i prijavljeno tijelo / 6.b EAD (broj, datum), ETA (broj, datum), TAB i prijavljeno tijelo; 7. objavljena svojstva (barem jedna bitna značajka); 8. odgovarajuća i/ili specifična tehnička dokumentacija. Izdaje se pod isključivom odgovornošću proizvođača.",
+      back: "305/2011: 1. jedinstvena identifikacijska oznaka vrste proizvoda; 2. namjena; 3. proizvođač; 4. ovlašteni predstavnik; 5. sustav AVCP; 6.a usklađena norma (ref. broj + datum) i prijavljeno tijelo / 6.b EAD (broj, datum), ETA (broj, datum), TAB i prijavljeno tijelo; 7. objavljena svojstva (barem jedna bitna značajka); 8. odgovarajuća i/ili specifična tehnička dokumentacija. Izdaje se pod isključivom odgovornošću proizvođača. 2024/3110 (DoPC): naziv proizvođača, šifra izjave, broj i datum verzije, opis proizvoda (oznaka vrste, kategorija, deklarirane uporabe, dimenzije/granulacija, ključni dijelovi, procijenjeni vijek uporabe, varijante, datum/mjesto posljednjeg uklanjanja), poveznice/nosači podataka, podaci o proizvođaču, ovlaštenom zastupniku, prijavljenom tijelu i TAB-u, upućivanje na potvrde/izvješća o validaciji, tehnički referentni dokumenti (usklađena specifikacija ili EAD/ETA), deklarirana svojstva i karakteristike održivosti (bitne značajke, svojstva, okolišna održivost, verzija softvera Komisije), primjenjivi zahtjevi za proizvode, izjave proizvođača. U RH na hrvatskom latinicom (ZoGP čl. 22.a).",
       freq: 2
     },
     {

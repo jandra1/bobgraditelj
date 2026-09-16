@@ -114,9 +114,9 @@ window.APP_DATA.push({
     {
       heading: "Tijela treće strane, tržišni nadzor, ceste i karte",
       points: [
-        "Usklađeno područje: prijavljeno tijelo (laboratorij, tijelo za certificiranje kontrole tvorničke proizvodnje, tijelo za certificiranje proizvoda) i TAB — tijelo za tehničko ocjenjivanje (donosi EAD i izdaje ETA).",
+        "Usklađeno područje: prijavljeno tijelo (laboratorij, tijelo za certificiranje kontrole tvorničke proizvodnje, tijelo za certificiranje proizvoda; prema Uredbi 2024/3110 i tijelo za validaciju ocjenjivanja) i TAB — tijelo za tehničko ocjenjivanje (donosi EAD i izdaje ETA).",
         "Neusklađeno područje: odobreno tijelo (certifikat o stalnosti svojstava / certifikat KTP prema hrvatskim normama) i hrvatsko tijelo za tehničko ocjenjivanje (HTTO — hrvatski dokument za ocjenjivanje i hrvatska tehnička ocjena uz suglasnost Ministarstva).",
-        "Uz proizvod se prilažu izjava o svojstvima i tehničke upute (na hrvatskom, latinicom; sigurnosne obavijesti, čuvanje, transport, ugradnja, rok ugradnje).",
+        "Uz proizvod se prilažu izjava o svojstvima i tehničke upute (na hrvatskom, latinicom; sigurnosne obavijesti, čuvanje, transport, ugradnja, rok ugradnje); prema Uredbi 2024/3110: izjava o svojstvima i sukladnosti, opće informacije o proizvodu, upute za uporabu i informacije o sigurnosti (ZoGP čl. 22.a i 22.b).",
         "Nadzor na tržištu: tržišni inspektori Državnog inspektorata; nadzor uporabe na gradilištu: građevinski i drugi inspektori.",
         "RAPEX = sustav brze razmjene obavijesti o opasnim proizvodima.",
         "Zaštitni pojas javnih cesta od vanjskog ruba zemljišnog pojasa: autoceste i brze ceste 40 m, državne 25 m, županijske 15 m, lokalne 10 m; zemljišni pojas najmanje 1 m; posebne uvjete daju HAC, HC ili ŽUC.",
