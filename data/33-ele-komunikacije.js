@@ -3,6 +3,7 @@ window.APP_DATA.push({
   id: "ele-komunikacije",
   order: 17,
   title: "Uže područje struke – elektroničke komunikacije",
+  short: "Elektroničke komunikacije",
   icon: "📡",
   summary: [
     {

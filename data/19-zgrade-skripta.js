@@ -3,6 +3,7 @@ window.APP_DATA.push({
   id: "zgrade",
   order: 9,
   title: "Uže područje struke – zgrade i arhitektura",
+  short: "Zgrade i arhitektura",
   icon: "🏢",
   summary: [
     {

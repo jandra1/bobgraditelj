@@ -3,6 +3,7 @@ window.APP_DATA.push({
   id: "ele-ex",
   order: 16,
   title: "Uže područje struke – oprema i instalacije u Ex prostorima",
+  short: "Oprema i instalacije u Ex prostorima",
   icon: "💥",
   summary: [
     {

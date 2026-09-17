@@ -3,6 +3,7 @@ window.APP_DATA.push({
   id: "energetika",
   order: 19,
   title: "Uže područje struke – energetika (strojarstvo)",
+  short: "Energetika (strojarstvo)",
   icon: "🔋",
   summary: [
     {

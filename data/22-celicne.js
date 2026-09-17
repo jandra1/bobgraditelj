@@ -3,6 +3,7 @@ window.APP_DATA.push({
   id: "celicne",
   order: 11,
   title: "Uže područje struke – čelične konstrukcije",
+  short: "Čelične konstrukcije",
   icon: "🌉",
   summary: [
     {

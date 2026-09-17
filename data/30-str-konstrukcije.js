@@ -3,6 +3,7 @@ window.APP_DATA.push({
   id: "str-konstrukcije",
   order: 22,
   title: "Uže područje struke – konstrukcije i procesna tehnologija (strojarstvo)",
+  short: "Konstrukcije i procesna tehnologija",
   icon: "🔩",
   summary: [
     {

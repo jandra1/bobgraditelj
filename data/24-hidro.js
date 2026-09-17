@@ -3,6 +3,7 @@ window.APP_DATA.push({
   id: "hidro",
   order: 13,
   title: "Uže područje struke – hidrotehničke građevine",
+  short: "Hidrotehničke građevine",
   icon: "💧",
   summary: [
     {

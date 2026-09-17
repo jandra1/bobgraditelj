@@ -3,6 +3,7 @@ window.APP_DATA.push({
   id: "betonske",
   order: 10,
   title: "Uže područje struke – betonske i zidane konstrukcije",
+  short: "Betonske i zidane konstrukcije",
   icon: "🏛️",
   summary: [
     {

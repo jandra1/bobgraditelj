@@ -3,6 +3,7 @@ window.APP_DATA.push({
   id: "tlacna",
   order: 20,
   title: "Uže područje struke – tlačna oprema (strojarstvo)",
+  short: "Tlačna oprema",
   icon: "🛢️",
   summary: [
     {

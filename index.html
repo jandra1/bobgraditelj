@@ -120,11 +120,55 @@ header.app .sub {
   box-shadow: var(--shadow);
 }
 .struka-badge:hover { filter: brightness(1.08); }
+.struka-badge { display: flex; flex-direction: column; align-items: flex-end; gap: 1px; padding: 7px 14px; line-height: 1.2; }
+.struka-badge .b-uze {
+  font-size: 0.62rem; font-weight: 500; text-transform: none; letter-spacing: 0.02em; opacity: 0.85;
+  max-width: 260px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;
+}
+.struka-badge .b-uze.warn { opacity: 1; text-decoration: underline; }
 .struka-menu {
   position: absolute; right: 0; top: 100%; z-index: 60;
   background: var(--surface); border: 1px solid var(--line-strong); border-radius: 10px;
-  box-shadow: 0 6px 20px rgba(0,0,0,0.18); padding: 5px; display: grid; gap: 2px; min-width: 190px;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.18); padding: 5px; display: grid; gap: 2px; min-width: 250px; max-width: 340px;
 }
+.struka-menu .sec {
+  font-family: "IBM Plex Mono", ui-monospace, monospace; font-size: 0.62rem; color: var(--ink-soft);
+  text-transform: uppercase; letter-spacing: 0.08em; padding: 8px 12px 3px;
+}
+.struka-menu .sec + button { margin-top: 0; }
+.struka-menu hr { border: none; border-top: 1px solid var(--line); margin: 4px 0; }
+.uze-tag {
+  display: inline-block; margin-left: 8px; padding: 2px 8px; border-radius: 999px;
+  font-family: "IBM Plex Mono", ui-monospace, monospace; font-size: 0.6rem; font-weight: 600;
+  text-transform: uppercase; letter-spacing: 0.05em; vertical-align: middle;
+  background: var(--accent-soft); color: var(--accent);
+}
+.chip .uze-tag { margin-left: 6px; font-size: 0.55rem; padding: 1px 6px; }
+.chip.on .uze-tag { background: rgba(255,255,255,0.18); color: inherit; }
+.chips-sub {
+  flex-basis: 100%; font-family: "IBM Plex Mono", monospace; font-size: 0.62rem; color: var(--ink-soft);
+  text-transform: uppercase; letter-spacing: 0.08em; margin-top: 6px;
+}
+.chip.mine { border-color: var(--accent); border-width: 2px; padding: 6px 13px; font-weight: 600; }
+.chip.mine.on { border-color: var(--ink); }
+.chip-link {
+  background: none; border: 0; padding: 7px 4px; cursor: pointer; color: var(--ink-soft);
+  font-family: "Source Sans 3", sans-serif; font-size: 0.82rem; text-decoration: underline; text-underline-offset: 3px;
+}
+.chip-link:hover { color: var(--ink); }
+.ico { display: inline-block; margin-right: 7px; }
+.area-card.mine { border-color: var(--accent); box-shadow: inset 0 0 0 1px var(--accent), var(--shadow); }
+.other-uza {
+  background: var(--surface); border: 1px dashed var(--line-strong); border-radius: 10px; padding: 10px 16px;
+}
+.other-uza summary {
+  cursor: pointer; font-family: "IBM Plex Mono", ui-monospace, monospace; font-size: 0.7rem;
+  text-transform: uppercase; letter-spacing: 0.06em; color: var(--ink-soft); padding: 4px 0;
+}
+.other-uza .row { display: flex; align-items: center; gap: 10px; padding: 10px 0; border-top: 1px solid var(--line); flex-wrap: wrap; }
+.other-uza .row:first-of-type { margin-top: 6px; }
+.other-uza .row h4 { flex: 1; font-family: "Archivo", sans-serif; font-size: 0.95rem; font-weight: 700; min-width: 180px; }
+.other-uza .row .n { font-family: "IBM Plex Mono", ui-monospace, monospace; font-size: 0.66rem; color: var(--ink-soft); text-transform: uppercase; letter-spacing: 0.05em; }
 .struka-menu button {
   text-align: left; border: none; background: none; color: var(--ink); cursor: pointer;
   font-family: "Source Sans 3", sans-serif; font-size: 0.92rem;
@@ -151,6 +195,9 @@ header.app .sub {
   font-family: "Source Sans 3", sans-serif; font-size: 1rem; font-weight: 600;
 }
 .struka-modal .s-opt:hover { border-color: var(--accent); background: var(--accent-soft); }
+.struka-modal .s-opt small { display: block; font-weight: 400; color: var(--ink-soft); font-size: 0.8rem; margin-top: 2px; }
+.struka-modal .s-opt.ghost { border-style: dashed; font-weight: 500; color: var(--ink-soft); }
+.struka-modal { max-height: 92vh; overflow: auto; }
 .struka-modal .hint { margin-top: 14px; margin-bottom: 0; font-size: 0.8rem; }
 @media (max-width: 560px) {
   header.app { flex-wrap: wrap; }
@@ -392,6 +439,28 @@ details.area-sum[open] summary::after { content: "−"; }
 .s-more { text-align: center; color: var(--ink-soft); font-size: 0.85rem; padding: 8px; }
 mark { background: var(--accent-soft); color: inherit; border-radius: 3px; padding: 0 1px; }
 
+/* pošalji pitanja s ispita */
+.exam-cta {
+  margin-top: 22px; padding: 14px 16px; border: 1px dashed var(--line-strong); border-radius: 10px;
+  background: var(--surface); display: flex; align-items: center; gap: 14px; flex-wrap: wrap;
+}
+.exam-cta .t { flex: 1; min-width: 220px; }
+.exam-cta .t b { display: block; font-family: "Archivo", sans-serif; font-size: 0.98rem; }
+.exam-cta .t span { font-size: 0.85rem; color: var(--ink-soft); }
+.exam-cta a.btn { text-decoration: none; white-space: nowrap; }
+.foot a { color: inherit; }
+.exam-strip {
+  margin: 0 0 18px; padding: 9px 8px 9px 14px; border-radius: 10px; font-size: 0.88rem;
+  background: var(--accent-soft); display: flex; align-items: center; gap: 10px;
+}
+.exam-strip .t { flex: 1; }
+.exam-strip small { display: block; margin-top: 2px; font-size: 0.78rem; color: var(--ink-soft); }
+.exam-strip a { color: var(--accent); font-weight: 600; white-space: nowrap; }
+.exam-strip button {
+  border: 0; background: none; color: var(--ink-soft); cursor: pointer; font-size: 1.1rem; line-height: 1; padding: 4px 8px; border-radius: 6px;
+}
+.exam-strip button:hover { color: var(--ink); }
+
 /* donacije */
 .donate-box {
   margin-top: 40px; padding: 18px;
@@ -452,7 +521,7 @@ mark { background: var(--accent-soft); color: inherit; border-radius: 3px; paddi
       <h1>Bob <span class="brand-accent">Graditelj</span></h1>
       <span class="sub">Stručni ispit · Poslovi sudionika u gradnji</span>
     </div>
-    <button class="struka-badge" id="struka-badge" title="Odabrana struka — klikni za promjenu na početnom ekranu"></button>
+    <button class="struka-badge" id="struka-badge" title="Struka i uže područje koje polažeš — klikni za promjenu"></button>
   </header>
 
   <nav class="tabs" id="tabs">
@@ -479,7 +548,7 @@ mark { background: var(--accent-soft); color: inherit; border-radius: 3px; paddi
   </div>
 
   <footer class="foot">
-    <span><b>Bob Graditelj</b> · bobgraditelj.org</span>
+    <span><b>Bob Graditelj</b> · bobgraditelj.org<span id="foot-exam"></span></span>
     <span>Pitanja i sažeci izrađeni su kao pomoć pri učenju prema tekstovima propisa — nisu službena ispitna pitanja. Za konačnu provjeru mjerodavan je tekst propisa u Narodnim novinama.</span>
   </footer>
 </div>
@@ -536,6 +605,7 @@ mark { background: var(--accent-soft); color: inherit; border-radius: 3px; paddi
       if (!a) { a = { id: d.id, order: 99, title: d.id, icon: "📄", summary: [], questions: [], flashcards: [] }; map[d.id] = a; list.push(a); }
       if (d.order != null) a.order = d.order;
       if (d.title) a.title = d.title;
+      if (d.short) a.short = d.short;
       if (d.icon) a.icon = d.icon;
       a.summary = a.summary.concat(d.summary || []);
       a.questions = a.questions.concat(d.questions || []);
@@ -568,11 +638,26 @@ mark { background: var(--accent-soft); color: inherit; border-radius: 3px; paddi
     instalacije: ["str"],
     "str-konstrukcije": ["str"]
   };
+  // na ispitu se polaže JEDNO uže područje struke: aktivna su opća područja + odabrano uže (ili sva uža ako "all")
+  function isUze(a) { return !!UZA_PODRUCJA[a.id]; }
+  function uzaZaStruku(sid) {
+    return AREAS.filter(function (a) { var s = UZA_PODRUCJA[a.id]; return s && s.indexOf(sid) >= 0; });
+  }
+  function areaById(id) { return AREAS.filter(function (a) { return a.id === id; })[0] || null; }
+  function areaName(a) { return a.short || a.title.replace(/^Uže područje struke\s*[–-]\s*/, ""); }
+  function areaLabel(a) { return '<span class="ico">' + a.icon + '</span>' + esc(areaName(a)) + (isUze(a) ? '<span class="uze-tag">uže</span>' : ""); }
   function activeAreas() {
     return AREAS.filter(function (a) {
       var s = UZA_PODRUCJA[a.id];
-      return !s || s.indexOf(struka) >= 0;
+      if (!s) return true;
+      if (s.indexOf(struka) < 0) return false;
+      return uze === "all" || uze === a.id;
     });
+  }
+  // uža područja struke koja NISU odabrana (ne ulaze u statistiku, dostupna za pregled)
+  function otherUza() {
+    if (uze === "all") return [];
+    return uzaZaStruku(struka).filter(function (a) { return a.id !== uze; });
   }
   function freqBadge(o) {
     var b = "";
@@ -595,17 +680,46 @@ mark { background: var(--accent-soft); color: inherit; border-radius: 3px; paddi
   var qstats = load("gradivo.qstats.v1", {});   // qid -> {c, w}
   var cstats = load("gradivo.cstats.v1", {});   // cid -> {box, due}
   var struka = load("gradivo.struka.v1", "gra"); // odabrana struka
+  var uze = load("gradivo.uze.v1", null);         // odabrano uže područje: id područja, "all" ili null (nije odabrano)
+  if (uze !== "all" && uze && !(UZA_PODRUCJA[uze] && UZA_PODRUCJA[uze].indexOf(struka) >= 0)) uze = null;
 
+  // obrazac za slanje pitanja s ispita (Google Forms) — vidi examFormUrl()
+  // url = javni link obrasca (…/viewform); struka = ID polja "entry.123456" (izbor struke, opcije = nazivi iz STRUKE);
+  // uze = ID polja užeg područja PO STRUCI (obrazac grana na odjeljak po struci; opcije = areaName() užih područja).
+  // Dok je url prazan, poziv se nigdje ne prikazuje.
+  var EXAM_FORM = {
+    url: "https://docs.google.com/forms/d/e/1FAIpQLSenG_D1aKLCnn8rLW04jvF-hAsEEZ0L60HGCKAH-1gBktmZPQ/viewform",
+    struka: "entry.1976849932",
+    uze: { gra: "entry.227018499", arh: "entry.788427267", str: "entry.348835670", ele: "entry.1047482726" },
+    // opcije u obrascu koje se zovu drukčije nego u aplikaciji (predispunjavanje traži točan naziv opcije)
+    labels: { gra: "Građevina", energetika: "Energetika", instalacije: "Instalacije" }
+  };
   var strukaBadge = document.getElementById("struka-badge");
+  function strukaLabel(id) {
+    var s = STRUKE.filter(function (x) { return x.id === id; })[0] || STRUKE[0];
+    return s.label;
+  }
   function updateStrukaBadge() {
-    var s = STRUKE.filter(function (x) { return x.id === struka; })[0] || STRUKE[0];
-    strukaBadge.textContent = s.label + " ▾";
+    var u = uze && uze !== "all" ? areaById(uze) : null;
+    var sub = u ? esc(areaName(u)) : (uze === "all" ? "sva uža područja" : (uzaZaStruku(struka).length ? '<span class="warn">odaberi uže područje</span>' : ""));
+    updateFootExam();
+    strukaBadge.innerHTML = '<span class="b-struka">' + strukaLabel(struka) + ' ▾</span>' + (sub ? '<span class="b-uze">' + sub + '</span>' : "");
   }
   function setStruka(id) {
     if (id === struka) return;
     struka = id;
+    uze = null;
     save("gradivo.struka.v1", struka);
+    save("gradivo.uze.v1", null);
     searchIndex = null; // indeks pretrage ovisi o vidljivim područjima
+    updateStrukaBadge();
+    showUzeOnboarding();
+  }
+  function setUze(id) {
+    if (id === uze) return;
+    uze = id;
+    save("gradivo.uze.v1", uze);
+    searchIndex = null;
     updateStrukaBadge();
     go(current);
   }
@@ -618,11 +732,25 @@ mark { background: var(--accent-soft); color: inherit; border-radius: 3px; paddi
     e.stopPropagation();
     if (strukaMenu) { closeStrukaMenu(); return; }
     strukaMenu = el('<div class="struka-menu" role="menu"></div>');
+    strukaMenu.appendChild(el('<div class="sec">Struka</div>'));
     STRUKE.forEach(function (s) {
       var b = el('<button role="menuitem" class="' + (s.id === struka ? "on" : "") + '">' + s.label + '</button>');
       b.addEventListener("click", function () { closeStrukaMenu(); setStruka(s.id); });
       strukaMenu.appendChild(b);
     });
+    var list = uzaZaStruku(struka);
+    if (list.length) {
+      strukaMenu.appendChild(el('<hr>'));
+      strukaMenu.appendChild(el('<div class="sec">Uže područje koje polažeš</div>'));
+      list.forEach(function (a) {
+        var b = el('<button role="menuitem" class="' + (a.id === uze ? "on" : "") + '"><span class="ico">' + a.icon + '</span>' + esc(areaName(a)) + '</button>');
+        b.addEventListener("click", function () { closeStrukaMenu(); setUze(a.id); });
+        strukaMenu.appendChild(b);
+      });
+      var ball = el('<button role="menuitem" class="' + (uze === "all" ? "on" : "") + '">Sva uža područja (bez odabira)</button>');
+      ball.addEventListener("click", function () { closeStrukaMenu(); setUze("all"); });
+      strukaMenu.appendChild(ball);
+    }
     strukaBadge.parentNode.appendChild(strukaMenu);
   });
   document.addEventListener("click", closeStrukaMenu);
@@ -636,7 +764,7 @@ mark { background: var(--accent-soft); color: inherit; border-radius: 3px; paddi
           '<h2>Koja je tvoja struka?</h2>' +
           '<p>Opća ispitna područja ista su za sve, a prema struci se prikazuju uža područja struke.</p>' +
           '<div class="s-opts"></div>' +
-          '<p class="hint">Struku kasnije mijenjaš klikom na oznaku u gornjem desnom kutu.</p>' +
+          '<p class="hint">Struku kasnije mijenjaš klikom na oznaku struke u zaglavlju.</p>' +
         '</div>' +
       '</div>');
     var opts = ov.querySelector(".s-opts");
@@ -644,15 +772,70 @@ mark { background: var(--accent-soft); color: inherit; border-radius: 3px; paddi
       var b = el('<button class="s-opt">' + s.label + '</button>');
       b.addEventListener("click", function () {
         struka = s.id;
+        uze = null;
         save("gradivo.struka.v1", struka);
+        save("gradivo.uze.v1", null);
         searchIndex = null;
         updateStrukaBadge();
         ov.remove();
-        go("home");
+        showUzeOnboarding();
       });
       opts.appendChild(b);
     });
     document.body.appendChild(ov);
+  }
+
+  // drugi korak: koje uže područje struke kandidat polaže (na ispitu se polaže samo jedno)
+  function showUzeOnboarding() {
+    var list = uzaZaStruku(struka);
+    if (!list.length) { uze = "all"; save("gradivo.uze.v1", uze); updateStrukaBadge(); go(current); return; }
+    var ov = el(
+      '<div class="struka-overlay">' +
+        '<div class="struka-modal">' +
+          '<h2>Koje uže područje polažeš?</h2>' +
+          '<p>Na ispitu se uz opća područja polaže <b>jedno</b> uže područje struke (' + strukaLabel(struka) + '). Odabrano uže područje ulazi u tvoj napredak, simulaciju i kviz, a ostala se sklanjaju u stranu.</p>' +
+          '<div class="s-opts"></div>' +
+          '<p class="hint">Kasnije mijenjaš klikom na oznaku struke u zaglavlju.</p>' +
+        '</div>' +
+      '</div>');
+    var opts = ov.querySelector(".s-opts");
+    function pick(id) {
+      uze = id;
+      save("gradivo.uze.v1", uze);
+      searchIndex = null;
+      updateStrukaBadge();
+      ov.remove();
+      go(current);
+    }
+    list.forEach(function (a) {
+      var b = el('<button class="s-opt"><span class="ico">' + a.icon + '</span>' + esc(areaName(a)) + '<small>' + a.questions.length + ' pitanja · ' + a.flashcards.length + ' kartica</small></button>');
+      b.addEventListener("click", function () { pick(a.id); });
+      opts.appendChild(b);
+    });
+    var ball = el('<button class="s-opt ghost">Još ne znam — prikaži sva uža područja</button>');
+    ball.addEventListener("click", function () { pick("all"); });
+    opts.appendChild(ball);
+    document.body.appendChild(ov);
+  }
+
+  /* ---------- pitanja s ispita (Google obrazac) ---------- */
+  function examFormUrl() {
+    if (!EXAM_FORM.url) return "";
+    var p = ["usp=pp_url"];
+    var u = uze && uze !== "all" ? areaById(uze) : null;
+    if (EXAM_FORM.struka) p.push(EXAM_FORM.struka + "=" + encodeURIComponent(EXAM_FORM.labels[struka] || strukaLabel(struka)));
+    if (EXAM_FORM.uze[struka] && u) p.push(EXAM_FORM.uze[struka] + "=" + encodeURIComponent(EXAM_FORM.labels[u.id] || areaName(u)));
+    return EXAM_FORM.url + (EXAM_FORM.url.indexOf("?") < 0 ? "?" : "&") + p.join("&");
+  }
+  function examCta(title, text) {
+    var url = examFormUrl();
+    if (!url) return "";
+    return '<div class="exam-cta"><div class="t"><b>' + title + '</b><span>' + text + '</span></div>' +
+      '<a class="btn primary" href="' + esc(url) + '" target="_blank" rel="noopener">Pošalji pitanja ↗</a></div>';
+  }
+  function updateFootExam() {
+    var url = examFormUrl();
+    document.getElementById("foot-exam").innerHTML = url ? ' · <a href="' + esc(url) + '" target="_blank" rel="noopener">🎯 Pošalji pitanja s ispita</a>' : "";
   }
 
   function qid(area, i) { return area.id + "#" + i; }
@@ -755,6 +938,7 @@ mark { background: var(--accent-soft); color: inherit; border-radius: 3px; paddi
     });
     var pct = totalQ ? Math.round(100 * knownQ / totalQ) : 0;
     var html =
+      '<div id="exam-strip-slot"></div>' +
       '<h2 class="view-title">Tvoj napredak</h2>' +
       '<p class="view-lead">Pitanje se računa kao savladano kad ga barem jednom točno odgovoriš.</p>' +
       '<div class="total-box">' +
@@ -771,12 +955,25 @@ mark { background: var(--accent-soft); color: inherit; border-radius: 3px; paddi
       '</div>' +
       '<div class="areas" id="area-list"></div>';
     view.innerHTML = html;
+    // traka s pozivom na slanje pitanja s ispita; zatvaranje se pamti (ne dira napredak)
+    if (examFormUrl() && !load("gradivo.examstrip.off.v1", false)) {
+      var strip = el('<div class="exam-strip"><span class="t">🎯 Polagao si ili uskoro polažeš? Kad prođeš, pošalji pitanja koja si dobio — pomažeš sljedećima. ' +
+        '<a href="' + esc(examFormUrl()) + '" target="_blank" rel="noopener">Pošalji pitanja →</a> <small>Link te uvijek čeka i na dnu stranice.</small></span>' +
+        '<button title="Sakrij" aria-label="Sakrij">×</button></div>');
+      strip.querySelector("button").addEventListener("click", function () { save("gradivo.examstrip.off.v1", true); strip.remove(); });
+      view.querySelector("#exam-strip-slot").appendChild(strip);
+    }
     var list = view.querySelector("#area-list");
-    ACT.forEach(function (a) {
+    // redoslijed: odabrano uže područje prvo (najvažnije za kandidata), zatim opća; kod "all" uža idu na kraj kao prije
+    var ORDERED = uze && uze !== "all"
+      ? ACT.filter(isUze).concat(ACT.filter(function (a) { return !isUze(a); }))
+      : ACT;
+    ORDERED.forEach(function (a) {
       var p = areaProgress(a);
+      var mine = isUze(a) && a.id === uze;
       var card = el(
-        '<div class="area-card">' +
-          '<div class="top"><span class="icon">' + a.icon + '</span><h3>' + esc(a.title) + '</h3></div>' +
+        '<div class="area-card' + (mine ? " mine" : "") + '">' +
+          '<div class="top"><span class="icon">' + a.icon + '</span><h3>' + esc(areaName(a)) + (mine ? '<span class="uze-tag">tvoje uže područje</span>' : (isUze(a) ? '<span class="uze-tag">uže područje</span>' : "")) + '</h3></div>' +
           '<div class="bar"><i style="width:' + p + '%"></i></div>' +
           '<div class="meta"><span>' + p + '% savladano</span><span>' + a.questions.length + ' pitanja</span><span>' + cardsMastered(a) + '/' + a.flashcards.length + ' kartica</span></div>' +
           '<div class="actions">' +
@@ -792,16 +989,70 @@ mark { background: var(--accent-soft); color: inherit; border-radius: 3px; paddi
       });
       list.appendChild(card);
     });
+    var others = otherUza();
+    if (others.length) {
+      var box = el(
+        '<details class="other-uza">' +
+          '<summary>' + (uze ? "Ostala uža područja struke" : "Uža područja struke — odaberi ono koje polažeš") + ' (' + others.length + ') · ne ulaze u tvoju statistiku</summary>' +
+        '</details>');
+      if (!uze) box.open = true;
+      others.forEach(function (a) {
+        var row = el(
+          '<div class="row">' +
+            '<span class="icon">' + a.icon + '</span><h4>' + esc(areaName(a)) + '</h4>' +
+            '<span class="n">' + a.questions.length + ' pitanja · ' + a.flashcards.length + ' kartica</span>' +
+            '<button class="btn primary" data-act="pick">Polažem ovo</button>' +
+            '<button class="btn" data-act="sum">Sažetak</button>' +
+          '</div>');
+        row.addEventListener("click", function (e) {
+          var b = e.target.closest("button");
+          if (!b) return;
+          if (b.dataset.act === "pick") setUze(a.id);
+          else go("sum", a.id);
+        });
+        box.appendChild(row);
+      });
+      list.appendChild(box);
+    }
     view.querySelector("#btn-sim").addEventListener("click", function () { startOral(30); });
     view.querySelector("#btn-wrong").addEventListener("click", function () { startQuiz(activeAreas().map(function (a) { return a.id; }), 0, true); });
   }
 
   /* ---------- quiz setup ---------- */
   var setupSel = null;
+  // čipovi područja u kvizu/karticama: opća područja + (zaseban red) uže područje koje kandidat polaže.
+  // Ostala uža područja se ovdje ne nude — dostupna su s početne; `extra` = područje otvoreno izvana (npr. iz sažetka drugog užeg)
+  function fillAreaChips(box, allChip, mine, extra, makeChip) {
+    box.appendChild(allChip);
+    var split = uze && uze !== "all" && mine.some(isUze);
+    if (!split) { mine.concat(extra).forEach(function (a) { box.appendChild(makeChip(a)); }); return; }
+    box.appendChild(el('<div class="chips-sub">Opća područja</div>'));
+    mine.filter(function (a) { return !isUze(a); }).forEach(function (a) { box.appendChild(makeChip(a)); });
+    box.appendChild(el('<div class="chips-sub">Tvoje uže područje</div>'));
+    mine.filter(isUze).forEach(function (a) { var c = makeChip(a); c.classList.add("mine"); box.appendChild(c); });
+    var change = el('<button class="chip-link" title="Odabir užeg područja koje polažeš">promijeni</button>');
+    change.addEventListener("click", function (e) {
+      e.stopPropagation();
+      window.scrollTo({ top: 0, behavior: "smooth" });
+      if (!strukaMenu) strukaBadge.click();
+    });
+    box.appendChild(change);
+    if (extra.length) {
+      box.appendChild(el('<div class="chips-sub">Drugo uže područje (samo vježba, ne ulazi u napredak)</div>'));
+      extra.forEach(function (a) { box.appendChild(makeChip(a)); });
+    }
+  }
+  function extraArea(preselect, mine) {
+    return preselect && mine.every(function (a) { return a.id !== preselect; }) ? [areaById(preselect)] : [];
+  }
+
   function renderQuizSetup(preselect) {
     if (!AREAS.length) { renderHome(); return; }
-    var LIST = activeAreas();
-    setupSel = { areas: preselect ? [preselect] : LIST.map(function (a) { return a.id; }), count: 10, onlyWrong: false, onlyFreq: false, onlyExam: false };
+    var MINE = activeAreas();
+    if (preselect && !areaById(preselect)) preselect = null;
+    var EXTRA = extraArea(preselect, MINE); // npr. sažetak drugog užeg područja → kviz
+    var mineOnly = uze && uze !== "all" && uzaZaStruku(struka).length > 1;
+    setupSel = { areas: preselect ? [preselect] : MINE.map(function (a) { return a.id; }), count: 10, onlyWrong: false, onlyFreq: false, onlyExam: false };
     var html =
       '<h2 class="view-title">Kviz</h2>' +
       '<p class="view-lead">Odaberi područja i broj pitanja. Odgovor odmah dobiva objašnjenje s izvorom.</p>' +
@@ -815,24 +1066,27 @@ mark { background: var(--accent-soft); color: inherit; border-radius: 3px; paddi
     view.innerHTML = html;
 
     var chipsA = view.querySelector("#chips-areas");
-    var allChip = el('<button class="chip">Sva područja</button>');
-    chipsA.appendChild(allChip);
+    var allChip = el('<button class="chip" title="Opća područja + uže područje koje polažeš">' + (mineOnly ? "Moj ispit (opća + uže)" : "Sva područja") + '</button>');
     allChip.addEventListener("click", function () {
-      setupSel.areas = LIST.map(function (a) { return a.id; });
+      setupSel.areas = MINE.map(function (a) { return a.id; });
       refreshChips();
     });
-    LIST.forEach(function (a) {
-      var c = el('<button class="chip" data-id="' + a.id + '">' + a.icon + " " + esc(a.title) + '</button>');
+    fillAreaChips(chipsA, allChip, MINE, EXTRA, function (a) {
+      var c = el('<button class="chip" data-id="' + a.id + '">' + areaLabel(a) + '</button>');
       c.addEventListener("click", function () {
-        if (setupSel.areas.length === LIST.length) setupSel.areas = [a.id];
+        if (isAll()) setupSel.areas = [a.id];
         else if (setupSel.areas.indexOf(a.id) >= 0) {
           setupSel.areas = setupSel.areas.filter(function (x) { return x !== a.id; });
           if (!setupSel.areas.length) setupSel.areas = [a.id];
         } else setupSel.areas.push(a.id);
         refreshChips();
       });
-      chipsA.appendChild(c);
+      return c;
     });
+    function isAll() {
+      var ids = MINE.map(function (a) { return a.id; });
+      return setupSel.areas.length === ids.length && ids.every(function (id) { return setupSel.areas.indexOf(id) >= 0; });
+    }
     var chipsC = view.querySelector("#chips-count");
     [10, 20, 30, 0].forEach(function (n) {
       var c = el('<button class="chip" data-n="' + n + '">' + (n === 0 ? "Sva" : n) + '</button>');
@@ -853,7 +1107,7 @@ mark { background: var(--accent-soft); color: inherit; border-radius: 3px; paddi
     if (hasExam()) chipsM.appendChild(mExam);
 
     function refreshChips() {
-      var all = setupSel.areas.length === LIST.length;
+      var all = isAll();
       allChip.classList.toggle("on", all);
       Array.prototype.forEach.call(chipsA.querySelectorAll("[data-id]"), function (c) {
         c.classList.toggle("on", !all && setupSel.areas.indexOf(c.dataset.id) >= 0);
@@ -910,7 +1164,7 @@ mark { background: var(--accent-soft); color: inherit; border-radius: 3px; paddi
       '<div class="q-head"><span>Pitanje ' + (state.i + 1) + " / " + state.list.length + '</span><span>Točno: ' + state.correct + '</span></div>' +
       '<div class="bar" style="margin-bottom:14px"><i style="width:' + Math.round(100 * state.i / state.list.length) + '%"></i></div>' +
       '<div class="q-card">' +
-        '<div class="area-tag">' + item.area.icon + " " + esc(item.area.title) + freqBadge(q) + '</div>' +
+        '<div class="area-tag">' + item.area.icon + " " + esc(areaName(item.area)) + freqBadge(q) + '</div>' +
         '<div class="q-text">' + esc(q.q) + '</div>' +
         '<div class="opts" id="opts"></div>' +
         '<div id="expl"></div>' +
@@ -971,7 +1225,7 @@ mark { background: var(--accent-soft); color: inherit; border-radius: 3px; paddi
       '<div class="q-head"><span>Pitanje ' + (state.i + 1) + " / " + state.list.length + ' · usmeno</span><span>Znam: ' + state.correct + '</span></div>' +
       '<div class="bar" style="margin-bottom:14px"><i style="width:' + Math.round(100 * state.i / state.list.length) + '%"></i></div>' +
       '<div class="q-card">' +
-        '<div class="area-tag">' + item.area.icon + " " + esc(item.area.title) + freqBadge(q) + '</div>' +
+        '<div class="area-tag">' + item.area.icon + " " + esc(areaName(item.area)) + freqBadge(q) + '</div>' +
         '<div class="q-text">' + esc(q.q) + '</div>' +
         '<p class="oral-hint">Odgovori naglas — kao pred ispitivačem — pa otkrij odgovor.</p>' +
         '<div id="oral-answer" class="hidden">' +
@@ -1020,6 +1274,7 @@ mark { background: var(--accent-soft); color: inherit; border-radius: 3px; paddi
           '<button class="btn" id="btn-home">Početna</button>' +
         '</div>' +
       '</div>' +
+      examCta("Već si bio na pravom ispitu?", "Pošalji pitanja koja si dobio i pomozi sljedećima — anonimno.") +
       '<h2 class="view-title">Pregled odgovora</h2>' +
       '<div class="review" id="review"></div>';
     view.innerHTML = html;
@@ -1051,33 +1306,37 @@ mark { background: var(--accent-soft); color: inherit; border-radius: 3px; paddi
       '<div class="setup-label">Napredak po područjima</div>' +
       '<div class="build-list" id="fc-build"></div>';
     view.innerHTML = html;
-    var LIST = activeAreas();
-    var sel = preselect ? [preselect] : LIST.map(function (a) { return a.id; });
+    var MINE = activeAreas();
+    if (preselect && !areaById(preselect)) preselect = null;
+    var LIST = MINE.concat(extraArea(preselect, MINE));
+    var mineOnly = uze && uze !== "all" && uzaZaStruku(struka).length > 1;
+    var mineIds = MINE.map(function (a) { return a.id; });
+    var sel = preselect ? [preselect] : mineIds.slice();
+    function isAll() { return sel.length === mineIds.length && mineIds.every(function (id) { return sel.indexOf(id) >= 0; }); }
     var chips = view.querySelector("#fc-areas");
-    var allChip = el('<button class="chip">Sva područja</button>');
-    chips.appendChild(allChip);
-    allChip.addEventListener("click", function () { sel = LIST.map(function (a) { return a.id; }); refresh(); });
-    LIST.forEach(function (a) {
-      var c = el('<button class="chip" data-id="' + a.id + '">' + a.icon + " " + esc(a.title) + '</button>');
+    var allChip = el('<button class="chip" title="Opća područja + uže područje koje polažeš">' + (mineOnly ? "Moj ispit (opća + uže)" : "Sva područja") + '</button>');
+    allChip.addEventListener("click", function () { sel = mineIds.slice(); refresh(); });
+    fillAreaChips(chips, allChip, MINE, LIST.slice(MINE.length), function (a) {
+      var c = el('<button class="chip" data-id="' + a.id + '">' + areaLabel(a) + '</button>');
       c.addEventListener("click", function () {
-        if (sel.length === LIST.length) sel = [a.id];
+        if (isAll()) sel = [a.id];
         else if (sel.indexOf(a.id) >= 0) { sel = sel.filter(function (x) { return x !== a.id; }); if (!sel.length) sel = [a.id]; }
         else sel.push(a.id);
         refresh();
       });
-      chips.appendChild(c);
+      return c;
     });
     var buildList = view.querySelector("#fc-build");
     LIST.forEach(function (a) {
       var c = areaCardCounts(a);
       buildList.appendChild(el(
         '<div class="build-row">' +
-          '<div class="top"><span class="stage">' + a.icon + '</span><h3>' + esc(a.title) + '</h3><span class="nums">' + c.done + '/' + c.total + ' naučeno</span></div>' +
+          '<div class="top"><span class="stage">' + a.icon + '</span><h3>' + areaLabel(a) + '</h3><span class="nums">' + c.done + '/' + c.total + ' naučeno</span></div>' +
           wallBar(c, "mini") +
         '</div>'));
     });
     function refresh() {
-      var all = sel.length === LIST.length;
+      var all = isAll();
       allChip.classList.toggle("on", all);
       Array.prototype.forEach.call(chips.querySelectorAll("[data-id]"), function (c) {
         c.classList.toggle("on", !all && sel.indexOf(c.dataset.id) >= 0);
@@ -1140,7 +1399,7 @@ mark { background: var(--accent-soft); color: inherit; border-radius: 3px; paddi
     var item = state.deck[state.i];
     var flipped = false;
     var html =
-      '<div class="fc-meta"><span>Kartica ' + (state.i + 1) + " / " + state.deck.length + '</span><span>' + item.area.icon + " " + esc(item.area.title) + '</span></div>' +
+      '<div class="fc-meta"><span>Kartica ' + (state.i + 1) + " / " + state.deck.length + '</span><span>' + item.area.icon + " " + esc(areaName(item.area)) + '</span></div>' +
       '<button class="card-flip" id="fc-card">' +
         '<span class="side-tag">Pitanje · klikni za odgovor' + freqBadge(item.card) + '</span>' +
         '<span class="front-text">' + esc(item.card.front) + '</span>' +
@@ -1229,7 +1488,7 @@ mark { background: var(--accent-soft); color: inherit; border-radius: 3px; paddi
     if (!searchIndex) buildSearchIndex();
     view.innerHTML =
       '<h2 class="view-title">Pretraživanje</h2>' +
-      '<p class="view-lead">Pretražuje sažetke, pitanja i kartice svih područja. Radi i bez dijakritika (npr. "zastitni pojas").</p>' +
+      '<p class="view-lead">Pretražuje sažetke, pitanja i kartice tvojih područja (opća + uže koje polažeš). Radi i bez dijakritika (npr. "zastitni pojas").</p>' +
       '<input class="search-input" id="s-in" type="search" placeholder="npr. zaštitni pojas, C25/30, plamište…" autocomplete="off">' +
       '<div class="s-results" id="s-out"></div>';
     var input = view.querySelector("#s-in");
@@ -1257,7 +1516,7 @@ mark { background: var(--accent-soft); color: inherit; border-radius: 3px; paddi
       var shown = hits.slice(0, 60);
       out.innerHTML = shown.map(function (it) {
         return '<div class="s-item">' +
-          '<div class="s-meta"><span class="s-type">' + it.type + '</span><span>' + it.area.icon + " " + esc(it.area.title) + (it.head ? " · " + esc(it.head) : "") + '</span></div>' +
+          '<div class="s-meta"><span class="s-type">' + it.type + '</span><span>' + it.area.icon + " " + esc(areaName(it.area)) + (it.head ? " · " + esc(it.head) : "") + '</span></div>' +
           '<div class="s-text">' + highlight(it.text, words) + '</div>' +
           (it.extra ? '<div class="s-extra">' + highlight(it.extra, words) + '</div>' : "") +
         '</div>';
@@ -1275,7 +1534,10 @@ mark { background: var(--accent-soft); color: inherit; border-radius: 3px; paddi
       '<div class="acc" id="acc"></div>';
     view.innerHTML = html;
     var acc = view.querySelector("#acc");
-    activeAreas().forEach(function (a) {
+    var SUMS = activeAreas();
+    var extra = openId ? areaById(openId) : null;
+    if (extra && SUMS.indexOf(extra) < 0) SUMS = SUMS.concat([extra]); // pregled sažetka užeg područja koje nije odabrano
+    SUMS.forEach(function (a) {
       var d = document.createElement("details");
       d.className = "area-sum";
       if (a.id === openId) d.open = true;
@@ -1284,7 +1546,7 @@ mark { background: var(--accent-soft); color: inherit; border-radius: 3px; paddi
         body += "<h4>" + esc(sec.heading) + "</h4><ul>" +
           sec.points.map(function (p) { return "<li>" + esc(p) + "</li>"; }).join("") + "</ul>";
       });
-      d.innerHTML = "<summary>" + a.icon + " " + esc(a.title) + "</summary><div class='sum-body'>" + body + "</div>";
+      d.innerHTML = "<summary>" + areaLabel(a) + "</summary><div class='sum-body'>" + body + "</div>";
       acc.appendChild(d);
     });
   }
@@ -1292,6 +1554,7 @@ mark { background: var(--accent-soft); color: inherit; border-radius: 3px; paddi
   go("home");
   try {
     if (localStorage.getItem("gradivo.struka.v1") === null) showStrukaOnboarding();
+    else if (uze === null) showUzeOnboarding(); // postojeći korisnici: samo drugi korak
   } catch (e) {}
 })();
 </script>

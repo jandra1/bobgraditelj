@@ -3,6 +3,7 @@ window.APP_DATA.push({
   id: "instalacije",
   order: 21,
   title: "Uže područje struke – instalacije (strojarstvo)",
+  short: "Instalacije (strojarstvo)",
   icon: "⚙️",
   summary: [
     {

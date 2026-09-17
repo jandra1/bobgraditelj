@@ -3,6 +3,7 @@ window.APP_DATA.push({
   id: "ele-postrojenja",
   order: 14,
   title: "Uže područje struke – postrojenja u elektroprivredi",
+  short: "Postrojenja u elektroprivredi",
   icon: "🏭",
   summary: [
     {

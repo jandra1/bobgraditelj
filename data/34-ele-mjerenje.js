@@ -3,6 +3,7 @@ window.APP_DATA.push({
   id: "ele-mjerenje",
   order: 18,
   title: "Uže područje struke – mjerenje, upravljanje i nadzor industrijskih procesa",
+  short: "Mjerenje, upravljanje i nadzor procesa",
   icon: "🎛️",
   summary: [
     {

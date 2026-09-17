@@ -3,6 +3,7 @@ window.APP_DATA.push({
   id: "elektro",
   order: 15,
   title: "Uže područje struke – postrojenja i instalacije u industriji i zgradarstvu",
+  short: "Postrojenja i instalacije u industriji i zgradarstvu",
   icon: "⚡",
   summary: [
     {

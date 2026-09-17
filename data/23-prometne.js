@@ -3,6 +3,7 @@ window.APP_DATA.push({
   id: "prometne",
   order: 12,
   title: "Uže područje struke – prometne građevine",
+  short: "Prometne građevine",
   icon: "🛣️",
   summary: [
     {
